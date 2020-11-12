@@ -1,7 +1,7 @@
 ---
 author-meta:
-- John Doe
-- Jane Roe
+- Stephen Piccolo
+- James Wengler
 bibliography:
 - content/manual-references.json
 date-meta: '2020-11-12'
@@ -15,13 +15,13 @@ header-includes: '<!--
 
   <meta name="dc.format" content="text/html" />
 
-  <meta name="dc.title" content="Manuscript Title" />
+  <meta name="dc.title" content="Using Biomedical Natural Language Processing to Identify Related Datasets" />
 
-  <meta name="citation_title" content="Manuscript Title" />
+  <meta name="citation_title" content="Using Biomedical Natural Language Processing to Identify Related Datasets" />
 
-  <meta property="og:title" content="Manuscript Title" />
+  <meta property="og:title" content="Using Biomedical Natural Language Processing to Identify Related Datasets" />
 
-  <meta property="twitter:title" content="Manuscript Title" />
+  <meta property="twitter:title" content="Using Biomedical Natural Language Processing to Identify Related Datasets" />
 
   <meta name="dc.date" content="2020-11-12" />
 
@@ -39,21 +39,13 @@ header-includes: '<!--
 
   <meta name="citation_technical_report_institution" content="Manubot" />
 
-  <meta name="citation_author" content="John Doe" />
+  <meta name="citation_author" content="Stephen Piccolo" />
 
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author_institution" content="College of Life Science, Brigham Young University" />
 
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author" content="James Wengler" />
 
-  <meta name="twitter:creator" content="@johndoe" />
-
-  <meta name="citation_author" content="Jane Roe" />
-
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author_institution" content="College of Life Science, Brigham Young University" />
 
   <link rel="canonical" href="https://J-Wengler.github.io/NLP_Paper/" />
 
@@ -67,11 +59,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/6448f1880953caa80e3428458bf86aac55c25497/" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/9d1b1170f1a5d624edf1309aacfcaaf56faf9363/" />
 
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/6448f1880953caa80e3428458bf86aac55c25497/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/9d1b1170f1a5d624edf1309aacfcaaf56faf9363/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/6448f1880953caa80e3428458bf86aac55c25497/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/9d1b1170f1a5d624edf1309aacfcaaf56faf9363/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -85,15 +77,15 @@ header-includes: '<!--
 
   <!-- end Manubot generated metadata -->'
 keywords:
-- markdown
-- publishing
-- manubot
+- NLP
+- Biomedical
+- Keyword Extraction
 lang: en-US
 manubot-clear-requests-cache: false
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
-title: Manuscript Title
+title: Using Biomedical Natural Language Processing to Identify Related Datasets
 ...
 
 
@@ -103,9 +95,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://J-Wengler.github.io/NLP_Paper/v/6448f1880953caa80e3428458bf86aac55c25497/))
+([permalink](https://J-Wengler.github.io/NLP_Paper/v/9d1b1170f1a5d624edf1309aacfcaaf56faf9363/))
 was automatically generated
-from [J-Wengler/NLP_Paper@6448f18](https://github.com/J-Wengler/NLP_Paper/tree/6448f1880953caa80e3428458bf86aac55c25497)
+from [J-Wengler/NLP_Paper@9d1b117](https://github.com/J-Wengler/NLP_Paper/tree/9d1b1170f1a5d624edf1309aacfcaaf56faf9363)
 on November 12, 2020.
 </em></small>
 
@@ -113,25 +105,18 @@ on November 12, 2020.
 
 
 
-+ **John Doe**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
++ **Stephen Piccolo**<br>
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [johndoe](https://github.com/johndoe)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [johndoe](https://twitter.com/johndoe)<br>
+    [srp33](https://github.com/srp33)<br>
   <small>
-     Department of Something, University of Whatever
-     · Funded by Grant XXXXXXXX
+     College of Life Science, Brigham Young University
   </small>
 
-+ **Jane Roe**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
++ **James Wengler**<br>
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [janeroe](https://github.com/janeroe)<br>
+    [J-Wengler](https://github.com/J-Wengler)<br>
   <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     College of Life Science, Brigham Young University
   </small>
 
 
@@ -139,6 +124,21 @@ on November 12, 2020.
 ## Abstract {.page_break_before}
 
 
+
+
+## Introduction {.page_break_before}
+
+## Methods {.page_break_before}
+
+### Idea
+
+_Testing markdown script_
+
+
+## Results {.page_break_before}
+
+
+## Discussion {.page_break_before}
 
 
 ## References {.page_break_before}

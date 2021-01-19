@@ -41,3 +41,9 @@ Thumbs.db
 
 ## Text Editors
 .vscode
+
+## Larges files used in analysis
+/content/images/10_keyword_output/*
+/content/images/20_keyword_output/*
+/content/images/30_keyword_output/*
+

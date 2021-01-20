@@ -1,5 +1,5 @@
 BioWordVec
-brca
+BRCA
 CBOW
 comparision
 curation
@@ -15,7 +15,7 @@ filesystem
 genomic
 Helicase
 intial
-KPMINER
+KPMiner
 Metastatsis
 MLL
 MultipartiteRank

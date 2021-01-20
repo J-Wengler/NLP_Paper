@@ -7,12 +7,12 @@
       "Keyword Extraction"
     ],
     "lang": "en-US",
-    "date-meta": "2021-01-19",
+    "date-meta": "2021-01-20",
     "author-meta": [
       "Stephen Piccolo",
       "James Wengler"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Using Biomedical Natural Language Processing to Identify Related Datasets\" />\n<meta name=\"citation_title\" content=\"Using Biomedical Natural Language Processing to Identify Related Datasets\" />\n<meta property=\"og:title\" content=\"Using Biomedical Natural Language Processing to Identify Related Datasets\" />\n<meta property=\"twitter:title\" content=\"Using Biomedical Natural Language Processing to Identify Related Datasets\" />\n<meta name=\"dc.date\" content=\"2021-01-19\" />\n<meta name=\"citation_publication_date\" content=\"2021-01-19\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Stephen Piccolo\" />\n<meta name=\"citation_author_institution\" content=\"College of Life Science, Brigham Young University\" />\n<meta name=\"citation_author\" content=\"James Wengler\" />\n<meta name=\"citation_author_institution\" content=\"College of Life Science, Brigham Young University\" />\n<link rel=\"canonical\" href=\"https://J-Wengler.github.io/NLP_Paper/\" />\n<meta property=\"og:url\" content=\"https://J-Wengler.github.io/NLP_Paper/\" />\n<meta property=\"twitter:url\" content=\"https://J-Wengler.github.io/NLP_Paper/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://J-Wengler.github.io/NLP_Paper/\" />\n<meta name=\"citation_pdf_url\" content=\"https://J-Wengler.github.io/NLP_Paper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://J-Wengler.github.io/NLP_Paper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://J-Wengler.github.io/NLP_Paper/v/bc553bbc6f1e42a4c17848a943f3a38913cd7421/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://J-Wengler.github.io/NLP_Paper/v/bc553bbc6f1e42a4c17848a943f3a38913cd7421/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://J-Wengler.github.io/NLP_Paper/v/bc553bbc6f1e42a4c17848a943f3a38913cd7421/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Using Biomedical Natural Language Processing to Identify Related Datasets\" />\n<meta name=\"citation_title\" content=\"Using Biomedical Natural Language Processing to Identify Related Datasets\" />\n<meta property=\"og:title\" content=\"Using Biomedical Natural Language Processing to Identify Related Datasets\" />\n<meta property=\"twitter:title\" content=\"Using Biomedical Natural Language Processing to Identify Related Datasets\" />\n<meta name=\"dc.date\" content=\"2021-01-20\" />\n<meta name=\"citation_publication_date\" content=\"2021-01-20\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Stephen Piccolo\" />\n<meta name=\"citation_author_institution\" content=\"College of Life Science, Brigham Young University\" />\n<meta name=\"citation_author\" content=\"James Wengler\" />\n<meta name=\"citation_author_institution\" content=\"College of Life Science, Brigham Young University\" />\n<link rel=\"canonical\" href=\"https://J-Wengler.github.io/NLP_Paper/\" />\n<meta property=\"og:url\" content=\"https://J-Wengler.github.io/NLP_Paper/\" />\n<meta property=\"twitter:url\" content=\"https://J-Wengler.github.io/NLP_Paper/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://J-Wengler.github.io/NLP_Paper/\" />\n<meta name=\"citation_pdf_url\" content=\"https://J-Wengler.github.io/NLP_Paper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://J-Wengler.github.io/NLP_Paper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://J-Wengler.github.io/NLP_Paper/v/ecc6ffcdfb0f17d1e710f0d2340a90dbfb5e66ae/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://J-Wengler.github.io/NLP_Paper/v/ecc6ffcdfb0f17d1e710f0d2340a90dbfb5e66ae/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://J-Wengler.github.io/NLP_Paper/v/ecc6ffcdfb0f17d1e710f0d2340a90dbfb5e66ae/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -22,7 +22,7 @@
     "manubot-clear-requests-cache": false
   },
   "manubot": {
-    "date": "January 19, 2021",
+    "date": "January 20, 2021",
     "authors": [
       {
         "github": "srp33",
@@ -60,15 +60,15 @@
       "repo_slug": "J-Wengler/NLP_Paper",
       "repo_owner": "J-Wengler",
       "repo_name": "NLP_Paper",
-      "commit": "bc553bbc6f1e42a4c17848a943f3a38913cd7421",
-      "triggering_commit": "bc553bbc6f1e42a4c17848a943f3a38913cd7421",
-      "build_url": "https://github.com/J-Wengler/NLP_Paper/commit/bc553bbc6f1e42a4c17848a943f3a38913cd7421/checks",
+      "commit": "ecc6ffcdfb0f17d1e710f0d2340a90dbfb5e66ae",
+      "triggering_commit": "ecc6ffcdfb0f17d1e710f0d2340a90dbfb5e66ae",
+      "build_url": "https://github.com/J-Wengler/NLP_Paper/commit/ecc6ffcdfb0f17d1e710f0d2340a90dbfb5e66ae/checks",
       "job_url": "https://github.com/J-Wengler/NLP_Paper/runs/run3"
     },
     "html_url": "https://J-Wengler.github.io/NLP_Paper/",
     "pdf_url": "https://J-Wengler.github.io/NLP_Paper/manuscript.pdf",
-    "html_url_versioned": "https://J-Wengler.github.io/NLP_Paper/v/bc553bbc6f1e42a4c17848a943f3a38913cd7421/",
-    "pdf_url_versioned": "https://J-Wengler.github.io/NLP_Paper/v/bc553bbc6f1e42a4c17848a943f3a38913cd7421/manuscript.pdf",
+    "html_url_versioned": "https://J-Wengler.github.io/NLP_Paper/v/ecc6ffcdfb0f17d1e710f0d2340a90dbfb5e66ae/",
+    "pdf_url_versioned": "https://J-Wengler.github.io/NLP_Paper/v/ecc6ffcdfb0f17d1e710f0d2340a90dbfb5e66ae/manuscript.pdf",
     "manubot_version": "0.4.1",
     "rootstock_commit": "97b294802ffcd39071b6e5b8ab59f60faf4be118",
     "manuscript_stats": {

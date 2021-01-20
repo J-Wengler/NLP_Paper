@@ -4,7 +4,7 @@ author-meta:
 - James Wengler
 bibliography:
 - content/manual-references.json
-date-meta: '2021-01-19'
+date-meta: '2021-01-20'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +23,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Using Biomedical Natural Language Processing to Identify Related Datasets" />
 
-  <meta name="dc.date" content="2021-01-19" />
+  <meta name="dc.date" content="2021-01-20" />
 
-  <meta name="citation_publication_date" content="2021-01-19" />
+  <meta name="citation_publication_date" content="2021-01-20" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -59,11 +59,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/bc553bbc6f1e42a4c17848a943f3a38913cd7421/" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/ecc6ffcdfb0f17d1e710f0d2340a90dbfb5e66ae/" />
 
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/bc553bbc6f1e42a4c17848a943f3a38913cd7421/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/ecc6ffcdfb0f17d1e710f0d2340a90dbfb5e66ae/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/bc553bbc6f1e42a4c17848a943f3a38913cd7421/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/ecc6ffcdfb0f17d1e710f0d2340a90dbfb5e66ae/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -95,10 +95,10 @@ title: Using Biomedical Natural Language Processing to Identify Related Datasets
 
 <small><em>
 This manuscript
-([permalink](https://J-Wengler.github.io/NLP_Paper/v/bc553bbc6f1e42a4c17848a943f3a38913cd7421/))
+([permalink](https://J-Wengler.github.io/NLP_Paper/v/ecc6ffcdfb0f17d1e710f0d2340a90dbfb5e66ae/))
 was automatically generated
-from [J-Wengler/NLP_Paper@bc553bb](https://github.com/J-Wengler/NLP_Paper/tree/bc553bbc6f1e42a4c17848a943f3a38913cd7421)
-on January 19, 2021.
+from [J-Wengler/NLP_Paper@ecc6ffc](https://github.com/J-Wengler/NLP_Paper/tree/ecc6ffcdfb0f17d1e710f0d2340a90dbfb5e66ae)
+on January 20, 2021.
 </em></small>
 
 ## Authors

@@ -1,7 +1,7 @@
 ---
 author-meta:
-- Stephen Piccolo
 - James Wengler
+- Stephen Picco
 bibliography:
 - content/manual-references.json
 date-meta: '2021-01-20'
@@ -15,13 +15,13 @@ header-includes: '<!--
 
   <meta name="dc.format" content="text/html" />
 
-  <meta name="dc.title" content="Using Biomedical Natural Language Processing to Identify Related Datasets" />
+  <meta name="dc.title" content="Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets" />
 
-  <meta name="citation_title" content="Using Biomedical Natural Language Processing to Identify Related Datasets" />
+  <meta name="citation_title" content="Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets" />
 
-  <meta property="og:title" content="Using Biomedical Natural Language Processing to Identify Related Datasets" />
+  <meta property="og:title" content="Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets" />
 
-  <meta property="twitter:title" content="Using Biomedical Natural Language Processing to Identify Related Datasets" />
+  <meta property="twitter:title" content="Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets" />
 
   <meta name="dc.date" content="2021-01-20" />
 
@@ -39,11 +39,11 @@ header-includes: '<!--
 
   <meta name="citation_technical_report_institution" content="Manubot" />
 
-  <meta name="citation_author" content="Stephen Piccolo" />
+  <meta name="citation_author" content="James Wengler" />
 
   <meta name="citation_author_institution" content="College of Life Science, Brigham Young University" />
 
-  <meta name="citation_author" content="James Wengler" />
+  <meta name="citation_author" content="Stephen Picco" />
 
   <meta name="citation_author_institution" content="College of Life Science, Brigham Young University" />
 
@@ -59,11 +59,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/ecc6ffcdfb0f17d1e710f0d2340a90dbfb5e66ae/" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/e50f423acdb6898c2f2c1fc599dc839ca89defef/" />
 
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/ecc6ffcdfb0f17d1e710f0d2340a90dbfb5e66ae/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/e50f423acdb6898c2f2c1fc599dc839ca89defef/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/ecc6ffcdfb0f17d1e710f0d2340a90dbfb5e66ae/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/e50f423acdb6898c2f2c1fc599dc839ca89defef/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -80,12 +80,13 @@ keywords:
 - NLP
 - Biomedical
 - Keyword Extraction
+- Word Vectors
 lang: en-US
 manubot-clear-requests-cache: false
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
-title: Using Biomedical Natural Language Processing to Identify Related Datasets
+title: Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets
 ...
 
 
@@ -95,9 +96,9 @@ title: Using Biomedical Natural Language Processing to Identify Related Datasets
 
 <small><em>
 This manuscript
-([permalink](https://J-Wengler.github.io/NLP_Paper/v/ecc6ffcdfb0f17d1e710f0d2340a90dbfb5e66ae/))
+([permalink](https://J-Wengler.github.io/NLP_Paper/v/e50f423acdb6898c2f2c1fc599dc839ca89defef/))
 was automatically generated
-from [J-Wengler/NLP_Paper@ecc6ffc](https://github.com/J-Wengler/NLP_Paper/tree/ecc6ffcdfb0f17d1e710f0d2340a90dbfb5e66ae)
+from [J-Wengler/NLP_Paper@e50f423](https://github.com/J-Wengler/NLP_Paper/tree/e50f423acdb6898c2f2c1fc599dc839ca89defef)
 on January 20, 2021.
 </em></small>
 
@@ -105,16 +106,16 @@ on January 20, 2021.
 
 
 
-+ **Stephen Piccolo**<br>
++ **James Wengler**<br>
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [srp33](https://github.com/srp33)<br>
+    [J-Wengler](https://github.com/J-Wengler)<br>
   <small>
      College of Life Science, Brigham Young University
   </small>
 
-+ **James Wengler**<br>
++ **Stephen Picco**<br>
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [J-Wengler](https://github.com/J-Wengler)<br>
+    [srp33](https://github.com/srp33)<br>
   <small>
      College of Life Science, Brigham Young University
   </small>
@@ -268,8 +269,12 @@ word vectors. This in turn will generate slightly different cosine similarities.
 
 
 ### Evaluation Results
+
+##### Effect of Number of Keywords Returned on the Percentage of Relevent Articles Returned at 100 Articles
+![Summary_Graph_Keywords.](images/Summary_Graph_Keywords.png){width="7in" height = "7in"}
+
 ##### 30 keywords
-The below graphs show the results obtained with 30 keywords.
+The below graphs show the results obtained with 30 keywords (the best performing amount of keywords returned).
 ![BioWordVec.](images/30_keyword_output/BioWordVecOutput.png){width="7in" height = "7in"} 
 ![FastText CBOW.](images/30_keyword_output/FTCBOWOutput.png){width="7in" height = "7in"} 
 ![FastText Skipgram.](images/30_keyword_output/FTSKIPGRAMOutput.png){width="7in" height = "7in"} 
@@ -331,7 +336,8 @@ in other NLP related papers [@doi:10.1016/j.jbi.2018.09.008; @url:http://arxiv.o
 
 This technique also ran into computational limitations. We initially started with 10 keywords, then increased to 20 and eventually 30. We saw an increase in percentage of related articles 
 but also an increase in time taken for the analysis to be performed. 10 keywords took approximately a week, with an increase to approximately 3 weeks for 30 keywords. All analysis were performed 
-on ... . All analyses were performed using the Multiprocesing Python package to take advantage of all cores available. 
+on a Dell PowerEdge R730xd server with two Intel Xeon E5-2640 v4 2.4GHz CPUs that each support 10 cores with two threads apiece with a total of 256gb of RAM. All analyses were performed using the 
+Multiprocesing Python package to take advantage of all cores available. 
 
 
 

@@ -1,25 +1,26 @@
 ---
-title: "Using Biomedical Natural Language Processing to Identify Related Datasets"
+title: "Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets"
 keywords:
   - NLP
   - Biomedical
   - Keyword Extraction
+  - Word Vectors
 lang: en-US
 authors:
-  - github: srp33
-    name: Stephen Piccolo
-    initials: SP
-    #orcid: XXXX-XXXX-XXXX-XXXX
-    #twitter: johndoe
-    email: john.doe@something.com
-    affiliations:
-      - College of Life Science, Brigham Young University
-    #funders:
-    #  - Grant XXXXXXXX
   - github: J-Wengler
     name: James Wengler
     initials: JW
     #orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
+    #twitter: johndoe
+    #email: john.doe@something.com
+    affiliations:
+      - College of Life Science, Brigham Young University
+    #funders:
+    #  - Grant XXXXXXXX
+  - github: srp33
+    name: Stephen Picco
+    initials: SP
+    #orcid: XXXX-XXXX-XXXX-XXXX
+    #email: jane.roe@whatever.edu
     affiliations:
       - College of Life Science, Brigham Young University

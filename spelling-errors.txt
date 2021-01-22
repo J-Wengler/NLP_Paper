@@ -32,7 +32,7 @@ Relevent
 replicability
 SciSpacy
 SingleRank
-Skipgram
+SKIPGRAM
 Spacy
 SpacyWebLG
 srp

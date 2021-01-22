@@ -1,5 +1,5 @@
 BioWordVec
-brca
+BRCA
 CBOW
 comparision
 CPUs

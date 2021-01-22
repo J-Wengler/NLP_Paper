@@ -3,6 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="2c439ced-904a-4442-9ec8-d2155cd23b99" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/output/text_output/30_keyword_output/.RData" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/output/text_output/30_keyword_output/.Rhistory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/20_keyword_output/Archive.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/30_keyword_output/.Rhistory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/30_keyword_output/BioWordVecOutput.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/30_keyword_output/FastTextCBOWOutput.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/30_keyword_output/FastTextSKIPGRAMOutput.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/30_keyword_output/FastTextWikiOutput.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/30_keyword_output/SciSpacyOutput.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/30_keyword_output/SpacyOutput.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +78,7 @@
       <workItem from="1611089303591" duration="1890000" />
       <workItem from="1611148232407" duration="1706000" />
       <workItem from="1611165974279" duration="389000" />
+      <workItem from="1611320797031" duration="735000" />
     </task>
     <servers />
   </component>

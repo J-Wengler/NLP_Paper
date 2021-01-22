@@ -3,16 +3,35 @@
   <component name="ChangeListManager">
     <list default="true" id="2c439ced-904a-4442-9ec8-d2155cd23b99" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/output/text_output/30_keyword_output/.RData" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/output/text_output/30_keyword_output/.Rhistory" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/20_keyword_output/Archive.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/30_keyword_output/.Rhistory" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/30_keyword_output/BioWordVecOutput.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/30_keyword_output/FastTextCBOWOutput.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/30_keyword_output/FastTextSKIPGRAMOutput.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/30_keyword_output/FastTextWikiOutput.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/30_keyword_output/SciSpacyOutput.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/30_keyword_output/SpacyOutput.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/NLTKImport.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/TextRank.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/allKeywordBioWordVec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/allKeywordFastTextCBOW.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/allKeywordFastTextSKIPGRAM.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/allKeywordFastTextWiki.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/allKeywordSciSpacy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/allKeywordSpacy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/bioConceptVec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/cleanText.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/createSpacy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/ftModel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/geoAPI.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/geoSearcher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/geoTests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/getGraphs.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/getQuery1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/getQuery2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/getQuery3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/getQuery4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/getQuery5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/getResults.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/testGeoSearcher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/testKeywords.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/testTester.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/tester.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/trainBERT.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/trainFastTextSkipGram.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +97,7 @@
       <workItem from="1611089303591" duration="1890000" />
       <workItem from="1611148232407" duration="1706000" />
       <workItem from="1611165974279" duration="389000" />
-      <workItem from="1611320797031" duration="735000" />
+      <workItem from="1611320797031" duration="1337000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,17 @@
+fasttext
+bs4
+nltk
+numpy
+sklearn
+wikipedia
+matplotlib
+lxml
+spacy
+scispacy
+https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.2.5/en_ner_bc5cdr_md-0.2.5.tar.gz
+en_core_web_lg
+pandas
+gensim
+html5lib
+Word2Vec
+argparse

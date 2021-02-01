@@ -1,5 +1,5 @@
 BioWordVec
-BRCA
+brca
 CBOW
 comparision
 CPUs
@@ -16,7 +16,7 @@ filesystem
 genomic
 Helicase
 intial
-KPMiner
+KPMINER
 Metastatsis
 MLL
 MultipartiteRank
@@ -32,7 +32,7 @@ Relevent
 replicability
 SciSpacy
 SingleRank
-SKIPGRAM
+Skipgram
 Spacy
 SpacyWebLG
 srp

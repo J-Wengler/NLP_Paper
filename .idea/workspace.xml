@@ -3,43 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2c439ced-904a-4442-9ec8-d2155cd23b99" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/output/text_output/.Rhistory" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/output/text_output/10_keyword_output/BioWordVecOutput.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/output/text_output/10_keyword_output/FastTextCBOWOutput.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/output/text_output/10_keyword_output/FastTextSKIPGRAMOutput.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/output/text_output/10_keyword_output/FastTextWikiOutput.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/output/text_output/20_keyword_output/BioWordVecOutput.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/output/text_output/20_keyword_output/FastTextCBOWOutput.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/output/text_output/20_keyword_output/FastTextSKIPGRAMOutput.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/output/text_output/20_keyword_output/FastTextWikiOutput.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/output/text_output/20_keyword_output/SciSpacyOutput.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/output/text_output/20_keyword_output/SpacyOutput.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/output/text_output/30_keyword_output/.RData" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/output/text_output/30_keyword_output/.Rhistory" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/output/text_output/30_keyword_output/BioWordVecOutput.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/output/text_output/30_keyword_output/FastTextCBOWOutput.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/output/text_output/30_keyword_output/FastTextSKIPGRAMOutput.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/output/text_output/30_keyword_output/FastTextWikiOutput.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/output/text_output/30_keyword_output/SciSpacyOutput.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/output/text_output/30_keyword_output/SpacyOutput.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/10_keyword_output/BioWordVecOutputLOG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/10_keyword_output/FastTextCBOWOutputLOG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/10_keyword_output/FastTextSKIPGRAMOutputLOG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/10_keyword_output/FastTextWIKIOutputLOG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/10_keyword_output/SciSpacyOutputLOG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/10_keyword_output/SpacyOutputLOG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/20_keyword_output/BioWordVecOutput.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/20_keyword_output/FTCBOWOutput.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/20_keyword_output/FTSKIPGRAMOutput.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/20_keyword_output/FTWIKIOutput.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/20_keyword_output/SciSpacyOutput.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/20_keyword_output/SpacyOutput.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/30_keyword_output/BioWordVecOutput.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/30_keyword_output/FTCBOWOutput.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/30_keyword_output/FTSKIPGRAMOutput.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/30_keyword_output/FTWikiOutput.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/30_keyword_output/SciSpacyOutput.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/30_keyword_output/SpacyOutput.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/04.results.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/04.results.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/SummaryGraph.R" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/SummaryGraph.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/summaryGraph.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/summaryGraph.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +74,7 @@
       <workItem from="1611320797031" duration="1337000" />
       <workItem from="1611382219796" duration="362000" />
       <workItem from="1611579947004" duration="346000" />
-      <workItem from="1612185002585" duration="211000" />
+      <workItem from="1612185002585" duration="1352000" />
     </task>
     <servers />
   </component>

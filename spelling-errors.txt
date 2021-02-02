@@ -1,5 +1,5 @@
 BioWordVec
-brca
+BRCA
 CBOW
 comparision
 CPUs
@@ -32,8 +32,8 @@ Relevent
 replicability
 SciSpacy
 SingleRank
-Skipgram
-Spacy
+SKIPGRAM
+SpaCy
 SpacyWebLG
 srp
 StarGEO

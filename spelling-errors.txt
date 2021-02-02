@@ -16,7 +16,7 @@ filesystem
 genomic
 Helicase
 intial
-KPMiner
+KPMINER
 Metastatsis
 MLL
 MultipartiteRank

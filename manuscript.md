@@ -59,11 +59,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/212bca8d321c396a2a433cf709d3ce8a9861d3be/" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/5dde76904f7ddcc78b5f1b2340acdaa7c4075ec0/" />
 
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/212bca8d321c396a2a433cf709d3ce8a9861d3be/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/5dde76904f7ddcc78b5f1b2340acdaa7c4075ec0/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/212bca8d321c396a2a433cf709d3ce8a9861d3be/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/5dde76904f7ddcc78b5f1b2340acdaa7c4075ec0/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -96,9 +96,9 @@ title: Comparison of Keyword Extraction and Word Vector Generation Methods for U
 
 <small><em>
 This manuscript
-([permalink](https://J-Wengler.github.io/NLP_Paper/v/212bca8d321c396a2a433cf709d3ce8a9861d3be/))
+([permalink](https://J-Wengler.github.io/NLP_Paper/v/5dde76904f7ddcc78b5f1b2340acdaa7c4075ec0/))
 was automatically generated
-from [J-Wengler/NLP_Paper@212bca8](https://github.com/J-Wengler/NLP_Paper/tree/212bca8d321c396a2a433cf709d3ce8a9861d3be)
+from [J-Wengler/NLP_Paper@5dde769](https://github.com/J-Wengler/NLP_Paper/tree/5dde76904f7ddcc78b5f1b2340acdaa7c4075ec0)
 on February 2, 2021.
 </em></small>
 
@@ -271,16 +271,16 @@ word vectors. This in turn will generate slightly different cosine similarities.
 ### Evaluation Results
 
 ##### Effect of Number of Keywords Returned on the Percentage of Relevent Articles Returned at 100 Articles
-![Summary_Graph_Keywords.](images/Summary_Graph_Keywords.png){width="7in" height = "7in"}
+![Summary_Graph_Keywords.](images/summaryGraph.png){width="7in" height = "7in"}
 
 ##### 30 keywords
 The below graphs show the results obtained with 30 keywords (the best performing amount of keywords returned).
-![BioWordVec.](images/30_keyword_output/BioWordVecOutput.png){width="7in" height = "7in"} 
-![FastText CBOW.](images/30_keyword_output/FTCBOWOutput.png){width="7in" height = "7in"} 
-![FastText Skipgram.](images/30_keyword_output/FTSKIPGRAMOutput.png){width="7in" height = "7in"} 
-![FastText Wiki.](images/30_keyword_output/FTWikiOutput.png){width="7in" height = "7in"} 
-![Spacy.](images/30_keyword_output/SciSpacyOutput.png){width="7in" height = "7in"} 
-![SciSpacy.](images/30_keyword_output/SpacyOutput.png){width="7in" height = "7in"} 
+![BioWordVec.](images/30_keyword_output/BioWordVec.png){width="7in" height = "7in"} 
+![FastText CBOW.](images/30_keyword_output/FastText (CBOW).png){width="7in" height = "7in"} 
+![FastText Skipgram.](images/30_keyword_output/FastText (SKIPGRAM).png){width="7in" height = "7in"} 
+![FastText Wiki.](images/30_keyword_output/FastText (WIKI).png){width="7in" height = "7in"} 
+![Spacy.](images/30_keyword_output/SciSpacy.png){width="7in" height = "7in"} 
+![SciSpacy.](images/30_keyword_output/Spacy.png){width="7in" height = "7in"} 
 
 ##### Query Specific Results
 This table shows the best performance for each query evaluated by the percentage of relevant article returned in the top 100 returned by the model + keyword

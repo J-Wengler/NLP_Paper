@@ -1,4 +1,4 @@
-# Manubot Repository for "Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets"
+# Manubot Repository for "Comparison of keyword extraction and word vector generation methods for identifying related genomic datasets in the public domain"
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
@@ -10,12 +10,13 @@
 
 <!-- usage note: edit this section. -->
 
-Natural language processing is a powerful computational technique that allows computers to understand human readable text
-and perform analysis with it. However no methods exist to help researchers harness this technique to gather related
-datasets. In this paper, we compare various techniques to help better understand which methods are viable for use
-to address this problem. We compare SpaCy and FastText as well as a variety of keyword extraction techniques in the PKE
+Data-sharing requirements have led to wide availability of genomic datasets in public repositories. Researchers can reuse and combine these datasets to address novel hypotheses. However, after identifying one or more datasets that are relevant to a particular research question, a researcher may have difficult identifying other datasets that are also relevant, due to the quantity of available datasets and lack of structure with which they are described. In this study, we focus specifically on Gene Expression Omnibus, a repository that contains genomic data from hundreds of thousands of experiments. Notable efforts have been made to manually annotate these data but not been able to keep pace as new datasets are submitted. To address this problem, we use natural language processing (NLP). Under the assumption that a researcher has manually identified a subset of available datasets related to a particular research topic, we use NLP algorithms to extract keywords from the abstract associated with each dataset. Next we summarize the keywords using diverse embedding algorithms (TODO: I'm sure there's a better way to say this.)
+
+TODO: Describe briefly here about the theoretical approaches that we compared more so than the specific software packages. Without making it too long, make sure to cover all of the approaches.
+We compare SpaCy and FastText as well as a variety of keyword extraction techniques in the PKE
 Python package.
 
+We found... TODO: Briefly describe our results and what's exciting about them...
 
 ## Manubot
 

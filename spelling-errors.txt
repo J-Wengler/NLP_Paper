@@ -16,7 +16,7 @@ filesystem
 genomic
 Helicase
 intial
-KPMINER
+KPMiner
 Metastatsis
 MLL
 MultipartiteRank
@@ -33,7 +33,7 @@ replicability
 SciSpacy
 SingleRank
 SKIPGRAM
-SpaCy
+Spacy
 SpacyWebLG
 srp
 StarGEO

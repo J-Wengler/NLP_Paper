@@ -15,7 +15,17 @@ Data-sharing requirements have led to wide availability of genomic datasets in p
 TODO: Describe briefly here about the theoretical approaches that we compared more so than the specific software packages. Without making it too long, make sure to cover all of the approaches. 
 Concerning word vector generation we test two primary factors, domain and training algorithm. Domain refers to the type of text that each model is trainined on. We compare biomedical specific text (StarGEO abstracts) with readily available models trained on wikipedia data. Once a domain has been identified there are two options for training algorithms. The first is continous-bag-of-words (CBOW). CBOW trains by predicting the target word from the context words that surround it. The second option is skip-gram. Skip-gram trains by predicting the context words from the target word essentially the reverse of CBOW.
 
-We test nine keyword extraction methods. Three of the methods are statistical models while the other six are graphical methods. The statistical methods are TF-IDF, KP-Miner, and YAKE. TF-IDF works by comparing the frequency of each word found in the passage to its frequency in other passages that exist in the corpus. KP-Miner is 
+We test nine keyword extraction methods. Three of the methods are statistical models while the other six are graphical methods. The statistical methods are TF-IDF, KP-Miner, and YAKE. TF-IDF works by comparing the frequency of each word found in the passage to its frequency in other passages that exist in the corpus. KP-Miner evaluates each word 
+based on the context surrounding the words to identify keywords. YAKE combines elements of both TF-IDF and KP-Miner by
+using the context while also taking into account the frequency at which the word appears in the document. The first
+graphical approach we test is TextRank which is based off of a web technique called PageRank which is used for
+identifying related webpages through hyperlinks. TextRank performs a similar analysis with text by creating a graph
+where each word is represented as a node. Relationships between words are drawn as connected nodes. These relationships
+are used to identify keywords. TopicRank is a process similar to TextRank but the text is preprocessed to create n-grams
+of nouns and adjectives as keyphrase candidates before creating a graph with them to identify keywords. SingleRank is
+another extension of TextRank with each node having a weight value assigned to it. PositionRank is a more complicated
+extension of TextRank where the position of the word within the sentence is assigned a weight along with actual context
+as in TextRank. TopicalPageRank is an extension of the original PageRank, 
 
 We found... TODO: Briefly describe our results and what's exciting about them...
 

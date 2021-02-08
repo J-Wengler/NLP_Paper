@@ -4,7 +4,7 @@ author-meta:
 - Stephen Picco
 bibliography:
 - content/manual-references.json
-date-meta: '2021-02-03'
+date-meta: '2021-02-08'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +23,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets" />
 
-  <meta name="dc.date" content="2021-02-03" />
+  <meta name="dc.date" content="2021-02-08" />
 
-  <meta name="citation_publication_date" content="2021-02-03" />
+  <meta name="citation_publication_date" content="2021-02-08" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -59,11 +59,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/072ae64e049ffc67f76a877623539652a4849a72/" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/ce892912bd79c095c587157bf19c35cf3ad804a6/" />
 
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/072ae64e049ffc67f76a877623539652a4849a72/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/ce892912bd79c095c587157bf19c35cf3ad804a6/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/072ae64e049ffc67f76a877623539652a4849a72/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/ce892912bd79c095c587157bf19c35cf3ad804a6/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -96,10 +96,10 @@ title: Comparison of Keyword Extraction and Word Vector Generation Methods for U
 
 <small><em>
 This manuscript
-([permalink](https://J-Wengler.github.io/NLP_Paper/v/072ae64e049ffc67f76a877623539652a4849a72/))
+([permalink](https://J-Wengler.github.io/NLP_Paper/v/ce892912bd79c095c587157bf19c35cf3ad804a6/))
 was automatically generated
-from [J-Wengler/NLP_Paper@072ae64](https://github.com/J-Wengler/NLP_Paper/tree/072ae64e049ffc67f76a877623539652a4849a72)
-on February 3, 2021.
+from [J-Wengler/NLP_Paper@ce89291](https://github.com/J-Wengler/NLP_Paper/tree/ce892912bd79c095c587157bf19c35cf3ad804a6)
+on February 8, 2021.
 </em></small>
 
 ## Authors
@@ -124,12 +124,30 @@ on February 3, 2021.
 
 ## Abstract {.page_break_before}
 
-Natural language processing is a powerful computational technique that allows computers to understand human readable text 
-and perform analysis with it. However no methods exist to help researchers harness this technique to gather related 
-datasets. In this paper, we compare various techniques to help better understand which methods are viable for use 
-to address this problem. We compare SpaCy and FastText as well as a variety of keyword extraction techniques in the PKE
-Python package. 
- 
+Data-sharing requirements have led to wide availability of genomic datasets in public repositories. Researchers can reuse and combine these datasets to address novel hypotheses. However, after identifying one or more datasets that are relevant to a particular research question, a researcher may have difficult identifying other datasets that are also relevant, due to the quantity of available datasets and lack of structure with which they are described. In this study, we focus specifically on Gene Expression Omnibus, a repository that contains genomic data from hundreds of thousands of experiments. Notable efforts have been made to manually annotate these data but not been able to keep pace as new datasets are submitted. To address this problem, we use natural language processing (NLP). Under the assumption that a researcher has manually identified a subset of available datasets related to a particular research topic, we use NLP algorithms to extract keywords from the abstract associated with each dataset. Next we summarize the keywords using diverse embedding algorithms. (TODO: I'm sure there's a better way to say this.) 
+
+TODO: Describe briefly here about the theoretical approaches that we compared more so than the specific software packages. Without making it too long, make sure to cover all of the approaches. 
+Concerning word vector generation we test two primary factors, domain and training algorithm. Domain refers to the type of text that each model is trainined on. 
+
+We compare biomedical specific text (StarGEO abstracts) with readily available models trained on wikipedia data. Once a domain has been identified there are two options for training algorithms. The first is continous-bag-of-words (CBOW). CBOW trains by predicting the target word from the context words that surround it. The second option is skip-gram. Skip-gram trains by predicting the context words from the target word essentially the reverse of CBOW.
+
+We test nine keyword extraction methods. Three of the methods are statistical models while the other six are graphical methods. The statistical methods are TF-IDF, KP-Miner, and YAKE. TF-IDF works by comparing the frequency of each word found in the passage to its frequency in other passages that exist in the corpus. KP-Miner evaluates each word 
+based on the context surrounding the words to identify keywords. YAKE combines elements of both TF-IDF and KP-Miner by
+using the context while also taking into account the frequency at which the word appears in the document. The first
+graphical approach we test is TextRank which is based off of a web technique called PageRank which is used for
+identifying related webpages through hyperlinks. TextRank performs a similar analysis with text by creating a graph
+where each word is represented as a node. Relationships between words are drawn as connected nodes. These relationships
+are used to identify keywords. TopicRank is a process similar to TextRank but the text is preprocessed to create n-grams
+of nouns and adjectives as keyphrase candidates before creating a graph with them to identify keywords. SingleRank is
+another extension of TextRank with each node having a weight value assigned to it. PositionRank is a more complicated
+extension of TextRank where the position of the word within the sentence is assigned a weight along with actual context
+as in TextRank. TopicalPageRank is another extension of TextRank that seeks to improve experience by weighting those words
+that appear more in the document. The last graphical approach is MultipartiteRank which uses a multipartite graph to construct
+the initial graph and calculate weights between nodes. 
+
+ We found that different combinations of keyword extraction methods and word vector generation yield very different results. This variety
+ was also reflected across the query domains. These results show that natural language processing is a powerful tool that can be harnessed
+ for data collection and more research needs to be done in this area.
 
 
 
@@ -345,6 +363,10 @@ Multiprocesing Python package to take advantage of all cores available.
 
 
 
+
+## Appendix {.page_break_before}
+
+Place extra figures here
 
 ## References {.page_break_before}
 

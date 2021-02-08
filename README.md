@@ -25,9 +25,13 @@ are used to identify keywords. TopicRank is a process similar to TextRank but th
 of nouns and adjectives as keyphrase candidates before creating a graph with them to identify keywords. SingleRank is
 another extension of TextRank with each node having a weight value assigned to it. PositionRank is a more complicated
 extension of TextRank where the position of the word within the sentence is assigned a weight along with actual context
-as in TextRank. TopicalPageRank is an extension of the original PageRank, 
+as in TextRank. TopicalPageRank is another extension of TextRank that seeks to improve experience by weighting those words
+that appear more in the document. The last graphical approach is MultipartiteRank which uses a multipartite graph to construct
+the initial graph and calculate weights between nodes. 
 
-We found... TODO: Briefly describe our results and what's exciting about them...
+ We found that different combinations of keyword extraction methods and word vector generation yield very different results. This variety
+ was also reflected across the query domains. These results show that natural language processing is a powerful tool that can be harnessed
+ for data collection and more research needs to be done in this area.
 
 ## Manubot
 

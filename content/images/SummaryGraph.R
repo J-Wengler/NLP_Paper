@@ -41,14 +41,17 @@ for (name in names){
 }
 final_tibble = tibble(values = c(all_nums_10, all_nums_20, all_nums_30), labels = c(rep("10 Keywords", length(all_nums_10)), rep("20 Keywords", length(all_nums_20)), rep("30 Keywords", length(all_nums_30))))
 
-ggplot(data = final_tibble, aes(x = values, y = labels)) +
+sum_plot = ggplot(data = final_tibble, aes(x = values, y = labels)) +
   geom_boxplot() +
   theme_bw(base_size = 18) +
   theme(plot.title = element_text(hjust = 0.5)) +
   geom_jitter() + 
   labs( y = "Number of keywords", x ="Percentage of relevant articles returned", title = "Number of Keywords Extracted vs \nPercentage of Relevant Articles Returned")
   
-
+ggsave(filename="/Users/jameswengler/NLP_Paper/content/images/summaryGraph.png"
+       , plot = sum_plot, height = 6.5, width = 6.5)
+ggsave(filename="/Users/jameswengler/NLP_Paper/content/images/summaryGraph.pdf"
+       , plot = sum_plot, height = 6.5, width = 6.5)
 #ggplot(data = data.frame(all_nums_10), aes(x = 10,20, y = all_nums_10, all_nums_20))+
 #  geom_boxplot() +
 #  geom_boxplot(aes(x = "", y = all_nums_30))

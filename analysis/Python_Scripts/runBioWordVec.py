@@ -92,7 +92,7 @@ def getKeywordEmbedding(keywords,model, numWords):
 def load_embedding(path):
     embedding = KeyedVectors.load_word2vec_format(path, binary = True)
     print('embedding loaded from', path)
-    return embedding    
+    return embedding
 
 def getNamesToQuery(path):
     filePath = path + 'names_to_query.txt'
@@ -428,7 +428,7 @@ def getPositionRank(model, articles, query):
     for name in sim_to_name:
         out_file.write("{}-{}\n".format(name, sim_to_name[name]))
 
-def getMultipartiteRank(model, articles, query):
+def getMultipartiteRank(model, articles, query, modelDir):
     out_file = open('/Models/BIOWORDVEC/MultipartitieRank/{}.txt'.format(query), 'w+')
     path = '/Models/Queries/q{}/'.format(query)
     filenames = getNamesToQuery(path)

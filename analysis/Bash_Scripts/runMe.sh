@@ -2,18 +2,27 @@
 
 #./getFastTextWiki.sh
 #./getBioWordVecs.sh
-python3 ./NLTKImport.py
-#python3 getQuery1.py
-#python3 getQuery2.py
-#python3 getQuery3.py
-#python3 getQuery4.py
-#python3 getQuery5.py
-#python3 cleanText.py 
-#python3 allKeywordSciSpacy.py  
-#python3 allKeywordBioWordVec.py  
-#python3 allKeywordFastTextWiki.py
-#python3 allKeywordSpacy.py
-#python3 allKeywordFastTextSKIPGRAM.py     
-python3 allKeywordFastTextCBOW.py
-#python3 allKeywordSpacyCBOW.py
+
+#rm -f /Data/allQueries.txt
+
+#python3 prepareQueryData.py "GSE47860,GSE47861,GSE72795,GSE27175,GSE19829,GSE155478,GSE55399,GSE60995,GSE60994,GSE73923,GSE121682,GSE69428,GSE69429,GSE92281,GSE51280,GSE133987,GSE56443,GSE66387,GSE76360" q1
+#python3 prepareQueryData.py "GSE60673,GSE54499,GSE54498,GSE3721,GSE3722,GSE3725,GSE4416,GSE75401,GSE35038,GSE70536" q2
+#python3 prepareQueryData.py "GSE19007,GSE21431,GSE40527,GSE14549,GSE66584,GSE66642,GSE68688,GSE36240" q3
+#python3 prepareQueryData.py "GSE42639,GSE42638,GSE41088,GSE43764,GSE48890,GSE36328,GSE60572,GSE60573" q4
+#python3 prepareQueryData.py "GSE27980,GSE12237,GSE12276,GSE99394,GSE66495,GSE34970,GSE111489,GSE44660,GSE52604,GSE38057,GSE66463,GSE52050,GSE14108,GSE18544,GSE76714,GSE43837,GSE73285,GSE60464,GSE57492,GSE28049,GSE17019,GSE20016,GSE26338,GSE46928,GSE69042,GSE134026,GSE125989,GSE44354,GSE23019,GSE28313,GSE74968,GSE79534,GSE117453,GSE70576,GSE98298,GSE50493,GSE114627,GSE116531,GSE38283,GSE24100,GSE23655,GSE67088,GSE51395,GSE51411,GSE43278,GSE86501,GSE103935,GSE129945,GSE129946,GSE138682" q5
+
+#corpusMaxSize=1000000
+corpusMaxSize=100
+
+#for numKeywords in 10 20 30
+for numKeywords in 10
+do
+  python3 runSciSpacy.py $numKeywords 200 $corpusMaxSize
+  #python3 runBioWordVec.py  
+  #python3 runFastTextWiki.py
+  #python3 runSpacy.py
+  #python3 runFastTextSKIPGRAM.py     
+  #python3 runFastTextCBOW.py
+done
+
 #python3 getResults.py

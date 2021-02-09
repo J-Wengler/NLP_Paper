@@ -1,2 +1,8 @@
 #!/bin/bash
-wget -O ./Models/wiki.en.vec https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.en.vec
+
+FILE="/Data/wiki.en.vec"
+
+if [ ! -f "$FILE" ]
+then
+  wget -O "$FILE" https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.en.vec
+fi

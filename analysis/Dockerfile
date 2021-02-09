@@ -1,12 +1,18 @@
 FROM python:3.8.5
 
-COPY requirements.txt /
 RUN pip install --upgrade pip
 RUN python -m pip install urllib3
-RUN pip install spacy
+
 RUN pip install git+https://github.com/boudinfl/pke.git
-RUN python -m spacy download en
-RUN python -m spacy download en_core_web_lg
+
+COPY requirements.txt /
 RUN pip install -r requirements.txt
-COPY Python_Code/* /
+
+RUN pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.2.5/en_ner_bc5cdr_md-0.2.5.tar.gz
+RUN python -m spacy download en_core_web_lg
+
+COPY Python_Import/* /
+RUN python3 /NLTKImport.py
+
+COPY Python_Scripts/* /
 COPY Bash_Scripts/* /

@@ -70,6 +70,13 @@ def getNamesToQuery(queryNumber):
 
 def getKeywordEmbedding(keywords, model, numWords, vectorSize, failedFilePath):
     doc_vec = np.zeros((vectorSize,))
+    #This will throw an error later in the program unless the default model option is changed to match the vector size
+    #FastTextWiki is locked into 300 dimensions
+    #BioWordVec is locked into 200 dimensions
+    #Currently both the FastTextCBOW and FastTextSkipgram we trained with 300 dimensions. To change this we would have
+    # to edit the trainFastTextSKIPGRAM.py script
+    #Spacy and SciSpacy have a .resize function that would allow them to resize their default vectors (300)
+    #Maybe we could trick spaCy into resizing the BioWordVec vectors?
 
     with open(failedFilePath, 'a+') as failed_file:
         for i, word in enumerate(keywords):
@@ -84,6 +91,10 @@ def getKeywordEmbedding(keywords, model, numWords, vectorSize, failedFilePath):
                     doc_vec = np.add(doc_vec, new_vec)
             else:
                 error = False
+                #Here we'll need a if/else statement that will allow the usage of different syntax for each model
+                # Spacy = model.vocab[word_list[0]].vector
+                # FastText = = model[word_list[0]
+                # This are the only two syntax changes we'll need
 
                 try:
                     new_vec = model.vocab[word_list[0]].vector

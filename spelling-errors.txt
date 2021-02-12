@@ -20,7 +20,7 @@ Helicase
 IDF
 intial
 keyphrase
-KPMiner
+KPMINER
 Metastatsis
 MLL
 multipartite

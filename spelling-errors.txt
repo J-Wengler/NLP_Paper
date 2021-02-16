@@ -43,7 +43,7 @@ SKIPGRAM
 Spacy
 SpacyWebLG
 srp
-StarGeo
+StarGEO
 techniquesResearch
 TextRank
 TF

@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="2c439ced-904a-4442-9ec8-d2155cd23b99" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/Python_Scripts/helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/runBioWordVec.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/Python_Scripts/runBioWordVec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/runFastTextCBOW.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/Python_Scripts/runFastTextCBOW.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/runFastTextSKIPGRAM.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/Python_Scripts/runFastTextSKIPGRAM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/runFastTextWiki.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/Python_Scripts/runFastTextWiki.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/runSciSpacy.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/Python_Scripts/runSciSpacy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/runSpacy.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/Python_Scripts/runSpacy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +93,8 @@
       <workItem from="1612790579170" duration="2318000" />
       <workItem from="1612875764960" duration="2428000" />
       <workItem from="1613139791892" duration="801000" />
+      <workItem from="1613480902907" duration="99000" />
+      <workItem from="1613481041607" duration="2341000" />
     </task>
     <servers />
   </component>

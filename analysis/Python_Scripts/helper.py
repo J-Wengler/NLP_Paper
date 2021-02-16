@@ -8,6 +8,7 @@ import pke
 import re
 import requests
 from scipy.spatial.distance import cosine
+from gensim.models.fasttext import FastText as FT_gensim
 
 def printTimestamp(message):
     print(f"{message} - {datetime.datetime.now()}")
@@ -68,7 +69,7 @@ def getNamesToQuery(queryNumber):
 
     return (files[0:len(files)-1])
 
-def getKeywordEmbedding(keywords, model, numWords, vectorSize, failedFilePath):
+def getKeywordEmbedding(keywords, model, numWords, vectorSize, failedFilePath, modelName):
     doc_vec = np.zeros((vectorSize,))
     #This will throw an error later in the program unless the default model option is changed to match the vector size
     #FastTextWiki is locked into 300 dimensions
@@ -85,7 +86,7 @@ def getKeywordEmbedding(keywords, model, numWords, vectorSize, failedFilePath):
 
             word_list = word.split()
             if len(word_list) > 1:
-                new_vec = getKeywordEmbedding(word_list, model, numWords, vectorSize, failedFilePath)
+                new_vec = getKeywordEmbedding(word_list, model, numWords, vectorSize, failedFilePath, modelName)
                 if new_vec is not None:
                     numWords += 1
                     doc_vec = np.add(doc_vec, new_vec)
@@ -95,13 +96,20 @@ def getKeywordEmbedding(keywords, model, numWords, vectorSize, failedFilePath):
                 # Spacy = model.vocab[word_list[0]].vector
                 # FastText = = model[word_list[0]
                 # This are the only two syntax changes we'll need
-                print(f"Model : {model}")
-                try:
-                    new_vec = model.vocab[word_list[0]].vector
-                except KeyError or ValueError:
-                    failed_file.write(word_list[0])
-                    error = True
-                    break
+                if(modelName == "SciSpaCy" or modelName == "SpaCy"):
+                    try:
+                        new_vec = model.vocab[word_list[0]].vector
+                    except KeyError or ValueError:
+                        failed_file.write(word_list[0])
+                        error = True
+                        break
+                else:
+                    try:
+                        new_vec = model[word_list[0]]
+                    except KeyError or ValueError:
+                        failed_file.write(word_list[0])
+                        error = True
+                        break
                 if new_vec is not None and error is False:
                     numWords += 1
                     doc_vec = np.add(doc_vec, new_vec)
@@ -131,7 +139,7 @@ def findSimilarity(keyphraseExtractor, modelName, model, candidateArticles, quer
             method.candidate_weighting()
 
             keyphrases = method.get_n_best(n=numKeywords)
-            embeddings.append(getKeywordEmbedding(keyphrases, model, 0, vectorSize, failedFilePath))
+            embeddings.append(getKeywordEmbedding(keyphrases, model, 0, vectorSize, failedFilePath, modelName))
 
         for i, article in enumerate(candidateArticles):
             #if i % 1000 == 0:
@@ -155,7 +163,7 @@ def findSimilarity(keyphraseExtractor, modelName, model, candidateArticles, quer
 
             if not error:
                 keyphrases = method.get_n_best(n=numKeywords)
-                cur_vec = getKeywordEmbedding(keyphrases, model, 0, vectorSize, failedFilePath)
+                cur_vec = getKeywordEmbedding(keyphrases, model, 0, vectorSize, failedFilePath, keyphraseExtractor, modelName)
                 avg_sim = 0
                 num_embeddings = 0
 
@@ -169,6 +177,14 @@ def findSimilarity(keyphraseExtractor, modelName, model, candidateArticles, quer
         for name in sim_to_name:
             out_file.write("{}\t{}\n".format(name, sim_to_name[name]))
 
+def trainFastTextModel(vectorSize, trainingModel):
+    model = FT_gensim(size=vectorSize)
+    model.build_vocab(corpus_file='Models/starGEO.txt')
+    model.train(
+        corpus_file='Models/starGEO.txt', epochs=model.epochs, model=trainingModel,
+        total_examples=model.corpus_count, total_words=model.corpus_total_words
+    )
+    return model
 # We could do this dynamically, but this is okay.
 def getKeyphraseExtractor(name):
     if name == "TopicRank":

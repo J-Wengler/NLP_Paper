@@ -1,12 +1,8 @@
-import fasttext
 from helper import *
 import multiprocessing
-import os
-import scispacy
 import spacy
 import sys
 import time
-import wikipedia
 
 numKeywords = int(sys.argv[1])
 vectorSize = int(sys.argv[2])
@@ -17,9 +13,6 @@ candidate_articles = getCandidateArticles(maxCandidateArticles)
 
 printTimestamp("Loading SciSpacy")
 model = spacy.load("en_ner_bc5cdr_md")
-
-#findSimilarity("TopicRank", "ScispaCy", model, candidate_articles, 1, numKeywords, vectorSize)
-#sys.exit()
 
 start = time.time()
 

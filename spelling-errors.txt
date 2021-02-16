@@ -20,7 +20,7 @@ Helicase
 IDF
 intial
 keyphrase
-KPMINER
+KPMiner
 Metastatsis
 MLL
 multipartite
@@ -43,7 +43,7 @@ SKIPGRAM
 Spacy
 SpacyWebLG
 srp
-StarGEO
+StarGeo
 techniquesResearch
 TextRank
 TF

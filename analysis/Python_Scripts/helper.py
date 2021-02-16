@@ -95,7 +95,7 @@ def getKeywordEmbedding(keywords, model, numWords, vectorSize, failedFilePath):
                 # Spacy = model.vocab[word_list[0]].vector
                 # FastText = = model[word_list[0]
                 # This are the only two syntax changes we'll need
-
+                print(f"Model : {model}")
                 try:
                     new_vec = model.vocab[word_list[0]].vector
                 except KeyError or ValueError:

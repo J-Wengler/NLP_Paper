@@ -12,24 +12,20 @@ class tester:
             names_list = names.read()
             names = names_list.split(' ')
             self.data_names = names
-            #for name in names:
-            #    self.data_names.append(name.rstrip())
-
 
     def returnScore(self, data):
-        #Compare ranks, model will rank all starGEO articles and calculate the average rank of the originial articles
-        #information retrival metrics for accuracy
-        #Precision and Recall
         num_obtained = len(data)
         num_relevant  = 0
         total_relevant = len(self.data_names) - 1
+
         for name in data:
             if name in self.data_names:
                 num_relevant += 1
-        if num_obtained != 0 and num_relevant != 0:
 
+        if num_obtained != 0 and num_relevant != 0:
             recall = num_relevant / total_relevant
             precision = num_relevant / num_obtained
+
             if recall != 0 and precision != 0:
                 score = 2 * (precision * recall) / (precision + recall)
                 return score
@@ -38,10 +34,10 @@ class tester:
         else:
             return 0
 
-
     def returnPercent(self, data):
         total_relevant = len(self.data_names) - 1
         num_relevant = 0
+
         for name in data:
             if name in self.data_names:
                 num_relevant += 1

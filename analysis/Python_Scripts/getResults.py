@@ -65,40 +65,6 @@ def findAvgPercent(series_to_score):
     avg_to_return = avg_per / num_keys
     return avg_to_return
 
-
-#outputFile = open('/Models/BioWordVecOutput.txt', 'w+')
-#outputFile.write("BioWordModel Results\n")
-#outputFile.write("MODEL\tQUERY\tSCORE\n")
-#for name in resultPath:
-#    path = "/Models/BIOWORDVEC/{}".format(name)
-#    for fileName in os.listdir(path):
-#        score = getScore(path + "/" + fileName)
-#        query = fileName[0]
-#        strForFile = "{}\t{}\t{}\n".format(str(name).strip(), str(query).strip(), str(score).strip())
-#        outputFile.write(strForFile)
-#
-#outputFile = open('/Models/FastTextWikiOutput.txt', 'w+')
-#outputFile.write("FASTTEXTWIKI Results\n")
-#outputFile.write("MODEL\tQUERY\tSCORE\n")
-#for name in resultPath:
-#    path = "/Models/FastTextWiki/{}".format(name)
-#    for fileName in os.listdir(path):
-#        score = getScore(path + "/" + fileName)
-#        query = fileName[0]
-#        strForFile = "{}\t{}\t{}\n".format(str(name).strip(), str(query).strip(), str(score).strip())
-#        outputFile.write(strForFile)
-#outputFile = open('/Models/FastTextCBOWOutput.txt', 'w+')
-#outputFile.write("FASTTEXTCBOW Results\n")
-#outputFile.write("MODEL\tQUERY\tSCORE\n")
-#for name in resultPath:
-#    path = "/Models/FastTextWiki/{}".format(name)
-#    for fileName in os.listdir(path):
-#        score = getScore(path + "/" + fileName)
-#        query = fileName[0]
-#        strForFile = "{}\t{}\t{}\n".format(str(name).strip(), str(query).strip(), str(score).strip())
-#        outputFile.write(strForFile)
-
-
 outputFile = open('/Models/FastTextSKIPGRAMOutput.txt', 'w+')
 outputFile.write("FASTTEXTSKIPGRAM Results\n")
 outputFile.write("MODEL\tQUERY\t#\tSCORE\n")

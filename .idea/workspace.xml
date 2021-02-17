@@ -3,19 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2c439ced-904a-4442-9ec8-d2155cd23b99" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/TextRank.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/bioConceptVec.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/createSpacy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/ftModel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/geoAPI.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/geoSearcher.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/geoTests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/getGraphs.R" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/testGeoSearcher.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/testKeywords.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/testTester.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/trainBERT.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/trainFastTextSkipGram.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/getResults.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/Python_Scripts/getResults.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/tester.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/Python_Scripts/tester.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +91,7 @@
       <workItem from="1613480902907" duration="99000" />
       <workItem from="1613481041607" duration="2694000" />
       <workItem from="1613568927293" duration="939000" />
+      <workItem from="1613571779483" duration="516000" />
     </task>
     <servers />
   </component>

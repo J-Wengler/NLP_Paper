@@ -10,7 +10,6 @@ maxCandidateArticles = int(sys.argv[3])
 printTimestamp("Getting candidate articles")
 candidate_articles = getCandidateArticles(maxCandidateArticles)
 
-#Train the model
 printTimestamp("Training FastText SkipGram model")
 model = trainFastTextModel(vectorSize, 'skipgram')
 

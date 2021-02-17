@@ -59,11 +59,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/a0113723f47b64921d3e384eca3347a226725946/" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/5ea4c67aeeadc98278274fba4fa8b3aa51040f33/" />
 
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/a0113723f47b64921d3e384eca3347a226725946/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/5ea4c67aeeadc98278274fba4fa8b3aa51040f33/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/a0113723f47b64921d3e384eca3347a226725946/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/5ea4c67aeeadc98278274fba4fa8b3aa51040f33/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -96,9 +96,9 @@ title: Comparison of Keyword Extraction and Word Vector Generation Methods for U
 
 <small><em>
 This manuscript
-([permalink](https://J-Wengler.github.io/NLP_Paper/v/a0113723f47b64921d3e384eca3347a226725946/))
+([permalink](https://J-Wengler.github.io/NLP_Paper/v/5ea4c67aeeadc98278274fba4fa8b3aa51040f33/))
 was automatically generated
-from [J-Wengler/NLP_Paper@a011372](https://github.com/J-Wengler/NLP_Paper/tree/a0113723f47b64921d3e384eca3347a226725946)
+from [J-Wengler/NLP_Paper@5ea4c67](https://github.com/J-Wengler/NLP_Paper/tree/5ea4c67aeeadc98278274fba4fa8b3aa51040f33)
 on February 17, 2021.
 </em></small>
 

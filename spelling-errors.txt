@@ -39,11 +39,11 @@ Relevent
 replicability
 SciSpacy
 SingleRank
-SKIPGRAM
+Skipgram
 Spacy
 SpacyWebLG
 srp
-StarGEO
+StarGeo
 techniquesResearch
 TextRank
 TF

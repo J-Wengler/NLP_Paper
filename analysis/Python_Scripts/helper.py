@@ -177,9 +177,9 @@ def findSimilarity(keyphraseExtractor, modelName, model, candidateArticles, quer
 
 def trainFastTextModel(vectorSize, trainingModel):
     model = FT_gensim(size=vectorSize)
-    model.build_vocab(corpus_file='Models/starGEO.txt')
+    model.build_vocab(corpus_file='Data/starGEO.txt')
     model.train(
-        corpus_file='Models/starGEO.txt', epochs=model.epochs, model=trainingModel,
+        corpus_file='Data/starGEO.txt', epochs=model.epochs, model=trainingModel,
         total_examples=model.corpus_count, total_words=model.corpus_total_words
     )
     return model
@@ -231,11 +231,11 @@ def getScore(filePath):
     return scores
 
 def generateResults (resultPath, modelName, bestCombo):
-    outputFile = open('/Models/{}}Output.txt'.format(modelName), 'w+')
+    outputFile = open('/Results/{}}Output.txt'.format(modelName), 'w+')
     outputFile.write("{} Results\n".format(modelName))
     outputFile.write("MODEL\tQUERY\t#\tSCORE\n")
     for name in resultPath:
-        path = "/Models/{}}/{}".format( modelName,name)
+        path = "/Results/{}}/{}".format( modelName,name)
         top_nums = [1, 10, 100, 1000, 10000]
         for fileName in os.listdir(path):
             scores = getScore(path + "/" + fileName)

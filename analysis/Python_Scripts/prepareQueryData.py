@@ -67,7 +67,7 @@ with open(namesFilePath, "w") as nameFile:
             outFile.write(' ')
             outFile.write(cleanText(summary))
 
-    ranNames = random.choices(namesToQuery, k = 3)
+    ranNames = random.choices(namesToQuery, k = len(series) / 2)
     with open(f"/Data/Queries/{queryID}/names_to_query.txt", "w") as nameQueryFile:
         for name in ranNames:
             nameQueryFile.write(name + ' ')

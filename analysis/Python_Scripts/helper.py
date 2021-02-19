@@ -9,6 +9,8 @@ import re
 import requests
 from scipy.spatial.distance import cosine
 from gensim.models.fasttext import FastText as FT_gensim
+from tester import tester
+import math
 
 def printTimestamp(message):
     print(f"{message} - {datetime.datetime.now()}")
@@ -92,10 +94,6 @@ def getKeywordEmbedding(keywords, model, numWords, vectorSize, failedFilePath, m
                     doc_vec = np.add(doc_vec, new_vec)
             else:
                 error = False
-                #Here we'll need a if/else statement that will allow the usage of different syntax for each model
-                # Spacy = model.vocab[word_list[0]].vector
-                # FastText = = model[word_list[0]
-                # This are the only two syntax changes we'll need
                 if(modelName == "SciSpaCy" or modelName == "SpaCy"):
                     try:
                         new_vec = model.vocab[word_list[0]].vector
@@ -185,6 +183,69 @@ def trainFastTextModel(vectorSize, trainingModel):
         total_examples=model.corpus_count, total_words=model.corpus_total_words
     )
     return model
+
+def findAvgPercent(series_to_score):
+    avg_per = 0
+    num_keys = 0
+    for key in series_to_score:
+        if series_to_score[key] != '':
+            temp_per = float(series_to_score[key])
+            if(math.isnan(temp_per) is False):
+                avg_per += float(series_to_score[key])
+            num_keys += 1
+    avg_to_return = avg_per / num_keys
+    return avg_to_return
+
+def getXTopResults(x, series_to_score):
+    copy_of_keys = series_to_score.keys()
+    sorted_keys = sorted(copy_of_keys, reverse = True)
+    to_return = []
+    if len(sorted_keys) < 100:
+        return [0,0,0,0,0]
+    else:
+        for per in range(0,x):
+            to_return.append(series_to_score[sorted_keys[per]])
+
+        return to_return
+
+def getScore(filePath):
+    score_to_series = {}
+    with open(filePath, "r+") as in_file:
+        for line in in_file:
+            line_list = line.split('-')
+            try:
+                score_to_series[line_list[1].strip()] = line_list[0].strip()
+            except:
+                print("Line List : {}".format(line_list))
+                print("Error was found in {}".format(filePath))
+    scores = []
+    toTest = [1,10,100,1000,10000]
+    for topNum in toTest:
+        topResults = getXTopResults(topNum, score_to_series)
+        myTester = tester()
+        filePathList = filePath.split('/')
+        queryNum = int(filePathList[4][0])
+        myTester.whichQuery(queryNum)
+        score = myTester.returnPercent(topResults)
+        scores.append(score)
+    return scores
+
+def generateResults (resultPath, modelName, bestCombo):
+    outputFile = open('/Models/{}}Output.txt'.format(modelName), 'w+')
+    outputFile.write("{} Results\n".format(modelName))
+    outputFile.write("MODEL\tQUERY\t#\tSCORE\n")
+    for name in resultPath:
+        path = "/Models/{}}/{}".format( modelName,name)
+        top_nums = [1, 10, 100, 1000, 10000]
+        for fileName in os.listdir(path):
+            scores = getScore(path + "/" + fileName)
+            for i, score in enumerate(scores):
+                query = fileName[0]
+                if (top_nums[i] == 100):
+                    bestCombo.write("{}}\t{}\t{}\t{}\t{}\n".format(modelName, str(name).strip(), str(query).strip(), str(top_nums[i]).strip(), str(score).strip()))
+                strForFile = "{}\t{}\t{}\t{}\n".format(str(name).strip(), str(query).strip(), str(top_nums[i]).strip(), str(score).strip())
+                outputFile.write(strForFile)
+
 # We could do this dynamically, but this is okay.
 def getKeyphraseExtractor(name):
     if name == "TopicRank":

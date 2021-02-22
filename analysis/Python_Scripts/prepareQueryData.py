@@ -44,28 +44,29 @@ with open('/Data/allQueries.txt', 'a+') as allQueriesFile:
 with open(namesFilePath, "w") as nameFile:
     namesToQuery = []
     abstracts = []
+    with open(f"/Data/starGEO.txt", 'a+') as corpusFile:
+        for s in series:
+            api_text = (f"http://stargeo.org/api/v2/series/{s}/")
+            rq = requests.get(api_text).text
+            data = json.loads(rq)
+            temp_dict = data['attrs']
+            name = data['gse_name']
+            summary = temp_dict['summary']
+            if summary not in abstracts:
+                abstracts.append(summary)
+                namesToQuery.append(name)
 
-    for s in series:
-        api_text = (f"http://stargeo.org/api/v2/series/{s}/")
-        rq = requests.get(api_text).text
-        data = json.loads(rq)
-        temp_dict = data['attrs']
-        name = data['gse_name']
-        summary = temp_dict['summary']
-
-        if summary not in abstracts:
             abstracts.append(summary)
-            namesToQuery.append(name)
+            title = temp_dict['title']
+            summary = summary.replace("\n", " ")
+            title = title.replace("\n", " ")
+            corpusFile.write(cleanText(title))
+            corpusFile.write(cleanText(summary))
 
-        abstracts.append(summary)
-        title = temp_dict['title']
-        summary = summary.replace("\n", " ")
-        title = title.replace("\n", " ")
-
-        with open(f"/Data/Queries/{queryID}/{name}.txt", "w") as outFile:
-            outFile.write(cleanText(title))
-            outFile.write(' ')
-            outFile.write(cleanText(summary))
+            with open(f"/Data/Queries/{queryID}/{name}.txt", "w") as outFile:
+                outFile.write(cleanText(title))
+                outFile.write(' ')
+                outFile.write(cleanText(summary))
 
     ranNames = random.choices(namesToQuery, k = len(series) / 2)
     with open(f"/Data/Queries/{queryID}/names_to_query.txt", "w") as nameQueryFile:

@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2c439ced-904a-4442-9ec8-d2155cd23b99" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/getResults.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/Python_Scripts/getResults.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/Python_Scripts/helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/Bash_Scripts/runMe.sh" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/Bash_Scripts/runMe.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/prepareQueryData.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/Python_Scripts/prepareQueryData.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +93,8 @@
       <workItem from="1613568927293" duration="939000" />
       <workItem from="1613571779483" duration="516000" />
       <workItem from="1613584713864" duration="346000" />
-      <workItem from="1613707706763" duration="2867000" />
+      <workItem from="1613707706763" duration="3115000" />
+      <workItem from="1614003001697" duration="2212000" />
     </task>
     <servers />
   </component>

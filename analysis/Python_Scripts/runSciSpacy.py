@@ -18,7 +18,7 @@ start = time.time()
 
 for query in range(1,6):
     for keywordExtractor in ["TopicRank", "TfIdf", "KPMiner", "YAKE", "TextRank", "SingleRank", "TopicalPageRank", "PositionRank", "MultipartiteRank"]:
-        mp = multiprocessing.Process(target=findSimilarity, args=(keywordExtractor, "ScispaCy", model, candidate_articles, query, numKeywords, vectorSize))
+        mp = multiprocessing.Process(target=findSimilarity, args=(keywordExtractor, "SciSpaCy", model, candidate_articles, query, numKeywords, vectorSize))
         mp.start()
         mp.join()
 

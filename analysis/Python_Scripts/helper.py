@@ -258,25 +258,26 @@ def evaluateGEO():
                   "q6_heart_development+age+failure_GEO.txt"]
 
     resultsDirPath = f"/Data/GEO_Queries/geo_results.txt"
-    with open(resultsDirPath, 'w+') as out_file:
-        for path in query_list:
-            with open(path_to_GEO_queries + path, 'r') as geo_file:
-                for line in geo_file:
+    for top_n in [1,10,100,500]:
+        with open(resultsDirPath, 'w+') as out_file:
+            for path in query_list:
+                with open(path_to_GEO_queries + path, 'r') as geo_file:
+                    for line in geo_file:
 
-                    if line.startswith("Series"):
-                        split_sent = line.split()
-                        geo_results.append(split_sent[2])
+                        if line.startswith("Series"):
+                            split_sent = line.split()
+                            geo_results.append(split_sent[2])
 
-            with open(path_to_queries + f"q{path[1]}/names.txt", 'r') as query_file:
-                for line in query_file:
-                    query_results = line.split()
+                with open(path_to_queries + f"q{path[1]}/names.txt", 'r') as query_file:
+                    for line in query_file:
+                        query_results = line.split()
 
-            num_relevant = 0
-            for series in geo_results:
-                if series in query_results:
-                    num_relevant = num_relevant + 1
+                num_relevant = 0
+                for series in geo_results[:top_n]:
+                    if series in query_results:
+                        num_relevant = num_relevant + 1
 
-            out_file.write(f"q{path[1]} returned {num_relevant} ({round(num_relevant/len(query_results))}%) in {len(geo_results)}\n")
+                out_file.write(f"q{path[1]} returned {num_relevant} ({round((num_relevant/len(query_results)) * 100)}%) in {top_n}\n")
     print("Finished GEO evaluation")
 
 # We could do this dynamically, but this is okay.

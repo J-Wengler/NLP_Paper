@@ -258,7 +258,7 @@ def evaluateGEO():
                   "q6_heart_development+age+failure_GEO.txt"]
 
     resultsDirPath = f"/Data/GEO_Queries/geo_results.txt"
-    with open(resultsDirPath, 'a+') as out_file:
+    with open(resultsDirPath, 'w+') as out_file:
         for path in query_list:
             with open(path_to_GEO_queries + path, 'r') as geo_file:
                 for line in geo_file:
@@ -276,7 +276,7 @@ def evaluateGEO():
                 if series in query_results:
                     num_relevant = num_relevant + 1
 
-            out_file.write(f"q{path[1]} returned {num_relevant} in {len(query_results)}\n")
+            out_file.write(f"q{path[1]} returned {num_relevant} ({round(num_relevant/len(query_results))}%) in {len(geo_results)}\n")
     print("Finished GEO evaluation")
 
 # We could do this dynamically, but this is okay.

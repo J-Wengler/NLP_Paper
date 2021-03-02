@@ -258,8 +258,8 @@ def evaluateGEO():
                   "q6_heart_development+age+failure_GEO.txt"]
 
     resultsDirPath = f"/Data/GEO_Queries/geo_results.txt"
-    for top_n in [1,10,100,500]:
-        with open(resultsDirPath, 'w+') as out_file:
+    with open(resultsDirPath, 'w+') as out_file:
+        for top_n in [1,10,100,500]:
             for path in query_list:
                 with open(path_to_GEO_queries + path, 'r') as geo_file:
                     for line in geo_file:

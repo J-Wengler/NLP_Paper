@@ -255,6 +255,7 @@ def evaluateGEO():
                   "q6_heart_development+age+failure_GEO.txt"]
 
     starGEO_datasets = (getCandidateArticles(100000)).keys()
+    print(f"Sample of series pulled from StarGEO {starGEO_datasets[:5]}")
 
     resultsDirPath = f"/Data/GEO_Queries/geo_results.txt"
     with open(resultsDirPath, 'w+') as out_file:
@@ -281,6 +282,7 @@ def evaluateGEO():
                     if series in query_results:
                         num_relevant = num_relevant + 1
 
+                print(f"Results : {geo_results[:top_n]}")
                 out_file.write(f"q{path[1]} returned {num_relevant} ({round((num_relevant/len(query_results)) * 100)}%) in {top_n}\n")
     print("Finished GEO evaluation")
 

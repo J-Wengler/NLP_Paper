@@ -250,9 +250,6 @@ def evaluateGEO():
     path_to_GEO_queries = "/Data/GEO_Queries/"
     path_to_queries = "/Data/Queries/"
 
-    geo_results = []
-    query_results = []
-
     query_list = ["q1_metastasis+brain_GEO.txt", "q2_sars_GEO.txt", "q3_h1n1+infection+mouse+lethal_GEO.txt",
                   "q4_acute_leukemia+mll+progression_GEO.txt", "q5_BRCA+Cancer_GEO.txt",
                   "q6_heart_development+age+failure_GEO.txt"]
@@ -264,6 +261,8 @@ def evaluateGEO():
         for top_n in [1,10,100,500]:
             for path in query_list:
                 num_og = 0
+                geo_results = []
+                query_results = []
                 with open(path_to_GEO_queries + path, 'r') as geo_file:
                     for line in geo_file:
                         if line.startswith("Series"):

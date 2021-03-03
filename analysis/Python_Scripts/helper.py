@@ -263,9 +263,11 @@ def evaluateGEO():
     with open(resultsDirPath, 'w+') as out_file:
         for top_n in [1,10,100,500]:
             for path in query_list:
+                num_og = 0
                 with open(path_to_GEO_queries + path, 'r') as geo_file:
                     for line in geo_file:
                         if line.startswith("Series"):
+                            num_og += 1
                             split_sent = line.split()
                             if split_sent[2] in starGEO_datasets:
                                 geo_results.append(split_sent[2])
@@ -273,7 +275,8 @@ def evaluateGEO():
                 with open(path_to_queries + f"q{path[1]}/names.txt", 'r') as query_file:
                     for line in query_file:
                         query_results = line.split()
-
+                print(f"filtered results length : {len(geo_results)}")
+                print(f"OG length : {num_og}")
                 num_relevant = 0
                 for series in geo_results[:top_n]:
                     if series in query_results:

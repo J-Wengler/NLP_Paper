@@ -257,16 +257,18 @@ def evaluateGEO():
                   "q4_acute_leukemia+mll+progression_GEO.txt", "q5_BRCA+Cancer_GEO.txt",
                   "q6_heart_development+age+failure_GEO.txt"]
 
+    starGEO_datasets = (getCandidateArticles(100000)).keys()
+
     resultsDirPath = f"/Data/GEO_Queries/geo_results.txt"
     with open(resultsDirPath, 'w+') as out_file:
         for top_n in [1,10,100,500]:
             for path in query_list:
                 with open(path_to_GEO_queries + path, 'r') as geo_file:
                     for line in geo_file:
-
                         if line.startswith("Series"):
                             split_sent = line.split()
-                            geo_results.append(split_sent[2])
+                            if split_sent[2] in starGEO_datasets:
+                                geo_results.append(split_sent[2])
 
                 with open(path_to_queries + f"q{path[1]}/names.txt", 'r') as query_file:
                     for line in query_file:

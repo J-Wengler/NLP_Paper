@@ -1,6 +1,6 @@
 AllGraphs
 BioWordVec
-brca
+BRCA
 CBOW
 comparision
 continous
@@ -39,7 +39,7 @@ Relevent
 replicability
 SciSpacy
 SingleRank
-SKIPGRAM
+Skipgram
 Spacy
 SpacyWebLG
 srp

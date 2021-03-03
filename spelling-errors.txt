@@ -1,6 +1,6 @@
 AllGraphs
 BioWordVec
-BRCA
+brca
 CBOW
 comparision
 continous
@@ -20,7 +20,7 @@ Helicase
 IDF
 intial
 keyphrase
-KPMiner
+KPMINER
 Metastatsis
 MLL
 multipartite
@@ -39,7 +39,7 @@ Relevent
 replicability
 SciSpacy
 SingleRank
-Skipgram
+SKIPGRAM
 Spacy
 SpacyWebLG
 srp

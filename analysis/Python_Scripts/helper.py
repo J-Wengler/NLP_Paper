@@ -274,8 +274,8 @@ def evaluateGEO():
                 with open(path_to_queries + f"q{path[1]}/names.txt", 'r') as query_file:
                     for line in query_file:
                         query_results = line.split()
-                print(f"filtered results length : {len(geo_results)}")
-                print(f"OG length : {num_og}")
+                print(f"filtered results length for q{path[1]}: {len(geo_results)}")
+                print(f"OG length for q{path[1]}: {num_og}\n")
                 num_relevant = 0
                 for series in geo_results[:top_n]:
                     if series in query_results:

@@ -4,7 +4,7 @@ author-meta:
 - Stephen Picco
 bibliography:
 - content/manual-references.json
-date-meta: '2021-03-03'
+date-meta: '2021-03-05'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +23,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets" />
 
-  <meta name="dc.date" content="2021-03-03" />
+  <meta name="dc.date" content="2021-03-05" />
 
-  <meta name="citation_publication_date" content="2021-03-03" />
+  <meta name="citation_publication_date" content="2021-03-05" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -59,11 +59,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/836cea3955a9e5e94ec70e7277952f28b6b66d9f/" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/ad621336daf87cbc43d28d6a9869914743770b95/" />
 
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/836cea3955a9e5e94ec70e7277952f28b6b66d9f/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/ad621336daf87cbc43d28d6a9869914743770b95/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/836cea3955a9e5e94ec70e7277952f28b6b66d9f/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/ad621336daf87cbc43d28d6a9869914743770b95/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -96,10 +96,10 @@ title: Comparison of Keyword Extraction and Word Vector Generation Methods for U
 
 <small><em>
 This manuscript
-([permalink](https://J-Wengler.github.io/NLP_Paper/v/836cea3955a9e5e94ec70e7277952f28b6b66d9f/))
+([permalink](https://J-Wengler.github.io/NLP_Paper/v/ad621336daf87cbc43d28d6a9869914743770b95/))
 was automatically generated
-from [J-Wengler/NLP_Paper@836cea3](https://github.com/J-Wengler/NLP_Paper/tree/836cea3955a9e5e94ec70e7277952f28b6b66d9f)
-on March 3, 2021.
+from [J-Wengler/NLP_Paper@ad62133](https://github.com/J-Wengler/NLP_Paper/tree/ad621336daf87cbc43d28d6a9869914743770b95)
+on March 5, 2021.
 </em></small>
 
 ## Authors
@@ -176,18 +176,19 @@ we used the Search Tag Analyze Resource for GEO application (StarGEO). StarGEO i
 by biomedical graduate students to facilitate the task of collecting related datasets [@doi:10.1038/sdata.2017.125]. For each entry in StarGEO the dataset has an abstract, 
 title, and Gene Expression Omnibus accession number.
 Each dataset in StarGEO has been hand curated and attached to several tags that seek to categorize on a broad level the type of data encapsulated [@doi:10.1038/sdata.2017.125].
-To ensure replicability across different domains we selected five combinations of search keywords that each returned different amounts of articles that StarGEO identified 
-as related to the search query. The queries and respective amount of articles at time of writing are shown in table 1. It is important to to note that since StarGEO is an
-ongoing project, it is likely that these queries currently have more articles than at the time of writing
+To ensure a mixture of broad and narrow queries, as well as different domains, we selected six queries to test. Two of which are broad with 50+ articles returned, two are medium with 20-50 articles returned and two are small with
+ less than 10 articles returned. These queries cover a wide range of domains. It is important to to note that since StarGEO is an
+ongoing project, it is likely that these queries currently have more articles than at the time of writing.
 
 | *Keywords* | *Number of Articles Returned by StarGeo* |
 |:-----------|:----------------------------------------:|
-| BRCA + Cancer                         | 19    |
-| Acute_Leukemia + MLL + Progression    | 10    |
-| Helicase + Replication + Deletion     | 8     |
-| H1N1 + Infection + Mouse + Lethal     | 8     |
-| Metastasis + Brain                    | 52    |
-The purpose of widely varying the amount of articles returned is to ensure that our method works for narrowly defined topics as well as broad topics. All data
+| Cancer + Brain                       | 53|
+| SARS                                 | 52|
+| H1n1 + Infection + Mouse + Lethal    | 8 |
+| Acute_Leukemia + MLL + Progression   | 10|
+| BRCA + Cancer                        | 20|
+| Heart Development + Age + Failure    | 28|
+The purpose of widely varying the amount of articles returned is to ensure that our method works for narrowly defined topics as well as broad topics as well as to test the difference. All data
 accession was performed using the StarGEO API [@url:http://stargeo.org/api_docs/]. The API was accessed and stored in a dictionary keyed by accession number to combined abstract and title.
 
 ### Model Collection
@@ -230,6 +231,10 @@ stored as a list of numeric values. The models vary in the length of this numeri
 element-wise and then divided by the number of keywords. This technique has been shown to be the simplest and most accurate way to generate a singular word vector from various word 
 embeddings and is usually used to generate document-wide word embeddings [@url:http://arxiv.org/abs/1607.05368].
 
+### Manual Gene Expression Omnibus Evaluation
+Gene Expression Omnibus (GEO) is the parent corpus from which StarGEO is derived [@doi:10.1093/nar/30.1.207]. To compare our technique directly to GEO we use a manual technique. We first use the advanced search option on 
+GEO to input the exact queries we used from StarGEO. 
+
 ### Model Evaluation 
 All model evaluation is performed in a Docker container to allow other researchers to perform the same analysis described in this section [@doi:10.1145/2723872.2723882].The Docker image 
 used to build the container is the python:3.8.5 image available on the Docker website [@url:https://hub.docker.com/_/python]. In the 'Python_Code' directory there are six scripts that handle
@@ -239,10 +244,12 @@ each of the models. Each script performs the following steps:
 3. For each query (of 5) a job is started using the Multiprocessing package for each keyword embedding method, these are all ran as a pool
 4. Each job in the pool performs the following steps
     i. For the specified query the code access a filesystem that contains all the articles for each query
-    ii. 3 are randomly selected to generate the vector
+    ii. Half of the possible articles are randomly selected as the training corpus. In the exploratory analysis we did for this project we initially used three articles from each query. However we moved away from this because
+    three random articles have a high chance of choosing 3 articles that do not cover the full breadth of the query. Likewise if one of those three articles is covers a niche topic that may be peripherally related to the 
+    query that will greatly affect the performance in identifying a broader query. 
     iii. A predetermined number of keywords (10,20,30) is identified from each article
     iv. a word vector for each keyword is created, these are then numerically added and divided by the number of keywords
-    v. The vectors from the 3 articles are numerically added and divided by 3, this is referred to as the test vector
+    v. The vectors from the training corpus are numerically added and divided by 3, this is referred to as the test vector
     vi. This process of keyword identification and vector generation are repeated for each article queried from StarGEO
     vii. The cosine similarity between the test vector and each article is calculated and printed to a file
 5. The most similar 1,10,100,1000 articles are analyzed to see what percentage of the relevant articles were found for each query

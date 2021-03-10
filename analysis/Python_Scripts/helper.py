@@ -161,7 +161,7 @@ def findSimilarity(keyphraseExtractor, modelName, model, candidateArticles, quer
 
             if not error:
                 keyphrases = method.get_n_best(n=numKeywords)
-                cur_vec = getKeywordEmbedding(keyphrases, model, 0, vectorSize, failedFilePath, keyphraseExtractor, modelName)
+                cur_vec = getKeywordEmbedding(keyphrases, model, 0, vectorSize, failedFilePath, modelName)
                 avg_sim = 0
                 num_embeddings = 0
 
@@ -255,7 +255,7 @@ def evaluateGEO():
                   "q6_heart_development+age+failure_GEO.txt"]
 
     starGEO_datasets = (getCandidateArticles(100000)).keys()
-    print(f"Sample of series pulled from StarGEO {starGEO_datasets[:5]}")
+    print(starGEO_datasets)
 
     resultsDirPath = f"/Data/GEO_Queries/geo_results.txt"
     with open(resultsDirPath, 'w+') as out_file:

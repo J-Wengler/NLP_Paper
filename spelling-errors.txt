@@ -38,11 +38,11 @@ preprocessed
 Relevent
 SciSpacy
 SingleRank
-SKIPGRAM
+Skipgram
 Spacy
 SpacyWebLG
 srp
-StarGeo
+StarGEO
 techniquesResearch
 TextRank
 TF

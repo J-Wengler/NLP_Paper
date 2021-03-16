@@ -17,14 +17,14 @@ python3 prepareQueryData.py "GSE30699,GSE28424,GSE24401,GSE42903,GSE5045,GSE1608
 #corpusMaxSize=1000000
 corpusMaxSize=10
 
-for numKeywords in 10 20 30
-do
-  python3 runSciSpacy.py $numKeywords 200 $corpusMaxSize
-  python3 runBioWordVec.py $numKeywords 200 $corpusMaxSize 
-  python3 runFastTextWiki.py $numKeywords 300 $corpusMaxSize
-  python3 runSpacy.py $numKeywords 300 $corpusMaxSize
-  python3 runFastTextSKIPGRAM.py $numKeywords 300 $corpusMaxSize     
-  python3 runFastTextCBOW.py $numKeywords 300 $corpusMaxSize
-done
+#for numKeywords in 10 20 30
+#do
+python3 runSciSpacy.py 10 200 $corpusMaxSize
+python3 runBioWordVec.py 10 200 $corpusMaxSize 
+python3 runFastTextWiki.py 10 300 $corpusMaxSize
+python3 runSpacy.py 10 300 $corpusMaxSize
+python3 runFastTextSKIPGRAM.py 10 300 $corpusMaxSize     
+python3 runFastTextCBOW.py 10 300 $corpusMaxSize
+#done
 
 #python3 getResults.py

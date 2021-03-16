@@ -247,6 +247,7 @@ def generateResults (resultPath, modelName, bestCombo):
                 outputFile.write(strForFile)
 
 def evaluateGEO():
+    #FIXME
     path_to_GEO_queries = "/Data/GEO_Queries/"
     path_to_queries = "/Data/Queries/"
 

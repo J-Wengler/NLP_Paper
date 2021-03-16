@@ -1,6 +1,6 @@
 AllGraphs
 BioWordVec
-brca
+BRCA
 CBOW
 comparision
 continous
@@ -42,7 +42,7 @@ SKIPGRAM
 Spacy
 SpacyWebLG
 srp
-StarGEO
+StarGeo
 techniquesResearch
 TextRank
 TF

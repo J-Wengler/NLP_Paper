@@ -140,11 +140,11 @@ def findSimilarity(keyphraseExtractor, modelName, model, candidateArticles, quer
             embeddings.append(getKeywordEmbedding(keyphrases, model, 0, vectorSize, failedFilePath, modelName))
 
         for i, article in enumerate(candidateArticles):
-            #if i % 1000 == 0:
-            if i % 2 == 0:
+            if i % 1000 == 0:
+            #if i % 2 == 0:
                 printTimestamp(f"Processed {i} candidate articles for q{query}, {keyphraseExtractor}, {numKeywords} keywords")
-                if i > 0:
-                    break
+                # if i > 0:
+                #     break
 
             method = getKeyphraseExtractor(keyphraseExtractor)
             method.load_document(input=candidateArticles[article], language='en')

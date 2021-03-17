@@ -1,6 +1,6 @@
 AllGraphs
 BioWordVec
-brca
+BRCA
 CBOW
 comparision
 continous

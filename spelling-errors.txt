@@ -14,8 +14,8 @@ FastText
 FastTextCBOW
 FastTextSKIPGRAM
 FastTextWiki
-filesystem
 genomic
+GetGeoQueries
 Helicase
 IDF
 intial
@@ -34,11 +34,13 @@ PKR
 PositionRank
 PowerEdge
 pre
+PrepareQueryData
 preprocessed
+py
 Relevent
 SciSpacy
 SingleRank
-Skipgram
+SKIPGRAM
 Spacy
 SpacyWebLG
 srp

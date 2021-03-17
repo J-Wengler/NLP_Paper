@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c439ced-904a-4442-9ec8-d2155cd23b99" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/Python_Scripts/helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/03.methods.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/03.methods.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +32,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -107,7 +110,9 @@
       <workItem from="1614949468662" duration="752000" />
       <workItem from="1615399909523" duration="719000" />
       <workItem from="1615897615466" duration="828000" />
-      <workItem from="1615924727479" duration="921000" />
+      <workItem from="1615924727479" duration="1518000" />
+      <workItem from="1615986663360" duration="354000" />
+      <workItem from="1616001047796" duration="2534000" />
     </task>
     <servers />
   </component>

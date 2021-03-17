@@ -251,9 +251,9 @@ def evaluateGEO():
     path_to_GEO_queries = "/Data/GEO_Queries/"
     path_to_queries = "/Data/Queries/"
 
-    query_list = ["q1_metastasis+brain_GEO.txt", "q2_sars_GEO.txt", "q3_h1n1+infection+mouse+lethal_GEO.txt",
-                  "q4_acute_leukemia+mll+progression_GEO.txt", "q5_BRCA+Cancer_GEO.txt",
-                  "q6_heart_development+age+failure_GEO.txt"]
+    query_list = ["q1_family_history+breast_cancer_GEO.txt", "q2_liver_damage+hepatitis_GEO.txt", "q3_monozygotic_twins_GEO.txt",
+                  "q4_kideny+tumor+cell_line_GEO.txt", "q5_diabetes+type_1_GEO.txt",
+                  "q6_osteosarcoma_GEO.txt"]
 
     starGEO_datasets = (getCandidateArticles(100000)).keys()
     print(starGEO_datasets)

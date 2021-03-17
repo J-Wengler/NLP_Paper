@@ -47,9 +47,9 @@
   <meta name="citation_fulltext_html_url" content="https://J-Wengler.github.io/NLP_Paper/" />
   <meta name="citation_pdf_url" content="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/83e75a35440d3626dabbf8e8407ab45eed01ed04/" />
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/83e75a35440d3626dabbf8e8407ab45eed01ed04/" />
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/83e75a35440d3626dabbf8e8407ab45eed01ed04/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/ee2e83e4f6036cc722d3fe2a85b9e43ab7b85b2b/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/ee2e83e4f6036cc722d3fe2a85b9e43ab7b85b2b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/ee2e83e4f6036cc722d3fe2a85b9e43ab7b85b2b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,9 +63,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://J-Wengler.github.io/NLP_Paper/v/83e75a35440d3626dabbf8e8407ab45eed01ed04/">permalink</a>)
+(<a href="https://J-Wengler.github.io/NLP_Paper/v/ee2e83e4f6036cc722d3fe2a85b9e43ab7b85b2b/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/J-Wengler/NLP_Paper/tree/83e75a35440d3626dabbf8e8407ab45eed01ed04">J-Wengler/NLP_Paper@83e75a3</a>
+from <a href="https://github.com/J-Wengler/NLP_Paper/tree/ee2e83e4f6036cc722d3fe2a85b9e43ab7b85b2b">J-Wengler/NLP_Paper@ee2e83e</a>
 on March 17, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -232,22 +232,14 @@ embeddings and is usually used to generate document-wide word embeddings <span c
 GEO to input the exact queries we used from StarGEO.</p>
 <h3 id="model-evaluation">Model Evaluation</h3>
 <p>All model evaluation is performed in a Docker container to allow other researchers to perform the same analysis described in this section <span class="citation" data-cites="heYSKCTA">[<a href="#ref-heYSKCTA" role="doc-biblioref">19</a>]</span>.The Docker image
-used to build the container is the python:3.8.5 image available on the Docker website <span class="citation" data-cites="TJY8XInf">[<a href="#ref-TJY8XInf" role="doc-biblioref">20</a>]</span>. In the ‘Python_Code’ directory there are six scripts that handle
-each of the models. Each script performs the following steps:
-1. Queries StarGEO to get all abstracts and titles, stores all of this data inside a dictionary
-2. Loads the specific model, this is dependent on which model is being tested
-3. For each query (of 5) a job is started using the Multiprocessing package for each keyword embedding method, these are all ran as a pool
-4. Each job in the pool performs the following steps
-i. For the specified query the code access a filesystem that contains all the articles for each query
-ii. Half of the possible articles are randomly selected as the training corpus. In the exploratory analysis we did for this project we initially used three articles from each query. However we moved away from this because
-three random articles have a high chance of choosing 3 articles that do not cover the full breadth of the query. Likewise if one of those three articles is covers a niche topic that may be peripherally related to the
-query that will greatly affect the performance in identifying a broader query.
-iii. A predetermined number of keywords (10,20,30) is identified from each article
-iv. a word vector for each keyword is created, these are then numerically added and divided by the number of keywords
-v. The vectors from the training corpus are numerically added and divided by 3, this is referred to as the test vector
-vi. This process of keyword identification and vector generation are repeated for each article queried from StarGEO
-vii. The cosine similarity between the test vector and each article is calculated and printed to a file
-5. The most similar 1,10,100,1000 articles are analyzed to see what percentage of the relevant articles were found for each query</p>
+used to build the container is the python:3.8.5 image available on the Docker website <span class="citation" data-cites="TJY8XInf">[<a href="#ref-TJY8XInf" role="doc-biblioref">20</a>]</span>. Running the docker container as pulled from github will run a bash script that performs the following
+steps.
+1. StarGEO is queried to prepare the six queries. The prepareQueryData.py script takes two arguments. The first is a list of GEO identifiers and the second is the query number that these identifiers
+should belong to. PrepareQueryData.py creates a file system that contains all the abstract and titles of the series that correspond to each identifier. The file system will put each text file into the directory for the corresponding
+query.
+2. GetGeoQueries.py is run. This script uses text files generated by GEO to evaluate the performance of GEO. A detailed explanation of this is found below in the manual comparision section.
+3. A do loop iterates over the numbers 10,20, and 30. This numbers are the number of keywords that each model should try to identify from the text. Each iteration performs the following analysis.
+i. Six scripts that correspond to SciSpaCy, BioWordVec, FastTextWiki, SpaCy, FastTextSkipGram, and FastTextCBOW are run. Each of these scripts takes the following three arguments : number of keywords.</p>
 <h2 class="page_break_before" id="results">Results</h2>
 <p>The two main techniques in this paper are keyword identification and word vector generation. Both of these methods are described below.</p>
 <h3 id="keyword-identification">Keyword Identification</h3>

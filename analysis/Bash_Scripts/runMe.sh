@@ -14,8 +14,8 @@ python3 prepareQueryData.py "GSE30699,GSE28424,GSE24401,GSE42903,GSE5045,GSE1608
 
 #python3 getGeoQueries.py
 
-#corpusMaxSize=1000000
-corpusMaxSize=10
+corpusMaxSize=1000000
+#corpusMaxSize=10
 
 #for numKeywords in 10 20 30
 #do

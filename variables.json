@@ -8,12 +8,12 @@
       "Word Vectors"
     ],
     "lang": "en-US",
-    "date-meta": "2021-03-17",
+    "date-meta": "2021-03-23",
     "author-meta": [
       "James Wengler",
       "Stephen Picco"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets\" />\n<meta name=\"citation_title\" content=\"Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets\" />\n<meta property=\"og:title\" content=\"Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets\" />\n<meta property=\"twitter:title\" content=\"Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets\" />\n<meta name=\"dc.date\" content=\"2021-03-17\" />\n<meta name=\"citation_publication_date\" content=\"2021-03-17\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"James Wengler\" />\n<meta name=\"citation_author_institution\" content=\"College of Life Science, Brigham Young University\" />\n<meta name=\"citation_author\" content=\"Stephen Picco\" />\n<meta name=\"citation_author_institution\" content=\"College of Life Science, Brigham Young University\" />\n<link rel=\"canonical\" href=\"https://J-Wengler.github.io/NLP_Paper/\" />\n<meta property=\"og:url\" content=\"https://J-Wengler.github.io/NLP_Paper/\" />\n<meta property=\"twitter:url\" content=\"https://J-Wengler.github.io/NLP_Paper/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://J-Wengler.github.io/NLP_Paper/\" />\n<meta name=\"citation_pdf_url\" content=\"https://J-Wengler.github.io/NLP_Paper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://J-Wengler.github.io/NLP_Paper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://J-Wengler.github.io/NLP_Paper/v/ee2e83e4f6036cc722d3fe2a85b9e43ab7b85b2b/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://J-Wengler.github.io/NLP_Paper/v/ee2e83e4f6036cc722d3fe2a85b9e43ab7b85b2b/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://J-Wengler.github.io/NLP_Paper/v/ee2e83e4f6036cc722d3fe2a85b9e43ab7b85b2b/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets\" />\n<meta name=\"citation_title\" content=\"Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets\" />\n<meta property=\"og:title\" content=\"Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets\" />\n<meta property=\"twitter:title\" content=\"Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets\" />\n<meta name=\"dc.date\" content=\"2021-03-23\" />\n<meta name=\"citation_publication_date\" content=\"2021-03-23\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"James Wengler\" />\n<meta name=\"citation_author_institution\" content=\"College of Life Science, Brigham Young University\" />\n<meta name=\"citation_author\" content=\"Stephen Picco\" />\n<meta name=\"citation_author_institution\" content=\"College of Life Science, Brigham Young University\" />\n<link rel=\"canonical\" href=\"https://J-Wengler.github.io/NLP_Paper/\" />\n<meta property=\"og:url\" content=\"https://J-Wengler.github.io/NLP_Paper/\" />\n<meta property=\"twitter:url\" content=\"https://J-Wengler.github.io/NLP_Paper/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://J-Wengler.github.io/NLP_Paper/\" />\n<meta name=\"citation_pdf_url\" content=\"https://J-Wengler.github.io/NLP_Paper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://J-Wengler.github.io/NLP_Paper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://J-Wengler.github.io/NLP_Paper/v/1336dc8418c99211c2f0594ff12d970a67a8535d/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://J-Wengler.github.io/NLP_Paper/v/1336dc8418c99211c2f0594ff12d970a67a8535d/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://J-Wengler.github.io/NLP_Paper/v/1336dc8418c99211c2f0594ff12d970a67a8535d/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -23,7 +23,7 @@
     "manubot-clear-requests-cache": false
   },
   "manubot": {
-    "date": "March 17, 2021",
+    "date": "March 23, 2021",
     "authors": [
       {
         "github": "J-Wengler",
@@ -59,19 +59,19 @@
       "repo_slug": "J-Wengler/NLP_Paper",
       "repo_owner": "J-Wengler",
       "repo_name": "NLP_Paper",
-      "commit": "ee2e83e4f6036cc722d3fe2a85b9e43ab7b85b2b",
-      "triggering_commit": "ee2e83e4f6036cc722d3fe2a85b9e43ab7b85b2b",
-      "build_url": "https://github.com/J-Wengler/NLP_Paper/commit/ee2e83e4f6036cc722d3fe2a85b9e43ab7b85b2b/checks",
+      "commit": "1336dc8418c99211c2f0594ff12d970a67a8535d",
+      "triggering_commit": "1336dc8418c99211c2f0594ff12d970a67a8535d",
+      "build_url": "https://github.com/J-Wengler/NLP_Paper/commit/1336dc8418c99211c2f0594ff12d970a67a8535d/checks",
       "job_url": "https://github.com/J-Wengler/NLP_Paper/runs/run3"
     },
     "html_url": "https://J-Wengler.github.io/NLP_Paper/",
     "pdf_url": "https://J-Wengler.github.io/NLP_Paper/manuscript.pdf",
-    "html_url_versioned": "https://J-Wengler.github.io/NLP_Paper/v/ee2e83e4f6036cc722d3fe2a85b9e43ab7b85b2b/",
-    "pdf_url_versioned": "https://J-Wengler.github.io/NLP_Paper/v/ee2e83e4f6036cc722d3fe2a85b9e43ab7b85b2b/manuscript.pdf",
+    "html_url_versioned": "https://J-Wengler.github.io/NLP_Paper/v/1336dc8418c99211c2f0594ff12d970a67a8535d/",
+    "pdf_url_versioned": "https://J-Wengler.github.io/NLP_Paper/v/1336dc8418c99211c2f0594ff12d970a67a8535d/manuscript.pdf",
     "manubot_version": "0.4.1",
     "rootstock_commit": "97b294802ffcd39071b6e5b8ab59f60faf4be118",
     "manuscript_stats": {
-      "word_count": 3693
+      "word_count": 3767
     }
   }
 }

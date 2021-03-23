@@ -12,8 +12,10 @@ desined
 embeddings
 FastText
 FastTextCBOW
-FastTextSKIPGRAM
+FastTextSkipGram
 FastTextWiki
+findSimilarity
+FIXME
 genomic
 GetGeoQueries
 Helicase
@@ -38,10 +40,10 @@ PrepareQueryData
 preprocessed
 py
 Relevent
-SciSpacy
+SciSpaCy
 SingleRank
 SKIPGRAM
-Spacy
+SpaCy
 SpacyWebLG
 srp
 StarGEO

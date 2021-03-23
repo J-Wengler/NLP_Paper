@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c439ced-904a-4442-9ec8-d2155cd23b99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/Bash_Scripts/.runMe.sh.swp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/Python_Scripts/helper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/03.methods.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/03.methods.md" afterDir="false" />
     </list>
@@ -113,6 +113,8 @@
       <workItem from="1615924727479" duration="1518000" />
       <workItem from="1615986663360" duration="354000" />
       <workItem from="1616001047796" duration="2534000" />
+      <workItem from="1616416351392" duration="1220000" />
+      <workItem from="1616502389019" duration="2118000" />
     </task>
     <servers />
   </component>

@@ -59,11 +59,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/fd93fa5d313c3990a1e61d208091e7bd0d39f6d9/" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/3964bffa60dcf07c41fa212a248ba4c33351c04e/" />
 
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/fd93fa5d313c3990a1e61d208091e7bd0d39f6d9/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/3964bffa60dcf07c41fa212a248ba4c33351c04e/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/fd93fa5d313c3990a1e61d208091e7bd0d39f6d9/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/3964bffa60dcf07c41fa212a248ba4c33351c04e/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -96,9 +96,9 @@ title: Comparison of Keyword Extraction and Word Vector Generation Methods for U
 
 <small><em>
 This manuscript
-([permalink](https://J-Wengler.github.io/NLP_Paper/v/fd93fa5d313c3990a1e61d208091e7bd0d39f6d9/))
+([permalink](https://J-Wengler.github.io/NLP_Paper/v/3964bffa60dcf07c41fa212a248ba4c33351c04e/))
 was automatically generated
-from [J-Wengler/NLP_Paper@fd93fa5](https://github.com/J-Wengler/NLP_Paper/tree/fd93fa5d313c3990a1e61d208091e7bd0d39f6d9)
+from [J-Wengler/NLP_Paper@3964bff](https://github.com/J-Wengler/NLP_Paper/tree/3964bffa60dcf07c41fa212a248ba4c33351c04e)
 on March 24, 2021.
 </em></small>
 
@@ -233,7 +233,9 @@ embeddings and is usually used to generate document-wide word embeddings [@url:h
 
 ### Manual Gene Expression Omnibus Evaluation
 Gene Expression Omnibus (GEO) is the parent corpus from which StarGEO is derived [@doi:10.1093/nar/30.1.207]. To compare our technique directly to GEO we use a manual technique. We first use the advanced search option on 
-GEO to input the exact queries we used from StarGEO. 
+GEO to input the exact queries we used from StarGEO. To maintain consistency with StarGEO, the results are limited to series and human data. A summary file of all the results is downloaded and analyzed. To ensure equal comparision
+the results are filtered to only include those datasets that exist in StarGEO's corpus. Using the same technique for the StarGEO evaluation the top 1,10,100,500 articles are identified and compared against the relevant articles 
+to identify the number relevant.  
 
 ### Model Evaluation 
 All model evaluation is performed in a Docker container to allow other researchers to perform the same analysis described in this section [@doi:10.1145/2723872.2723882].The Docker image 

@@ -47,9 +47,9 @@
   <meta name="citation_fulltext_html_url" content="https://J-Wengler.github.io/NLP_Paper/" />
   <meta name="citation_pdf_url" content="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/fd93fa5d313c3990a1e61d208091e7bd0d39f6d9/" />
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/fd93fa5d313c3990a1e61d208091e7bd0d39f6d9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/fd93fa5d313c3990a1e61d208091e7bd0d39f6d9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/3964bffa60dcf07c41fa212a248ba4c33351c04e/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/3964bffa60dcf07c41fa212a248ba4c33351c04e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/3964bffa60dcf07c41fa212a248ba4c33351c04e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,9 +63,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://J-Wengler.github.io/NLP_Paper/v/fd93fa5d313c3990a1e61d208091e7bd0d39f6d9/">permalink</a>)
+(<a href="https://J-Wengler.github.io/NLP_Paper/v/3964bffa60dcf07c41fa212a248ba4c33351c04e/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/J-Wengler/NLP_Paper/tree/fd93fa5d313c3990a1e61d208091e7bd0d39f6d9">J-Wengler/NLP_Paper@fd93fa5</a>
+from <a href="https://github.com/J-Wengler/NLP_Paper/tree/3964bffa60dcf07c41fa212a248ba4c33351c04e">J-Wengler/NLP_Paper@3964bff</a>
 on March 24, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -229,7 +229,9 @@ element-wise and then divided by the number of keywords. This technique has been
 embeddings and is usually used to generate document-wide word embeddings <span class="citation" data-cites="YTvwxF00">[<a href="#ref-YTvwxF00" role="doc-biblioref">17</a>]</span>.</p>
 <h3 id="manual-gene-expression-omnibus-evaluation">Manual Gene Expression Omnibus Evaluation</h3>
 <p>Gene Expression Omnibus (GEO) is the parent corpus from which StarGEO is derived <span class="citation" data-cites="14VfbatMA">[<a href="#ref-14VfbatMA" role="doc-biblioref">18</a>]</span>. To compare our technique directly to GEO we use a manual technique. We first use the advanced search option on
-GEO to input the exact queries we used from StarGEO.</p>
+GEO to input the exact queries we used from StarGEO. To maintain consistency with StarGEO, the results are limited to series and human data. A summary file of all the results is downloaded and analyzed. To ensure equal comparision
+the results are filtered to only include those datasets that exist in StarGEO’s corpus. Using the same technique for the StarGEO evaluation the top 1,10,100,500 articles are identified and compared against the relevant articles
+to identify the number relevant.</p>
 <h3 id="model-evaluation">Model Evaluation</h3>
 <p>All model evaluation is performed in a Docker container to allow other researchers to perform the same analysis described in this section <span class="citation" data-cites="heYSKCTA">[<a href="#ref-heYSKCTA" role="doc-biblioref">19</a>]</span>.The Docker image
 used to build the container is the python:3.8.5 image available on the Docker website <span class="citation" data-cites="TJY8XInf">[<a href="#ref-TJY8XInf" role="doc-biblioref">20</a>]</span>. Running the docker container as pulled from github will run a bash script that performs the following

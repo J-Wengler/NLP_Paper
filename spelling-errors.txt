@@ -12,7 +12,7 @@ desined
 embeddings
 FastText
 FastTextCBOW
-FastTextSkipGram
+FastTextSKIPGRAM
 FastTextWiki
 findSimilarity
 FIXME
@@ -36,7 +36,7 @@ PKR
 PositionRank
 PowerEdge
 pre
-prepareQueryData
+PrepareQueryData
 preprocessed
 py
 Relevent

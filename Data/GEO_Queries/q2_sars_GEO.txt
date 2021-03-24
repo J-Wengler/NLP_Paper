@@ -1,0 +1,2054 @@
+1. Host-virus chimeric events in SARS-CoV2 infected cells are infrequent and artifactual
+(Submitter supplied) Pathogenic mechanisms underlying severe SARS-CoV2 infection remain largely unelucidated. High-throughput sequencing technologies that capture genome and transcriptome information are key approaches to gain detailed mechanistic insights from infected cells. These techniques readily detect both pathogen and host-derived sequences, providing a means of studying host-pathogen interactions. Recent studies have reported the presence of host-virus chimeric (HVC) RNA in RNA-seq data from SARS-CoV2 infected cells and interpreted these findings as evidence of viral integration in the human genome as a pathogenic mechanism. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL20301 3 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE167nnn/GSE167131/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA703046
+Series		Accession: GSE167131	ID: 200167131
+
+2. A whole virion vaccine for COVID-19 produced via a novel inactivation method:  results from animal challenge model studies
+(Submitter supplied) The COVID-19 pandemic has generated intense interest in the rapid development and evaluation of vaccine candidates for this disease and other emerging diseases. Several novel methods for preparing vaccine candidates are currently undergoing clinical evaluation in response to the urgent need to prevent the spread of COVID-19. In many cases, these methods rely on new approaches for vaccine production and immune stimulation. more...
+Organism:	Mesocricetus auratus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24490 12 Samples
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165190/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA693519
+Series		Accession: GSE165190	ID: 200165190
+
+3. Expression profiling of SARS-CoV-2 infected patients by RNA-seq
+(Submitter supplied) We have collected nasal cell swab samples from SARS-CoV-2 infected confirmed COVID-19 patients. Both virus and host RNA were extracted and sequenced by RNA-seq. We mapped and assembled virus sequences and in this study transcriptional profile of host due to virus infection.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 4 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE154nnn/GSE154244/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA645534
+Series		Accession: GSE154244	ID: 200154244
+
+4. In severe COVID-19, SARS-CoV-2 induces a chronic, TGF-β-dominated adaptive immune response
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 21 Samples
+FTP download: GEO (CSV, FASTA, H5) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE158nnn/GSE158038/
+Series		Accession: GSE158038	ID: 200158038
+
+5. In severe COVID-19, SARS-CoV-2 induces a chronic, TGF-β-dominated adaptive immune response (Bronchoalveolar lavage)
+(Submitter supplied) Single cell transcriptome, TCR and BCR sequencing of FACS-sorted CD45+ cells of the bronchoalveolar lavages of COVID-19 ICU patients
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 3 Samples
+FTP download: GEO (CSV, FASTA, H5) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE158nnn/GSE158037/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA663840
+Series		Accession: GSE158037	ID: 200158037
+
+6. In severe COVID-19, SARS-CoV-2 induces a chronic, TGF-β-dominated adaptive immune response (Measles-reactive T cells)
+(Submitter supplied) Single cell transcriptome and TCR sequencing of FACS-sorted Measles-reactive memory T cells of the peripheral blood of a healthy donor
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 1 Sample
+FTP download: GEO (CSV, FASTA, H5) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE158nnn/GSE158036/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA663839
+Series		Accession: GSE158036	ID: 200158036
+
+7. In severe COVID-19, SARS-CoV-2 induces a chronic, TGF-β-dominated adaptive immune response (Activated B cells, Set 2)
+(Submitter supplied) Single cell transcriptome and BCR sequencing of FACS-sorted activated B cells of the peripheral blood of COVID-19 ICU patients and healthy controls
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 4 Samples
+FTP download: GEO (CSV, FASTA, H5) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE158nnn/GSE158034/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA663838
+Series		Accession: GSE158034	ID: 200158034
+
+8. In severe COVID-19, SARS-CoV-2 induces a chronic, TGF-β-dominated adaptive immune response (Activated B cells, set 1)
+(Submitter supplied) Single cell transcriptome and BCR sequencing of FACS-sorted activated B cells of the peripheral blood of COVID-19 ICU patients and healthy controls
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 13 Samples
+FTP download: GEO (CSV, FASTA, H5) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE158nnn/GSE158030/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA663837
+Series		Accession: GSE158030	ID: 200158030
+
+9. SARS-CoV-2 Oropharyngeal and Nasopharyngeal samples
+(Submitter supplied) Microbiome analysis of oropharyngeal and nasopharyngeal samples of SARS-CoV-2 infected patients
+Organism:	Homo sapiens; Severe acute respiratory syndrome coronavirus 2; human metagenome
+Type:		Other
+Platform: GPL29680 33 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE166nnn/GSE166281/
+Series		Accession: GSE166281	ID: 200166281
+
+10. Transcriptomic characteristics and impaired immune function of patients who retest positive for SARS-CoV-2 RNA
+(Submitter supplied) The coronavirus disease 2019 (COVID-19), caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), has gradually become a global public health crisis. Some patients who have recovered from COVID-19 subsequently tested positive again for SARS-CoV-2 after discharge (retesting-positive, RTP). However, the underlying mechanism is unknown. Here, 10 RTP patients, 6 convalescent patients, and 10 healthy controls were enrolled for analysis of the immunological characteristics of their peripheral blood mononuclear cells (PBMCs). more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL20795 26 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE166nnn/GSE166253/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA699856
+Series		Accession: GSE166253	ID: 200166253
+
+11. Large-scale single-cell analysis reveals critical immune characteristics of COVID-19 patients
+(Submitter supplied) We profiled scRNA-seq of 284 samples collected from 196 individuals, including 22 patients with mild/moderate symptoms, 54 hospitalized patients with severe symptoms, and 95 recovered convalescent persons, as well as 25 healthy controls. The samples were obtained from various tissue types, including human peripheral blood mononuclear cells (249), bronchoalveolar lavage fluid (12) and pleural pleural effusion (1)/sputum (22).
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL28038 GPL24676 284 Samples
+FTP download: GEO (CSV, MTX, XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE158nnn/GSE158055/
+Series		Accession: GSE158055	ID: 200158055
+
+12. Interferon-regulated genetic programs and JAK/STAT pathway activate the intronic promoter of the short ACE2 isoform in renal proximal tubules [RNA-seq]
+(Submitter supplied) Angiotensin-Converting Enzyme 2 (ACE2) binds SARS-CoV-2 spike protein and facilitates viral entry into the cell. ACE2 is expressed in the kidney and renal injury strongly impacts COVID-19 prognosis. In addition, a short, interferon-inducible isoform of ACE2, dACE2 was recently identified. Change in ACE2 expression has already been linked to several human nephropathies. However, these changes were not analyzed in context of dACE2 and regulation of ACE2 expression in the kidney remains unclear. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL21290 15 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE161nnn/GSE161916/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA679897
+Series		Accession: GSE161916	ID: 200161916
+
+13. Interferon-regulated genetic programs and JAK/STAT pathway activate the intronic promoter of the short ACE2 isoform in renal proximal tubules [ChIP-seq]
+(Submitter supplied) Angiotensin-Converting Enzyme 2 (ACE2) binds SARS-CoV-2 spike protein and facilitates viral entry into the cell. ACE2 is expressed in the kidney and renal injury strongly impacts COVID-19 prognosis. In addition, a short, interferon-inducible isoform of ACE2, dACE2 was recently identified. Change in ACE2 expression has already been linked to several human nephropathies. However, these changes were not analyzed in context of dACE2 and regulation of ACE2 expression in the kidney remains unclear. more...
+Organism:	Homo sapiens
+Type:		Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL21290 12 Samples
+FTP download: GEO (TDF) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE161nnn/GSE161915/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA679898
+Series		Accession: GSE161915	ID: 200161915
+
+14. Gene expression of SARS-CoV-2-infected Vero E6 cells with remdesivir treatment
+(Submitter supplied) RNA sequencing was performed on control and SARS-CoV-2 infected Vero E6 cells, with or without remdesivir treatment to study the biological changes after SARS-CoV-2 infection and to evaluate the effectiveness of remdesivir on the gene expression level. 500,000 Vero E6 cells were seeded in 6-well plates. The following day, the cell medium was replaced with fresh medium supplemented with either DMSO or 1 µM remdesivir, and cells were either mock-infected or infected with SARS-CoV-2 USA-WA1/2020 (MOI=0.3), with three replicates per experimental condition. more...
+Organism:	Chlorocebus sabaeus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL28836 12 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165955/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA698644
+Series		Accession: GSE165955	ID: 200165955
+
+15. Reduced Nucleoprotein availability impairs negative-sense RNA virus replication and promotes host recognition
+(Submitter supplied) Negative-sense RNA viruses (NSVs) rely on prepackaged viral RNA-dependent RNA polymerases (RdRp) to replicate and transcribe their viral genomes. Their replication machinery consists of an RdRp bound to viral RNA which is wound around a nucleoprotein (NP) scaffold, forming a viral ribonucleoprotein complex. NSV NP is known to regulate transcription and replication of genomic RNA, however its role in maintaining and protecting the viral genetic material is unknown. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Other
+Platform: GPL18573 27 Samples
+FTP download: GEO (TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165340/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA694127
+Series		Accession: GSE165340	ID: 200165340
+
+16. Clofazimine is a broad-spectrum coronavirus inhibitor that antagonizes SARS-CoV-2 replication in primary human cell culture and hamsters
+(Submitter supplied) COVID-19 is the third outbreak of zoonotic coronavirus (CoV) of the century after the epidemic Severe acute respiratory syndrome CoV (SARS-CoV) in 2003 and Middle East respiratory syndrome CoV (MERS-CoV) in 2012. Treatment options for CoVs are largely lacking. Here, we show that clofazimine, an anti-leprosy drug with favorable safety and pharmacokinetics profile, possesses pan-coronaviral inhibitory activity, and can antagonize SARS-CoV-2 replication in multiple in vitro systems, including the human embryonic stem cell-derived cardiomyocytes and ex vivo lung cultures. more...
+Organism:	Homo sapiens; Severe acute respiratory syndrome coronavirus 2; Mesocricetus auratus
+Type:		Expression profiling by high throughput sequencing
+4 related Platforms 39 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162899/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA683662
+Series		Accession: GSE162899	ID: 200162899
+
+17. A single-dose intranasal vaccination elicits systemic and mucosal immunity against SARS-CoV-2
+(Submitter supplied) Comparison of the NALT from two groups of mice immunized with and without a liposomally formulated adjuvant
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL21103 1 Sample
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE155nnn/GSE155536/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA650199
+Series		Accession: GSE155536	ID: 200155536
+
+18. Modified Vaccinia Ankara Vector-Based Vaccine Protects Macaques from SARS-CoV-2 Infection, Immune Pathology and Dysfunction in the Lung
+(Submitter supplied) Study show that modified vaccinia Ankara (MVA)-based COVID-19 vaccine expressing membrane anchored pre-fusion stabilized spike (MVA/S) induces both neutralizing antibodies and CD8+ T cells in the blood and lung and protects from SARS-CoV-2 challenge. Single-cell RNA sequencing analysis of lung cells at day 4 post-infection revealed that MVA/S vaccination also protected macaques from infection-induced inflammation and B cell abnormalities, and lowered induction of interferon stimulated genes.
+Organism:	Macaca mulatta
+Type:		Expression profiling by high throughput sequencing; Other
+Platform: GPL27943 6 Samples
+FTP download: GEO (TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165747/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA695575
+Series		Accession: GSE165747	ID: 200165747
+
+19. SARS-CoV-2 infection of human pancreatic islets
+(Submitter supplied) We performed RNA-sequencing in uninfected, SARS-CoV-2-infected, and additionally remdesivir treated ex vivo cultured human islets from two donors to shed light on the transcriptional changes occurring upon viral infection.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL20301 6 Samples
+FTP download: GEO (TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159717/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA670242
+Series		Accession: GSE159717	ID: 200159717
+
+20. Transcriptome analysis of SARS-CoV-2 infected H522 human lung adenocarcinoma cells
+(Submitter supplied) Purpose:  The goal of this study is to define the transcriptional response of H522 cells to SARS-CoV-2 infection. Methods:H522 cells were infected with SARS-CoV-2 at varying multiplicities of infection and samples processed for RNA-seq at 4, 24, 48, 72 and 96 hours post-infection. Results: We provide the transcriptomic and translatomic landscape of SARS-CoV-2-infected H522 cells from multiple RNA-seq libraries. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 48 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE163nnn/GSE163547/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA686659
+Series		Accession: GSE163547	ID: 200163547
+
+21. Single-cell RNA-seq of air-liquid interface bronchioalveolar cells
+(Submitter supplied) Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), which causes coronavirus disease 2019 (COVID-19), may result in acute respiratory distress syndrome (ARDS), multi-organ failure and death. The alveolar epithelium is a major target of the virus, but representative models to study virus host interactions in more detail are currently lacking. Here, we describe a human 2D air-liquid interface culture system which was characterized by confocal-, electron-microscopy and single cell mRNA expression analysis. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 1 Sample
+FTP download: GEO (TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE161nnn/GSE161934/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA679844
+Series		Accession: GSE161934	ID: 200161934
+
+22. Male sex and age biases viral burden, viral shedding, and type 1 and 2 interferon responses during SARS-CoV-2 infection in ferrets
+(Submitter supplied) Adult female and aged male ferrets were inefcted with SARS-CoV-2. Nasal turbinates, the right cranial lung, and right caudal lung were collected on Day 2, 7, 14, and 21 after infection. Tissues were collected from uninfected animals as control. RNA was isolated and used for analysis of the transcriptome to determine any effects on gene regulation during SARS-CoV-2 infection from age or sex.
+Organism:	Mustela putorius furo
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL28629 79 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE160nnn/GSE160824/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA674598
+Series		Accession: GSE160824	ID: 200160824
+
+23. Deciphering the state of immune silence in fatal COVID-19 patients
+(Submitter supplied) Since the beginning of the SARS-CoV-2 pandemic, COVID-19 has appeared as a unique disease with unconventional tissue and systemic immune features. While COVID-19 severe forms share clinical and laboratory aspects with various pathologies such as hemophagocytic lymphohistiocytosis, sepsis or cytokine release syndrome, their exact nature remains unknown. This is severely impeding the ability to treat patients facing severe stages of the disease. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 54 Samples
+FTP download: GEO (TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE157nnn/GSE157344/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA661032
+Series		Accession: GSE157344	ID: 200157344
+
+24. Single cell sequencing of whole eye organoids to identify ocular cell susceptible to infection with SARS-CoV2 and the viral response in infected cells
+(Submitter supplied) We diffrenciated organoid cultures reprecenting ocular cell, from human pluipotent stem cells (hPSCs). The organoids were grown following a protocol for self-formed ectodermal autonomous multizone (SEAM) where the different orcular cells will form in concentric circles (zone) representing surface ectoderm, cornea, RPE, neural progenitors, dorsal optic cup and periocular mesenchyme.   We use this eye organoid to investigate whether the ocular surface is sucessable to infection with SARC-CoV-2. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 2 Samples
+FTP download: GEO (HTML, MTX, RDS, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165477/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA694670
+Series		Accession: GSE165477	ID: 200165477
+
+25. A Multiplexed, Next-Generation Sequencing Platform for High-Throughput Detection of SARS-CoV-2
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	synthetic construct; synthetic RNA; Homo sapiens
+Type:		Other
+6 related Platforms 2932 Samples
+FTP download: GEO ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE160nnn/GSE160036/
+Series		Accession: GSE160036	ID: 200160036
+
+26. A Multiplexed, Next-Generation Sequencing Platform for High-Throughput Detection of SARS-CoV-2 [extended cohort]
+(Submitter supplied) Population scale sweeps of viral pathogens, such as SARS-CoV-2, require high intensity testing for effective management. However, reliable systems affording parallel testing of thousands of patients for pathogen infection have not yet been routinely employed. Here we describe “Systematic Parallel Analysis of RNA coupled to Sequencing for Covid-19 screening” (C19-SPAR-Seq), a multiplexed, readily automated platform for SARS-CoV-2 detection capable of analyzing tens of thousands of patient samples in a single instrument run. more...
+Organism:	synthetic construct; synthetic RNA; Homo sapiens
+Type:		Other
+Platforms: GPL29299 GPL27609 GPL21697 1702 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE160nnn/GSE160034/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA671693
+Series		Accession: GSE160034	ID: 200160034
+
+27. A Multiplexed, Next-Generation Sequencing Platform for High-Throughput Detection of SARS-CoV-2 [pilot cohort]
+(Submitter supplied) Population scale sweeps of viral pathogens, such as SARS-CoV-2, require high intensity testing for effective management. However, reliable systems affording parallel testing of thousands of patients for pathogen infection have not yet been routinely employed. Here we describe “Systematic Parallel Analysis of RNA coupled to Sequencing for Covid-19 screening” (C19-SPAR-Seq), a multiplexed, readily automated platform for SARS-CoV-2 detection capable of analyzing tens of thousands of patient samples in a single instrument run. more...
+Organism:	Homo sapiens; synthetic RNA; synthetic construct
+Type:		Other
+Platforms: GPL21697 GPL29299 GPL27609 862 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE160nnn/GSE160033/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA671689
+Series		Accession: GSE160033	ID: 200160033
+
+28. A Multiplexed, Next-Generation Sequencing Platform for High-Throughput Detection of SARS-CoV-2 [test cohort]
+(Submitter supplied) Population scale sweeps of viral pathogens, such as SARS-CoV-2, require high intensity testing for effective management. However, reliable systems affording parallel testing of thousands of patients for pathogen infection have not yet been routinely employed. Here we describe “Systematic Parallel Analysis of RNA coupled to Sequencing for Covid-19 screening” (C19-SPAR-Seq), a multiplexed, readily automated platform for SARS-CoV-2 detection capable of analyzing tens of thousands of patient samples in a single instrument run. more...
+Organism:	synthetic construct; synthetic RNA; Homo sapiens
+Type:		Other
+Platforms: GPL17769 GPL27028 GPL15520 316 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE160nnn/GSE160032/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA671682
+Series		Accession: GSE160032	ID: 200160032
+
+29. A Multiplexed, Next-Generation Sequencing Platform for High-Throughput Detection of SARS-CoV-2 [PoC cohort]
+(Submitter supplied) Population scale sweeps of viral pathogens, such as SARS-CoV-2, require high intensity testing for effective management. However, reliable systems affording parallel testing of thousands of patients for pathogen infection have not yet been routinely employed. Here we describe “Systematic Parallel Analysis of RNA coupled to Sequencing for Covid-19 screening” (C19-SPAR-Seq), a multiplexed, readily automated platform for SARS-CoV-2 detection capable of analyzing tens of thousands of patient samples in a single instrument run. more...
+Organism:	Homo sapiens; synthetic RNA
+Type:		Other
+Platforms: GPL27028 GPL15520 52 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE160nnn/GSE160031/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA671680
+Series		Accession: GSE160031	ID: 200160031
+
+30. Global Absence and Targeting of Protective Immune States in Severe COVID-19
+(Submitter supplied) While SARS-CoV-2 infection has pleiotropic and systemic effects in some patients, many others experience milder symptoms. We sought a holistic understanding of the severe/mild distinction in COVID-19 pathology, and its origins. We performed a whole-blood preserving single-cell analysis protocol to integrate contributions from all major cell types including neutrophils, monocytes, platelets, lymphocytes and the contents of serum. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 38 Samples
+FTP download: GEO (MTX, TSV, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE163nnn/GSE163668/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA688684
+Series		Accession: GSE163668	ID: 200163668
+
+31. Adult Stem Cell-derived Complete Lung Organoid Models Emulate Lung Disease in COVID-19
+(Submitter supplied) SARS-CoV-2, the virus responsible for COVID-19, causes widespread damage in the lungs in the setting of an overzealous immune response whose origin remains unclear. We present a scalable, propagable, personalized, cost-effective adult stem cell-derived human lung organoid model that is complete with both proximal and distal airway epithelia. Monolayers derived from adult lung organoids (ALOs),  primary airway cells, or hiPSC-derived alveolar type-II (AT2) pneumocytes were infected with SARS-CoV-2 to create in vitro lung models of COVID-19. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 33 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165200/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA693539
+Series		Accession: GSE165200	ID: 200165200
+
+32. BRD2 inhibition blocks SARS-CoV-2 infection by reducing transcription of the host cell receptor ACE2
+(Submitter supplied) We performed RNA sequencing of Calu-3 cells after treatment with the BET-domain inhibitors JQ-1 and ABBV-744 as well as BRD2 CRISPRi knockdown. We also included CRISPRi knockdown of two other validated hit genes from our screen, COMP and ACE2.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL20301 16 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165025/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA692987
+Series		Accession: GSE165025	ID: 200165025
+
+33. Alarmin S100A8/A9 mediates activation of aberrant neutrophils in the pathogenesis of COVID-19
+(Submitter supplied) To characterize the early immune responses against coronavirus infection, we infected rhesus macaques and hACE2 transgenic mice with SARS-CoV-2 and analyzed the transcriptome of infected and non-infected animals. We infected WT mice with IAV as a normal respiratory virus group. During analysis, we found that S100A8 was dramatically upregulated by SARS-CoV-2 and a mouse coronavirus (mouse hepatitis virus, MHV), but not by other tested viruses. more...
+Organism:	Macaca mulatta; Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL13112 GPL14954 44 Samples
+FTP download: GEO (XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE158nnn/GSE158297/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA664767
+Series		Accession: GSE158297	ID: 200158297
+
+34. Dysregulated transcriptional responses to SARS-CoV-2 in the periphery support novel diagnostic approaches
+(Submitter supplied) In order to elucidate novel aspects of the host response to SARS-CoV-2 we performed RNA sequencing on 77 peripheral blood samples across 46 subjects with COVID-19 and compared them to subjects with seasonal coronavirus, influenza, bacterial pneumonia, and healthy controls. The transcriptome in peripheral blood reveals unique aspects of the immune response in COVID-19 and provides for novel biomarker-based approaches to diagnosis.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 198 Samples
+FTP download: GEO (CSV, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE161nnn/GSE161731/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA679264
+Series		Accession: GSE161731	ID: 200161731
+
+35. SARS-CoV-2 infection dynamics in lungs of African green monkeys
+(Submitter supplied) Detailed knowledge about dynamics of SARS-CoV-2 infection in vivo is important for unraveling the viral and host response factors that contribute to COVID-19 pathogenesis. The unknown dose and exposure timing in human infections makes the needed well-controlled time course studies impossible and thus animal models of disease are essential to fill in the gaps in our understanding of disease progression. more...
+Organism:	Chlorocebus aethiops
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL29061 20 Samples
+FTP download: GEO (TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE156nnn/GSE156755/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA658976
+Series		Accession: GSE156755	ID: 200156755
+
+36. Single-cell RNA sequencing of human nasal swab from COVID-19 patient
+(Submitter supplied) Understanding on pathogenesis of COVID-19 is rapidly growing, but primary target cells of SARS-CoV-2 infection is still not known. Here, we performed single cell RNA sequencing on human nasal swab from COVID-19 patient to investigate the expression patterns of host cell entry factors of SARS-CoV-2.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL20795 6 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE164nnn/GSE164547/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA691164
+Series		Accession: GSE164547	ID: 200164547
+
+37. Complete in vivo SHAPE-MaP structure of the SARS-CoV-2 genome
+(Submitter supplied) SHAPE-MaP structure probing experiment was performed on SARS-CoV-2 infected Vero cells at 4 days post infection with two biological replicates. For each replciate, SHAPE-MaP includes a sample treated with 2-methylnicotinic acid imidazolide acid (modified) or a minue reagent (unmodified). NAI preferentially reacts with unpaired bases in RNA, forming acylated bases. These modifications are encoded as mutation during reverse transcripatse and library preparation. more...
+Organism:	Severe acute respiratory syndrome coronavirus 2
+Type:		Other
+Platform: GPL28588 4 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE154nnn/GSE154171/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA645342
+Series		Accession: GSE154171	ID: 200154171
+
+38. Outcome of SARS-CoV-2 infection is linked to MAIT cell activation and cytotoxicity
+(Submitter supplied) Immune system dysfunction is paramount in Coronavirus disease 2019 (COVID-19) severity and fatality rate. MAIT cells are innate-like T cells involved in mucosal immunity and protection against viral infections. Here, we studied the immune cell landscape, with emphasis on MAIT cells, in cohorts of 208 patients at various stages of disease activity. MAIT cell frequency is strongly reduced in blood. They display a strong activated and cytotoxic phenotype that is more pronounced in lungs. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 8 Samples
+FTP download: GEO (TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE164nnn/GSE164386/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA690513
+Series		Accession: GSE164386	ID: 200164386
+
+39. Epithelial response to IFN-γ promotes SARS-CoV-2 infection
+(Submitter supplied) SARS-CoV-2, the agent causing COVID-19, invades epithelial cells, including those of the respiratory and gastrointestinal mucosa, using angiotensin-converting enzyme-2 (ACE2) as a receptor. Subsequent inflammation can promote rapid virus clearance. However, severe cases of COVID-19 are characterized by an inefficient immune response that fails to clear infection.  Using primary epithelial organoids from the colon, we explored how IFN-γ, a central antiviral mediator elevated in COVID-19, affects differentiation, ACE2 expression, and infectivity with SARS-CoV-2. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL21272 8 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE156nnn/GSE156544/
+Series		Accession: GSE156544	ID: 200156544
+
+40. Single-cell RNA sequencing of human nasal mucosa
+(Submitter supplied) Understanding on pathogenesis of COVID-19 is rapidly growing, but primary target cells of SARS-CoV-2 infection is still not known. Here, we performed single cell RNA sequencing on human nasal mucosa tissue to investigate the expression patterns of host cell entry factors of SARS-CoV-2.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL20795 1 Sample
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE155nnn/GSE155113/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA648499
+Series		Accession: GSE155113	ID: 200155113
+
+41. Single-cell RNA sequencing of golden hamster upper respiratory tract (nasal mucosa and trachea), lung, kidney and small intestine
+(Submitter supplied) Full understanding of the pathophysiology of COVID-19 is critical for adequate treatment and development of vaccine and therapeutics. Although Golden hamster has been emerged as animal model of COVID-19, it is unknown how SARS-CoV-2 enters and infects targeted epithelial cells at molecular and cellular levels. Here, by applying single cell RNA sequencing in the upper respiratory tract, lung, kidney and intestine of golden hamster, we show that the expression profiles of host factors for SARS-CoV-2 infection in specific cell types are similar to that of human. more...
+Organism:	Mesocricetus auratus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL28882 4 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE154nnn/GSE154564/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA646705
+Series		Accession: GSE154564	ID: 200154564
+
+42. Identification of Lead Drug Candidates for COVID-19 based on Drug Screening Using Human Pluripotent Stem Cell-Derived Cells/Organoids
+(Submitter supplied) We systematically probed which cell types are permissive to SARS-CoV-2 infection. Transcriptomic analysis following SARS-CoV-2 infection of hPSC-derived lung organoids revealed upregulation of chemokines but not type I/III interferon signaling, similar to what was seen in primary human COVID-19 pulmonary infection.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 6 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE148nnn/GSE148697/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA625444
+Series		Accession: GSE148697	ID: 200148697
+
+43. Identification of Drugs Blocking SARS-CoV-2 Infection using Human Pluripotent Stem Cell-derived Colonic Organoids
+(Submitter supplied) We systematically probed which cell types in the colon are permissive to SARS-CoV-2 infection. Transcriptomic analysis following SARS-CoV-2 infection of hPSC-derived colon organoids revealed upregulation of chemokines but not type I/III interferon signaling. A large small molecule screen was also performed.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 4 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE148nnn/GSE148696/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA625446
+Series		Accession: GSE148696	ID: 200148696
+
+44. Response to SARS-CoV-2 infection in cornea, limbus and sclera from human donors
+(Submitter supplied) Here we report the transcriptional response to SARS-CoV-2 in cornea, limbus and sclera from human cadaver donor tissue. All three tissues are characterized by an NFkB-mediated chemokine response to viral infection as well as type-I interferon stimulated genes.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 18 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE164nnn/GSE164073/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA688734
+Series		Accession: GSE164073	ID: 200164073
+
+45. Cepharanthine shows antiviral activities by modulating cellular stress responses triggered by a SARS-CoV2 related coronavirus
+(Submitter supplied) Antiviral therapies targeting the pandemic coronavirus disease 2019 (COVID 19) are urgently required. We studied an already approved botanical drug cepharanthine (CEP) in a cell culture model of GX_P2V, a severe acute respiratory syndrome coronavirus 2 (SARS CoV 2) related virus. RNA sequencing results showed the virus perturbed the expression of multiple cell stress responses such as endoplasmic reticulum (stress and HSF1 mediated heat shock response related genes and signaling pathways, of which heat shock response related genes and pathways were at the core. more...
+Organism:	Chlorocebus sabaeus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18770 12 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE158nnn/GSE158050/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA663855
+Series		Accession: GSE158050	ID: 200158050
+
+46. Human lung organoid for modeling infection and disease conditions (Lung II)
+(Submitter supplied) We sought to define the host immune response, a.k.a, the “cytokine storm” that has been implicated in fatal COVID-19 using an AI-based approach. Over 45,000 publicly available transcriptomic datasets of viral pandemics were analyzed to extract a 166-gene signature using ACE2 as a ‘seed’ gene; ACE2 was rationalized because the receptor it encodes enables the virus that causes Covid-19, SARS-CoV-2, to enter host cells. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 17 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE157nnn/GSE157057/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA659990
+Series		Accession: GSE157057	ID: 200157057
+
+47. Human lung organoid for modeling infection and disease conditions (Lung I)
+(Submitter supplied) We sought to define the host immune response, a.k.a, the “cytokine storm” that has been implicated in fatal COVID-19 using an AI-based approach. Over 45,000 publicly available transcriptomic datasets of viral pandemics were analyzed to extract a 166-gene signature using ACE2 as a ‘seed’ gene; ACE2 was rationalized because the receptor it encodes enables the virus that causes Covid-19, SARS-CoV-2, to enter host cells. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL20301 7 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE157nnn/GSE157055/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA659992
+Series		Accession: GSE157055	ID: 200157055
+
+48. SARSeq, a robust and highly multiplexed NGS assay for parallel detection of SRAS-CoV2 and other respiratory infections
+(Submitter supplied) During a pandemic, mitigation as well as protection of system-critical or vulnerable institutions requires massively parallel, yet cost-effective testing to monitor the spread of agents such as the current SARS-CoV2 virus. Here we present SARSeq, saliva analysis by RNA sequencing, as an approach to monitor presence of SARS-CoV2 and other respiratory viruses performed on tens of thousands of samples in parallel. more...
+Organism:	Homo sapiens
+Type:		Other
+Platforms: GPL21697 GPL15520 10 Samples
+FTP download: GEO (XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE163nnn/GSE163688/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA687171
+Series		Accession: GSE163688	ID: 200163688
+
+49. Low avidity T cell responses to SARS-CoV-2 in unexposed individuals and severe COVID-19
+(Submitter supplied) Pre-existing memory T-cells against SARS-CoV-2 are present in a fraction of unexposed individuals and their induction by common cold corona viruses (CCCoVs) infection is suggested. Here we demonstrate that SARS-CoV-2-reactive T-cells were present in the memory compartment of virtually all unexposed individuals but possessed only low functional avidity. They harbored multiple, highly variable cross-reactivities that were not restricted to CCCoVs. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 40 Samples
+FTP download: GEO (CSV, MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162086/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA680539
+Series		Accession: GSE162086	ID: 200162086
+
+50. Genome-scale deconvolution of RNA structure ensembles
+(Submitter supplied) RNA structure heterogeneity is a major challenge when querying RNA structures with chemical probing. We introduce DRACO, an algorithm for the deconvolution of coexisting RNA conformations from mutational profiling experiments. Analysis of the SARS-CoV-2 genome using dimethyl sulfate mutational profiling with sequencing (DMS-MaPseq) and DRACO, identifies multiple regions that fold into two mutually exclusive conformations, including a conserved structural switch in the 3′ untranslated region. more...
+Organism:	Severe acute respiratory syndrome coronavirus 2
+Type:		Other
+Platform: GPL28588 2 Samples
+FTP download: GEO (JSON, TAR, WIG) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE158nnn/GSE158052/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA663861
+Series		Accession: GSE158052	ID: 200158052
+
+51. Distinct mechanisms for TMPRSS2 expression explain organ-specific inhibition of SARS-CoV-2 infection by enzalutamide
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Homo sapiens
+Type:		Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL24676 9 Samples
+FTP download: GEO (BW, NARROWPEAK) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE163nnn/GSE163632/
+Series		Accession: GSE163632	ID: 200163632
+
+52. Distinct mechanisms for TMPRSS2 expression explain organ-specific inhibition of SARS-CoV-2 infection by enzalutamide [ATAC-Seq]
+(Submitter supplied) The coronavirus disease 2019 (COVID-19) pandemic, caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), has rapidly become a global public health threat due to the lack of effective drugs or vaccines against SARS-CoV-2. The efficacy of several repurposed drugs has been evaluated in clinical trials. Among these drugs, a second second-generation antiandrogen agent, enzalutamide, was proposed because it reduces the expression of transmembrane serine protease 2 (TMPRSS2), a key component mediating SARS-CoV-2-driven entry into host cells, in prostate cancer cells. more...
+Organism:	Homo sapiens
+Type:		Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL24676 4 Samples
+FTP download: GEO (BW, NARROWPEAK) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE163nnn/GSE163624/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA686970
+Series		Accession: GSE163624	ID: 200163624
+
+53. Distinct mechanisms for TMPRSS2 expression explain organ-specific inhibition of SARS-CoV-2 infection by enzalutamide [ChIP-Seq]
+(Submitter supplied) The coronavirus disease 2019 (COVID-19) pandemic, caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), has rapidly become a global public health threat due to the lack of effective drugs or vaccines against SARS-CoV-2. The efficacy of several repurposed drugs has been evaluated in clinical trials. Among these drugs, a second second-generation antiandrogen agent, enzalutamide, was proposed because it reduces the expression of transmembrane serine protease 2 (TMPRSS2), a key component mediating SARS-CoV-2-driven entry into host cells, in prostate cancer cells. more...
+Organism:	Homo sapiens
+Type:		Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL24676 5 Samples
+FTP download: GEO (BW, NARROWPEAK) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE163nnn/GSE163623/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA686969
+Series		Accession: GSE163623	ID: 200163623
+
+54. Host transcriptomic profiling of COVID-19 patients with mild, moderate, and severe clinical outcomes
+(Submitter supplied) We perform shotgun transcriptome sequencing of human RNA obtained from nasopharyngeal swabs of patients with COVID-19, and identify a molecular signature associated with disease severity
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 50 Samples
+FTP download: GEO (XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162835/
+Series		Accession: GSE162835	ID: 200162835
+
+55. COVID-19 ARDS is characterized by a dysregulated host response that differs from cytokine storm and is moderated by dexamethasone
+(Submitter supplied) We compared differential gene expression in tracheal aspirates collected mechanically ventilated subjects with COVID-19 ARDS to gene expression in tracheal aspirates from: 1)  subjects with ARDS from other casues and 2) mechanically ventilated controls without evidence of pulmonary disease.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 52 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE163nnn/GSE163426/
+Series		Accession: GSE163426	ID: 200163426
+
+56. Genomic RNA elements drive phase separation of the SARS-CoV-2 nucleocapsid
+(Submitter supplied) We report that the SARS-CoV-2 nucleocapsid protein (N-protein) undergoes liquid-liquid phase separation (LLPS) with viral RNA. N-protein condenses with specific RNA genomic elements under physiological buffer conditions and condensation is enhanced at human body temperatures (33°C and 37°C) and reduced at room temperature (22°C). RNA sequence and structure in specific genomic regions regulate N-protein condensation while other genomic regions promote condensate dissolution, potentially preventing aggregation of the large genome. more...
+Organism:	Severe acute respiratory syndrome coronavirus 2
+Type:		Other
+Platform: GPL28866 27 Samples
+FTP download: GEO (CT, FASTA, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162569/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA682223
+Series		Accession: GSE162569	ID: 200162569
+
+57. A diagnostic host response biosignature for COVID-19 from RNA profiling of nasal swabs and blood
+(Submitter supplied) To elucidate key pathways in the host transcriptome of patients infected with SARS-CoV-2, we used RNA sequencing (RNA Seq) to analyze nasopharyngeal (NP) swab and whole blood (WB) samples from 333 COVID-19 patients and controls, including patients with other viral and bacterial infections. Analyses of differentially expressed genes (DEGs) and pathways was performed relative to other infections (e.g. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 404 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE163nnn/GSE163151/
+Series		Accession: GSE163151	ID: 200163151
+
+58. Innate and adaptive immune responses to SARS-CoV-2 in Syrian hamsters disclosed by single-cell sequencing and high-throughput proteomics
+(Submitter supplied) We describe the cellular response to SARS-CoV-2 infections in lung and blood of Syrian gold hamsters Single-cell RNA-sequencing and proteomics was performed from lung and blood of infected animals at different time points post infection
+Organism:	Mesocricetus auratus
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL28997 GPL24490 59 Samples
+FTP download: GEO (GTF, H5, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162208/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA681002
+Series		Accession: GSE162208	ID: 200162208
+
+59. Androgen Regulates SARS-CoV-2 Receptor Levels and Is Associated with Severe COVID-19 Symptoms in Men
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL24676 GPL20301 17 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE161nnn/GSE161264/
+Series		Accession: GSE161264	ID: 200161264
+
+60. Androgen Regulates SARS-CoV-2 Receptor Levels and Is Associated with Severe COVID-19 Symptoms in Men [scRNA-Seq]
+(Submitter supplied) Here, we established a high-throughput drug screening strategy to identify therapeutic candidates that reduce ACE2 levels in human embryonic stem cell (hESC) derived cardiac cells and lung organoids. Drug target analysis of validated hit compounds, including 5 alpha reductase inhibitors, revealed androgen signaling as a key modulator of ACE2 levels. Treatment with antiandrogenic drugs reduced ACE2 expression in both human cardiac and lung epithelial cells and protected hESC-derived lung organoids against SARS-CoV-2 infection. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 3 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE161nnn/GSE161263/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA677825
+Series		Accession: GSE161263	ID: 200161263
+
+61. Androgen Regulates SARS-CoV-2 Receptor Levels and Is Associated with Severe COVID-19 Symptoms in Men [bulk RNA-Seq]
+(Submitter supplied) Here, we established a high-throughput drug screening strategy to identify therapeutic candidates that reduce ACE2 levels in human embryonic stem cell (hESC) derived cardiac cells and lung organoids. Drug target analysis of validated hit compounds, including 5 alpha reductase inhibitors, revealed androgen signaling as a key modulator of ACE2 levels. Treatment with antiandrogenic drugs reduced ACE2 expression in both human cardiac and lung epithelial cells and protected hESC-derived lung organoids against SARS-CoV-2 infection. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL20301 14 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE161nnn/GSE161262/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA677826
+Series		Accession: GSE161262	ID: 200161262
+
+62. Longitudinal multi-omics identifies responses of megakaryocytes, erythroid cells and plasmablasts as hallmarks of severe COVID-19 trajectories [sequencing]
+(Submitter supplied) In order to characterise the temporal dynamics of host response during COVID-19, we performed a longitudinal multi-omics study using a two centre German cohort of 13 patients. Bulk RNA was extracted from peripheral blood sampled at up to 5 time points per patient. At each sample point, a patient’s disease trajectory, “pseudotime”, was categorised according to clinical parameters.  Both, whole transcriptome and B cell receptor sequence analysis was used to determine signatures specific to different disease trajectories. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL24676 GPL15520 101 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE161nnn/GSE161777/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA679331
+Series		Accession: GSE161777	ID: 200161777
+
+63. Transcriptomic Similarities and Differences in Host Response between SARS-CoV-2 and Other Viral Infection
+(Submitter supplied) COVID-19 is a pandemic that shares only certain clinical characteristics with other acute viral infections. Here, we studied the whole-blood transcriptomic host response to SARS-CoV-2 and compared it with other viral infections to understand similarities and differences in host response. We profiled peripheral blood from 24 healthy controls and 62 prospectively enrolled patients with community-acquired lower respiratory tract infection by SARS-Cov-2 within the first 24 hours of hospital admission using RNA-seq. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 86 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152641/
+Series		Accession: GSE152641	ID: 200152641
+
+64. AI-guided Discovery of a Paradoxical Immune Response in Fatal COVID-19 (Ileum)
+(Submitter supplied) We sought to define the host immune response, a.k.a, the “cytokine storm” that has been implicated in fatal COVID-19 using an AI-based approach. Over 45,000 publicly available transcriptomic datasets of viral pandemics were analyzed to extract a 166-gene signature using ACE2 as a ‘seed’ gene; ACE2 was rationalized because the receptor it encodes enables the virus that causes Covid-19, SARS-CoV-2, to enter host cells. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 3 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE157nnn/GSE157059/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA659998
+Series		Accession: GSE157059	ID: 200157059
+
+65. AI-guided Discovery of a Paradoxical Immune Response in Fatal COVID-19 (Hamster)
+(Submitter supplied) We sought to define the host immune response, a.k.a, the “cytokine storm” that has been implicated in fatal COVID-19 using an AI-based approach. Over 45,000 publicly available transcriptomic datasets of viral pandemics were analyzed to extract a 166-gene signature using ACE2 as a ‘seed’ gene; ACE2 was rationalized because the receptor it encodes enables the virus that causes Covid-19, SARS-CoV-2, to enter host cells. more...
+Organism:	Mesocricetus auratus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL28997 8 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE157nnn/GSE157058/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA659996
+Series		Accession: GSE157058	ID: 200157058
+
+66. Bulk RNA sequencing of SARS-CoV-2 infected alveolar type I- and type II like cells
+(Submitter supplied) Bulk RNA sequencing was performed on control and SARS-CoV-2 infected 2D bronchioalveolar-like and small airway cultures  Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), which causes coronavirus disease 2019 (COVID-19), may result in acute respiratory distress syndrome (ARDS), multi-organ failure and death. The alveolar epithelium is a major target of the virus, but representative models to study virus host interactions in more detail are currently lacking. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 16 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE153nnn/GSE153218/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA641797
+Series		Accession: GSE153218	ID: 200153218
+
+67. A novel cell culture system modeling the SARS-CoV-2 life cycle
+(Submitter supplied) Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) causes the global pandemic of COVID-19, and no effective antiviral agents and vaccines are available. SARS-CoV-2 is classified as a biosafety level-3 (BLS-3) agent, impeding the basic research into its biology and the development of effective antivirals. Here, we described a safe cell culture system for production of transcription and replication-competent, biologically contained SARS-CoV-2 virus like particles (trVLP) that express a reporter gene (GFP) replacing viral nucleocapsid gene, which is required for viral genome packaging and virion assembly (SARS-CoV-2-GFP/N trVLP). more...
+Organism:	Homo sapiens; Severe acute respiratory syndrome coronavirus 2
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL29320 2 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162629/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA682433
+Series		Accession: GSE162629	ID: 200162629
+
+68. COVID-19 cytokines and the hyperactive immune response: Synergism of TNF-α and IFN-γ in triggering inflammation, tissue damage, and death
+(Submitter supplied) COVID-19 has rapidly circulated around the globe and caused significant morbidity and mortality. The disease is characterized by excessive production of pro-inflammatory cytokines and acute lung damage and patient mortality. Although initial cytokine cascades may be beneficial to the host for clearing the virus, enhanced production of pro-inflammatory cytokines and increasing levels in the systemic circulation, referred to as cytokine storm, can promote tissue damage by inducing inflammatory cell death in both infected and bystander cells. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL23038 12 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE160nnn/GSE160163/
+Series		Accession: GSE160163	ID: 200160163
+
+69. The SARS-CoV-2 RNA-protein interactome in infected human cells
+(Submitter supplied) Characterizing the interactions that SARS-CoV-2 viral RNAs make with host cell proteins during infection can improve our understanding of viral RNA functions and the host innate immune response. Using RNA antisense purification and mass spectrometry (RAP-MS), we identify up to 104 human proteins that directly and specifically bind to SARS-CoV-2 RNAs in infected human cells. We integrate the SARS-CoV-2 RNA interactome with proteome abundance changes induced by viral infection and link interactome proteins to cellular pathways relevant to SARS-CoV-2 infections. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Other
+Platforms: GPL21697 GPL22790 10 Samples
+FTP download: GEO (BEDGRAPH, BW, NARROWPEAK) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE154nnn/GSE154430/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA646247
+Series		Accession: GSE154430	ID: 200154430
+
+70. Persistent viral activity, cytokine storm and lung fibrosis in severe COVID-19
+(Submitter supplied) Severe COVID-19 may progress into acute respiratory distress syndrome (ARDS) with high mortality risk. Its exact pathological mechanism, therapeutic obstacles and the clinical sequelae are critical and unresolved issues. Here, we reported a representative COVID-19 induced ARDS case experienced initially stable, then suddenly deteriorating up to final respiratory failure courses, until his death despite of lung transplantation. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 4 Samples
+FTP download: GEO (H5) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE149nnn/GSE149878/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA630421
+Series		Accession: GSE149878	ID: 200149878
+
+71. Targeting Transcriptional Regulation of SARS-CoV-2 Entry Factors ACE2 and TMPRSS2
+(Submitter supplied) SARS-CoV-2, the virus responsible for COVID-19, employs two key host proteins to gain entry and replicate within cells, angiotensin-converting enzyme 2 (ACE2) and the cell surface transmembrane protease serine 2 (TMPRSS2). TMPRSS2 was first characterized as an androgen-regulated gene in the prostate. Supporting a role for sex hormones, males relative to females are disproportionately affected by COVID-19 in terms of mortality and morbidity. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL17021 5 Samples
+FTP download: GEO (H5) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159576/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA669811
+Series		Accession: GSE159576	ID: 200159576
+
+72. SARS-CoV-2 stock sequencing for infection of nonhuman primates
+(Submitter supplied) SARS-CoV-2 USA/WA1 strain stock was sequenced to determine whether the furin cleavage site was intact.
+Organism:	Severe acute respiratory syndrome coronavirus 2
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL28866 1 Sample
+FTP download: GEO (XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162247/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA681192
+Series		Accession: GSE162247	ID: 200162247
+
+73. Infection of human Nasal Epithelial Cells with SARS-CoV-2 and a 382-nt deletion isolate lacking ORF8 reveals similar viral kinetics and host transcriptional profiles
+(Submitter supplied) Gene expression profile of human Nasal Epithelial Cells infected with SARS-CoV-2 and a 382-nt deletion strain, for the indicated time periods
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL20301 21 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162131/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA680711
+Series		Accession: GSE162131	ID: 200162131
+
+74. Metabolic reprogramming and epigenetic changes of vital organs in SARS-CoV-2 induced systemic toxicity
+(Submitter supplied) SARS-CoV-2 primarily affects the respiratory system but extra-pulmonary manifestations in individuals with COVID-19 are commonly seen. All major organ systems have been reported to be affected by SARS-CoV-2 and complications arising from ensuing organ dysfunction significantly increase the mortality rate of COVID-19. Yet, despite the clinical importance of systemic involvement of SARS-CoV-2, little is known about the pathogenesis of extra-pulmonary complications of COVID-19. more...
+Organism:	Homo sapiens; Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL21290 GPL21493 71 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162113/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA680599
+Series		Accession: GSE162113	ID: 200162113
+
+75. TMEM41B is a pan-flavivirus host factor
+(Submitter supplied) Flaviviruses pose a constant threat to human health. These RNA viruses are transmitted by the bite of infected mosquitoes and ticks and regularly cause outbreaks. To identify host factors required for flavivirus infection we performed full-genome loss of function CRISPR-Cas9 screens. Based on these results we focused our efforts on characterizing the roles that TMEM41B and VMP1 play in the virus replication cycle. more...
+Organism:	synthetic construct; Homo sapiens
+Type:		Other
+Platforms: GPL19604 GPL16791 40 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162040/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA680347
+Series		Accession: GSE162040	ID: 200162040
+
+76. Functional interrogation of a SARS-CoV-2 host protein interactome identifies unique and shared coronavirus host factors
+(Submitter supplied) The ongoing SARS-CoV-2 pandemic has devastated the global economy and claimed more than one million lives, presenting an urgent global health crisis. To identify host factors required for infection by SARS-CoV-2 and seasonal coronaviruses, we designed a focused high-coverage CRISPR-Cas9 library targeting 332 members of a recently published SARS-CoV-2 protein interactome. We leveraged the compact nature of this library to systematically screen SARS-CoV-2 at two physiologically relevant temperatures (33 ºC and 37 ºC) along with three related coronaviruses (HCoV-229E, HCoV-NL63, and HCoV-OC43), allowing us to probe this interactome at a much higher resolution relative to genome scale studies. more...
+Organism:	Homo sapiens; synthetic construct
+Type:		Other
+Platforms: GPL19424 GPL18573 92 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162039/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA680345
+Series		Accession: GSE162039	ID: 200162039
+
+77. Genome-scale identification of SARS-CoV-2 and pan-coronavirus host factor networks
+(Submitter supplied) The COVID-19 pandemic has claimed the lives of more than one million people worldwide. The causative agent, SARS-CoV-2, is a member of the Coronaviridae family, which are viruses that cause respiratory infections of varying severity. The cellular host factors and pathways co-opted by SARS- CoV-2 and other coronaviruses in the execution of their life cycles remain ill-defined. To develop an extensive compendium of host factors required for infection by SARS-CoV-2 and three seasonal coronaviruses (HCoV-OC43, HCoV-NL63, and HCoV-229E), we performed parallel genome-scale CRISPR knockout screens. more...
+Organism:	synthetic construct; Homo sapiens
+Type:		Other
+Platforms: GPL18573 GPL19424 80 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162038/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA680344
+Series		Accession: GSE162038	ID: 200162038
+
+78. Single Nucleus Multiomic Profiling Reveals Age-Dynamic Regulation of Host Genes Associated with SARS-CoV-2 Infection
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Homo sapiens
+Type:		Genome binding/occupancy profiling by high throughput sequencing; Expression profiling by high throughput sequencing
+Platforms: GPL18573 GPL20301 19 Samples
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE161nnn/GSE161383/
+Series		Accession: GSE161383	ID: 200161383
+
+79. Single Nucleus RNA-Seq Multiomic Profiling Reveals Age-Dynamic Regulation of Host Genes Associated with SARS-CoV-2 Infection [scRNA-Seq]
+(Submitter supplied) Respiratory failure is the leading cause of COVID-19 death and disproportionately impacts adults more than children. Here, we present a large-scale snATAC-seq dataset (90,980 nuclei) of the human lung, generated in parallel with snRNA-seq (46,500 nuclei), from healthy donors of ~30 weeks, ~3 years and ~30 years of age. Focusing on genes implicated in SARS-CoV-2 cell entry, we observed an increase in the proportion of alveolar epithelial cells expressing ACE2 and TMPRSS2 in adult compared to young lungs. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 9 Samples
+FTP download: GEO (MTX, TSV, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE161nnn/GSE161382/
+Series		Accession: GSE161382	ID: 200161382
+
+80. Single Nucleus ATAC-Seq Multiomic Profiling Reveals Age-Dynamic Regulation of Host Genes Associated with SARS-CoV-2 Infection [scATAC-Seq]
+(Submitter supplied) Respiratory failure is the leading cause of COVID-19 death and disproportionately impacts adults more than children. Here, we present a large-scale snATAC-seq dataset (90,980 nuclei) of the human lung, generated in parallel with snRNA-seq (46,500 nuclei), from healthy donors of ~30 weeks, ~3 years and ~30 years of age. Focusing on genes implicated in SARS-CoV-2 cell entry, we observed an increase in the proportion of alveolar epithelial cells expressing ACE2 and TMPRSS2 in adult compared to young lungs. more...
+Organism:	Homo sapiens
+Type:		Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL20301 10 Samples
+FTP download: GEO (MTX, TSV, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE161nnn/GSE161381/
+Series		Accession: GSE161381	ID: 200161381
+
+81. Translational landscape of SARS-CoV-2 and infected cells
+(Submitter supplied) Purpose: Numerous viruses manipulate the host translation machinery and specifically block host mRNA translation. The goal of this study is to define the translational landscape of SARS-CoV-2 and SARS-CoV-2 infected cells using a combination of RNA-seq and ribo-seq approches, the latter being a powerful proxy for protein-level changes. Methods: Vero E6 and primary human bronchial epithelial cells were infected with SARS-CoV-2 at varying multiplicities of infection and followed throughout early and late phases of infection. more...
+Organism:	Homo sapiens; Chlorocebus sabaeus
+Type:		Expression profiling by high throughput sequencing; Other
+Platforms: GPL18573 GPL11154 GPL28836 96 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE158nnn/GSE158930/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA667051
+Series		Accession: GSE158930	ID: 200158930
+
+82. Whole transcriptome sequencing of peripheral blood mononuclear cells from patients with COVID-19
+(Submitter supplied) Understanding the process of immune remodeling and regulation in SARS-CoV-2 infected patients from hospitalization to rehabilitation is crucial for therapy of patients with COVID-19. Here, we performed a longitudinal whole-transcriptome RNA sequencing on peripheral blood mononuclear cell (PBMC) samples of 18 patients with mild, moderate or severe COVID-19 symptoms during the treatment, convalescence and rehabilitation stages. more...
+Organism:	Homo sapiens
+Type:		Non-coding RNA profiling by high throughput sequencing; Expression profiling by high throughput sequencing
+Platforms: GPL20301 GPL16791 85 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE157nnn/GSE157859/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA662985
+Series		Accession: GSE157859	ID: 200157859
+
+83. Transcriptome analysis to SARS-CoV-2 infection in Vero E6 cells
+(Submitter supplied) RNAseq was used to identify host and viral transcriptome changes in SARS-CoV-2 infection in Vero E6 cells at 8hpi.
+Organism:	Chlorocebus sabaeus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL28836 6 Samples
+FTP download: GEO (XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE161nnn/GSE161881/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA679776
+Series		Accession: GSE161881	ID: 200161881
+
+84. Direct exposure to SARS-CoV-2 and cigarette smoke increases infection severity and alters the stem cell-derived airway repair response
+(Submitter supplied) To study the effect of cigarette smoke exposure on Sars-Cov2 infection, we directly exposed mucociliary air-liquid interface (ALI) cultures derived from primary human nonsmoker airway basal stem cells (ABSCs) to short term cigarette smoke and infected them with live SARS-CoV-2. We set out to examine the underlying mechanisms governing the increased susceptibility of cigarette smoke exposed ALI cultures to SARS-CoV-2 infection by usingle cell profiling of the cultures, which showed that interferon response genes were induced in SARS-CoV-2 infected airway epithelial cells in ALI cultures but smoking exposure together with SARS-CoV-2 infection reduced the interferon response.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 4 Samples
+FTP download: GEO (TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE161nnn/GSE161089/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA675538
+Series		Accession: GSE161089	ID: 200161089
+
+85. Temporal and Spatial Heterogeneity of Host Response to SARS-CoV-2 Pulmonary Infection [gene expression]
+(Submitter supplied) The relationship of SARS-CoV-2 lung infection and severity of pulmonary disease is not fully understood. We analyzed specimens from 24 autopsies from patients who succumbed to SARS-CoV-2 infection using a combination of different RNA and protein analytical platforms to characterize inter- and intra- patient heterogeneity of pulmonary virus infection.  There was a spectrum of high and low virus cases that was associated with duration of disease and activation of interferon pathway genes. more...
+Organism:	Homo sapiens; Severe acute respiratory syndrome coronavirus 2
+Type:		Other; Expression profiling by high throughput sequencing
+Platform: GPL29228 363 Samples
+FTP download: GEO (TXT, ZIP) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159787/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA678298
+Series		Accession: GSE159787	ID: 200159787
+
+86. Age-determined expression of priming protease TMPRSS2 and localization of SARS-CoV-2 in lung epithelium
+(Submitter supplied) The SARS-CoV-2 novel coronavirus global pandemic (COVID-19) has led to millions of cases and hundreds of thousands of deaths globally. While older adults appear at high risk for severe disease, hospitalizations and deaths due to SARS-CoV-2 among children have been relatively rare. Integrating single-cell RNA sequencing (scRNA-seq) of developing mouse lung with temporally-resolved immunofluorescence in mouse and human lung tissue, we found expression of SARS-CoV-2 Spike protein primer TMPRSS2 was highest in ciliated cells and type I alveolar epithelial cells (AT1), and TMPRSS2 expression increased with aging in mice and humans. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24247 9 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE160nnn/GSE160876/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA674755
+Series		Accession: GSE160876	ID: 200160876
+
+87. A gateway for SARS-CoV-2 infection in the human olfactory neuroepithelium
+(Submitter supplied) Various reports indicate an association between COVID-19 and anosmia, suggesting an infection of the olfactory sensory epithelium, and thus a possible direct virus access to the brain. To test this hypothesis, we generated RNA-seq libraries from human olfactory neuroepithelia, in which we found substantial expression of the genes coding for the virus receptor angiotensin-converting enzyme-2 (ACE2), and for the virus internalization enhancer TMPRSS2. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL16791 6 Samples
+FTP download: GEO (CSV, RDS, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE151nnn/GSE151973/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA637909
+Series		Accession: GSE151973	ID: 200151973
+
+88. Single-cell sequencing of glioblastoma reveals central nervous system susceptibility to SARS-CoV-2
+(Submitter supplied) Background: Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) caused the recent global COVID-19 outbreak, which led to a public health emergency. Entry of SARS-CoV-2 into human cells is dependent on the SARS-CoV receptor, angiotensin converting enzyme 2 (ACE2) receptor, and cathepsin. Cathepsin degrades the spike protein (S protein), which results in the entry of viral nucleic acid into the human host cell. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL20795 2 Samples
+FTP download: GEO (CSV, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE157nnn/GSE157424/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA661274
+Series		Accession: GSE157424	ID: 200157424
+
+89. RNA secondary structome of SARS-CoV-2 and other 6 virus structures in the UTR regions
+(Submitter supplied) we resolved the RNA secondary structure of SARS-CoV-2 infected in Huh7.5.1 cells, in vitro structure of SARS-CoV-2 RNA purified from infected cells and refolded in test tube and viral RNA fragments of 7 coronaviruses including SARS-CoV-2, SARS-CoV and MERS-CoV based on  in vivo click selective 2'-hydroxyl acylation and profiling experiment (icSHAPE). We built RNA structural model of SARS-CoV-2, found some functional structural elements, analysed the RNA structure conservation among different coronavirus. more...
+Organism:	Severe acute respiratory syndrome coronavirus 2; Middle East respiratory syndrome-related coronavirus
+Type:		Other
+Platforms: GPL28840 GPL28841 11 Samples
+FTP download: GEO (XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE153nnn/GSE153984/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA644648
+Series		Accession: GSE153984	ID: 200153984
+
+90. Temporal and dosage-dependent transcriptional response to SARS-CoV-2 in lung, trachea, brain, olfactory bulb and small intestine of Syrian golden hamsters
+(Submitter supplied) Here we report the transcriptional response to SARS-CoV-2 in Syrian golden hamsters and compare it to the host response against Influenza A virus. The virus replicates fast to high titers in the respiratory tract followed by a local and systemic inflammatory response. A roust IFN-I reponse is mounted and lasts at leaset fourteen days in distal tissues together with other lasting transcriptional changes.
+Organism:	Mesocricetus auratus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24490 215 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE161nnn/GSE161200/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA675865
+Series		Accession: GSE161200	ID: 200161200
+
+91. Baricitinib treatment resolves lower airway inflammation and neutrophil recruitment in SARS-CoV-2-infected rhesus macaques
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Macaca mulatta
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL27943 34 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159214/
+Series		Accession: GSE159214	ID: 200159214
+
+92. Baricitinib treatment resolves lower airway inflammation and neutrophil recruitment in SARS-CoV-2-infected rhesus macaques [RNA-Seq]
+(Submitter supplied) SARS-CoV-2 induced hypercytokinemia and inflammation are critically associated with COVID-19 disease severity. Baricitinib, a clinically approved JAK1/2 inhibitor, is currently being investigated in COVID-19 clinical trials. Here, we investigated the immunologic and virologic efficacy of baricitinib in a rhesus macaque model of SARS-CoV-2 infection. Viral shedding measured from nasal and throat swabs, bronchoalveolar lavages and tissues was not reduced with baricitinib. more...
+Organism:	Macaca mulatta
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL27943 24 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159213/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA667960
+Series		Accession: GSE159213	ID: 200159213
+
+93. Baricitinib treatment resolves lower airway inflammation and neutrophil recruitment in SARS-CoV-2-infected rhesus macaques [scRNA-Seq]
+(Submitter supplied) SARS-CoV-2 induced hypercytokinemia and inflammation are critically associated with COVID-19 disease severity. Baricitinib, a clinically approved JAK1/2 inhibitor, is currently being investigated in COVID-19 clinical trials. Here, we investigated the immunologic and virologic efficacy of baricitinib in a rhesus macaque model of SARS-CoV-2 infection. Viral shedding measured from nasal and throat swabs, bronchoalveolar lavages and tissues was not reduced with baricitinib. more...
+Organism:	Macaca mulatta
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL27943 10 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159212/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA667959
+Series		Accession: GSE159212	ID: 200159212
+
+94. bulk RNAseq of SARS-COV2 infected human lung organoid
+(Submitter supplied) Coronavirus disease 2019 (COVID-19) is the latest respiratory pandemic resulting from zoonotic transmission of severe acute respiratory syndrome-related coronavirus 2 (SARS-CoV-2). Severe symptoms include viral pneumonia secondary to infection and inflammation of the lower respiratory tract, in some cases causing death. We developed primary human lung epithelial 5 infection models to understand responses of proximal and distal lung epithelium to SARS-CoV-2 infection. more...
+Organism:	Homo sapiens; Severe acute respiratory syndrome coronavirus 2
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL29320 GPL24676 10 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE160nnn/GSE160435/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA673197
+Series		Accession: GSE160435	ID: 200160435
+
+95. SARS-CoV-2 infection of primary human lung epithelium for COVID-19 modeling and drug discovery
+(Submitter supplied) Coronavirus disease 2019 (COVID-19) is the latest respiratory pandemic resulting from zoonotic transmission of severe acute respiratory syndrome-related coronavirus 2 (SARS-CoV-2). Severe symptoms include viral pneumonia secondary to infection and inflammation of the lower respiratory tract, in some cases causing death. We developed primary human lung epithelial  infection models to understand responses of proximal and distal lung epithelium to SARS-CoV-2 infection. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 6 Samples
+FTP download: GEO (XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE155nnn/GSE155518/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA649976
+Series		Accession: GSE155518	ID: 200155518
+
+96. Single cell resolution of SARS-CoV-2 tropism, antiviral responses, and susceptibility to therapies in primary human airway epithelium
+(Submitter supplied) The human airway epithelium is the initial site of SARS-CoV-2 infection. We used flow cytometry and single cell RNAseq to understand how the heterogeneity of this diverse cell population contributes to elements of viral tropism and pathogenesis, antiviral immunity, and treatment response to remdesivir. We found that, while a variety of cell types are susceptible to infection, ciliated cells are a predominant cell target for SARS-CoV-2. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 5 Samples
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE157nnn/GSE157526/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA661567
+Series		Accession: GSE157526	ID: 200157526
+
+97. Temporal and Spatial Heterogeneity of Host Response to SARS-CoV-2 Pulmonary Infection
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Homo sapiens; Severe acute respiratory syndrome coronavirus 2
+Type:		Other; Expression profiling by high throughput sequencing
+Platforms: GPL29228 GPL29263 726 Samples
+FTP download: GEO ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159788/
+Series		Accession: GSE159788	ID: 200159788
+
+98. Temporal and Spatial Heterogeneity of Host Response to SARS-CoV-2 Pulmonary Infection [GeoMx human protein]
+(Submitter supplied) The relationship of SARS-CoV-2 lung infection and severity of pulmonary disease is not fully understood. We analyzed specimens from 24 autopsies from patients who succumbed to SARS-CoV-2 infection using a combination of different RNA and protein analytical platforms to characterize inter- and intra- patient heterogeneity of pulmonary virus infection.  There was a spectrum of high and low virus cases that was associated with duration of disease and activation of interferon pathway genes. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL29263 363 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159785/
+Series		Accession: GSE159785	ID: 200159785
+
+99. A Regulatory T Cell Notch4 Switch Governs Lung Inflammation in Viral Infections
+(Submitter supplied) Coronavirus disease 2019 (Covid19), caused by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), is associated with lung inflammation and respiratory failure. In a prospective multi-country cohort of Covid19 patients, we found that increased Notch4 expression on circulating Treg cells was associated with increased disease severity, predicted mortality, and declined upon recovery. Deletion of Notch4 in Treg cells or therapy with anti-Notch4 antibodies in conventional and humanized mice suppressed the dysregulated innate immune response and rescued disease morbidity and mortality induced by a synthetic analogue of viral RNA or by the influenza H1N1 virus in an amphiregulin-dependent manner. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing; Other
+Platform: GPL21103 9 Samples
+FTP download: GEO (VCF, XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159584/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA669823
+Series		Accession: GSE159584	ID: 200159584
+
+100. Progenitor identification and SARS-CoV-2 infection in human distal lung organoids 
+(Submitter supplied) The distal lung contains terminal bronchioles and alveoli that facilitate gas exchange.  Three-dimensional in vitro human distal lung culture systems would strongly facilitate investigation of pathologies including interstitial lung disease, cancer, and SARS-CoV-2-associated COVID-19 pneumonia.  We generated long-term feeder-free, chemically-defined culture of distal lung progenitors as organoids derived from single adult human alveolar epithelial type II (AT2) or KRT5+ basal cells. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 12 Samples
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE106nnn/GSE106850/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA418179
+Series		Accession: GSE106850	ID: 200106850
+
+101. Genome-wide mapping of SARS-CoV-2 RNA structures identifies therapeutically-relevant elements
+(Submitter supplied) SARS-CoV-2 is a betacoronavirus with a linear single-stranded, positive-sense RNA genome, whose outbreak caused the ongoing COVID-19 pandemic. The ability of coronaviruses to rapidly evolve, adapt, and cross species barriers makes the development of effective and durable therapeutic strategies a challenging and urgent need. As for other RNA viruses, genomic RNA structures are expected to play crucial roles in several steps of the coronavirus replication cycle. more...
+Organism:	Chlorocebus sabaeus; Escherichia coli; Severe acute respiratory syndrome coronavirus 2
+Type:		Other
+Platforms: GPL21222 GPL28836 GPL28588 17 Samples
+FTP download: GEO (WIG) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE151nnn/GSE151327/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA635443
+Series		Accession: GSE151327	ID: 200151327
+
+102. Cardiomyocytes Infected by SARS-CoV-2 Recruit Cardiotoxic Macrophages
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL18573 GPL24676 21 Samples
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE151nnn/GSE151880/
+Series		Accession: GSE151880	ID: 200151880
+
+103. Cardiomyocytes Infected by SARS-CoV-2 Recruit Cardiotoxic Macrophages [bulk RNA-seq dataset)
+(Submitter supplied) Heart injury has been reported in up to 20% of COVID-19 patients, yet the cause of myocardial histopathology is unknown. We examined heart tissue from autopsies of healthy and COVID-19 patients using RNA-seq and identified a strikingly increased CCL2 expression and macrophage population in COVID-19 heart sample. Transwell assays using hESC-derived cardiomyocytes (CMs) and macrophages revealed that SARS-CoV-2 infected CMs secrete CCL2, which recruits macrophages, and this was validated using adult human CMs. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL18573 GPL24676 18 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE151nnn/GSE151879/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA637580
+Series		Accession: GSE151879	ID: 200151879
+
+104. Cardiomyocytes Infected by SARS-CoV-2 Recruit Cardiotoxic Macrophages [scRNA-seq dataset]
+(Submitter supplied) Heart injury has been reported in up to 20% of COVID-19 patients, yet the cause of myocardial histopathology is unknown. We examined heart tissue from autopsies of healthy and COVID-19 patients using RNA-seq and identified a strikingly increased CCL2 expression and macrophage population in COVID-19 heart sample. Transwell assays using hESC-derived cardiomyocytes (CMs) and macrophages revealed that SARS-CoV-2 infected CMs secrete CCL2, which recruits macrophages, and this was validated using adult human CMs. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 3 Samples
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE151nnn/GSE151878/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA637579
+Series		Accession: GSE151878	ID: 200151878
+
+105. Lung transplantation for patients with severe COVID-19
+(Submitter supplied) Lung transplantation can potentially be a life-saving treatment for patients with non-resolving COVID-19-associated respiratory failure. Concerns limiting transplant include recurrence of SARS-CoV-2 infection in the allograft, technical challenges imposed by viral-mediated injury to the native lung, and potential risk for allograft infection by pathogens associated with ventilator-associated pneumonia in the native lung. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL20301 GPL24676 22 Samples
+FTP download: GEO (CSV, H5, H5AD) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE158nnn/GSE158127/
+Series		Accession: GSE158127	ID: 200158127
+
+106. Transcriptomic analysis of human alveolar type II cell organoids post infection of SARS-CoV-2
+(Submitter supplied) We performed unbiased transcriptomic profiling on organoids cultures after SARS-CoV-2 infection to gain insights into AT2s response to SARS-CoV-2 infection.
+Organism:	Homo sapiens; Severe acute respiratory syndrome coronavirus 2
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL28694 GPL20795 6 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152586/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA639791
+Series		Accession: GSE152586	ID: 200152586
+
+107. Identification of required host factors for SARS-CoV-2 infection in human cells [RNA-seq]
+(Submitter supplied) RNA-seq was performed to determine gene expression (RNA) levels and SARS-CoV-2 viral reads in A549-ACE2 cells treated with DMSO or Amlodipine.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 12 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159522/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA669987
+Series		Accession: GSE159522	ID: 200159522
+
+108. Identification of required host factors for SARS-CoV-2 infection in human cells [ECCITE-seq]
+(Submitter supplied) To better understand host-virus genetic dependencies and find potential therapeutic targets for COVID-19, we performed a genome-scale CRISPR loss-of-function screen to identify host factors required for SARS-CoV-2 viral infection of human alveolar epithelial cells. Top-ranked genes cluster into distinct pathways, including the vacuolar ATPase proton pump, Retromer, and Commander complexes. We validate these gene targets using several orthogonal methods such as CRISPR knock-out, RNA interference knock-down, and small-molecule inhibitors. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL21697 12 Samples
+FTP download: GEO (CSV, MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159519/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA669984
+Series		Accession: GSE159519	ID: 200159519
+
+109. Identification of required host factors for SARS-CoV-2 infection in human cells
+(Submitter supplied) We performed a genome-wide CRISPR knockout screen to identify human genes required for SARS-CoV-2 infection.
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL21697 4 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE158nnn/GSE158298/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA664769
+Series		Accession: GSE158298	ID: 200158298
+
+110. Broad transcriptional dysregulation of brain and choroid plexus cell types with COVID-19
+(Submitter supplied) Here, we profile 47,678 droplet-based single-nucleus transcriptomes from the frontal cortex and choroid plexus across 10 non-viral, 4 COVID-19, and an influenza patient. We find that all major cortex parenchymal and choroid plexus cell types are affected transcriptionally by COVID-19. This arises, in part, from SARS-CoV-2 infection of the cortical brain vasculature, meninges, and choroid plexus, resulting in increased inflammatory signaling to the brain. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 20 Samples
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159812/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA670674
+Series		Accession: GSE159812	ID: 200159812
+
+111. The short- and long-range RNA Interactome of SARS-CoV-2
+(Submitter supplied) The Coronaviridae are a family of positive- strand RNA viruses that includes SARS-CoV-2, the etiologic agent of the COVID-19 pandemic. Bearing the largest single stranded RNA genome in nature, coronaviruses are critically dependent on long-distance RNA-RNA interactions to regulate the viral transcription and replication pathways. Here we experimentally mapped the in vivo long-range RNA interactome of the full-length SARS-CoV-2 genome and the subgenomic mRNAs. more...
+Organism:	Homo sapiens; Chlorocebus pygerythrus
+Type:		Other
+Platforms: GPL24676 GPL28888 16 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE154nnn/GSE154662/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA646969
+Series		Accession: GSE154662	ID: 200154662
+
+112. SARS-CoV-2 Orf6 hijacks Nup98 to block STAT nuclear import and antagonize interferon signaling
+(Submitter supplied) Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is the causative agent of the ongoing coronavirus disease 2019 (COVID-19) pandemic that is a serious global health threat. Evasion of interferon-mediated antiviral signaling is a common defense strategy that pathogenic viruses use to replicate and propagate in their host. In this study, we show that SARS-CoV-2 is able to efficiently block STAT1 and STAT2 nuclear translocation in order to impair transcriptional induction of interferon (IFN) stimulated genes (ISGs). more...
+Organism:	Chlorocebus sabaeus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL28836 1 Sample
+FTP download: GEO (CSV, MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159593/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA669833
+Series		Accession: GSE159593	ID: 200159593
+
+113. Vascular Disease and Thrombosis in SARS-CoV-2 Infected Humans and Rhesus Macaques
+(Submitter supplied) The COVID-19 pandemic has led to extensive morbidity and mortality throughout the world. Clinical features that drive SARS-CoV-2 pathogenesis in humans include inflammation and thrombosis, but the mechanistic details that underlie these processes remain to be determined. In this study, we demonstrate endothelial disruption and vascular thrombosis in histopathologic sections of lungs from both humans and rhesus macaques infected with SARS-CoV-2. more...
+Organism:	Macaca mulatta
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL27943 123 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE156nnn/GSE156701/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA658795
+Series		Accession: GSE156701	ID: 200156701
+
+114. Lung expression of human AEC2 sensitizes the mouse to SRAS-CoV2 infection
+(Submitter supplied) Development of nonclinical mouse models that show some COVID-19 symptoms such as pneumonia and viral load in targeted tissues such as lung will facilitate the preclinical studies and our understanding of pathogenesis and host responses.
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL21626 6 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE158nnn/GSE158069/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA663882
+Series		Accession: GSE158069	ID: 200158069
+
+115. An engineered decoy receptor for SARS-CoV-2 broadly binds protein S sequence variants
+(Submitter supplied) The spike S of SARS-CoV-2 recognizes ACE2 on the host cell membrane to initiate entry.  Soluble decoy receptors, in which the ACE2 ectodomain is engineered to block S with high affinity, potently neutralize infection and, due to close similarity with the natural receptor, hold out the promise of being broadly active against virus variants without opportunity for escape.  Here, we directly test this hypothesis. more...
+Organism:	Severe acute respiratory syndrome coronavirus 2
+Type:		Other
+Platform: GPL29240 7 Samples
+FTP download: GEO (XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159372/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA668631
+Series		Accession: GSE159372	ID: 200159372
+
+116. Three-dimensional human alveolar stem cell culture models reveal infection response to SARS-CoV-2
+(Submitter supplied) Severe acute respiratory syndrome-coronavirus 2 (SARS-CoV-2), which is the cause of a present global pandemic, infects human lung alveolar type 2 (hAT2) cells. Characterizing pathogenesis is crucial for developing vaccines and therapeutics. However, the lack of models mirroring the cellular physiology and pathology of hAT2 cells limits the study. Here, we develop a feeder-free, long-term three-dimensional (3D) culture technique for hAT2 cells, and investigate infection response to SARS-CoV-2. more...
+Organism:	Chlorocebus aethiops
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL22096 6 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159316/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA668354
+Series		Accession: GSE159316	ID: 200159316
+
+117. SARS-CoV-2 infected cells present HLA-I peptides from canonical and out-of-frame ORFs
+(Submitter supplied) T cell-mediated immunity seems to play a critical role against SARS-CoV-2 infection and establishing protective memory. Yet the repertoire of viral epitopes responsible for activation of T cell responses remains mostly unknown. Identification and characterization of viral peptides presented on class I human leukocyte antigen (HLA-I) will reveal the viral signatures as seen by cytotoxic T cells that can then be harnessed for the development of effective vaccines. more...
+Organism:	Severe acute respiratory syndrome coronavirus 2; Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL29228 GPL21697 16 Samples
+FTP download: GEO (XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159191/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA667921
+Series		Accession: GSE159191	ID: 200159191
+
+118. Imbalance of regulatory and cytotoxic SARS-CoV-2-reactive CD4+ T cells in COVID-19
+(Submitter supplied) The contribution of CD4+ T cells to protective or pathogenic immune responses to SARS-CoV-2 infection remains unknown. Here, we present a large-scale single-cell transcriptomic analysis of viral antigen-reactive CD4+ T cells from 40 COVID-19 patients. In hospitalized patients compared to non-hospitalized patients, we found increased proportions of cytotoxic follicular helper (TFH) cells and cytotoxic T helper cells (CD4-CTLs) responding to SARS-CoV-2, and reduced proportion of SARS-CoV-2-reactive regulatory T cells (TREG). more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 78 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152522/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA639580
+Series		Accession: GSE152522	ID: 200152522
+
+119. Genome-wide CRISPR screen reveals host genes that regulate SARS-CoV-2 infection
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Chlorocebus sabaeus
+Type:		Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL28895 14 Samples
+FTP download: GEO (BW) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE154nnn/GSE154784/
+Series		Accession: GSE154784	ID: 200154784
+
+120. Genome-wide CRISPR screen reveals host genes that regulate SARS-CoV-2 infection [RNA-seq]
+(Submitter supplied) Identification of host genes essential for SARS-CoV-2 infection may reveal novel therapeutic targets and inform our understanding of COVID-19 pathogenesis. Here we performed a genome-wide CRISPR screen with SARS-CoV-2 in Vero-E6 cells, identifying known SARS-CoV-2 host factors including the receptor ACE2 and protease Cathepsin L. We additionally discovered novel pro-viral genes and pathways including the SWI/SNF chromatin remodeling complex, the alarmin HMGB1, and the transcription factors Smad3 and Smad4. more...
+Organism:	Chlorocebus sabaeus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL28895 8 Samples
+FTP download: GEO (BW, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE154nnn/GSE154783/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA647435
+Series		Accession: GSE154783	ID: 200154783
+
+121. Genome-wide CRISPR screen reveals host genes that regulate SARS-CoV-2 infection [ATAC-seq]
+(Submitter supplied) Identification of host genes essential for SARS-CoV-2 infection may reveal novel therapeutic targets and inform our understanding of COVID-19 pathogenesis. Here we performed a genome-wide CRISPR screen with SARS-CoV-2 in Vero-E6 cells, identifying known SARS-CoV-2 host factors including the receptor ACE2 and protease Cathepsin L. We additionally discovered novel pro-viral genes and pathways including the SWI/SNF chromatin remodeling complex, the alarmin HMGB1, and the transcription factors Smad3 and Smad4. more...
+Organism:	Chlorocebus sabaeus
+Type:		Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL28895 6 Samples
+FTP download: GEO (BED, BW, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE154nnn/GSE154782/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA647434
+Series		Accession: GSE154782	ID: 200154782
+
+122. Genome-wide CRISPR screen reveals host genes that regulate SARS-CoV-2 infection
+(Submitter supplied) Identification of host genes essential for SARS-CoV-2 infection may reveal novel therapeutic targets and inform our understanding of COVID-19 pathogenesis. A genome-wide CRISPR screen with SARS-CoV-2 was performed in Vero-E6 cells (data not provided here), identifying known SARS-CoV-2 host factors including the receptor ACE2 and protease Cathepsin L. We additionally discovered novel pro-viral genes and pathways including the SWI/SNF chromatin remodeling complex, the alarmin HMGB1, and the transcription factors Smad3 and Smad4. more...
+Organism:	Chlorocebus sabaeus
+Type:		Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL28895 9 Samples
+FTP download: GEO (BIGWIG, NARROWPEAK) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE154nnn/GSE154761/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA647390
+Series		Accession: GSE154761	ID: 200154761
+
+123. MAIT cell activation augments adenovirus vector vaccine immunogenicity
+(Submitter supplied) Mucosal-associated invariant T (MAIT) cells are innate sensors of viruses, which can augment early immune responses and contribute to protection from lethal infection. Thus, we reasoned MAIT cells may have an adjuvating role in the immunogenicity of replication-incompetent adenovirus vectors, which are novel vaccine platforms for pandemic pathogens such as Ebola virus and SARS-CoV-2. In both mice and human volunteers, immunization with ChAdOx1 (Chimpanzee Adenovirus Ox1) robustly activated MAIT cells. more...
+Organism:	Homo sapiens; Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL20301 GPL21103 66 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE158nnn/GSE158835/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA666676
+Series		Accession: GSE158835	ID: 200158835
+
+124. Genes with 5′ terminal oligopyrimidine tracts preferentially escape global suppression of translation by the SARS-CoV-2 NSP1 protein
+(Submitter supplied) Viruses rely on the host translation machinery to synthesize their own proteins. Consequently, they have evolved varied mechanisms to co-opt host translation for their survival. SARS-CoV-2 relies on a non-structural protein, NSP1, for shutting down host translation. Despite this, it is currently unknown how viral proteins and host factors critical for viral replication can escape a global shutdown of host translation. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Other
+Platform: GPL24676 18 Samples
+FTP download: GEO (HDF5) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE158nnn/GSE158374/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA665035
+Series		Accession: GSE158374	ID: 200158374
+
+125. Transcriptional Profiling of Leukocytes in Critically Ill COVID19 Patients
+(Submitter supplied) Objective: COVID19 is caused by the SARS-CoV-2 virus and has been associated with severe inflammation leading to organ dysfunction and mortality. Our aim was to profile the transcriptome in leukocytes from critically ill ICU patients positive for COVID19 vs. those negative for COVID19 to better understand the COVID19 associated host response. Design: Transcriptome profiling of buffy coat cells via ribonucleic acid sequencing (RNAseq) at the time of admission to the ICU. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 14 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE154nnn/GSE154998/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA648120
+Series		Accession: GSE154998	ID: 200154998
+
+126. SARS-CoV-2 infection and replication in human fetal and pediatric gastric organoids
+(Submitter supplied) Coronavirus disease 2019 (COVID-19) pandemic caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection is a global public health emergency. COVID-19 typically manifests as a respiratory illness but an increasing number of clinical reports describe gastrointestinal (GI) symptoms. This is particularly true in children in whom GI symptoms are frequent and viral shedding outlasts viral clearance from the respiratory system. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 18 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE153nnn/GSE153684/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA643694
+Series		Accession: GSE153684	ID: 200153684
+
+127. Expression of SARS-CoV-2 receptor ACE2 and coincident host response signature varies by asthma inflammatory phenotype
+(Submitter supplied) Identification and characterization of gene expression using Next Generation Sequencing (NGS) of mRNA sequence from  bronchial epithelial cells (BEC) obtained from asthma patients with varying clinical disease severity
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 67 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE158nnn/GSE158752/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA666421
+Series		Accession: GSE158752	ID: 200158752
+
+128. Exploring the involvement of Adathoda vasica in hypoxia axis  at the molecular level
+(Submitter supplied) The role of increased hypoxia has been identified for the many pathological features of SARS-CoV2, such as impaired immunity, airway hyper-inflammation, fibrosis, sepsis, and thrombosis. In this study, we tested the potential effect of Adhatoda Vasica (AV) aqueous extract, an ayurvedic anti-hypoxic, and anti-inflammatory medicine, on SARS-CoV2 infection using genome-wide expression approach. In this study, we did the genome-wide expression analysis of the lungs of mice treated with AV and compared them with transcriptome data of COVID19 patients. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL20775 17 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE156nnn/GSE156759/
+Series		Accession: GSE156759	ID: 200156759
+
+129. SARS-CoV-2 infection induces transcriptomic alterations specific to activation of innate immunity and cellular distress.
+(Submitter supplied) In the grips of the 2019-2020 SARS-CoV-2 pandemic, the pathogenisis of the virus has been shown to induce sharp responses from the immune system of infected hosts and can result in severe/fatal pulmonary distress. To understand how the virus can provoke such responses in infected hosts we infected golden hamsters with validated SARS-CoV-2 clinical isolates from 5 patients to understand the dynamic changes and functionality of induced gene expression.
+Organism:	Mesocricetus auratus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL28997 16 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE156nnn/GSE156005/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA656299
+Series		Accession: GSE156005	ID: 200156005
+
+130. Human Pluripotent Stem Cell-Derived Neural Cells and Brain Organoids Reveal SARS-CoV-2 Neurotropism Predominates in Choroid Plexus Epithelium
+(Submitter supplied) Neurological complications are common in patients with COVID-19. While SARS-CoV-2, the causal pathogen of COVID-19, has been detected in some patient brains, its ability to infect brain cells and impact their function are not well understood, and experimental models using human brain cells are urgently needed. Here we investigated the susceptibility of human induced pluripotent stem cell (hiPSC)-derived monolayer brain cells and region-specific brain organoids to SARS-CoV-2 infection. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL21697 9 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE157nnn/GSE157852/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA662965
+Series		Accession: GSE157852	ID: 200157852
+
+131. Acute SARS-CoV-2 Infection in a Universal In Vivo Model for Potential Human Pandemic Coronaviruses is Cytopathic and Elicits a Robust and Sustained Host Innate Immune Response
+(Submitter supplied) Bats are a source of coronaviruses with human pandemic potential. For transmission to humans, bat coronaviruses could potentially be transmitted directly to humans or via intermediate species where adaptation takes place conducive for subsequent transmission to humans. While recently emerged human coronaviruses likely originated in bats, their intermediate host that facilitated transmission to humans differs. more...
+Organism:	Homo sapiens; Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL25526 13 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE155nnn/GSE155286/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA649246
+Series		Accession: GSE155286	ID: 200155286
+
+132. SARS-CoV2 infection of iPSC-derived cardiac cells predicts novel cytopathic features in COVID-19 patients 
+(Submitter supplied) Mounting clinical evidence indicates severe pathological consequences from COVID-19 in the heart. Here we examine cardiac susceptibility and response to SARS-CoV-2 using human induced pluripotent stem cell-derived cardiomyocytes, cardiac fibroblasts, and endothelial cells. Of these cell types, SARS-CoV-2 can only productively infect cardiomyocytes, and does so via an endolysosomal mechanism. Transcriptomic profiling of infected cells revealed changes in protein homeostasis and cardiomyocyte contractility, and activation of innate immune response pathways. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 30 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE156nnn/GSE156754/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA658974
+Series		Accession: GSE156754	ID: 200156754
+
+133. Global transcriptomic analyses of pluripotent stem cell-derived type II alveolar epithelial-like cells at 1 and 4 days after infection with SARS-CoV-2
+(Submitter supplied) We performed transcriptomic profiling of cells derived from human pluripotent stem cells (PSCs) using our previously described distal lung directed differentiation protocol to generate alveolar type II epithelial-like cells (iAT2s). We used the SPC2 human iPSC line containing a SFTPC-tdTomato knock-in reporter.  SFTPC-tdTomato+ iAT2s were sorted on day 41 and again on day 69 of differentiation. iAT2s were single-cell passaged in self-renewing 3D alveolosphere culture approximately every 2 weeks through day 194 of differentiation. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 9 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE153nnn/GSE153277/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA641908
+Series		Accession: GSE153277	ID: 200153277
+
+134. Transposon mutagenesis screen identifies MHC class II transactivator (CIITA) as an inducer of cellular resistance to Ebola virus and SARS Coronavirus
+(Submitter supplied) U2OS cells were co-transfected with PiggyBac (PB) transposon plasmid pPB-SB-CMV-puro-SD3 and the transposase p-hyPBASE. The modified PiggyBac (PB) transposon, which has a constitutively active CMV promoter which can stimulate or disrupt expression of neighboring genes, depending on insertional orientation. For each library, between 107-108 cells were transfected, cultured with the addition of 2 µg/ml puromycin for one week to select cells that had incorporated the transposon, and then used for screens of virus resistance with minimal further expansion. more...
+Organism:	Homo sapiens
+Type:		Other
+Platforms: GPL16791 GPL15456 15 Samples
+FTP download: GEO (BEDGRAPH) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE156nnn/GSE156598/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA658479
+Series		Accession: GSE156598	ID: 200156598
+
+135. A safe inhalational treatment prevents SARS–CoV-2 viral replication in human airway epithelial cells.
+(Submitter supplied) Because epithelial surface pH affects airway inflammation and host defense, we study the benefit of an inhaled buffer in patients with asthma.  Inhaled Optate is designed safely to raise airway surface pH and is well-tolerated in humans. Epithelial infection with SARS-CoV2 is attenuated by raising intracellular pH.  Here, we show that Optate raises intracellular pH in primary normal human airway epithelial (NHAE) cells without affecting cell viability. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 6 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE150nnn/GSE150962/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA634167
+Series		Accession: GSE150962	ID: 200150962
+
+136. Elucidation of remdesivir cytotoxicity pathways through genome-wide CRISPR/Cas9 screening and transcriptomics
+(Submitter supplied) The adenosine analogue remdesivir has emerged as a front-line antiviral treatment for SARS-CoV-2, with preliminary evidence that it reduces the duration and severity of illness. As clinical trials are ongoing, the full side effect profile of remdesivir is not yet known. Prior clinical studies have identified adverse events, and remdesivir has been shown to inhibit mitochondrial RNA polymerase in biochemical experiments, yet little is known about the specific genetic pathways involved in cellular remdesivir metabolism and cytotoxicity. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 24 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE154nnn/GSE154936/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA647903
+Series		Accession: GSE154936	ID: 200154936
+
+137. Two distinct immunopathological profiles in lungs of lethal COVID-19
+(Submitter supplied) Immune responses in lungs of Coronavirus Disease 2019 (COVID-19) are poorly characterized. We conducted transcriptomic, histologic and cellular profiling of post mortem COVID-19 and normal lung tissues. Two distinct immunopathological reaction patterns were identified. One pattern showed high expression of interferon stimulated genes (ISGs) and cytokines, high viral loads and limited pulmonary damage, the other pattern showed severely damaged lungs, low ISGs, low viral loads and abundant immune infiltrates. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24014 56 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE151nnn/GSE151764/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA637143
+Series		Accession: GSE151764	ID: 200151764
+
+138. Structure of the full SARS-CoV-2 RNA genome in infected cells
+(Submitter supplied) Purpose: SARS-CoV-2 is a betacoronavirus responsible for the COVID-19 pandemic. Currently, limited understanding of the molecular and structural biology of the virus hampers the development of antiviral drugs. Methods: Vero cells were infected with SARS-CoV-2 and treated with dimethyl sulfate (DMS). RNA was extracted, reverse-transcribed using TGIRT-III, PCR-amplified, and sequenced using an Illumina iSeq100. more...
+Organism:	Chlorocebus aethiops aethiops; Severe acute respiratory syndrome coronavirus 2
+Type:		Other
+Platforms: GPL28832 GPL28833 6 Samples
+FTP download: GEO (DOT, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE153nnn/GSE153851/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA644357
+Series		Accession: GSE153851	ID: 200153851
+
+139. Modeling COVID-19 with Human Pluripotent Stem Cell-Derived Cells Reveals Synergistic Effects of Anti-inflammatory Macrophages with ACE2 Inhibition Against SARS-CoV-2
+(Submitter supplied) Study transcriptomes on the lung cells and macrophages derived from hESC
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 5 Samples
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE150nnn/GSE150708/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA633281
+Series		Accession: GSE150708	ID: 200150708
+
+140. Large-scale Multi-omic Analysis of COVID-19 Severity
+(Submitter supplied) Using RNA-seq and high-resolution mass spectrometry we performed a comprehensive systems analysis on 128 plasma and leukocyte samples from hospitalized patients with or without COVID-19 (n=102 and 26 respectively) and with differing degrees of disease severity. We generated abundance measurements for over 17,000 transcripts, proteins, metabolites, and lipids and compiled them with clinical data into a curated relational database. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 126 Samples
+FTP download: GEO (TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE157nnn/GSE157103/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA660067
+Series		Accession: GSE157103	ID: 200157103
+
+141. FD-seq: Droplet-based RNA sequencing of fixed single cells
+(Submitter supplied) Current high-throughput single-cell RNA sequencing (scRNA-seq) methods are incompatible with paraformaldehyde (PFA) fixation, a common cell/tissue preservation and viral inactivation technique, which has prevented transcriptomic analysis of rare cells that require protein staining and enrichment. Here we present FD-seq, a method for high-throughput RNA sequencing of PFA-fixed, stained and FACS-sorted single cells. more...
+Organism:	Homo sapiens; Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL24625 GPL21697 29 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE156nnn/GSE156988/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA659731
+Series		Accession: GSE156988	ID: 200156988
+
+142. Upper airway gene expression differentiates COVID-19 from other acute respiratory illnesses and reveals suppression of innate immune responses by SARS-CoV-2
+(Submitter supplied) We studied the host transcriptional response to SARS-CoV-2 by performing metagenomic sequencing of upper airway samples in 234 patients with COVID-19 (n=93), other viral (n=100) or non-viral (n=41) acute respiratory illnesses (ARIs). Compared to other viral ARIs, COVID-19 was characterized by a diminished innate immune response, with reduced expression of genes involved in toll-like receptor and interleukin signaling, chemokine binding, neutrophil degranulation and interactions with lymphoid cells. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 234 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE156nnn/GSE156063/
+Series		Accession: GSE156063	ID: 200156063
+
+143. Identification of Drugs Blocking SARS-CoV-2 Infection using hPSC-derived Lung and Colonic Organoids
+(Submitter supplied) The SARS-CoV-2 has already caused over twelve million COVID-19 cases and half a million deaths worldwide. There is an urgent need to create novel models using human disease-relevant cells to study SARS-CoV-2 biology and to facilitate drug screening. As SARS-CoV-2 primarily infects the respiratory tract, we developed a lung organoid model using human pluripotent stem cells (hPSC-LOs) that could be adapted for drug screening. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 18 Samples
+FTP download: GEO (XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE155nnn/GSE155241/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA649019
+Series		Accession: GSE155241	ID: 200155241
+
+144. Identification of Candidate COVID-19 Therapeutics using hPSC-derived Lung Organoids
+(Submitter supplied) The SARS-CoV-2 virus has caused already over 3.5 million COVID-19 cases and 250,000 deaths globally. There is an urgent need to create novel models to study SARS-CoV-2 using human disease-relevant cells to understand key features of virus biology and facilitate drug screening. As primary SARS-CoV-2 infection is respiratory-based, we developed a lung organoid model using human pluripotent stem cells (hPSCs) that could be adapted for drug screens.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 2 Samples
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE148nnn/GSE148113/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA623281
+Series		Accession: GSE148113	ID: 200148113
+
+145. Identification of A Drug Blocking SARS-CoV-2 Infection using Human Pluripotent Stem Cell-derived Colon Organoids
+(Submitter supplied) The current COVID-19 pandemic is caused by the novel coronavirus SARS-coronavirus 2 (SARS-CoV-2). There are currently no therapeutic options for mitigating this disease due to lack of a vaccine and limited knowledge of SARS-CoV-2 virus biology. As a result, there is an urgent need to create new disease models to study SARS-CoV-2 biology and to screen for therapeutics using human disease-relevant tissues. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 2 Samples
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE147nnn/GSE147975/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA622691
+Series		Accession: GSE147975	ID: 200147975
+
+146. Circuits between infected macrophages and T cells in SARS-CoV-2 pneumonia
+(Submitter supplied) Some patients infected with Severe Acute Respiratory Syndrome Coronavirus-2 (SARS-CoV-2) develop severe pneumonia and the acute respiratory distress syndrome (ARDS). Distinct clinical features in these patients have led to speculation that the immune response to virus in the SARS-CoV-2-infected alveolus differs from other types of pneumonia. We collected bronchoalveolar lavage fluid samples from 88 patients with SARS-CoV-2-induced respiratory failure and 211 patients with known or suspected pneumonia from other pathogens and subjected them to flow cytometry and bulk transcriptomic profiling. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 19 Samples
+FTP download: GEO (CSV, H5, H5AD, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE155nnn/GSE155249/
+Series		Accession: GSE155249	ID: 200155249
+
+147. Transcriptomic profiles of whole blood from SARS-CoV-2 rhesus macaques
+(Submitter supplied) Total RNAseq profiling of whole blood collected longitudinally from 8 macaques infected with SARS-CoV-2
+Organism:	Macaca mulatta
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL23949 48 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE155nnn/GSE155363/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA649525
+Series		Accession: GSE155363	ID: 200155363
+
+148. Non-neuronal expression of SARS-CoV-2 entry genes in the olfactory system suggests mechanisms underlying COVID-19-associated anosmia (scRNA-seq: olfactory mucosa)
+(Submitter supplied) A subset of COVID-19 patients exhibit altered olfactory function. Here we analyze bulk and single cell RNA-Seq datasets to identify cell types in the olfactory epithelium and olfactory bulb that express cell entry molecules that mediate infection by SARS-CoV-2 (CoV-2), the causal agent in COVID-19. We find that samples from whole olfactory mucosa in species including mouse and human express two key genes involved in CoV-2 entry, ACE2 and TMPRSS2. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL19057 8 Samples
+FTP download: GEO (CSV, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE151nnn/GSE151346/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA635577
+Series		Accession: GSE151346	ID: 200151346
+
+149. Non-neuronal expression of SARS-CoV-2 entry genes in the olfactory system suggests mechanisms underlying COVID-19-associated anosmia (scRNA-seq: olfactory bulb)
+(Submitter supplied) A subset of COVID-19 patients exhibit altered olfactory function. Here we analyze bulk and single cell RNA-Seq datasets to identify cell types in the olfactory epithelium and olfactory bulb that express cell entry molecules that mediate infection by SARS-CoV-2 (CoV-2), the causal agent in COVID-19. We find that samples from whole olfactory mucosa in species including mouse and human express two key genes involved in CoV-2 entry, ACE2 and TMPRSS2. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL19057 4 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE148nnn/GSE148360/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA624068
+Series		Accession: GSE148360	ID: 200148360
+
+150. SARS-CoV-2 infection in the lungs of human ACE2 transgenic mice causes severe inflammation and immune cell infiltration, and compromised respiratory function
+(Submitter supplied) We evaluate heterozygous transgenic mice expressing human ACE2 receptor driven by the epithelial cell promoter cytokeratin-18 promoter (K18-hACE2) as a model of SARS-CoV-2 infection. Intranasal inoculation of K18-hACE2 mice with SARS-CoV-2 results in high levels of infection in the lung parenchyma with spread to other organs.
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24247 20 Samples
+FTP download: GEO (TSV, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE154nnn/GSE154104/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA645133
+Series		Accession: GSE154104	ID: 200154104
+
+151. Human dendritic cell and macrophage response to SARS-CoV-2 infection
+(Submitter supplied) The goal of this study is to use RNA-sequencing to profile the transcriptional changes in human PBMC derived dendritic cells and macrophages upon SARS-CoV-2 infection. Specifically, we are interested in determining the cytokine and chemokine up-regulation in response to SARS-CoV-2 infection at 2 hours post infection since cytokine storms were observed in severe COVID-19 patients. Multiple chemokines including IL-6 and CXCL10 were up-regulated by SARS-CoV-2 infection in both dendritic cells and macrophages, implying a potential detrimental effect of myeloid cells in exacerbating immunopathology of COVID-19 diseases.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL23227 4 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE155nnn/GSE155106/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA648425
+Series		Accession: GSE155106	ID: 200155106
+
+152. Severely ill COVID-19 patients display impaired exhaustion features in SARS-CoV-2-reactive CD8+ T cells
+(Submitter supplied) The molecular properties of CD8+ T cells that respond to SARS-CoV-2 infection are not fully known. Here, we report on the single-cell transcriptomes of >80,000 virus-reactive CD8+ T cells, obtained using a modified Antigen-Reactive T cell Enrichment (ARTE) assay, from 39 COVID-19 patients and 10 healthy subjects. COVID-19 patients segregated into two groups based on whether the dominant CD8+ T cell response to SARS-CoV-2 was ‘exhausted’ or not. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 45 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE153nnn/GSE153931/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA644579
+Series		Accession: GSE153931	ID: 200153931
+
+153. In vivo antiviral host response to SARS-CoV-2 by viral load, sex, and age
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL18573 GPL24676 493 Samples
+FTP download: GEO ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE154nnn/GSE154770/
+Series		Accession: GSE154770	ID: 200154770
+
+154. In vivo antiviral host response to SARS-CoV-2 by viral load, sex, and age [dataset III]
+(Submitter supplied) We examined host gene expression as a function of time in SARS-CoV-2-infected individuals.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 6 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE154nnn/GSE154769/
+Series		Accession: GSE154769	ID: 200154769
+
+155. In vivo antiviral host response to SARS-CoV-2 by viral load, sex, and age [dataset II]
+(Submitter supplied) We examined host gene expression in human airway epithelial cells following infection at 3 or 7 days post infection (DPI) with SARS-CoV-2
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 3 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE154nnn/GSE154768/
+Series		Accession: GSE154768	ID: 200154768
+
+156. Primary Human Airway Epithelial Cultures infected with SARS-CoV-2
+(Submitter supplied) We performed RNAseq analysis on primary human airway epithelial cultures either mock infected (PBS) or infected with SARS-CoV-2. Transcriptional profiling studies found that infected pHAE cells had a molecular signature dominated by pro-inflammatory cytokines and chemokine induction, including IL-6, TNFα, CXCL8, and identified NF-κB and ATF4 as key drivers of this pro-inflammatory cytokine response. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 6 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE153nnn/GSE153970/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA644625
+Series		Accession: GSE153970	ID: 200153970
+
+157. Modulating the transcriptional landscape of SARS-CoV-2 as an effective method for developing antiviral compounds
+(Submitter supplied) The pandemic of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has imposed a significant burden on the human population. To understand the virus and the disease it causes we sought to interfere with the transcriptional response of the infected host. Utilizing the expression pattern of SARS-CoV-2-infected cells, we identified a region in gene expression space that was unique to virus infection and inversely proportional to the transcriptional footprint of known compounds characterized in the Library of Integrated Network-based Cellular Signatures (LINCS). more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 66 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE154nnn/GSE154613/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA646783
+Series		Accession: GSE154613	ID: 200154613
+
+158. Gene expression of SARS-CoV-2-infected Vero E6 cells
+(Submitter supplied) We conducted a high-throughput drug repositioning screen using the LOPAC®1280 and the ReFRAME drug libraries to identify existing drugs that harbor antiviral activity against SARS-CoV-2, in a Vero E6 cell-based assay. We additionally performed RNA sequencing on control and SARS-CoV-2 infected Vero E6 cells to study the biological changes after SARS-CoV-2 infection and to elucidate the potential mechanisms underlying the positive hits identified from our high-throughput screen. more...
+Organism:	Chlorocebus sabaeus; Severe acute respiratory syndrome coronavirus 2
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL28836 GPL28837 6 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE153nnn/GSE153940/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA644588
+Series		Accession: GSE153940	ID: 200153940
+
+159. Immunophenotyping of COVID-19 and Influenza Underscores the Association of Type I IFN Response in Severe COVID-19
+(Submitter supplied) Although most SARS-CoV-2-infected individuals experience mild COVID-19, some patients suffer from severe COVID-19, which is accompanied by acute respiratory distress syndrome and systemic inflammation. To identify factors driving severe progression of COVID-19, we performed single-cell RNA-seq using peripheral blood mononuclear cells (PBMCs) obtained from healthy donors, patients with mild or severe COVID-19, and patients with severe influenza. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 20 Samples
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE149nnn/GSE149689/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA629752
+Series		Accession: GSE149689	ID: 200149689
+
+160. Blocking of the CD80/86 axis as a therapeutic approach to prevent progression to more severe forms of COVID-19
+(Submitter supplied) In its more severe forms, COVID-19 progresses towards an excessive immune response, leading to the systemic overexpression of proinflammatory cytokines like IL6, mostly from the infected lungs. This cytokine storm can cause multiple organ damage and death. Consequently, there is a pressing need to identify therapies to treat and prevent severe symptoms during COVID-19. Based on previous clinical evidence, we hypothesized that inhibiting T cell co-stimulation by blocking CD80/86 could be an effective therapeutic strategy against progression to severe proinflammatory states. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 76 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE151nnn/GSE151161/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA634938
+Series		Accession: GSE151161	ID: 200151161
+
+161. In vivo antiviral host response to SARS-CoV-2 by viral load, sex, and age [dataset I]
+(Submitter supplied) We examined host gene expression across infection status, viral load, age, and sex among RNA-sequencing profiles of nasopharyngeal swabs from 430 individuals with SARS-CoV-2 and 54 negative controls. SARS-CoV-2 induced a strong interferon-driven antiviral response and reduced transcription of ribosomal proteins. Expression of interferon-responsive genes, including ACE2, increased as a function of viral load. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 484 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152075/
+Series		Accession: GSE152075	ID: 200152075
+
+162. RNA-Seq of Human iPSC-cardiomyocytes infected with SARS-CoV-2
+(Submitter supplied) Coronavirus disease 2019 (COVID-19) is a viral pandemic caused by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). COVID-19 is predominantly defined by respiratory symptoms, but cardiac complications including arrhythmias, heart failure, and viral myocarditis are also prevalent. Although the systemic ischemic and inflammatory responses caused by COVID-19 can detrimentally affect cardiac function, the direct impact of SARS-CoV-2 infection on human cardiomyocytes is not well understood.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 6 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE150nnn/GSE150392/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA631969
+Series		Accession: GSE150392	ID: 200150392
+
+163. RNA sequence of PBMCs of macaques infected with SARS-CoV-2
+(Submitter supplied) The goals of this study are to analyze immune response of host against SARS-CoV-2 using PBMCs trascriptome
+Organism:	Macaca fascicularis; Macaca mulatta
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL22523 GPL21120 16 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152439/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA639367
+Series		Accession: GSE152439	ID: 200152439
+
+164. Identification of Lead Drug Candidates for COVID-19 based on Drug Screening Using Human Pluripotent Stem Cell-Derived Cells/Organoids
+(Submitter supplied) We systematically probed which cell types are permissive to SARS-CoV-2 infection. Transcriptomic analysis following SARS-CoV-2 infection of hPSC-derived pancreatic and lung organoids revealed upregulation of chemokines but not type I/III interferon signaling, similar to what was seen in primary human COVID-19 pulmonary infection.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 21 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE151nnn/GSE151803/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA637303
+Series		Accession: GSE151803	ID: 200151803
+
+165. Generation of a Broadly Useful Model for COVID-19 Pathogenesis, Vaccination, and Treatment
+(Submitter supplied) COVID-19, caused by SARS-CoV-2, is a virulent pneumonia, with >4,000,000 confirmed cases worldwide and >280,000 deaths as of May 13, 2020.  It is critical to develop and evaluate vaccines and therapeutic interventions as rapidly as possible. Mice, the ideal animal for such studies, are resistant to SARS-CoV-2. Here, we overcome this difficulty by exogenous delivery of human ACE2 with a replication-deficient adenovirus (Ad5-hACE2). more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL19057 6 Samples
+FTP download: GEO (TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE150nnn/GSE150847/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA633852
+Series		Accession: GSE150847	ID: 200150847
+
+166. A Platform to Define Cellular Targets of SARS-COV-2 Infection Using Human Pluripotent Stem Cell-Derived Cells and Organoids
+(Submitter supplied) The SARS-CoV-2 virus has already caused over a million COVID-19 cases and over fifty-thousand deaths globally. There is an urgent need to create novel models to study SARS-CoV-2 virus using human disease-relevant cells and tissues to understand key features of virus biology. We present a platform comprised of nine different cell and organoid derivatives from human pluripotent stem cells (hPSCs) representing all three primary germ layers, including lung progenitors and alveolar type II (AT2) cells, pancreatic endocrine cells, liver organoids, endothelial cells, cardiomyocytes, macrophages, microglia, and both cortical and dopaminergic neurons. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 1 Sample
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE147nnn/GSE147903/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA622520
+Series		Accession: GSE147903	ID: 200147903
+
+167. Murine B cell response to immunization with SARS-CoV-2
+(Submitter supplied) We performed single-cell gene expression and V(D)J profiling to interrogate the blood plasmablast response in mice immunized with the receptor binding domain of the SARS-CoV-2 spike protein.
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24247 1 Sample
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE149nnn/GSE149036/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA624801
+Series		Accession: GSE149036	ID: 200149036
+
+168. Generation of human bronchial organoids for SARS-CoV-2 research
+(Submitter supplied) Coronavirus disease 2019 (COVID-19) is a disease that causes fatal disorders including severe pneumonia. To develop a therapeutic drug for COVID-19, a model that can reproduce the viral life cycle and can evaluate the drug efficacy of anti-viral drugs is essential. In this study, we established a method to generate human bronchial organoids (hBO) from commercially available cryopreserved primary human bronchial epithelial cells (hBEpC) and examined whether they could be used as a model for severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) research. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL24676 GPL18573 18 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE150nnn/GSE150819/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA633783
+Series		Accession: GSE150819	ID: 200150819
+
+169. A single-cell atlas of the peripheral immune response to severe COVID-19
+(Submitter supplied) There is an urgent need to better understand the pathophysiology of Coronavirus disease 2019 (COVID-19), the global pandemic caused by SARS-CoV-2 which has infected more than 3 million people worldwide. Approximately 20% of patients with COVID-19 develop severe disease and 5% require intensive care. Severe disease has been associated with changes in peripheral immune activity, including increased levels of pro-inflammatory cytokines that may be produced by a subset of inflammatory monocytes, lymphopenia, and T cell exhaustion. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 13 Samples
+FTP download: GEO (RDS) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE150nnn/GSE150728/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA633393
+Series		Accession: GSE150728	ID: 200150728
+
+170. Spectrum of Viral Load and Host Response Seen in Autopsies of SARS-CoV-2 Infected Lungs
+(Submitter supplied) The relationship of SARS-CoV-2 lung infection and severity of pulmonary disease is not fully understood. We visualized viral RNA by in situ hybridization and assessed the immune infiltrate using immunohistochemistry and total RNA sequencing on five COVID-19 positive patients.  Patients with high levels of viral RNA showed hyaline membranes on histology, extensive pneumocyte loss, low T-cell numbers and were enriched for the interferon gene signature, while patients with lower levels of viral RNA showed lower numbers of T-cells and CD8 cells and were enriched for fibrosis-associated genes. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL18573 GPL15520 88 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE150nnn/GSE150316/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA631753
+Series		Accession: GSE150316	ID: 200150316
+
+171. Decoding SARS-CoV-2 coding capacity
+(Submitter supplied) SARS-CoV-2 is a coronavirus responsible for the COVID-19 pandemic. Although the SARS-CoV-2 trascriptome was reported recently, its coding capacity and the relative production of different viral proteins remained unclear. Utilizing a suit of ribosome profiling techniques, we present a high resolution map of the SARS-CoV-2 coding regions.
+Organism:	Homo sapiens; Chlorocebus aethiops aethiops; Severe acute respiratory syndrome coronavirus 2
+Type:		Expression profiling by high throughput sequencing; Other
+Platforms: GPL28867 GPL28488 GPL28866 26 Samples
+FTP download: GEO (TAB, WIG) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE149nnn/GSE149973/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA630716
+Series		Accession: GSE149973	ID: 200149973
+
+172. Single-cell transcriptomics of mouse small intestinal epithelial cells and intraepithelial lymphocytes
+(Submitter supplied) The goal of this study is to obtain single-cell based transcription data in different intestinal epithelial cell sub-populations. Specifically, we were interested in determining which intestinal epithelial cell subsets express ACE2, the SARS-CoV-2 receptor, and TMPRSS2, a serine protease that facilitates viral spike protein cleavage and virus entry.
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL21103 1 Sample
+FTP download: GEO ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE149nnn/GSE149907/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA630464
+Series		Accession: GSE149907	ID: 200149907
+
+173. Gene expression profiling of SARS-CoV-1/2 infected human cell lines at bulk and single-cell level
+(Submitter supplied) To identify human genes and cellular pathways influencing SARS-CoV-1 and SARS-CoV-2 infection, we performed genome-wide measurements of different aspects of gene expression at the bulk and single-cell level.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Non-coding RNA profiling by high throughput sequencing
+Platforms: GPL20301 GPL18573 GPL24676 203 Samples
+FTP download: GEO (TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE148nnn/GSE148729/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA625518
+Series		Accession: GSE148729	ID: 200148729
+
+174. Bulk RNA sequencing of SARS-CoV and SARS-CoV-2 infected human intestinal organoids
+(Submitter supplied) Bulk RNA sequencing was performed on control and SARS-CoV and SARS-CoV-2 infected intestinal organoids.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 22 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE149nnn/GSE149312/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA628628
+Series		Accession: GSE149312	ID: 200149312
+
+175. A gene locus that controls expression of ACE2 in virus infection
+(Submitter supplied) The SARS-CoV-2 pandemic has resulted in widespread morbidity and mortality globally, but with widely variable outcomes. The development of severe disease and mortality is higher in older individuals, males and those with other co-morbidities, and may vary across ethnic groups. However, so far, no host genetic factor has been clearly associated with susceptibility and development of severe disease. To understand the impact of host genetics on expression of ACE2 (SARS-CoV-2 receptor) during RNA virus infection we performed a GWAS for ACE2 expression in HCV-infected liver tissue from 195 individuals. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL20301 195 Samples
+FTP download: GEO (TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE149nnn/GSE149601/
+Series		Accession: GSE149601	ID: 200149601
+
+176. SARS-CoV-2 receptor ACE2 is an interferon-stimulated gene in human airway epithelial cells and is detected in specific cell subsets across tissues
+(Submitter supplied) There is pressing urgency to understand the pathogenesis of the severe acute respiratory syndrome coronavirus clade 2 (SARS-CoV-2) which causes the disease COVID-19. SARS-CoV-2 spike (S)-protein binds ACE2, and in concert with host proteases, principally TMPRSS2, promotes cellular entry. The cell subsets targeted by SARS-CoV-2 in host tissues, and the factors that regulate ACE2 expression, remain unknown. more...
+Organism:	Macaca fascicularis; Mus musculus; Macaca mulatta; Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+6 related Platforms 349 Samples
+FTP download: GEO (CSV, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE148nnn/GSE148829/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA627454
+Series		Accession: GSE148829	ID: 200148829
+
+177. Cell-intrinsic differences between human tracheal epithelial cells from children and adults [cultured basal cells]
+(Submitter supplied) The airway epithelium is a key protective barrier whose integrity is preserved by the self-renewal and differentiation of basal progenitor cells. Epithelial cells are central to the pathogenesis of multiple chronic lung diseases for which age is a principle risk factor. Children are also less susceptible to SARS-CoV-2 infection, suffer less severe symptoms than adults and have a lower rate of mortality. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 6 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE148nnn/GSE148817/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA625892
+Series		Accession: GSE148817	ID: 200148817
+
+178. Cell-intrinsic differences between human tracheal epithelial cells from children and adults [FACS-sorted basal cells]
+(Submitter supplied) The airway epithelium is a key protective barrier whose integrity is preserved by the self-renewal and differentiation of basal progenitor cells. Epithelial cells are central to the pathogenesis of multiple chronic lung diseases for which age is a principle risk factor. Children are also less susceptible to SARS-CoV-2 infection, suffer less severe symptoms than adults and have a lower rate of mortality. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 6 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE148nnn/GSE148816/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA625888
+Series		Accession: GSE148816	ID: 200148816
+
+179. Cell-intrinsic differences between human tracheal epithelial cells from children and adults [laser-captured fresh epithelial cells]
+(Submitter supplied) The airway epithelium is a key protective barrier whose integrity is preserved by the self-renewal and differentiation of basal progenitor cells. Epithelial cells are central to the pathogenesis of multiple chronic lung diseases for which age is a principle risk factor. Children are also less susceptible to SARS-CoV-2 infection, suffer less severe symptoms than adults and have a lower rate of mortality. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 12 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE148nnn/GSE148815/
+Series		Accession: GSE148815	ID: 200148815
+
+180. Single-cell RNA-seq of engineered healthy human kidney organoids
+(Submitter supplied) Single-cell RNA-seq of engineered healthy human kidney organoids. These data are part of a larger investigation (data not provided here) showing that SARS-CoV-2 can directly infect engineered human blood vessel organoids and human kidney organoids which can be inhibited by human recombinant soluble ACE2 (hrsACE2), demonstrating that hrsACE2 can significantly block early stages of SARS-CoV-2 infections.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 1 Sample
+FTP download: GEO (H5) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE147nnn/GSE147863/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA622298
+Series		Accession: GSE147863	ID: 200147863
+
+181. Transcriptional response to SARS-CoV-2 infection
+(Submitter supplied) Viral pandemics pose an imminent threat to humanity. The ongoing COVID-19 pandemic, caused by the SARS-CoV-2 virus, requires the urgent development of anti-viral therapies. Because of its recent emergence, there is a paucity of information regarding viral behavior and host response following SARS-CoV-2 infection. Here, we offer an in-depth analysis of the host response to SARS-CoV-2 as it compares to other respiratory infections. more...
+Organism:	Mustela putorius furo; Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL18573 GPL28369 110 Samples
+FTP download: GEO (TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE147nnn/GSE147507/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA615032
+Series		Accession: GSE147507	ID: 200147507
+
+182. The sequence of human ACE2 is suboptimal for binding the S spike protein of SARS coronavirus 2
+(Submitter supplied) The rapid and escalating spread of SARS coronavirus 2 (SARS-CoV-2) poses an immediate public health emergency, and no approved therapeutics or vaccines are currently available. The viral spike protein S binds membrane-tethered ACE2 on host cells in the lungs to initiate molecular events that ultimately release the viral genome intracellularly. The extracellular protease domain of ACE2 inhibits cell entry of both SARS and SARS-2 coronaviruses by acting as a soluble decoy for receptor binding sites on S, and is a promising candidate for therapeutic and prophylactic development. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL24676 10 Samples
+FTP download: GEO (XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE147nnn/GSE147194/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA613297
+Series		Accession: GSE147194	ID: 200147194
+
+183. LY6E blocks coronavirus fusion and confers immune control of viral disease
+(Submitter supplied) Zoonotic coronaviruses (CoVs) are significant threats to global health, as exemplified by the recent emergence of Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). Host immune responses to CoV are complex and regulated in part through antiviral interferons. However, the interferon-stimulated gene products that inhibit CoV are not well characterized. Here, we show that interferon-inducible lymphocyte antigen 6 complex, locus E (LY6E) potently restricts cellular infection by multiple CoVs, including SARS-CoV, SARS-CoV-2, and Middle East respiratory syndrome coronavirus (MERS-CoV). more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24247 36 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE146nnn/GSE146074/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA609134
+Series		Accession: GSE146074	ID: 200146074
+
+184. Convergent evolution of a vertebrate-like methylome in a marine sponge
+(Submitter supplied) Vertebrates have highly methylated genomes at CpG positions while most invertebrates have sparsely methylated genomes. Therefore, hypermethylation is considered a major innovation that shaped the genome and the regulatory roles of DNA methylation in vertebrates. However, here we report that the marine sponge Amphimedon queenslandica, belonging to one of the earliest branching animal lineages, has evolved a hypermethylated genome with remarkable similarities to that of a vertebrate. more...
+Organism:	Sycon ciliatum; Amphimedon queenslandica; Mnemiopsis leidyi; Nematostella vectensis
+Type:		Genome binding/occupancy profiling by high throughput sequencing; Methylation profiling by high throughput sequencing
+5 related Platforms 36 Samples
+FTP download: GEO (CGMAP, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE124nnn/GSE124016/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA510589
+Series		Accession: GSE124016	ID: 200124016
+
+185. Response to SARS-CoV in the PreCC
+(Submitter supplied) In order to narrow candidate QTL loci into relevant genes driving disease differences, we assessed transcriptional differences across the pre-CC population used to map phenotypic QTL.  We integrate this normalized expression data with polymorphisms underneath a candidate locus to arrive at a high priority candidate gene which had genetic variants private to the causal haplotype and also had expression strongly correlated with the appropriate trait (SARS-CoV viral lung load at 4 DPI).
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL7202 68 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE93nnn/GSE93283/
+Series		Accession: GSE93283	ID: 200093283
+
+186. SARS-CoV-Encoded Small RNAs Contribute to Infection-Associated Lung Pathology
+(Submitter supplied) Severe acute respiratory syndrome coronavirus (SARS-CoV) causes lethal disease in humans, which is characterized by exacerbated inflammatory response and extensive lung pathology. To address the relevance of small non-coding RNAs in SARS-CoV pathology, we deep sequenced RNAs from the lungs of infected mice and discovered three 18–22 nt small viral RNAs (svRNAs). The three svRNAs were derived from the nsp3 (svRNA-nsp3.1 and -nsp3.2) and N (svRNA-N) genomic regions of SARS-CoV. more...
+Organism:	Mus musculus
+Type:		Non-coding RNA profiling by high throughput sequencing
+Platform: GPL15103 16 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE90nnn/GSE90624/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA355238
+Series		Accession: GSE90624	ID: 200090624
+
+187. Histone posttranslational modification ChIP-chip from Oikopleura dioica gonads
+(Submitter supplied) In multicellular organisms, histone posttranslational modifications plays roles in transitions associated with the cell cycle, development, germline specification, gametogenesis and inheritance. Here we defined adaptations of an epigenome in tunicates, sister group to vertebrates, to strong secondary genome compaction in the larvacean, Oikopleura dioica, that has separate sexes and male heterogamy. We profiled 19 histone post-translational modifications in homogeneous ovary and testis samples and used the combinatorics of these marks to define chromatin states. We supplemented these with profiles of RNA polymerase II, CTCF and p300 binding sites and integrated existing annotation and expression data to characterize distinct epigenomic landscapes of the ovary and testis.
+Organism:	Oikopleura dioica
+Type:		Genome binding/occupancy profiling by genome tiling array
+Platform: GPL15837 116 Samples
+FTP download: GEO (BEDGRAPH, PAIR) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE78nnn/GSE78915/
+Series		Accession: GSE78915	ID: 200078915
+
+188. Transcriptomic analysis of the Novel Middle East Respiratory Syndrome Coronavirus (African green monkey, Vero E6 cells)
+(Submitter supplied) We will use the EMC/2012 strain of the novel beta Coronavirus called Middle East Respiratory Syndrome Coronavirus (MERS-CoV). It was initially passaged on Vero E6 cells in Saudi Arabia before being sequenced at the Erasmus Medical College in Rotterdam, Netherlands by Dr Ron Fouchier. We propose to perform a time course of infection of hCoV-EMC on MRC5 cells (Human Lung origin) and Vero cells (African Green Monkey Kidney cells). more...
+Organism:	Chlorocebus sabaeus
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL18769 GPL18770 37 Samples
+FTP download: GEO ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE56nnn/GSE56193/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA233944
+Series		Accession: GSE56193	ID: 200056193
+
+189. Host responses contributing to the attenuation of severe acute respiratory syndrome coronaviruses missing E protein domains
+(Submitter supplied) Severe acute respiratory syndrome coronavirus (SARS-CoV) causes a respiratory disease leading to death in 10% of the infected people. A mouse adapted SARS-CoV lacking the envelope (E) protein (rSARS-CoV-MA15-ΔE) is attenuated in vivo. To identify E protein domains and host responses that contribute to rSARS-CoV-MA15-ΔE attenuation, several mutants (rSARS-CoV-MA15-E*) containing point mutations or deletions in the amino-terminal or the carboxy-terminal regions of E protein, respectively, were generated. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL13912 15 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE59nnn/GSE59185/
+Series		Accession: GSE59185	ID: 200059185
+
+190. Mouse lung tissue transcriptome response to a mouse-adapted strain of SARS-CoV in wild type C57BL6/NJ mice and TLR3-/- mice
+(Submitter supplied) The purpose is to determine the role of TLR3-/- on the regulation of the host immune response during lethal SARS-CoV infection
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL7202 52 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE68nnn/GSE68820/
+Series		Accession: GSE68820	ID: 200068820
+
+191. High-resolution genome-wide transcriptomics analysis of O. dioica during recovery from growth arrest
+(Submitter supplied) Polycistronic mRNAs transcribed from operons are resolved via the trans-splicing of a spliced leader (SL) RNA. The SL is also frequently trans-spliced to monocistronic transcripts. Using a modified cap analysis of gene expression (CAGE) protocol we mapped sites of SL trans-splicing genome-wide in the marine chordate Oikopleura dioica and find evidence for proposed functions of SL-trans-splicing. A recent hypothesis postulates that operons facilitate recovery from growth arrested states in metazoans. more...
+Organism:	Oikopleura dioica
+Type:		Expression profiling by genome tiling array
+Platform: GPL15837 8 Samples
+FTP download: GEO (PAIR) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE50nnn/GSE50848/
+Series		Accession: GSE50848	ID: 200050848
+
+192. Genome Wide Identification of SARS-CoV Susceptibility Loci Using the Collaborative Cross
+(Submitter supplied) RNA was isolated from the lungs of mock and infected control and Trim55-/- mice at 2 and 4 DPI.
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL7202 21 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE64nnn/GSE64660/
+Series		Accession: GSE64660	ID: 200064660
+
+193. Interferon response genes as immunopathogenic correlates of SARS coronavirus infection in mice (129/S6/SvEv)
+(Submitter supplied) To further identify and understand the molecular and immunological correlates of pathology for SARS-CoV infection, we infected 129/S6/SvEv or B129 mice with the TOR2 strain of SARS-CoV.  SARS-CoV was detected in the lung and nasal turbinates of infected mice peaking at 1 day post infection (DPI) in both tissues before decreasing rapidly to levels below detection at 7 DPI and 3 DPI, respectively.  Pulmonary lesions in virus-infected animals included bronchiolar, peribronchiolar, and perivascular foci of mild to moderate subacute inflammation. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL1261 21 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE19nnn/GSE19137/
+Series		Accession: GSE19137	ID: 200019137
+
+194. The PDZ-binding motif of SARS-CoV envelope protein is a determinant of viral pathogenesis
+(Submitter supplied) A recombinant SARS-CoV lacking the envelope (E) protein is attenuated in vivo. Here we report that E protein PDZ-binding motif (PBM), a domain involved in protein-protein interactions, is a major virulence determinant in vivo. Elimination of SARS-CoV E protein PBM by using reverse genetics led to attenuated viruses (SARS-CoV-mutPBM) and to a reduction in the deleterious exacerbate immune response triggered during infection with the parental virus (SARS-CoV-wt). more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL13912 9 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE52nnn/GSE52920/
+Series		Accession: GSE52920	ID: 200052920
+
+195. Cytokine stimulation systems approach demonstrates differences in innate and pro-inflammatory host responses between genetically distinct MERS-CoV isolates.
+(Submitter supplied) Background: The recent emergence of a novel coronavirus in the Middle East (designated MERS-CoV) is a reminder of the zoonotic potential of coronaviruses and the severe disease these etiologic agents can cause in humans. Clinical features of Middle East respiratory syndrome (MERS) include severe acute pneumonia and renal failure that is highly reminiscent of severe acute respiratory syndrome (SARS) caused by SARS-CoV. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL17077 33 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE56nnn/GSE56677/
+Series		Accession: GSE56677	ID: 200056677
+
+196. Transcriptomic analysis of the Novel Middle East Respiratory Syndrome Coronavirus (Human, MRC5 cells)
+(Submitter supplied) We will use the EMC/2012 strain of the novel beta Coronavirus called Middle East Respiratory Syndrome Coronavirus (MERS-CoV). It was initially passaged on Vero E6 cells in Saudi Arabia before being sequenced at the Erasmus Medical College in Rotterdam, Netherlands by Dr Ron Fouchier. We propose to perform a time course of infection of hCoV-EMC on MRC5 cells (Human Lung origin) and Vero cells (African Green Monkey Kidney cells). more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL16791 GPL11154 37 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE56nnn/GSE56192/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA233943
+Series		Accession: GSE56192	ID: 200056192
+
+197. Transcriptomic Analysis Of The Novel Middle East Respiratory Syndrome Coronavirus (MERS-CoV)
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Homo sapiens; Chlorocebus sabaeus
+Type:		Expression profiling by high throughput sequencing
+4 related Platforms 74 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE56nnn/GSE56189/
+Series		Accession: GSE56189	ID: 200056189
+
+198. Global gene expression in response to SARS mouse adapted variants MA-15, MA-15epsilon, and MA-15-gamma in young and aged mice
+(Submitter supplied) Purpose of this experiment was to study the host-transcriptional response to MA-15, MA-15epsilon, and MA-15-gamma in both young and aged mice to further understand the differences between response within each age group, and the age-related differences in response to each virus.
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL7202 94 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE36nnn/GSE36969/
+Series		Accession: GSE36969	ID: 200036969
+
+199. Gene Expression Analysis of Host Immune Responses in CD11b positive cells isolated from lungs of the UV inactivated SARS-CoV-immunized mice following Lethal SARS-CoV Infection
+(Submitter supplied) To better understand the biological pathways by which UV inactivated SARS-CoV-induced pulmonary eosinophilia occurs, we examined global transcriptional changes in macrophages from the lungs of mouse.
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL10787 24 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE50nnn/GSE50855/
+Series		Accession: GSE50855	ID: 200050855
+
+200. RNA-Seq based characterization of long non-coding RNA involved in respiratory viruses pathogenesis
+(Submitter supplied) We aimed at systematically inferring the regulatory functions of host lncRNAs in response to influenza A virus (IAV) and severe acute respiratory syndrome coronavirus (SARS-CoV) in the mouse model, using a ‘guilt-by-association’ approach which relies on finding which lncRNAs have similar expression profiles to protein-coding genes of known function. To build a large panel of diverse host responses to viral infection, we took advantage of the genetic diversity present in the 8 founder strains of the Collaborative Cross (CC) mouse resource. more...
+Organism:	Mus musculus
+Type:		Non-coding RNA profiling by high throughput sequencing
+Platform: GPL11002 123 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE52nnn/GSE52405/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA227801
+Series		Accession: GSE52405	ID: 200052405
+
+201. SM009 - SARS infection of C57BL6, and PLAT knock-out mice.
+(Submitter supplied) This purpose of this experiment was to investigate the transcriptional differences between C57BL6, PLAT knock-out mice infected with SARS MA15 virus.
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL7202 18 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE51nnn/GSE51387/
+Series		Accession: GSE51387	ID: 200051387
+
+202. SM004 - SARS infection of C57BL6, TIMP1 and Serpine1 knock-out mice.
+(Submitter supplied) This purpose of this experiment was to investigate the transcriptional differences between C57BL6, TIMP1 and Serpine1 knock-out mice infected with SARS MA15 virus.
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL7202 38 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE51nnn/GSE51386/
+Series		Accession: GSE51386	ID: 200051386
+
+203. SM007 - Infection with SARS MA15 of C57BL6/J mice and CXCR3 knockouts in the same strain of mice.
+(Submitter supplied) The purpose of this experiment is to compare the host response of C57BL6/J mice to that of CXCR3 knockout mutant mice in response to SARS MA15 virus infections.
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL7202 33 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE50nnn/GSE50878/
+Series		Accession: GSE50878	ID: 200050878
+
+204. SM003 - icSARS CoV, SARS MA15 wild type and SARS BatSRBD mutant virus infections of C57BL6 mice - A time course
+(Submitter supplied) This purpose of this experiment was to investigate the transcriptional differences between mice infected with icSARS CoV, SARS MA15 wild type or SARS BatSRBD viruses.
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL7202 86 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE50nnn/GSE50000/
+Series		Accession: GSE50000	ID: 200050000
+
+205. SM014 - SARS MA15 wild type, and SARS nsp16 mutant virus infections of C57BL6 mice - A time course
+(Submitter supplied) This purpose of this experiment was to investigate the transcriptional differences between mice infected with SARS MA15 or SARS nsp16 mutant viruses.
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL7202 40 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE49nnn/GSE49263/
+Series		Accession: GSE49263	ID: 200049263
+
+206. SM012 - SARS MA15 wild type, and SARS deltaORF6 mutant virus infections of C57BL6 mice - A time course
+(Submitter supplied) This purpose of this experiment was to investigate the transcriptional differences between mice infected with SARS MA15 or SARS deltaORF6 mutant viruses.
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL7202 35 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE49nnn/GSE49262/
+Series		Accession: GSE49262	ID: 200049262
+
+207. Gene Expression Analysis of Host Immune Responses in the UV inactivated SARS-CoV-immunized mice following Lethal SARS-CoV Infection
+(Submitter supplied) To better understand the biological pathways by which UV inactivated SARS-CoV-induced pulmonary eosinophilia occurs, we examined global transcriptional changes in mouse lungs.
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL10787 24 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE44nnn/GSE44274/
+Series		Accession: GSE44274	ID: 200044274
+
+208. SHAE004: SARS-CoV, SARS-dORF6 and SARS-BatSRBD infection of HAE cultures.
+(Submitter supplied) HAE cultures were infected with SARS-CoV, SARS-dORF6 or SARS-BatSRBD and were directly compared to A/CA/04/2009 H1N1 influenza-infected cultures.  Cell samples were collected at various hours post-infection for analysis.
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL6480 134 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE47nnn/GSE47962/
+Series		Accession: GSE47962	ID: 200047962
+
+209. SHAE003: SARS-CoV, SARS-dORF6 and SARS-BatSRBD infection of HAE cultures.
+(Submitter supplied) HAE cultures were infected with SARS-CoV, SARS-ddORF6 or SARS-BatSRBD and were directly compared to A/CA/04/2009 H1N1 influenza-infected cultures.  Cell samples were collected at various hours post-infection for analysis.
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL6480 141 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE47nnn/GSE47961/
+Series		Accession: GSE47961	ID: 200047961
+
+210. SHAE002: SARS-CoV, SARS-dORF6 and SARS-BatSRBD infection of HAE cultures.
+(Submitter supplied) HAE cultures were infected with SARS-CoV, SARS-dORF6 or SARS-BatSRBD and were directly compared to A/CA/04/2009 H1N1 influenza-infected cultures.  Cell samples were collected at various hours post-infection for analysis.
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL6480 163 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE47nnn/GSE47960/
+Series		Accession: GSE47960	ID: 200047960
+
+211. SARS-CoV, SARS-dORF6 and SARS-BatSRBD infection of HAE cultures.
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL6480 438 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE47nnn/GSE47963/
+Series		Accession: GSE47963	ID: 200047963
+
+212. Absence of host innate immune responses in SARS-CoV-infected ferrets upon subsequent challenge
+(Submitter supplied) To further investigate the underlying mechanisms of severe acute respiratory syndrome (SARS) pathogenesis and evaluate the therapeutic efficacy of potential drugs and vaccines it is necessary to use an animal model that is highly representative of the human condition in terms of respiratory anatomy, physiology and clinical sequelae.  The ferret, Mustela putorius furo, supports SARS-CoV replication and displays many of the symptoms and pathological features seen in SARS-CoV-infected humans. more...
+Organism:	Mustela putorius furo; Canis lupus familiaris
+Type:		Expression profiling by array
+Platform: GPL3738 38 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE11nnn/GSE11704/
+Series		Accession: GSE11704	ID: 200011704
+
+213. Cell host-response to infection with novel human coronavirus EMC predict potential antivirals and important differences with SARS-coronavirus.
+(Submitter supplied) Differential expression was determined in Calu-3 cells between mock infected and infection with either Human coronavirus EMC and SARS coronavirus at different times post infection.
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL6480 32 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE45nnn/GSE45042/
+Series		Accession: GSE45042	ID: 200045042
+
+214. Genome-wide transcriptional responses to benzo[a]pyrene and clofibrate in the tunicate Oikopleura dioica
+(Submitter supplied) Animals have developed extensive mechanisms of response to xenobiotic chemical attacks. Although recent genome surveys have suggested a broad conservation of the chemical defensome across metazoans, global gene expression responses to xenobiotics are not known in most invertebrates. Here, using high density tiling arrays with over 2 million probes, we explored genome-wide gene expression in the tunicate Oikopleura dioica in response to two model xenobiotic chemicals – the carcinogenic polycyclic aromatic hydrocarbon benzo[a]pyrene (BaP) the pharmaceutical compound Clofibrate (Clo). more...
+Organism:	Oikopleura dioica
+Type:		Expression profiling by genome tiling array
+Platform: GPL14906 8 Samples
+FTP download: GEO (PAIR) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE33nnn/GSE33818/
+Series		Accession: GSE33818	ID: 200033818
+
+215. SM015 - Infection with SARS MA15 of C57BL/6J mice and Tnfrsf1a/1b knockouts
+(Submitter supplied) Comparing the host response of C57BL/6J mice to Tnfrsf1a/1b knockouts in the same strain of mice.
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL7202 20 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE40nnn/GSE40840/
+Series		Accession: GSE40840	ID: 200040840
+
+216. SM020 - Infection with SARS MA15 of C57BL/6J mice and KEPI (ppp1r14c) knockouts
+(Submitter supplied) Comparing the host response of C57BL/6J mice to KEPI (ppp1r14c) knockouts in the same strain of mice.
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL7202 19 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE40nnn/GSE40827/
+Series		Accession: GSE40827	ID: 200040827
+
+217. SM019 - Infection with SARS MA15 of C57BL/6J mice and Tnfrsf1b knockout mice
+(Submitter supplied) Comparing the host response of C57BL/6J mice to Tnfrsf1b knockouts in the same strain of mice.
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL7202 22 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE40nnn/GSE40824/
+Series		Accession: GSE40824	ID: 200040824
+
+218. High-resolution genome-wide transcriptomics analysis of O. dioica development
+(Submitter supplied) The developmental transcriptomics of every significant developmental stage of O. dioica at ultra-high resolution.
+Organism:	Oikopleura dioica
+Type:		Expression profiling by genome tiling array
+Platform: GPL15837 18 Samples
+FTP download: GEO (PAIR) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE39nnn/GSE39568/
+Series		Accession: GSE39568	ID: 200039568
+
+219. Severe acute respiratory syndrome coronavirus envelope protein regulates cell stress responses and apoptosis
+(Submitter supplied) Severe acute respiratory syndrome virus (SARS-CoV) that lacks the envelope (E) gene (rSARS-CoV-ΔE) is attenuated in vivo [1,2]. To identify factors that contribute to rSARS-CoV-ΔE attenuation, gene expression in cells infected by SARS-CoV with or without E gene was compared. Twenty-five stress response genes were preferentially upregulated during infection in the absence of the E gene. In addition, genes involved in signal transduction, transcription, cell metabolism, immunoregulation, inflammation, apoptosis and cell cycle and differentiation were differentially regulated in cells infected with rSARS-CoV with or without the E gene. more...
+Organism:	Chlorocebus aethiops; Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL570 33 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE30nnn/GSE30589/
+Series		Accession: GSE30589	ID: 200030589
+
+220. SCL006,icSARS CoV Urbani or icSARS Bat SRBD (spike receptor binding domain from the wild type strain Urbani to allow for infection of human and non-human primate cells) infections of the 2B4 clonal derivative of Calu-3 cells - Time course
+(Submitter supplied) Purpose of experiment was to compare transcriptomics of 2B4 cells (clonal derivative of Calu-3 cells) infected with either icSARS CoV or the icSARS deltaORF6 mutant.
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL6480 87 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE37nnn/GSE37827/
+Series		Accession: GSE37827	ID: 200037827
+
+221. Integrative deep sequencing of the mouse lung transcriptome reveals differential expression of diverse classes of small RNAs in response to respiratory virus infection.
+(Submitter supplied) We previously reported widespread differential expression of long non-protein-coding RNAs (ncRNAs) in response to virus infection. Here, we expanded the study through small RNA transcriptome sequencing analysis of the host response to both severe acute respiratory syndrome coronavirus (SARS-CoV) and influenza virus infections across four founder mouse strains of the Collaborative Cross, a recombinant inbred mouse resource for mapping complex traits. more...
+Organism:	Mus musculus
+Type:		Non-coding RNA profiling by high throughput sequencing
+Platform: GPL11002 20 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE36nnn/GSE36971/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA157353
+Series		Accession: GSE36971	ID: 200036971
+
+222. Transcriptomic analysis of host response to mouse-adapted SARS virus in wild type, STAT1 -/-, and IFNAR1 -/- mouse genetic backgrounds
+(Submitter supplied) The mechanisms by which pulmonary lesions and fibrosis are generated during SARS-CoV infection are not known. Using high-throughput mRNA profiling, we examined the transcriptional response of wild-type (WT), type I interferon receptor knockout (IFNAR1−/−), and STAT1 knockout (STAT1−/−) mice infected with a recombinant mouse-adapted SARS-CoV (rMA15) to better understand the contribution of specific gene expression changes to disease progression.
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL7202 36 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE36nnn/GSE36016/
+Series		Accession: GSE36016	ID: 200036016
+
+223. Global analysis of the Staphylococcus aureus response to mupirocin
+(Submitter supplied) In the present study we analyzed the response of S. aureus to mupirocin, the drug of choice for nasal decolonization of S. aureus. Mupirocin selectively inhibits the bacterial isoleucyl-tRNA synthetase (IleRSs) leading to the accumulation of uncharged isoleucyl-tRNA and hence (p)ppGpp. The latter is a signal for the induction of the stringent response, an important global transcriptional and translational control mechanism that allows bacteria to adapt to nutritional deprivation. more...
+Organism:	Staphylococcus aureus
+Type:		Expression profiling by array
+Platform: GPL13937 4 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE30nnn/GSE30743/
+Series		Accession: GSE30743	ID: 200030743
+
+224. SCL005: icSARS CoV Urbani or icSARS deltaORF6 infections of the 2B4 clonal derivative of Calu-3 cells - Time course
+(Submitter supplied) Purpose of experiment was to compare transcriptomics of 2B4 cells (clonal derivative of Calu-3 cells) infected with either icSARS CoV or the icSARS deltaORF6 mutant.
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL4133 99 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE33nnn/GSE33267/
+Series		Accession: GSE33267	ID: 200033267
+
+225. SM001: SARS CoV MA15 infection of C57Bl/6 mouse model – Data from 4 viral doses at 1, 2, 4 and 7 days post infection.
+(Submitter supplied) Purpose of experiment was to perform transcriptomic analysis on C57Bl/6 mice infected with different doses of SARS CoV MA15 at 4 different days post infection.
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL4134 92 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE33nnn/GSE33266/
+Series		Accession: GSE33266	ID: 200033266
+
+226. Comparative Pathogenesis of Three Human and Zoonotic SARS-CoV Strains in Cynomolgus Macaques
+(Submitter supplied) The severe acute respiratory syndrome (SARS) epidemic was characterized by increased pathogenicity in the elderly due to an early exacerbated innate host response. SARS-CoV is a zoonotic pathogen that entered the human population through an intermediate host like the palm civet. To prevent future introductions of zoonotic SARS-CoV strains and subsequent transmission into the human population, heterologous disease models are needed to test the efficacy of vaccines and therapeutics against both late human and zoonotic isolates. more...
+Organism:	Macaca mulatta
+Type:		Expression profiling by array
+Platform: GPL3535 30 Samples
+FTP download: GEO (CEL, CHP) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE23nnn/GSE23955/
+Series		Accession: GSE23955	ID: 200023955
+
+227. Hosts responses in critical disease caused by pandemic H1N1
+(Submitter supplied) Critical disease caused by the new 2009 pandemic influenza virus (nvH1N1) is a challenge for physicians and scientist. As evidenced in SARS and H5N1, the development of an effective immune response plays a key role to overcome viral diseases.  We studied host`s gene expression signatures, cytokine and antibody responses along the first week of hospitalization in 19 critically ill patients with primary nvH1N1 pneumonia and two degrees of respiratory involvement. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL6102 40 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE21nnn/GSE21802/
+Series		Accession: GSE21802	ID: 200021802
+
+228. Nuclear Scaffold Attachment Sites in HeLa Cells Across 1% of the Human Genome
+(Submitter supplied) The nuclear scaffold, consisting of structural and functional nuclear proteins, remains after extraction of nuclei and anchors loops of DNA.  In the search for cis-elements functioning as chromatin domain boundaries, we mapped 453 nuclear scaffold attachment sites purified by lithium-3,5-iodosalicylate from HeLa cells across 30 Mb of the human genome studied by the ENCODE pilot project.  The scaffold attachment sites recovered mapped predominately near expressed genes and localized near transcription start sites and the ends of genes.
+Organism:	Homo sapiens
+Type:		Genome binding/occupancy profiling by genome tiling array
+Platform: GPL3725 1 Sample
+FTP download: GEO (BAR, BED, CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE26nnn/GSE26477/
+Series		Accession: GSE26477	ID: 200026477
+
+229. Early gene expression events in ferrets in response to SARS coronavirus infection versus direct interferon-alpha2b stimulation
+(Submitter supplied) Background: Type I interferons (IFNs) are essential to the clearance of viral diseases, in part by initiating upregulation of IFN regulated genes (IRGs).  A clear distinction between genes upregulated directly by virus and genes upregulated by secondary IFN production has not been made. Here we investigated the genes regulated by IFN-a2b compared to the genes regulated by SARS-CoV infection in ferrets. more...
+Organism:	Canis lupus familiaris; Mustela putorius furo
+Type:		Expression profiling by array
+Platform: GPL3738 43 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE22nnn/GSE22581/
+Series		Accession: GSE22581	ID: 200022581
+
+230. Development of molecular genetic analysis tools for the domestic ferret (Mustela putorius furo)
+(Submitter supplied) The domestic ferret (Mustela putorius furo) has been used as animal model for decades, largely because its susceptibility to infection with a large number of pathogens such as influenza virus, SARS Corona virus and Canine distemper virus. Despite its importance for biomedical research, little is known about the genome of the M. Furo. The number of reagents for molecular and immunological analysis is thus restricted. more...
+Organism:	Mustela putorius furo
+Type:		Expression profiling by array
+Platform: GPL9774 24 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE19nnn/GSE19398/
+Series		Accession: GSE19398	ID: 200019398
+
+231. Viral Microarray
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Viruses; West Nile virus; Chlorocebus aethiops; Homo sapiens; Human alphaherpesvirus 1; Zaire ebolavirus; SARS coronavirus Tor2; Vesicular stomatitis Indiana virus; Human adenovirus E4; Echovirus E18; artificial sequences; Influenza A virus (A/Texas/36/1991(H1N1)); Lassa virus Josiah
+Type:		Expression profiling by array
+Platforms: GPL10319 GPL10320 40 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE21nnn/GSE21319/
+Series		Accession: GSE21319	ID: 200021319
+
+232. Viral Microarray - Cultured Virus Set
+(Submitter supplied) Background: The analysis of oligonucleotide microarray data in pathogen surveillance and discovery assays is a challenging task. Target template concentration, nucleic acid integrity, and host nucleic acid composition can each have a profound effect on signal distribution. Exploratory analysis of fluorescent signal distribution in clinical samples has revealed deviations from normality, suggesting that distribution-free approaches should be applied. more...
+Organism:	Vesicular stomatitis Indiana virus; Echovirus E18; Influenza A virus (A/Texas/36/1991(H1N1)); Chlorocebus aethiops; Human alphaherpesvirus 1; Human adenovirus E4; Zaire ebolavirus; SARS coronavirus Tor2; Viruses; West Nile virus; Lassa virus Josiah
+Type:		Expression profiling by array
+Platform: GPL10320 11 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE21nnn/GSE21318/
+Series		Accession: GSE21318	ID: 200021318
+
+233. Dynamic Innate Immune Responses of Human Bronchial Epithelial Cells against SARS-CoV and DOHV infection
+(Submitter supplied) Severe acute respiratory syndrome-associated coronavirus (SARS-CoV) infection causes an immune-mediated disease. We have recently shown that SARS-CoV-induced epithelial Calu-3 cytokines could exacerbate and dampen host inflammatory and T cell responses, respectively, through modulating the functions of macrophages and dendritic cells, thereby suggesting that not only are lung epithelial cells the primary cells of SARS-CoV infection,  but they also involve in initiating and orchestrating the host innate and adaptive immunity. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL570 27 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE17nnn/GSE17400/
+Series		Accession: GSE17400	ID: 200017400
+
+234. Gene expression profiling of patients with severe acute respiratory syndrome (SARS)
+(Submitter supplied) We used cDNA microarrays to systematically analyze host responses in SARS-infected individuals from onset of symptoms to discharge from hospital or death.  We modeled gene expression in 60 datasets from 40 unique patients of varied clinical evolution with emphasis on correlating innate and adaptive immune responses with discrete clinical phases of the disease. Keywords: Comparative patient class comparision, SARS patients relative to healthy controls
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL4387 70 Samples
+FTP download: GEO (GPR) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE5nnn/GSE5972/
+Series		Accession: GSE5972	ID: 200005972
+
+235. Optimization and Clinical Validation of a Pathogen Detection Microarray
+(Submitter supplied) This series includes microarrays from 36 patient samples and 2 cell-culture controls, used to optimize and validate the pathogen detection microarray (Wong, et. al. 2007) Keywords: viral pathogen detection
+Organism:	Viruses; Severe acute respiratory syndrome-related coronavirus; Dengue virus 1
+Type:		Expression profiling by array
+Platform: GPL5159 40 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE7nnn/GSE7779/
+Series		Accession: GSE7779	ID: 200007779
+
+236. SARS
+(Submitter supplied) 4 controls and 10 SARS samples Keywords: other
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Dataset: GDS1028 Platform: GPL201 14 Samples
+FTP download: GEO ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE1nnn/GSE1739/
+Series		Accession: GSE1739	ID: 200001739
+
+237. SARS coronavirus series
+(Submitter supplied) Set of microarray experiments used to identify an unknown coronavirus in a viral culture derived from a patient with SARS. March 2003. Keywords = SARS Keywords = coronavirus Keywords = viral discovery Keywords = viruses Keywords = respiratory infection Keywords: repeat sample
+Organism:	Homo sapiens; Viruses
+Type:		Expression profiling by array
+Platform: GPL366 4 Samples
+FTP download: GEO ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSEnnn/GSE546/
+Series		Accession: GSE546	ID: 200000546

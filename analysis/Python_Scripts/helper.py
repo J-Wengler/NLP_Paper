@@ -251,12 +251,11 @@ def evaluateGEO():
     path_to_GEO_queries = "/Data/GEO_Queries/"
     path_to_queries = "/Data/Queries/"
 
-    query_list = ["q1_family_history+breast_cancer_GEO.txt", "q2_liver_damage+hepatitis_GEO.txt", "q3_monozygotic_twins_GEO.txt",
-                  "q4_kideny+tumor+cell_line_GEO.txt", "q5_diabetes+type_1_GEO.txt",
-                  "q6_osteosarcoma_GEO.txt"]
+    query_list = ["q1_Family+History_Breast+Cancer.txt",  "q2_Liver+Damage_Hepatitis.txt",
+                  "q3_Monozygotic+Twins.txt",  "q4_Kidney_Tumor_Cell+Line.txt",
+                  "q5_Diabetes_Type+1.txt",  "q6_Osteosarcoma.txt"]
 
     starGEO_datasets = (getCandidateArticles(100000)).keys()
-    print(starGEO_datasets)
 
     resultsDirPath = f"/Data/GEO_Queries/geo_results.txt"
     with open(resultsDirPath, 'w+') as out_file:
@@ -266,8 +265,13 @@ def evaluateGEO():
                 geo_results = []
                 query_results = []
                 with open(path_to_GEO_queries + path, 'r') as geo_file:
+                    superseries = False
                     for line in geo_file:
-                        if line.startswith("Series") and not line.startswith("(Submitter supplied) This SuperSeries is composed of the SubSeries listed below"):
+                        if line.startswith("(Submitter supplied) This SuperSeries is composed of the SubSeries listed below"):
+                            superseries = True
+                        if line.startswith("Series") and superseries:
+                            superseries = False
+                        if line.startswith("Series") and not superseries:
                             num_og += 1
                             split_sent = line.split()
                             if split_sent[2] in starGEO_datasets:
@@ -276,14 +280,11 @@ def evaluateGEO():
                 with open(path_to_queries + f"q{path[1]}/names.txt", 'r') as query_file:
                     for line in query_file:
                         query_results = line.split()
-                #print(f"filtered results length for q{path[1]}: {len(geo_results)}")
-                #print(f"OG length for q{path[1]}: {num_og}\n")
                 num_relevant = 0
                 for series in geo_results[:top_n]:
                     if series in query_results:
                         num_relevant = num_relevant + 1
 
-                #print(f"Results : {geo_results[:top_n]}")
                 out_file.write(f"q{path[1]} returned {num_relevant} ({round((num_relevant/len(query_results)) * 100)}%) in {top_n}\n")
     print("Finished GEO evaluation")
 

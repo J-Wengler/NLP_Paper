@@ -1,0 +1,881 @@
+1. Nicotinamide for the treatment of heart failure with preserved ejection fraction
+(Submitter supplied) Heart failure with preserved ejection fraction (HFpEF) is a highly prevalent and intractable form of cardiac decompensation commonly associated with diastolic dysfunction. Here, we show that diastolic dysfunction in patients with HFpEF is associated with a cardiac deficit in nicotinamide adenine dinucleotide (NAD+). Elevating NAD+ by oral supplementation of its precursor, nicotinamide, improved diastolic dysfunction induced by aging (in 2-year-old C57BL/6J mice), hypertension (in Dahl salt-sensitive rats) or cardiometabolic syndrome (in ZSF1 obese rats). more...
+Organism:	Rattus norvegicus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18694 12 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE163nnn/GSE163665/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA687024
+Series		Accession: GSE163665	ID: 200163665
+
+2. Diagnostic performance of transcriptomic signatures for the evaluation of suspected tuberculosis in routine clinical practice
+(Submitter supplied) Background: Blood transcriptomic signatures for diagnosis of tuberculosis (TB) have shown promise in case-control studies but their diagnostic accuracy has not been prospectively validated in adults presenting with the full clinical spectrum of suspected TB, including extra-pulmonary TB, and its associated differential diagnoses with concomitant latent TB infection.  Methods: Our study was nested within a prospective multi-center cohort study in secondary care in England. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL10558 628 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE144nnn/GSE144127/
+Series		Accession: GSE144127	ID: 200144127
+
+3. LncRNA data in gastrocnemius muscles from mice that have undergone denervation of the right sciatic nerve or not
+(Submitter supplied) This study was to identify lncRNAs responsible for muscle atrophy Muscle atrophy commonly occurs in aging, disuse, starvation, and many chronic diseases including heart failure and cancer. Muscle atrophy leads to muscular weakness and reduced quality of life, which also significantly increases morbidity and mortality. While progress has been made in understanding the molecular underpinnings of muscle atrophy, currently there are no effective approved drugs to combat muscle atrophy. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array; Non-coding RNA profiling by array
+Platform: GPL21700 8 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE151nnn/GSE151300/
+Series		Accession: GSE151300	ID: 200151300
+
+4. Gastrodin alleviates cardiac hypertrophy by inhibition of insulin-like growth factor type 2/insulin-like growth factor type 2 receptor
+(Submitter supplied) Background: Pathological cardiac hypertrophy is commonly associated with upregulation of fetal genes, fibrosis, cardiac dysfunction and leads to heart failure. Previous studies demonstrated that gastrodin (GAS) inhibited cardiac hypertrophy and thus improved cardiac function. However, the theraputic targets by which GAS regulates in the regression of cardiac hypertrophy has not been well elucidated yet. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24247 12 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE164nnn/GSE164187/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA689477
+Series		Accession: GSE164187	ID: 200164187
+
+5. Prdm16 deficiency leads to age-dependent cardiac hypertrophy, adverse remodeling, mitochondrial dysfunction, and heart failure
+(Submitter supplied) Hypertrophic cardiomyopathy (HCM) is one of the most frequent inherited heart condition and a well-established risk factor for cardiovascular mortality worldwide. Although hypertrophy is traditionally regarded as an adaptive response to increased workload caused by physiological or pathological stress, prolonged hypertrophy can lead to heart failure characterized by impaired systolic function, increased apoptosis, fibrosis, ventricular dilation, and impaired metabolic substrate flexibility. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL21103 10 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE153nnn/GSE153988/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA644651
+Series		Accession: GSE153988	ID: 200153988
+
+6. The effects of liraglutide and dapagliflozin on cardiac function and structure in a multi-hit mouse model of Heart Failure with Preserved Ejection Fraction
+(Submitter supplied) Aims: Heart failure with preserved ejection fraction (HFpEF) is a multifactorial disease that constitutes several distinct phenotypes, including a common cardiometabolic phenotype with obesity and type 2 diabetes mellitus. Treatment options for HFpEF are limited, and development of novel therapeutics is hindered by the paucity of suitable preclinical HFpEF models that recapitulate the complexity of human HFpEF. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL19057 8 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE153nnn/GSE153923/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA644553
+Series		Accession: GSE153923	ID: 200153923
+
+7. Expression data from cardiac-specific miR-100 overexpressing mice
+(Submitter supplied) During heart failure development, cardiac tissue undergoes diverse adaptions, for example on a structural and/or metabolic basis, to fulfill the requirements needed to provide a proper circulation to the whole body. We used microarray analysis to identify possible new targets of microRNA-100 in heart tissue.
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL23038 8 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE157nnn/GSE157926/
+Series		Accession: GSE157926	ID: 200157926
+
+8. Sex-Specific Programming of Cardiac DNA Methylation by Developmental Phthalate and Lead Exposures
+(Submitter supplied) DEHP study Phthalate plasticizers are ubiquitous chemicals linked to several cardiovascular diseases in animal models and in humans. In spite of this, the mechanisms by which phthalate exposures cause adverse cardiac health outcomes are unclear. In particular, whether phthalate exposures during pregnancy interfere with normal developmental programming of the cardiovascular system, and the resulting implications this may have for long-term disease risk, are unknown. more...
+Organism:	Mus musculus
+Type:		Methylation profiling by high throughput sequencing
+Platform: GPL21103 36 Samples
+FTP download: GEO (COV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152711/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA640166
+Series		Accession: GSE152711	ID: 200152711
+
+9. BET Bromodomain Proteins Regulate Transcriptional Reprogramming in Genetic Dilated Cardiomyopathy
+(Submitter supplied) In a model of chronic heart failure, BET bromodomain inhibition delayed cardiac remodeling and fibrosis by halting pathologic inflammatory gene networks in an NFkB-dependent manner.
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL19057 48 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152005/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA638087
+Series		Accession: GSE152005	ID: 200152005
+
+10. Differential activation of P-TEFb complexes in the development of cardiomyocyte hypertrophy following activation of distinct GPCRs
+(Submitter supplied) Pathological cardiac hypertrophy is driven by neurohormonal activation of specific G protein-coupled receptors (GPCRs) in cardiomyocytes and is accompanied by large-scale changes in cardiomyocyte gene expression. These transcriptional changes require activity of positive transcription elongation factor b (P-TEFb), which is recruited to target genes by the bromodomain protein Brd4 or the Super Elongation Complex (SEC). more...
+Organism:	Rattus norvegicus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL22396 12 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE147nnn/GSE147402/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA614477
+Series		Accession: GSE147402	ID: 200147402
+
+11. The role of lncRNA Sarrah in human cardiomyocytes
+(Submitter supplied) Long non-coding RNAs (lncRNAs) contribute to (patho)physiological processes in the heart. Aging is the major risk factor for cardiovascular disease and cardiomyocyte apoptosis is an underlying cause for age-related cardiac dysfunction. RNA sequencing of cardiomyocytes from young and aged mouse hearts revealed several aging-regulated lncRNAs. An siRNA screen for caspase activity identified the aging-regulated lncRNA Sarrah (ENSMUST00000140003) as anti-apoptotic, which we confirmed in human cells (human SARRAH is annotated as OXCT1-AS1). more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL19057 12 Samples
+FTP download: GEO (FPKM_TRACKING, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE148nnn/GSE148146/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA623343
+Series		Accession: GSE148146	ID: 200148146
+
+12. Direct comparison of mononucleated and binucleated cardiomyocytes reveals molecular mechanisms underlying distinct proliferative competencies
+(Submitter supplied) The mammalian heart is incapable of regenerating a sufficient number of cardiomyocytes to ameliorate the loss of contractile muscle after acute myocardial injury, often resulting in heart failure. Several reports have demonstrated that mononucleated (MoNuc) cardiomyocytes are more responsive to pro-proliferative stimuli than are binucleated (BiNuc) cardiomyocytes. However, techniques to isolate and characterize these two different cardiomyocyte populations have been lacking. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL17021 18 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE140nnn/GSE140851/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA591162
+Series		Accession: GSE140851	ID: 200140851
+
+13. The role of lncRNA Sarrah in human cardiomyocytes
+(Submitter supplied) Long non-coding RNAs (lncRNAs) contribute to (patho)physiological processes in the heart. Aging is the major risk factor for cardiovascular disease and cardiomyocyte apoptosis is an underlying cause for age-related cardiac dysfunction. RNA sequencing of cardiomyocytes from young and aged mouse hearts revealed several aging-regulated lncRNAs. An siRNA screen for caspase activity identified the aging-regulated lncRNA Sarrah (ENSMUST00000140003) as anti-apoptotic, which we confirmed in human cells (human SARRAH is annotated as OXCT1-AS1). more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL5175 6 Samples
+FTP download: GEO (CEL, CHP) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE145nnn/GSE145697/
+Series		Accession: GSE145697	ID: 200145697
+
+14. Deletion of the Cardiomyocyte Glucocorticoid Receptor Leads to Sexually Dimorphic Changes in Cardiac Gene Expression and Progression to Heart Failure
+(Submitter supplied) Background The contribution of glucocorticoids to sexual dimorphism in the heart is essentially unknown. Therefore, we sought to determine the sexually dimorphic actions of glucocorticoid signaling in cardiac function and gene expression. To accomplish this goal, we conducted studies on mice lacking glucocorticoid receptors (GR) in cardiomyocytes (cardioGRKO mouse model).  Methods and Results Deletion of cardiomyocyte GR leads to an increase in mortality because of the development of spontaneous cardiac pathology in both male and female mice; however, females are more resistant to GR signaling inactivation in the heart. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL19057 12 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE120nnn/GSE120573/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA493624
+Series		Accession: GSE120573	ID: 200120573
+
+15. Expression data from isoalted adult cardiomyocytes w/o Isopretrenol stimulation.
+(Submitter supplied) Sympathetic activation of β-adrenergic receptors (β-AR) represent a hallmark in the development of heart failure (HF). Genome-wide analysis of CaMKII-mediated H3S28p in response to chronic β-AR stress by chromatin-immunoprecipitation followed by massive genomic sequencing led to the identification of CaMKII-dependent H3S28p target genes.40 % of differentially H3S28p-enriched genomic regions were associated with differential, mostly increased expression of the nearest genes, pointing to CaMKII-dependent H3S28p as an activating histone mark.
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL24557 12 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE131nnn/GSE131796/
+Series		Accession: GSE131796	ID: 200131796
+
+16. The Comparative Analysis of Phenotypic and Whole Transcriptome Gene Expression Data of Ascites Susceptible Versus Ascites Resistant Chickens
+(Submitter supplied) Ascites syndrome (AS) is a metabolic disorder that mainly occurs at later ages of meat-type chickens. Despite many research, there is no consensus about the origin of this syndrome. Our main purpose were to investigate the syndrome using both phenotypic and RNA-Seq data to elucidate the most causative factors predisposing the birds to AS. Phenotypic data analysis showed that AS indicator traits (AITs) were moderate to high heritable. more...
+Organism:	Gallus gallus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL16133 4 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE122nnn/GSE122745/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA506209
+Series		Accession: GSE122745	ID: 200122745
+
+17. NLRP3-inflammasome suppression improves longevity and prevents cardiac aging in mice
+(Submitter supplied) Aging is the major risk factor for cardiovascular and many other chronic diseases. During this natural process, many alterations occur in the organism which are associated with progressive impairment of several metabolic pathways related to body composition, insulin resistance, mitochondrial and autophagy dysfunction and inflammation. Recently, the role of NLRP3 inflammasome has been studied in cardiovascular diseases showing its implication in the pathological progression of atherosclerosis, heart failure, and hypertension. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL21877 12 Samples
+FTP download: GEO (CEL, CHP) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE124nnn/GSE124483/
+Series		Accession: GSE124483	ID: 200124483
+
+18. Cardiomyocyte HIPK2 Maintains Basal Cardiac Function via ERK Signaling
+(Submitter supplied) Background: Cardiac kinases play a critical role in the development of heart failure, and represent potential tractable therapeutic targets. However, only a very small fraction of the cardiac kinome has been investigated. To identify novel cardiac kinases involved in heart failure, we employed an integrated transcriptomics and bioinformatics analysis and identified Homeodomain-Interacting Protein Kinase 2 (HIPK2) as a novel candidate kinase. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL1261 9 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE136nnn/GSE136308/
+Series		Accession: GSE136308	ID: 200136308
+
+19. DNA methylation patterns from peripheral blood separate coronary artery disease patients with and without heart failure.
+(Submitter supplied) Coronary artery disease (CAD) and ischaemic cardiomyopathy are leading causes of mortality and morbidity worldwide. Currently there are only two well established biomarkers used for heart failure diagnosis and prognosis. Therefore, more research into the genetic and epigenetic mechanisms of heart failure (HF) will allow identification of biomarkers that can be used for different stages of HF. DNA methylation is an epigenetic mark that is increasingly recognised to play a critical role in cardiovascular disease. more...
+Organism:	Homo sapiens
+Type:		Methylation profiling by high throughput sequencing
+Platform: GPL11154 20 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE134nnn/GSE134766/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA556359
+Series		Accession: GSE134766	ID: 200134766
+
+20. Short-term Akt activation in cardiac muscle cells improves contractile dysfunction in failing hearts.
+(Submitter supplied) Akt is a serine/threonine protein kinase that is activated by a variety of growth factors or cytokines in a PI3-kinase dependent manner. Using a conditional transgenic system in which Akt signaling can be turned on or off in the adult heart, we have recently demonstrated that short-term Akt activation induces a ‘physiological’ form of cardiac hypertrophy with enhanced coronary angiogenesis and maintained contractility. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platforms: GPL339 GPL340 18 Samples
+FTP download: GEO ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE4nnn/GSE4728/
+Series		Accession: GSE4728	ID: 200004728
+
+21. E11.5 Hand1 myocardial knockout RNA-Seq
+(Submitter supplied) Aims: To examine the role of the basic Helix-loop-Helix (bHLH) transcription factor HAND1 in embryonic and adult myocardium. Methods and Results: Hand1 is expressed within the cardiomyocytes of the left ventricle (LV) and myocardial cuff between embryonic days (E) 9.5-13.5. Hand gene dosage plays an important role in ventricular morphology and the contribution of Hand1 to congenital heart defects requires further interrogation. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL19057 7 Samples
+FTP download: GEO (XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE128nnn/GSE128571/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA528178
+Series		Accession: GSE128571	ID: 200128571
+
+22. Hippo Deficiency Leads to Cardiac Dysfunction with Cardiomyocyte De-differentiation
+(Submitter supplied) The Hippo pathway regulates organ size by modulating cell proliferation and apoptosis. It is activated by myocardial stress and contributes to myocardial injury by promoting cardiomyocyte apoptosis. We investigated the role of the endogenous Hippo pathway in the stressed heart, using cardiac-specific WW45 knockout mice (WW45 cKO). Unexpectedly, chronic suppression of the Hippo pathway exacerbated the progression of heart failure induced by pressure overload (PO), despite reducing apoptosis and promoting cardiomyocyte proliferation. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL11002 4 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE92nnn/GSE92970/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA359190
+Series		Accession: GSE92970	ID: 200092970
+
+23. YAP Partially Reprograms Chromatin Accessibility to Directly Induce Adult Cardiogenesis in Vivo
+(Submitter supplied) Specialized adult somatic cells, such as cardiomyocytes (CMs), are highly differentiated with poor renewal capacity, an integral reason underlying organ failure in disease and aging. Among the least renewable cells in the human body, CMs renew approximately 1% annually. Consistent with poor CM turnover, heart failure is the leading cause of death. Here, we show that an active version of the Hippo pathway effector YAP, termed YAP5SA, partially reprograms adult mouse CMs to a more fetal and proliferative state. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing; Other
+Platform: GPL19057 12 Samples
+FTP download: GEO (BIGWIG, TXT, WIG) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE123nnn/GSE123457/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA508778
+Series		Accession: GSE123457	ID: 200123457
+
+24. Multi-omics Approach Reveals Metabolic Changes in the Heart at Birth
+(Submitter supplied) During late gestation, the fetal heart relies primarily on glucose and lactate to support rapid growth and development. While numerous studies describe changes in heart metabolism a few weeks after birth to preferentially utilize fatty acids, little is known about metabolic changes of the heart within the first day of life. Therefore, we used the ovine model of pregnancy to investigate metabolic differences between the near-term fetal and the newborn heart. more...
+Organism:	Ovis aries
+Type:		Expression profiling by array
+Platform: GPL10778 13 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE117nnn/GSE117343/
+Series		Accession: GSE117343	ID: 200117343
+
+25. Kdm3a in mouse promotes pressure overload induced cardiac hypertrophy [WT vs. KO]
+(Submitter supplied) Heart disease and failure is a leading cause of mortality worldwide. Left ventricular hypertrophy (LVH) is a major risk factor for cardiovascular morbidity and mortality and the development of heart failure. Pathological LVH induced by sustained pressure-overload engages transcriptional programs including reactivation of canonical fetal genes and those inducing fibrosis. Histone lysine demethylases (KDMs) are emerging potent regulators of transcriptional reprogramming in cancer, though their potential role in abnormal growth and fibrosis in heart disease remains little understood. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL6887 6 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE120nnn/GSE120739/
+Series		Accession: GSE120739	ID: 200120739
+
+26. Kdm3a in mouse promotes pressure overload induced cardiac hypertrophy [WT vs. Tg]
+(Submitter supplied) Heart disease and failure is a leading cause of mortality worldwide. Left ventricular hypertrophy (LVH) and myocardial fibrosis are the major risk factor for cardiovascular morbidity and mortality and the development of heart failure. Pathological LVH induced by sustained pressure-overload engages transcriptional programs including reactivation of canonical fetal genes and those inducing fibrosis. Histone lysine demethylases (KDMs) are emerging potent regulators of transcriptional reprogramming in cancer, though their potential role in abnormal growth and fibrosis in heart disease remains little understood. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL6887 6 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE120nnn/GSE120737/
+Series		Accession: GSE120737	ID: 200120737
+
+27. Kdm3a in mouse promotes pressure overload induced cardiac hypertrophy [RNA-seq]
+(Submitter supplied) Heart disease and failure is a leading cause of mortality worldwide. Left ventricular hypertrophy (LVH) and myocardial fibrosis are major risk factors for cardiovascular morbidity and mortality and the development of heart failure. Pathological LVH induced by sustained pressure-overload engages transcriptional programs including reactivation of canonical fetal genes and those inducing fibrosis. Histone lysine demethylases (KDMs) are emerging potent regulators of transcriptional reprogramming in cancer, though their potential role in abnormal growth and fibrosis in heart disease remains little understood. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL17021 4 Samples
+FTP download: GEO (XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE120nnn/GSE120598/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA493664
+Series		Accession: GSE120598	ID: 200120598
+
+28. Heart tissue expression data from dTGR rats treated with or without BAY 41-8543 and Sprague Dawley control rats
+(Submitter supplied) We aimed to characterize the complex cardiovascular effects of NOsGC stimulation using NO-independent stimulator BAY 41-8543 in a double transgenic rat (dTGR) model of HFpEF. We used  microarrays to detail the effect of NOsGC-stimulation on cardiac gene expression in heart failure with preserved ejection fraction.
+Organism:	Rattus norvegicus
+Type:		Expression profiling by array
+Platform: GPL19271 28 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE108nnn/GSE108904/
+Series		Accession: GSE108904	ID: 200108904
+
+29. A context-specific cardiac Beta-catenin and GATA4 interaction influences TCF7L2 occupancy and remodels chromatin driving disease progression in the adult heart [RNA-eq]
+(Submitter supplied) Summary: Activation of the evolutionarily conserved, developmental Wnt pathway has been reported during maladaptive cardiac remodeling. Although the function of Wnt-transcriptional activation in development is well described, the consequences of Wnt pathway activation, as well as its cardiac-specific regulatory role in the adult heart, is largely unknown. We show that β-catenin and Transcription factor 7-like 2 (TCF7L2), the main nuclear components of the Wnt-transcriptional cascade, and their transcriptional activity are increased upon pathological remodeling in both murine and human hearts. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL13112 6 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE97nnn/GSE97762/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA382836
+Series		Accession: GSE97762	ID: 200097762
+
+30. Relaxin reverses inflammatory and immune signals in aged hearts
+(Submitter supplied) Background: ‘Healthy’ aging drives structural and functional changes in the heart including maladaptive electrical remodeling, fibrosis and inflammation, which lower the threshold for cardiovascular diseases such as heart failure (HF) and atrial fibrillation (AF). Despite mixed results in recent clinical trials, Relaxin-therapy for 2-days could reduce mortality by 37% at 180-days post-treatment, in patients with acute decompensated HF. more...
+Organism:	Rattus norvegicus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL20084 21 Samples
+FTP download: GEO (XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE106nnn/GSE106377/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA416509
+Series		Accession: GSE106377	ID: 200106377
+
+31. IL-11 is a crucial determinant of cardiovascular fibrosis (mouse single cell)
+(Submitter supplied) Fibrosis is a common pathology in cardiovascular disease. In the heart, fibrosis causes mechanical and electrical dysfunction and in the kidney, it predicts the onset of renal failure. Transforming growth factor β1 (TGFβ1) is the principal pro-fibrotic factor, but its inhibition is associated with side effects due to its pleiotropic roles. We hypothesized that downstream effectors of TGFβ1 in fibroblasts could be attractive therapeutic targets and lack upstream toxicity. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL19057 2 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE107nnn/GSE107909/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA421910
+Series		Accession: GSE107909	ID: 200107909
+
+32. Myocardial gene expression in mice with cardiac-restricted knockout of COP9 signalosome subunit 8 (CSN8)
+(Submitter supplied) Background: The COP9 signalosome (CSN) consisting of 8 protein subunits (CSN1 through CSN8) is a deneddylase for Cullin-RING ligases (CRLs), essential to the functioning of the ubiquitin-proteasome system.  CSN8 is encoded by the Cops8 gene. We have shown that CSN8 plays a key role in the regulation of cardiac protein quality control (PQC), and cardiomyocyte-restricted Cops8 knockout (CSN8-CKO) in perinatal and adult mice causes massive cardiomyocyte necrosis and acute heart failure in mice. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL2897 18 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE100nnn/GSE100104/
+Series		Accession: GSE100104	ID: 200100104
+
+33. Comparative transcriptome profiling of zebrafish and medaka hearts following cardiac cryoinjury
+(Submitter supplied) Heart failure results from the inability of the human heart to replenish damaged tissue after myocardial infarction (MI), forming an unresolved scar which leads to functional impairment and tissue remodeling.  Unlike humans, many animals, including certain fish and amphibians, are able to regenerate their hearts.  Comparative analyses have been performed in many model systems including zebrafish (Danio rerio), with the goal to identify factors that could promote cardiac regeneration in humans. more...
+Organism:	Danio rerio; Oryzias latipes
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL20828 GPL23039 29 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE94nnn/GSE94617/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA371613
+Series		Accession: GSE94617	ID: 200094617
+
+34. Three TF Gene Co-expression Modules are involved in Pressure-Overload Cardiac Hypertrophy in Male Mice (microRNA)
+(Submitter supplied) Pathological cardiac hypertrophy, a dynamic remodeling process, is a major risk factor for heart failure. Although a number of key regulators and related genes have been identified, how the transcription factors (TFs) dynamically regulate the associated genes and control the morphological and electrophysiological changes during the hypertrophic process are still largely unknown. In this study, we obtained the time-course transcriptomes at five time points in four weeks from male murine hearts subjected to transverse aorta banding surgery. more...
+Organism:	Mus musculus
+Type:		Non-coding RNA profiling by array
+Platform: GPL15816 20 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE99nnn/GSE99459/
+Series		Accession: GSE99459	ID: 200099459
+
+35. Three TF Gene Co-expression Modules are involved in Pressure-Overload Cardiac Hypertrophy in Male Mice (mRNA)
+(Submitter supplied) Pathological cardiac hypertrophy, a dynamic remodeling process, is a major risk factor for heart failure. Although a number of key regulators and related genes have been identified, how the transcription factors (TFs) dynamically regulate the associated genes and control the morphological and electrophysiological changes during the hypertrophic process are still largely unknown. In this study, we obtained the time-course transcriptomes at five time points in four weeks from male murine hearts subjected to transverse aorta banding surgery. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL13692 10 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE99nnn/GSE99458/
+Series		Accession: GSE99458	ID: 200099458
+
+36. Open chromatin profiling of human postmortem brain infers functional roles for non-coding schizophrenia loci
+(Submitter supplied) Open chromatin provides access to DNA binding proteins for the correct spatiotemporal regulation of gene expression. Mapping chromatin accessibility has been widely used to identify the location of cis regulatory elements (CREs) including promoters and enhancers. CREs show tissue- and cell-type specificity and disease-associated variants are often enriched for CREs in the tissues and cells that pertain to a given disease. more...
+Organism:	Homo sapiens
+Type:		Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL16791 16 Samples
+FTP download: GEO (BW) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE83nnn/GSE83345/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA325645
+Series		Accession: GSE83345	ID: 200083345
+
+37. The TGF-b superfamily cytokine GDF15 is a CCN2-regulated autocrine/paracrine factor in the heart
+(Submitter supplied) Growth differentiating factor (GDF)15 is a TGFβ superfamily cytokine and a reported biomarker of heart failure. Myocardial expression of GDF15 is increased in heart failure. Yet, the mechanisms that control synthesis and release of GDF15 as well as the autocrine/paracrine functions of GDF15 on fibroblast function is lacking. Thus, the aim of this study was to investigate signaling pathways and functions of GDF15  in cardiac fibroblasts. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL6887 12 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE55nnn/GSE55252/
+Series		Accession: GSE55252	ID: 200055252
+
+38. Differential gene expression profile correlates with bortezomib responsiveness in steroid-resistant cGVHD
+(Submitter supplied) Nineteen patients with steroid-refractory cGVHD (chronic graft versus host disease) received weekly bortezomib from 2 – 12 months (1.6 mg/m2 q wk x 4 followed by one week of rest). Treatment was well tolerated with no > grade 3 adverse events. Six patients achieved CR or good PR (gPR). Average Rodnan scores decreased from 22.6 ± 12.8 to 5.9 ± 6.2 (p<0.005) for 8 patients with sclerosis who completed > 2 treatments, including one patient with marked healing of suppurating lesions and significantly reduced chronic diarrhea in another. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL10558 54 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE56nnn/GSE56495/
+Series		Accession: GSE56495	ID: 200056495
+
+39. Changes of myocardial gene expression and protein composition in patients with dilated cardiomyopathy after immunoadsorption with subsequent immunoglobulin substitution  
+(Submitter supplied) Immunoadsorption with subsequent immunoglobulin substitution (IA/IgG) represents a therapeutic approach for patients with dilated cardiomyopathy (DCM). Here, we studied which molecular cardiac alterations are initiated after this treatment.  Transcription profiling of endomyocardial biopsies with Affymetrix whole genome arrays was performed on 33 paired samples of DCM patients collected before and six months after IA/IgG. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL570 81 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE19nnn/GSE19303/
+Series		Accession: GSE19303	ID: 200019303
+
+40. Cardioprotection and lifespan extension by the natural polyamine spermidine
+(Submitter supplied) Aging is associated with an increased risk of cardiovascular disease and death. Here we show that oral supplementation of the natural polyamine spermidine extends lifespan, while it exerts cardioprotective effects through reduction of cardiac hypertrophy and preservation of diastolic function in old mice. Spermidine feeding enhanced cardiac autophagy, mitophagy, mitochondrial respiration and mechano-elastical properties of cardiomyocytes in vivo, coinciding with increased titin phosphorylation and suppressed subclinical inflammation. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL6885 12 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE86nnn/GSE86882/
+Series		Accession: GSE86882	ID: 200086882
+
+41. High-Throughput Screening of Tyrosine Kinase Inhibitor Cardiotoxicity using Human Induced Pluripotent Stem Cells
+(Submitter supplied) Tyrosine kinase inhibitors (TKIs), despite efficacy as anti-cancer therapies, are associated with cardiovascular side effects ranging from induced arrhythmias to heart failure. We have utilized patient-specific human induced pluripotent stem cell-derived cardiomyocytes (hiPSC-CMs), generated from 11 healthy individuals and 2 patients receiving cancer treatment, to screen FDA-approved TKIs for cardiotoxicities by measuring alterations in cardiomyocyte viability, contractility, electrophysiology, calcium handling, and signaling. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL10739 10 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE89nnn/GSE89410/
+Series		Accession: GSE89410	ID: 200089410
+
+42. Neonatal cardiac dysfunction and transcriptome changes caused by the absence of Celf1
+(Submitter supplied) The RNA binding protein Celf1 regulates alternative splicing in the nucleus and mRNA stability and translation in the cytoplasm. Celf1 is strongly down-regulated during mouse postnatal heart development. Its re-induction in adults induced severe heart failure and reversion to fetal splicing and gene expression patterns. However, the impact of Celf1 depletion on cardiac transcriptional and posttranscriptional dynamics in neonates has not been addressed. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL13112 5 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE85nnn/GSE85646/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA338992
+Series		Accession: GSE85646	ID: 200085646
+
+43. Role of mast cells in pulmonary hypertension with left heart disease
+(Submitter supplied) Left heart disease (LHD) frequently causes lung vascular remodelling and pulmonary hypertension (PH). Yet, pharmacological treatment for PH in LHD is lacking and its pathophysiological basis remains obscure. We aimed to identify candidate mechanisms of PH in LHD and to test their relevance and therapeutic potential. In rats, LHD was induced by supracoronary aortic banding. Whole genome microarray analyses were performed, candidate genes were confirmed by RT-PCR and Western blots and functional relevance was tested in vivo by genetic and pharmacological strategies. more...
+Organism:	Rattus norvegicus
+Type:		Expression profiling by array
+Platform: GPL1355 12 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE84nnn/GSE84704/
+Series		Accession: GSE84704	ID: 200084704
+
+44. Gene expression in chronic obstructive pulmonary disease (COPD) patients
+(Submitter supplied) Measuring genome-wide changes in transcript abundance in circulating peripheral whole blood cells is a useful way to study disease pathobiology and may help elucidate biomarkers and molecular mechanisms of disease. The sensitivity and interpretability of analyses carried out in this complex tissue, however, are significantly affected by its heterogeneity. It is therefore desirable to quantify this heterogeneity, either to account for it or to better model interactions that may be present between the abundance of certain transcripts, some cell types and some indication. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL11532 172 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE77nnn/GSE77344/
+Series		Accession: GSE77344	ID: 200077344
+
+45. Pitx2 promotes heart repair by transcriptionally activating the antioxidant response after cardiac injury
+(Submitter supplied) Myocardial infarction results in compromised myocardial function with heart failure due to insufficient cardiomyocyte self-renewal. Unlike lower vertebrates, mammalian hearts only have a transient neonatal renewal capacity. Reactivating the primitive reparative ability in the fully mature heart requires an intimate knowledge of the molecular mechanisms promoting early heart repair. Here we identified a novel factor that can sufficiently promote heart muscle repair. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL18635 14 Samples
+FTP download: GEO (BED, BEDGRAPH, CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE70nnn/GSE70413/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA288575
+Series		Accession: GSE70413	ID: 200070413
+
+46. Mitochondrial Polymerase Gamma Dysfunction and Aging Cause Cardiac Nuclear DNA Methylation Changes [100929_MM9_Deluxe_Prom_Meth_HX1]
+(Submitter supplied) Cardiomyopathy (CM) is an intrinsic weakening of the myocardium with contractile dysfunction and congestive heart failure (CHF).  CHF has been postulated to result from decreased mitochondrial energy production and oxidative stress.  The effects of decreased mitochondrial oxygen consumption can also accelerate with aging, with the mitochondrial theory of aging forming the basis of this knowledge.  We previously showed DNA methylation changes in human hearts with CM. more...
+Organism:	Mus musculus
+Type:		Methylation profiling by genome tiling array
+Platform: GPL16413 16 Samples
+FTP download: GEO (PAIR, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE72nnn/GSE72889/
+Series		Accession: GSE72889	ID: 200072889
+
+47. Mitochondrial Polymerase Gamma Dysfunction and Aging Cause Cardiac Nuclear DNA Methylation Changes [100718_MM9_EXP]
+(Submitter supplied) Cardiomyopathy (CM) is an intrinsic weakening of the myocardium with contractile dysfunction and congestive heart failure (CHF).  CHF has been postulated to result from decreased mitochondrial energy production and oxidative stress.  The effects of decreased mitochondrial oxygen consumption can also accelerate with aging, with the mitochondrial theory of aging forming the basis of this knowledge.  We previously showed DNA methylation changes in human hearts with CM. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL15887 12 Samples
+FTP download: GEO (CALLS, PAIR) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE72nnn/GSE72888/
+Series		Accession: GSE72888	ID: 200072888
+
+48. Gene expression profiling in a rat model of monocrotaline-induced heart failure
+(Submitter supplied) Cardiac cachexia is a common complication of heart failure in severe cases and is associated with a poor prognosis. Several skeletal muscle abnormalities have been described in patients and animals with cardiac cachexia; these include atrophy, fibrosis, altered myosin heavy chain composition, and decreased oxidative capacity. It is also well established that gene expression patterns are substantially altered in cardiac cachexia, but the reasons for such differences are not clear.
+Organism:	Rattus norvegicus
+Type:		Expression profiling by array
+Platform: GPL10741 6 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE72nnn/GSE72701/
+Series		Accession: GSE72701	ID: 200072701
+
+49. Transcriptional effects of CTGF inhibition in a transgenic mouse model of dilated cardiomyopathy
+(Submitter supplied) Cardiac structural changes associated with dilated cardiomyopathy (DCM) include cardiomyocyte hypertrophy and myocardial fibrosis.  Connective Tissue Growth Factor (CTGF) has been associated with tissue remodeling and is highly expressed in failing hearts.  To test if inhibition of CTGF would alter the course of cardiac remodeling and preserve cardiac function in the protein kinase Cε (PKCε) mouse model of DCM. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL8321 44 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE68nnn/GSE68857/
+Series		Accession: GSE68857	ID: 200068857
+
+50. Mutations in the NOTCH pathway regulator MIB1 cause left ventricular noncompaction cardiomyopathy
+(Submitter supplied) Left ventricular noncompaction (LVNC) Causes prominent ventricular trabeculations and reduces cardiac systolic function. The clinical presentation of LVNC ranges from asymptomatic to heart failure. We show that germline mutations in human MIB1 (mindbomb homolog 1), which encodes an E3 ubiquitin ligase that promotes endocytosis of the NOTCH ligands DELTA and JAGGED, cause LVNC in autosomal-dominant pedigrees, with affected individuals showing reduced NOTCH1 activity and reduced expression of target genes. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL11002 8 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE71nnn/GSE71912/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA292442
+Series		Accession: GSE71912	ID: 200071912
+
+51. Akt-Induced Mitochondrial Dysfunction in the Heart
+(Submitter supplied) Sustained Akt activation induces cardiac hypertrophy (LVH), which may lead to heart failure. This study tested the hypothesis that Akt activation contributes to mitochondrial dysfunction in pathological LVH. Akt activation induced LVH and progressive repression of mitochondrial fatty acid oxidation (FAO) pathways. Preventing LVH by inhibiting mTOR failed to prevent the decline in mitochondrial function but glucose utilization was maintained. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL1261 6 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE63nnn/GSE63848/
+Series		Accession: GSE63848	ID: 200063848
+
+52. Genome-wide changes in gene expression during the development and after recovery from heart failure in a mouse model of transient cardiomyopathy.
+(Submitter supplied) Altered myocardial gene expression from heart failure (HF) has mostly been identified by single-point analysis of end-stage disease.  This may miss earlier changes in gene expression that are transient and/or directionally opposite to those observed later. By sampling left ventricular myocardial tissue at different time points in a mouse model of cardiomyopathy, we examined differentially expressed transcripts between non-failing controls, early-HF (2 and 3 days after cardiac insult), peak-HF (10 days) and after recovery from HF (28 days). more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Dataset: GDS5469 Platform: GPL6885 19 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE54nnn/GSE54681/
+Series		Accession: GSE54681	ID: 200054681
+
+53. Gene expression microarray profiling in mice hearts with pathological and physiological cardiac hypertrophy
+(Submitter supplied) Compelling evidence suggests that mitochondrial dysfunction contributes to the pathogenesis of heart failure, including defects in the substrate oxidation, and the electron transport chain (ETC) and oxidative phosphorylation (OXPHOS). However, whether such changes occur early in the development of heart failure, and are potentially involved in the pathologic events that lead to cardiac dysfunction is unknown. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL6246 30 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE56nnn/GSE56348/
+Series		Accession: GSE56348	ID: 200056348
+
+54. Expression data from GGF2-treated post-MI swine
+(Submitter supplied) Neuregulin-1 (NRG-1) is a paracrine factor critical for cardiac development.  We have been examining whether the recombinant NRG-1β isoform known as glial growth factor 2 (GGF2) has therapeutic potential for heart failure. In both small and large animals after experimental myocardial infarction (MI) we have found that GGF2 treatment improves myocardial function and limits progressive myocardial remodeling. more...
+Organism:	Sus scrofa
+Type:		Expression profiling by array
+Platform: GPL3533 8 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE48nnn/GSE48255/
+Series		Accession: GSE48255	ID: 200048255
+
+55. Polyadenylated RNA Sequencing of C57BL/6J Embryonic, Adult and Pressure-Overloaded Hearts
+(Submitter supplied) A few reports have implicated specific lncRNAs in cardiac development or failure, but precise details of lncRNAs expressed in hearts and how their expression may be altered during embryonic heart development or by adult heart disease is unknown. By comparing lncRNA profiles of normal embryonic (~E14), normal adult, and hypertrophied adult hearts we defined a distinct fetal lncRNA abundance signature that includes 157 lncRNAs differentially expressed compared to adults (fold-change ≥ 50%, FDR=0.02), and which was only poorly recapitulated in hypertrophied hearts (17 differentially expressed lncRNAs; 13 of these observed in embryonic hearts). more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL13112 27 Samples
+FTP download: GEO (GTF, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE58nnn/GSE58455/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA252674
+Series		Accession: GSE58455	ID: 200058455
+
+56. MicroRNAs in an Experimental Model of Physiologic Left Ventricular Hypertrophy: a Microarray-based Analysis
+(Submitter supplied) BACKGROUND - MicroRNAs (miRs) are a class of small non-coding RNAs that regulate gene expression. Transgenic models have proved that a single miR can induce pathological cardiac hypertrophy and failure. The roles of miRs in the genesis of physiologic left ventricular hypertrophy (LVH), however, are not well elucidated.  OBJECTIVE - To evaluate miRs expression in an experimental model of exercise-induced LVH. more...
+Organism:	Mus musculus
+Type:		Non-coding RNA profiling by array
+Platform: GPL17419 4 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE52nnn/GSE52278/
+Series		Accession: GSE52278	ID: 200052278
+
+57. Microarray of cardiac biventricle from PGC-1a-/-bf/f/MerCre mice
+(Submitter supplied) The following abstract from the submitted manuscript describes the major findings of this work. The metabolic development of high energy-utilizing organs such as the heart involves mitochondrial proliferation at birth followed by a maturation process during the postnatal period. Conditional gene targeting was used in mice to explore the role of the PPARgamma coactivator 1 (PGC-1) coactivators during postnatal development and in adult heart. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Dataset: GDS4776 Platform: GPL6246 10 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE43nnn/GSE43798/
+Series		Accession: GSE43798	ID: 200043798
+
+58. Expression data from the hearts of a mouse model of spontaneous myocardial infarction
+(Submitter supplied) Mice with homozygous null mutations in the HDL receptor (SR-BI) and apoE genes (SR-BI KO/apoE double KO (dKO) mice) spontaneously develop occlusive, atherosclerotic coronary artery disease (CAD) and die prematurely (50% mortality at 42 days of age) on standard chow diet feeding. Microarray analysis was performed to investigate the changes in gene expression profiles during the development of spontaneous severe CAD, which includes myocardial infarction and heart failure. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL81 88 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE49nnn/GSE49937/
+Series		Accession: GSE49937	ID: 200049937
+
+59. Ficolin-1 is upregulated in leukocytes and glomeruli from microscopic polyangiitis patients
+(Submitter supplied) To search for new markers of active lesions that might help better understand the molecular basis of MPA and aid in its diagnosis, DNA microarray analysis was performed with peripheral blood mononuclear cells (PBMCs).
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL4133 12 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE41nnn/GSE41744/
+Series		Accession: GSE41744	ID: 200041744
+
+60. BET Bromodomains Mediate Transcriptional Pause Release in Heart Failure
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Mus musculus; Rattus norvegicus
+Type:		Expression profiling by array; Genome binding/occupancy profiling by high throughput sequencing
+4 related Platforms 60 Samples
+FTP download: GEO (CEL, WIG) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE48nnn/GSE48112/
+Series		Accession: GSE48112	ID: 200048112
+
+61. BET Bromodomains Mediate Transcriptional Pause Release in Heart Failure [NRVM Expression]
+(Submitter supplied) Heart failure (HF) is driven via interplay between master regulatory transcription factors and dynamic alterations in chromatin structure. While pathologic gene transactivation in this context is known to be associated with recruitment of histone acetyl-transferases and local chromatin hyperacetylation, the role of epigenetic reader proteins in cardiac biology is unknown. We therefore undertook a first study of acetyl-lysine reader proteins, or bromodomains, in HF. more...
+Organism:	Rattus norvegicus
+Type:		Expression profiling by array
+Platform: GPL1355 20 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE48nnn/GSE48111/
+Series		Accession: GSE48111	ID: 200048111
+
+62. Comparative Effects of Statins on Murine Cardiac Gene Expression Profiles in Normal Mice
+(Submitter supplied) Recent clinical data suggest that the efficacy of statin treatment in patients with heart failure varies depending on the drugs administered. Therefore, the present study was undertaken to compare murine cardiac gene expression following treatment with four different statins. Statins directly regulated cardiac gene expression in a drug-specific manner in mice. The influence of each statin on the cardiac mRNA expression of various genes, including several genes that might be involved in the development of cardiac disease, was not a general effect of this class of drugs.
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL1261 20 Samples
+FTP download: GEO (CEL, CHP) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE23nnn/GSE23101/
+Series		Accession: GSE23101	ID: 200023101
+
+63. Microarray gene expression profiling of kinase-dependent and kinase-independent effects of GRK2
+(Submitter supplied) The ubiquitously expressed G-protein-coupled receptor kinase 2 (GRK2, ADRBK1) is an indispensable kinase involved in growth, differentiation and development. Exaggerated GRK2 activity plays a major pathophysiological role in the development of cardiovascular diseases such as heart failure and hypertension. GRK2 exerts its functions by kinase-dependent and kinase-independent effects. To assess the differential impact of GRK2 on cellular signalling we established HEK cell clones with over-expression of comparable protein levels of GRK2 or the kinase-deficient GRK2-K220R mutant, respectively. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Dataset: GDS4544 Platform: GPL570 12 Samples
+FTP download: GEO (CEL, CHP) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE42nnn/GSE42771/
+Series		Accession: GSE42771	ID: 200042771
+
+64. SRC-2 Coactivator Deficiency Decreases Functional Reserve in Response to Pressure Overload of Mouse Heart
+(Submitter supplied) A major component of the cardiac stress response is the simultaneous activation of several gene regulatory networks.  Interestingly, the transcriptional regulator steroid receptor coactivator-2, SRC-2 is often decreased during cardiac failure in humans. We postulated that SRC-2 suppression plays a mechanistic role in the stress response and that SRC-2 activity is an important regulator of the adult heart gene expression profile. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Dataset: GDS5087 Platform: GPL1261 8 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE41nnn/GSE41558/
+Series		Accession: GSE41558	ID: 200041558
+
+65. The Expression of MicroRNA and microRNA Clusters in the Aging Heart
+(Submitter supplied) Adult aging is a complex biological process associated with altered gene expression and a decline in physiological performance. The microRNAs have been implicated in cardiac development, cardiac hypertrophy and heart failure. However, the impact of adult aging on cardiac expression of both miRNA guide strand (miR) and passenger strand (miR*), as well as miRNA clusters have not been well established. more...
+Organism:	Mus musculus
+Type:		Non-coding RNA profiling by array
+Platform: GPL14725 6 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE32nnn/GSE32935/
+Series		Accession: GSE32935	ID: 200032935
+
+66. IGF1-receptor signalling attenuates the age-related decline of diastolic cardiac function
+(Submitter supplied) Insulin-like growth factor (IGF1R) signalling has been implicated to play an important role in regulation of cardiac growth, hypertrophy and contractile function, and has been linked to the development of age related congestive heart failure. Here we address the question to what extent cardiomyocyte specific IGF1 signalling is essential for maintenance of the structural and functional integrity of the adult murine heart. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL11202 8 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE32nnn/GSE32936/
+Series		Accession: GSE32936	ID: 200032936
+
+67. Global microRNA profiling of the mouse ventricles during development of severe hypertrophic cardiomyopathy and heart failure
+(Submitter supplied) The  study sought to determine the global miRNA profile of ventricles during early and end-stage hypertrophic cardiomyopathy in a severe double mutant mouse model of the disease. MicroRNA expression profiles of ventricles of transgenic mice with a mutation in both the myosin heavy chain gene (MYH7 Arg403Gln) and cardiac troponin I gene (TNNI3 Ser203Gln) and of non-transgenic mice were determined using Rodent TaqMan Low Density miRNA Arrays A v2.0 (TLDA, Life Technologies). more...
+Organism:	Mus musculus
+Type:		Expression profiling by RT-PCR; Non-coding RNA profiling by array
+Platform: GPL15513 12 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE37nnn/GSE37692/
+Series		Accession: GSE37692	ID: 200037692
+
+68. Hematopoietic stem cells lacking Ott1 display aspects associated with aging and are unable to maintain quiescence during proliferative stress
+(Submitter supplied) The infant leukemia-associated gene, Ott1 (Rbm15), has broad regulatory effects on embryonic development and hematopoiesis. Embryonic deletion of Ott1 results in defects to the placenta, spleen and heart. Conditional deletion within the adult hematopoietic compartment demonstrates a requirement in pre-B development and inhibitory roles in myeloid progenitor and megakaryocyte populations. Ott1-deleted bone marrow has an expansion of the Lin- Sca-1+ c-Kit+ (LSK) population which includes the hematopoietic stem cell (HSC) population. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Dataset: GDS4315 Platform: GPL8321 6 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE37nnn/GSE37047/
+Series		Accession: GSE37047	ID: 200037047
+
+69. Transcriptome analysis of diabetic and non diabetic patients affected by post-ischemic heart failure
+(Submitter supplied) Increased morbidity and mortality associated with post-ischemic heart failure (HF) in diabetic patients underscore the need for a better understanding of the underlying molecular events. Indeed, effective HF therapy in diabetic patients requires a complex strategy encompassing the development of improved diagnostic and prognostic markers and innovative pharmacological approaches. Whole mRNAs expression was measured in the heart of patients with heart failure (HF) with or without concomitant Type 2 diabetes mellitus (T2DM)  and compared it to control non-failing hearts. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Dataset: GDS4314 Platform: GPL6244 24 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE26nnn/GSE26887/
+Series		Accession: GSE26887	ID: 200026887
+
+70. Transgenic mice carrying the human PLN gene
+(Submitter supplied) These mice have been genetically modified so that the mouse PLN gene has been replace with the human PLN gene. Phopspholamban (PLN), the reversible inhibitor of the sarcoplasmic reticulum (SR) Ca2+-ATPase (SERCA2a), is a key regulator of myocyte Ca2+-cycling with a significant role in heart failure. We previously showed that the single amino acid difference between human and mouse PLN results in increased inhibition of Ca2+-cycling, cardiac remodeling and attenuated stress responses, in transgenic mice expressing the human PLN in the null background (hPLN). more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL2897 12 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE20nnn/GSE20172/
+Series		Accession: GSE20172	ID: 200020172
+
+71. Mouse heart tissue: wild-type vs. aMHC-Calcineurin transgenic (CnTg)
+(Submitter supplied) Cardiac profiling of miR expression levels in a transgenic mouse model of heart failure (MHC-CnA) to identify miRs that are co-regulated with the development of calcineurin-induced heart failure.
+Organism:	Mus musculus
+Type:		Non-coding RNA profiling by array
+Platform: GPL8531 2 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE25nnn/GSE25006/
+Series		Accession: GSE25006	ID: 200025006
+
+72. Loss of Cardiac microRNA-Mediated Regulation Leads to Dilated Cardiomyopathy and Heart Failure.
+(Submitter supplied) RATIONALE: Heart failure is a deadly and devastating disease that places immense costs on an aging society. To develop therapies aimed at rescuing the failing heart, it is important to understand the molecular mechanisms underlying cardiomyocyte structure and function. OBJECTIVE: microRNAs are important regulators of gene expression, and we sought to define the global contributions made by microRNAs toward maintaining cardiomyocyte integrity. more...
+Organism:	Mus musculus
+Type:		Non-coding RNA profiling by high throughput sequencing
+Platform: GPL9250 2 Samples
+FTP download: GEO ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE32nnn/GSE32881/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA146611
+Series		Accession: GSE32881	ID: 200032881
+
+73. Expression data from mouse heart deficient of HDAC3
+(Submitter supplied) Gene expression changes in the heart of MCH3-KO mouse (HDAC3 f/f, Muscle Creatine Kinase-Cre) versus control WT mouse (HDAC3 f/f). Histone deacetylases (HDACs) play important roles in cardiac development and function. We show here that mice deficient of HDAC3 in heart and skeletabl muscle are relatively normal on normal chow, but develop hypertrophic cardiomyopathy and heart failure that leads to death on high-fat diet. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Dataset: GDS4886 Platform: GPL6246 8 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE31nnn/GSE31251/
+Series		Accession: GSE31251	ID: 200031251
+
+74. Chemokines regulate small leucine-rich proteoglycans in the extracellular matrix of the pressure-overloaded right ventricle
+(Submitter supplied) Chemokines have been suggested to play a role during development of left ventricular failure, but little is known about their role during right ventricular (RV) remodeling and dysfunction. The first aim of this study was to identify chemokines which are regulated during RV pressure overload. We then hypothesized that these chemokines regulate SLRPs (small leucine-rich proteoglycans)
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL1261 9 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE30nnn/GSE30922/
+Series		Accession: GSE30922	ID: 200030922
+
+75. Caloric Restriction in Leptin Deficiency Worsens Myocardial Steatosis
+(Submitter supplied) Caloric Restriction in Leptin Deficiency Worsens Myocardial Steatosis: Failure to Upregulate PPAR gamma and Thermogenic Glyecrolipid/Fatty Acid Cycling  Growing evidence supports an anti-lipotoxic role for leptin in preventing inappropriate peripheral tissue lipid deposition.  Obese, leptin deficient ob/ob mice develop left ventricular (LV) hypertrophy and myocardial steatosis with increased apoptosis and decreased longevity. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL1261 18 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE16nnn/GSE16790/
+Series		Accession: GSE16790	ID: 200016790
+
+76. KLF2-Regulated Gene Expression in Mouse Embryonic Yolk Sac Erythroid Cells
+(Submitter supplied) KLF2 is a Krüppel-like zinc-finger transcription factor required for blood vessel, lung, T-cell, and erythroid development. KLF2-/- mice die by embryonic day 14.5 (E14.5), due to hemorrhaging and heart failure. Embryonic -like globin gene expression is reduced in KLF2-/- embryos compared to wildtype (WT), and E10.5 erythroid cells exhibit abnormal morphology. Other KLF2 target genes were identified by comparing E9.5 KLF2-/- and WT yolk sac erythroid cells, using laser capture microdissection and microarray assays. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL8321 8 Samples
+FTP download: GEO (CEL, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE27nnn/GSE27602/
+Series		Accession: GSE27602	ID: 200027602
+
+77. Gene expression in cardiac tissues from infants with idiopathic conotruncal defects
+(Submitter supplied) Tetralogy of Fallot (TOF) is the most commonly seen type of conotruncal congenital heart defect. Treatment of these patients has evolved dramatically in the last few decades, yet a genetic explanation for the failure of cardiac development is lacking for the majority of children with TOF.  Our goal was to examine genome wide gene expression to characterize expression patterns in cardiovascular tissue (right ventricle, pulmonary valve and pulmonary artery) obtained at the time of reconstructive surgery from 19 children with tetralogy of Fallot. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL11329 21 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE26nnn/GSE26125/
+Series		Accession: GSE26125	ID: 200026125
+
+78. Gene expression analysis in polytrauma patients comparing sepsis vs. non-sepsis
+(Submitter supplied) BACKGROUND: Despite best supportive intensive care, the development of severe sepsis and septic shock after trauma is still associated with a high mortality rate in intensive care units (ICU). Incomplete knowledge of the pathophysiological and biochemical mechanisms that lead to perturbations of the host system is a major cause for this clinical entity. This lack of knowledge is mirrored in a delay in both diagnosis of sepsis and stratification of patients at risk. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL4204 70 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE12nnn/GSE12624/
+Series		Accession: GSE12624	ID: 200012624
+
+79. Model of heart failure induced by mild thiol-blocking with cystamine
+(Submitter supplied) Depletion of cardiac ATP content is a characteristic feature of heart failure in patients and experimental animal models. To analyze the impact of insufficient ATP supply on heart function we inhibited cellular respiration by disulfide poisoning with the mild thiol-blocking agent, cystamine. We chose 4 month-old apolipoprotein E (apoE)-deficient mice, which are highly vulnerable to increased oxygen and ATP demands. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL1261 6 Samples
+FTP download: GEO (CEL, CHP) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE25nnn/GSE25768/
+Series		Accession: GSE25768	ID: 200025768
+
+80. Microarray gene expression profiling of cardiac genes at the onset of heart failure
+(Submitter supplied) Atherosclerosis and pressure overload are major risk factors for the development of heart failure in patients. Cardiac hypertrophy often precedes the development of heart failure. However, underlying mechanisms are incompletely understood. To investigate pathomechanisms underlying the transition from cardiac hypertrophy to heart failure we used experimental models of atherosclerosis- and pressure overload-induced cardiac hypertrophy and failure, i.e. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL1261 18 Samples
+FTP download: GEO (CEL, CHP) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE25nnn/GSE25765/
+Series		Accession: GSE25765	ID: 200025765
+
+81. Developmental ablation of Id1 and Id3 genes in the vasculature leads to postnatal cardiac phenotypes
+(Submitter supplied) Rationale: The Id1 and Id3 genes play major roles during cardiac development, despite their expression being confined to non-myocardial layers (endocardium – endothelium - epicardium). We previously described that Id1–/–Id3–/– double knockout (dKO) mouse embryos die at mid-gestation from multiple cardiac defects, but early demise precluded the studies of the roles of Id in the adult mice. Objective: To elucidate postnatal roles of Id genes in the heart. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL6246 6 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE21nnn/GSE21924/
+Series		Accession: GSE21924	ID: 200021924
+
+82. Diabetic Microangiopathy in the Bone Marrow Causes Hypoperfusion and Depletion of the Stem Cell Niche.
+(Submitter supplied) Diabetes mellitus [DM], with its burden of premature morbidity and mortality, represents one of the major threats to human health in the 21st century (Zimmet 2001). Accelerated atherosclerosis affecting arteries that supply the heart, brain and lower extremities is responsible for an increased risk of acute ischemic events. DM is also associated with microvascular disease, which is a leading cause of blindness, renal failure and debilitating neuropathies. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL7868 8 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE14nnn/GSE14035/
+Series		Accession: GSE14035	ID: 200014035
+
+83. Screening of genes involved in chromosome segregation in meiosis I
+(Submitter supplied) Prophase I of male meiosis involves dynamic chromosome segregation processes during early spermatogenesis, including synapsis, meiotic recombination, and cohesion. Genetic defects in genes participating in these processes consistently cause reproduction failure in mice. To identify candidate genes responsible for infertility in humans, we performed expression profiling of mouse spermatogenic cells undergoing meiotic prophase I.
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platforms: GPL340 GPL339 10 Samples
+FTP download: GEO (CEL, CHP) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE19nnn/GSE19532/
+Series		Accession: GSE19532	ID: 200019532
+
+84. microRNA profiling of myocardial infarction on a PI3K setting in mouse models
+(Submitter supplied) Cardiac hypertrophy can lead to heart failure, and is induced either by physiological stimuli eg postnatal development, chronic exrcise training or pathological stimuli eg pressure or volume overload. This data set looks at microRNA profiles in mouse models to examine whether phosphoinositide 3-kinase (p110 alpha isoform) activity is critical for the maintenance of cardiac function and long term survival in a seeting of heart failure (myocardial infarction). more...
+Organism:	Mus musculus
+Type:		Non-coding RNA profiling by array
+Platform: GPL8824 24 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE14nnn/GSE14267/
+Series		Accession: GSE14267	ID: 200014267
+
+85. Gene profiling of pathological cardiac hypertrophy vs physiological hypertrophy
+(Submitter supplied) Cardiac hypertrophy can lead to heart failure, and is induced either by physiological stimuli eg postnatal development, chronic exercise training or pathological stimuli eg pressure or volume overload. Majority of new therapies for heart failure has mixed outcomes. A combined mouse model and oligo-array approach are used to examine whether phosphoinositide 3-kinase (p110-alpha isoform) activity is critical for maintenance of cardiac function and long-term survival in a setting of heart failure. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL1261 24 Samples
+FTP download: GEO (CEL, CHP) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE7nnn/GSE7487/
+Series		Accession: GSE7487	ID: 200007487
+
+86. Molecular Remodeling of Ion Channels in Human Atrial and Ventricular Myocytes Associated with Ischemic Cardiomyopathy
+(Submitter supplied) Ischemic cardiomyopathy (ICM) leads to congestive heart failure and can cause sudden cardiac death due to arrhythmia. Existing molecular knowledge base of ICM is rudimentary because of lack of specific attribution to cell type and function. This study was designed to investigate cell-specific molecular remodeling of ion channels, exchangers and pumps, which are signaling molecules (SM) involved in electrical, signaling and mechanical functions of the heart. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL8910 11 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE17nnn/GSE17294/
+Series		Accession: GSE17294	ID: 200017294
+
+87. Transition from Compensated Hypertrophy to Systolic Heart Failure in the Spontaneously Hypertensive Rat
+(Submitter supplied) Full Title: Transition from Compensated Hypertrophy to Systolic Heart Failure in the Spontaneously Hypertensive Rat: Structure, Function, and Transcript Analysis  Gene expression changes and left ventricular remodeling associated with the transition to systolic heart failure (HF) were determined in the spontaneously hypertensive rat (SHR).  By combining transcriptomics of left ventricles from six SHR with HF with changes in function and structure we aimed to better understand the molecular events underlying the onset of systolic HF compared to six age-matched, SHR with compensated hypertrophy. more...
+Organism:	Rattus norvegicus
+Type:		Expression profiling by array
+Dataset: GDS3661 Platform: GPL1355 12 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE19nnn/GSE19210/
+Series		Accession: GSE19210	ID: 200019210
+
+88. Female sex and oestrogen receptor β attenuate cardiac remodelling and apoptosis in pressure overload
+(Submitter supplied) Aims: We investigate sex differences and the role of oestrogen receptor beta (ERbeta) in a mouse model of pressure overload-induced myocardial hypertrophy. Methods and results: We performed transverse aortic constriction (TAC) or sham surgery in male and female wild-type (WT) and ERbeta knockout (ERbeta-/-) C57Bl6 mice. All mice were characterised by echocardiography and haemodynamic measurements and were sacrificed nine weeks after surgery. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL1261 32 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE18nnn/GSE18224/
+Series		Accession: GSE18224	ID: 200018224
+
+89. Heart Failure Associated Changes in Alternative Splicing of Sarcomere Genes
+(Submitter supplied) Alternative mRNA splicing is an important mechanism for regulation of gene expression. Changes in gene expression contribute to the pathogenesis of heart failure. However, changes in mRNA splicing have not been systematically examined in heart disease. We hypothesized that mRNA splicing is changed in diseased hearts.  We used the Affymetrix exon array, which separately measures expression of each known and computationally predicted exon, to globally evaluate changes in mRNA splicing in left ventricular myocardial RNA from control and ischemic cardiomyopathy (ICM) patients. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL5175 30 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE16nnn/GSE16499/
+Series		Accession: GSE16499	ID: 200016499
+
+90. diabetes mellitus and the progression of post-infarction genetic regulatory expression
+(Submitter supplied) OBJECTIVE: To study the genetic regulatory mechanisms in the remote zone of left ventricular (LV) free wall in order to partly explain the more frequent progression to heart failure after acute myocardial infarction (AMI) in diabetic rats.  METHODS: 10 weeks after diabetes mellitus (DM) induction with Streptozotocin (STZ), the left anterior descending coronary arteries of uncontrolled diabetic Sprague-Dawley (SD) rats and non-diabetic ones were ligated without reperfusion. more...
+Organism:	Rattus norvegicus
+Type:		Expression profiling by array
+Dataset: GDS4025 Platform: GPL1355 12 Samples
+FTP download: GEO (CEL, CHP) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE12nnn/GSE12639/
+Series		Accession: GSE12639	ID: 200012639
+
+91. Effect of two weeks erythropoietin treatment on monocyte transcriptomes of cardiorenal patients
+(Submitter supplied) Patients with combined heart and renal failure, also termed the cardiorenal syndrome (CRS), have high cardiovascular morbidity and mortality.  Several key connectors between heart and kidney have been recognized, such as oxidative stress, inflammation, the renin-angiotensin system and the sympathetic nervous system. Monocytes are key players in the development of atherosclerosis and may act as a biosensor to detect changes in the systemic environment. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL6883 48 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE17nnn/GSE17582/
+Series		Accession: GSE17582	ID: 200017582
+
+92. Particulate Matter effect on Mouse Model of Cardiac Failure: Lung and Heart Left Ventricle
+(Submitter supplied) Particulate Matter Triggers Carotid Body Dysfunction, Respiratory Dysynchrony and Cardiac Arrhythmias in Mice with Cardiac Failure  The mechanistic link between human exposure to airborne particulate matter (PM) pollution and the increased cardiovascular morbidity and mortality observed in people with congestive heart failure (CHF) is unknown. We now show that exposure of genetically-engineered mice with CHF (expressing a cardiac-specific CREB mutant transcription factor) to ambient PM (collected in Baltimore, mean aerodynamic diameter 1.9 um) unmasks severe autonomic morbidities manifested as significant reductions in heart rate variability, respiratory dysynchrony and increased frequency of serious ventricular arrhythmias, features not observed in PM-challenged wild type mice without CHF. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Dataset: GDS3660 Platform: GPL1261 24 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE17nnn/GSE17478/
+Series		Accession: GSE17478	ID: 200017478
+
+93. Cardiac 12/15-lipoxygenase-induced inflammation is involved in heart failure
+(Submitter supplied) To identify a novel target for the treatment of heart failure, we examined gene expression in the failing heart. Among the genes analyzed, 12/15 lipoxygenase (12/15-LOX) was markedly up-regulated in heart failure. To determine whether increased expression of 12/15-LOX causes heart failure, we established transgenic mice that overexpressed 12/15-LOX in cardiomyocytes. Echocardiography showed that 12/15-LOX transgenic mice developed systolic dysfunction. more...
+Organism:	Rattus norvegicus
+Type:		Expression profiling by array
+Platform: GPL85 2 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE16nnn/GSE16199/
+Series		Accession: GSE16199	ID: 200016199
+
+94. Cardiac muscle ring finger-1 increases susceptibility to heart failure by inhibiting creatine kinase activity in vivo
+(Submitter supplied) Muscle ring finger-1 (MuRF1) is a muscle-specific protein implicated in the regulation of cardiac myocyte size and contractility. MuRF2, a closely related family member, redundantly interacts with protein substrates, and hetero-dimerizes with MuRF1. Mice lacking either MuRF1 or MuRF2 are phenotypically normal whereas mice lacking both proteins develop a spontaneous cardiac and skeletal muscle hypertrophy indicating cooperative control of muscle mass by MuRF1 and MuRF2. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL2876 19 Samples
+FTP download: GEO (GPR) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE11nnn/GSE11661/
+Series		Accession: GSE11661	ID: 200011661
+
+95. microRNA-1 negatively regulates expression of the hypertrophy-associated genes calmodulin and Mef2a
+(Submitter supplied) Calcium signaling is a central regulator of cardiomyocyte growth and function. Calmodulin is a critical mediator of calcium signals. Because the amount of calmodulin within cardiomyocytes is limiting, precise regulation of calmodulin expression may be an important for regulation of calcium signaling. In this study, we show for the first time that calmodulin levels are regulated post-transcriptionally in heart failure. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array; Non-coding RNA profiling by array
+Platforms: GPL8225 GPL1261 23 Samples
+FTP download: GEO (CEL, CHP, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE13nnn/GSE13874/
+Series		Accession: GSE13874	ID: 200013874
+
+96. Gene expression profiling in cardiac AngII-overexpressing mice (TG1306/1R)
+(Submitter supplied) Agonist-induced cardiac hypertrophy in TG1306/1R transgenic mice with cardiac angiotensin II overproduction leads to a gradual transition from a compensatory hypertrophic state to heart failure. To gain insight into the molecular mechanisms that play a role in maintaining cardiac integrity in the diseased heart, we performed a comparative study of gene expression between wild-type (WT) and transgenic (TG) hearts using microarray analysis. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL4371 11 Samples
+FTP download: GEO (GPR) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE13nnn/GSE13336/
+Series		Accession: GSE13336	ID: 200013336
+
+97. Gene expression profiling on mouse models of dilated cardiomyopathy 
+(Submitter supplied) Cardiomyopathies are heart muscle disorders characterised by chamber dilation often accompanied by wall thinning, severe systolic and diastolic dysfunction and frequently heart failure. Although several genes were found to be differentially expressed the cellular and molecular basis of the disease still remains poorly understood. We performed expression profiling on cardiac samples from six different mouse disease models: muscle LIM protein- (MLP), ErbB2-, ErbB4- and plakoglobin-deficient mice, doxorubicin treated mice and doxorubicin treated ErbB4 deficient mice. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platforms: GPL872 GPL871 24 Samples
+FTP download: GEO (XML) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE7nnn/GSE7746/
+Series		Accession: GSE7746	ID: 200007746
+
+98. Sex-specific early response to pressure overload in mice
+(Submitter supplied) Pressure overload (PO) leads first to cardiac hypertrophy and later to heart failure. In mice, PO leads to sex differences in cardiac morphology and function.  However, early sex differences in gene regulation that precede sex differences in function have not yet been identified.  To identify such changes, we developed a model of PO that is characterized by compensated hypertrophy without sex differences after 2 weeks and by heart failure with sex differences after 9 weeks. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL339 16 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE6nnn/GSE6970/
+Series		Accession: GSE6970	ID: 200006970
+
+99. Making a predictive heart failure expression profile in Ren2 rat left ventricles
+(Submitter supplied) The intercalated disc of cardiac myocytes is emerging as a crucial structure in the heart. Loss of intercalated disc proteins like N-cadherin causes lethal cardiac abnormalities, mutations in intercalated disc proteins cause human cardiomyopathy. A comprehensive screen for novel mechanisms in failing hearts demonstrated that expression of the lysosomal integral membrane protein-2 (LIMP-2) is increased in cardiac hypertrophy and heart failure in both rat and human myocardium. more...
+Organism:	Rattus norvegicus
+Type:		Expression profiling by array
+Dataset: GDS3018 Platform: GPL1355 14 Samples
+FTP download: GEO (CEL, CHP, EXP) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE4nnn/GSE4286/
+Series		Accession: GSE4286	ID: 200004286
+
+100. Comparative Genomics Identifies Gene Targets for Retinoic Acid in the Embryonic Zebrafish Hearts
+(Submitter supplied) Retinoic acid (RA) and 2,3,7,8-tetrachlorodibenzo-p-dioxin activate distinct ligand-dependent transcription factors, and both cause cardiac malformation and heart failure in zebrafish embryos.  We hypothesized that they cause this response by hyperactivating a common set of genes critical for heart development.  To test this, we used microarrays to measure transcripts changes in hearts isolated from zebrafish embryos 1,2,4 and 12 h after exposure to 1μM RA. more...
+Organism:	Danio rerio
+Type:		Expression profiling by array
+Dataset: GDS2965 Platform: GPL1319 48 Samples
+FTP download: GEO (CEL, EXP) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE9nnn/GSE9020/
+Series		Accession: GSE9020	ID: 200009020
+
+101. Gene Expression Profiling of Patients with a Variation in the TNF-alpha gene and suffering from Multiple Trauma
+(Submitter supplied) BACKGROUND: Patients encountering severe trauma are at risk of developing sepsis syndrome and subsequent multiple organ failure. This is often associated with fatal outcome despite survival of the initial injury. We undertook a prospective cohort study of trauma patients to examine the role of tumor necrosis factor alpha (TNF-alpha) in the pathogenesis of sepsis syndrome and mortality.  METHODS: 159 severely traumatized patients from a single centre were included. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL4204 58 Samples
+FTP download: GEO ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE5nnn/GSE5760/
+Series		Accession: GSE5760	ID: 200005760
+
+102.  Salt Induced Hypertensive Disease Results in Over Expression of Matricellular Genes in Cerebral Arteries
+(Submitter supplied) The Dahl salt-sensitive (S) rat model develops chronic hypertensive disease when fed a high salt diet that ultimately results in renal and heart failure, as well as prevalent cerebrovascular pathologies.  Phenotypic changes in the cerebral vasculature are preceded by changes in gene expression, and evidence supports a role for extracellular signal-regulated kinase 1/2 (ERK1/2) in vascular cell proliferation, yet little is known regarding ERK1/2 –regulated gene transcription in cerebrovascular smooth muscle during hypertension. more...
+Organism:	Rattus norvegicus
+Type:		Expression profiling by array
+Platform: GPL341 6 Samples
+FTP download: GEO ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE5nnn/GSE5488/
+Series		Accession: GSE5488	ID: 200005488
+
+103. Myocardial gene expression of hibernating and control tissue from patients with ischemic left ventricular dysfunction
+(Submitter supplied) Objectives: While cardiac scar tissue is damaged irreversibly, hibernating myocardium is characterized by reversible contractile dysfunction. Limited data are available in humans regarding the molecular biology of hibernating myocardium. The aim of this study was to identify new molecular mechanisms distinctive for human hibernating myocardium  by gene expression analysis. Results: Of 4,171 transcripts examined, we identified 86 to be differentially expressed. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+4 related Platforms 44 Samples
+FTP download: GEO ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE4nnn/GSE4704/
+Series		Accession: GSE4704	ID: 200004704
+
+104. Analysis of Akt1 activation in transgenic mouse hearts show expression profiles associated with hypertrophy and failure
+(Submitter supplied) To investigate molecular mechanisms involved in the development of cardiac hypertrophy and heart failure, a tetracycline-regulated transgenic system to conditionally switch a constitutively-active form of the Akt1 protein kinase on or off in the adult heart was developed. Short-term activation (2 weeks) of Akt1 resulted in completely reversible hypertrophy with maintained contractility. In contrast, chronic Akt1 activation (6 weeks) induced extensive cardiac hypertrophy, severe contractile dysfunction, and massive interstitial fibrosis. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Datasets: GDS2304 GDS2308 Platforms: GPL339 GPL340 36 Samples
+FTP download: GEO ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE3nnn/GSE3383/
+Series		Accession: GSE3383	ID: 200003383
+
+105. Gata4 is required for postnatal cardiac function and protection from pressure overload-induced heart failure
+(Submitter supplied) An important event in the pathogenesis of heart failure is the development of pathological cardiac hypertrophy. In cultured cardiac cardiomyocytes, the transcription factor Gata4 is required for agonist-induced cardiomyocyte hypertrophy. We hypothesized that in the intact organism Gata4 is an important regulator of postnatal heart function and of the hypertrophic response of the heart to pathological stress. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Dataset: GDS2316 Platform: GPL1261 21 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE5nnn/GSE5500/
+Series		Accession: GSE5500	ID: 200005500
+
+106. Distinct Gene Expression Profiles in Adult Mouse Heart Following Targeted  MAP Kinase Activation
+(Submitter supplied) Three major MAP kinase signaling cascades, ERK, p38 and JNK, play significant roles in the development of cardiac hypertrophy and heart failure in response to external stress and neural/hormonal stimuli.  In order to study the specific function of each MAP kinase branch in adult heart, we have generated three transgenic mouse models with cardiac specific and temporally regulated expression of activated mutants of Ras, MKK3 and MKK7, which are selective upstream activators for ERK, p38 and JNK, respectively. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Dataset: GDS1306 Platform: GPL1261 36 Samples
+FTP download: GEO ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE3nnn/GSE3530/
+Series		Accession: GSE3530	ID: 200003530
+
+107. heart/muscle-specific MnSOD-deficient mouse
+(Submitter supplied) To investigate the pathological significance of excess oxidative stress in the heart, we generated heart/muscle-specific manganese superoxide dismutase (MnSOD) -deficient mice on a C57BL/6 background using the Cre-loxP system uder the control of the muscle reatin kinase (MCK) promoter. The mutant mice developed progressive congestive heart failure with dilated cardiomyopathy and physical disability and died with a median survival rate of 15.4 ± 4.0 weeks. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Dataset: GDS1080 Platform: GPL1261 4 Samples
+FTP download: GEO ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE2nnn/GSE2236/
+Series		Accession: GSE2236	ID: 200002236

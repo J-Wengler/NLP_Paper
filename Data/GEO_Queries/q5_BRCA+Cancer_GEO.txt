@@ -1,0 +1,885 @@
+1. Suppression of MBD2 alternative splicing promotes breast cancer metastasis by activating FZD1 under hypoxia
+(Submitter supplied) Metastasis is responsible for the majority of breast cancer (BrCa) deaths; however, the underlying mechanisms remain largely elusive. Here, we report that suppression of MBD2 alternative splicing under hypoxia, which favors the production of MBD2a, facilitates BrCa metastasis. Specifically, we found that MBD2a promotes, whereas its less-known short form MBD2c suppresses metastasis. We elucidate that HIF-1 activation under hypoxia facilitates MBD2a production via repression of SRSF2-mediated alternative splicing and, as a result, the elevated MBD2a outcompetes MBD2c for binding to the promoter CpG islands to activate the expression of FZD1, thereby promoting EMT and metastasis. more...
+Organism:	Homo sapiens
+Type:		Genome binding/occupancy profiling by high throughput sequencing; Expression profiling by high throughput sequencing
+Platform: GPL20795 10 Samples
+FTP download: GEO (BED, FPKM_TRACKING, XLS, XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE151nnn/GSE151952/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA637881
+Series		Accession: GSE151952	ID: 200151952
+
+2. Effect of bone marrow microenvironment on the sensitivity of breast cancer cells to antiestrogens
+(Submitter supplied) Hormonal therapy (HT) inhibits the growth of hormone receptor-positive (HR+) breast (BrCa) and prostate (PrCa) cancers. HT resistance frequently develops within the complex metastatic microenvironment of the host-organ (often the bone), a setting poorly recapitulated in two-dimensional (2D) culture systems. To address this limitation, we cultured HR+ BrCa/PrCa spheroids and patient-derived organoids in 3D extracellular matrices (ECM) alone or together with bone marrow stromal cells (BMSCs). more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 18 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152312/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA638946
+Series		Accession: GSE152312	ID: 200152312
+
+3. ALC1 and PARP activities coordinate chromatin accessibility and viability in homologous recombination deficient cells  (ATAC-seq)
+(Submitter supplied) The response to Poly (ADP-ribose) polymerase inhibitors (PARPi) is dictated by homologous recombination (HR) DNA repair mechanisms and the abundance of lesions that trap PARP enzymes on chromatin. It remains unclear, however, if the established role of PARP in promoting chromatin accessibility impacts viability in these settings. Using a CRISPR based screen, we identify the PAR-binding Snf2-like ATPase, ALC1 as a key determinant of PARPi toxicity in HR-deficient cells. more...
+Organism:	Homo sapiens
+Type:		Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL21697 22 Samples
+FTP download: GEO (BW) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE150nnn/GSE150955/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA634143
+Series		Accession: GSE150955	ID: 200150955
+
+4. ALC1 and PARP activities coordinate chromatin accessibility and viability in homologous recombination deficient cells  (RNA-seq)
+(Submitter supplied) The response to Poly (ADP-ribose) polymerase inhibitors (PARPi) is dictated by  homologous recombination (HR) DNA repair mechanisms and the abundance of lesions  that trap PARP enzymes on chromatin. It remains unclear, however, if the established  role of PARP in promoting chromatin accessibility impacts viability in these settings.  Using a CRISPR based screen, we identify the PAR-binding Snf2-like ATPase, ALC1 as  a key determinant of PARPi toxicity in HR-deficient cells. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 7 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE149nnn/GSE149104/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA627391
+Series		Accession: GSE149104	ID: 200149104
+
+5. Development of a 3D functional assay and identification of biomarkers, predictive for response of high-grade serous ovarian cancer (HGSOC) patients to poly-ADP ribose polymerase inhibitors (PARPIs) - targeted therapy
+(Submitter supplied) Epithelial ovarian cancer (EOC) is the most serious of all gynecological cancers, mainly due to its asymptomatic nature and the resulting lack of early diagnosis. Cells with defects in DNA repair accumulate genetic abnormalities and may progress to become malignant. However, this DNA repair deficiency makes tumor cells vulnerable to further compromise by therapeutic targeting of other associated pathways, using agents such as poly-ADP ribose polymerase (PARP) inhibitors (PARPIs). more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL4133 12 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE149nnn/GSE149940/
+Series		Accession: GSE149940	ID: 200149940
+
+6. Phenotypically supervised single cell sequencing parses within-cell-type heterogeneity
+(Submitter supplied) We used a phenotypic cell sorting technique to ask whether phenotypically supervised scRNAseq analysis (pheno-scRNAseq) can provide more insight into heterogeneous cell behaviors than unsupervised scRNAseq. Using a simple 3D in vitro breast cancer (BRCA) model, we conducted pheno-scRNAseq on invasive and non-invasive cells and compared the results to phenotype-agnostic scRNAseq analysis. Pheno-scRNAseq identified unique and more selective differentially expressed genes (DEGs) than unsupervised scRNAseq analysis. more...
+Organism:	Homo sapiens; Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL20301 GPL24247 GPL24676 4 Samples
+FTP download: GEO (RDS) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE158nnn/GSE158844/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA666683
+Series		Accession: GSE158844	ID: 200158844
+
+7. Tumor-educated platelet RNA for the detection and (pseudo)progression monitoring of glioblastoma
+(Submitter supplied) We report RNA-sequencing data of 805 blood platelet samples, including 240 tumor-educated platelet (TEP) samples collected from patients with glioblastoma and 126 TEP samples collected from patients with brain metastases. In addition, we report RNA-sequencing data of blood platelets isolated from 353 asymptomatic controls and 86 individuals with multiple sclerosis. This dataset highlights the ability of TEP RNA-based 'liquid biopsy' diagnostics for the detection and (pseudo)progression monitoring of glioblastoma.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL20301 GPL16791 804 Samples
+FTP download: GEO (RDATA) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE156nnn/GSE156902/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA659491
+Series		Accession: GSE156902	ID: 200156902
+
+8. Tracking immune cells from brain metastasis microenvironment to the cerebrospinal fluid
+(Submitter supplied) PanCancer Immune Panel profiling of 50 brain metastases
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL19965 55 Samples
+FTP download: GEO (RCC) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159407/
+Series		Accession: GSE159407	ID: 200159407
+
+9. Mutations in homologous recombination genes BRCA1 and BRCA2 differentially affect the tumor microenvironment and response to checkpoint blockade immunotherapy
+(Submitter supplied) We report differential effects of mutations in genes of the homologous recombination (HR) pathway on response after ICB administration in mouse and human tumors, and show that truncating mutations in BRCA2 are associated with superior response to ICB compared to BRCA1-deficient tumors.  Immunogenomic analyses demonstrated that mutations in BRCA1 and BRCA2 differentially modulate the tumor-immune microenvironment, with gene expression programs related to both adaptive and innate immune pathways enriched in BRCA2-deficient tumors. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL21103 GPL24247 40 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE137nnn/GSE137818/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA573517
+Series		Accession: GSE137818	ID: 200137818
+
+10. Cell-type-specific epigenomic variations associated with BRCA1 mutation in pre-cancer human breast tissues
+(Submitter supplied) BRCA1 germline mutation carriers are predisposed to breast cancers. Epigenomic regulations have been known to strongly interact with genetic variations and potentially mediate biochemical cascades involved in tumorigenesis. Due to the cell-type specificity of epigenomic features, profiling of individual cell types is critical for understanding the molecular events in various cellular compartments within complex breast tissue. more...
+Organism:	Homo sapiens
+Type:		Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL20301 46 Samples
+FTP download: GEO (BW) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE148nnn/GSE148995/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA626688
+Series		Accession: GSE148995	ID: 200148995
+
+11. Cancer-specific CTCF binding facilitates oncogenic transcriptional dysregulation
+(Submitter supplied) The three-dimensional genome organization is critical for gene regulation and can malfunction in diseases like cancer. As a key regulator of genome organization, CCCTC-binding factor (CTCF) has been characterized as a DNA-binding protein with important functions in maintaining the topological structure of chromatin and inducing DNA looping. Among the prolific binding sites in the genome, several events with altered CTCF occupancy have been reported as associated with effects in physiology or disease. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing; Other; Methylation profiling by high throughput sequencing
+Platforms: GPL18573 GPL16791 86 Samples
+FTP download: GEO (BED, BW, COV, MATRIX, NARROWPEAK, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE130nnn/GSE130140/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA534089
+Series		Accession: GSE130140	ID: 200130140
+
+12. LncRNA expression data from BRCA drug-sensitive and drug-resistant cell lines
+(Submitter supplied) Worldwide, breast cancer (BRCA) is the most common malignant tumor in women. Adriamycin (ADR) is considered one of the most effective agents for the treatment of BRCA, but its efficacy as a curative agent is compromised by intrinsic resistance and the acquisition of multidrug resistance characteristics during chemotherapy. The underlying mechanisms resulting in ADR resistance in BRCA remain poorly understood. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL22755 6 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE155nnn/GSE155478/
+Series		Accession: GSE155478	ID: 200155478
+
+13. DNA methylation variations in familial female and male breast cancer
+(Submitter supplied) About 25% of familial breast cancer (BC) is attributed to germline mutations of BRCA1 and BRCA2 genes while the rest of patients are included in the BRCAX group. BC also affects men with a worldwide incidence of 1%. The epigenetic alterations, including those DNA methylation,  have been rarely studied in the male breast cancer (MBC) on a genome-wide level. The aim of the current work was to study the global DNA methylation profiles of BC patients to look for differences between familial female breast cancer (FBC) and MBC and according to BRCA1, BRCA2 and BRCAX mutation status. more...
+Organism:	Homo sapiens
+Type:		Methylation profiling by genome tiling array
+Platform: GPL5082 48 Samples
+FTP download: GEO (CEL, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE153nnn/GSE153636/
+Series		Accession: GSE153636	ID: 200153636
+
+14. NanoString expression profiling in metastatic ovarian cancer
+(Submitter supplied) Purpose: Most molecular characterizations of high-grade serous ovarian cancer (HGSOC) have been done in primary ovarian tumors. Such data may not be fully representative of HGSOC, which is characterized by widespread peritoneal metastases at the time of diagnosis and upon relapse. The most common site of HGSOC metastasis is the omentum. The omentum is characterized by strong immune and fibrotic activities and is a rich source of mesenchymal stem cells (MSCs), which have the capacity to differentiate into cancer-associated fibroblasts (CAFs) and promote ovarian cancer progression. more...
+Organism:	Homo sapiens
+Type:		Other
+Platforms: GPL27020 GPL27021 304 Samples
+FTP download: GEO (RCC) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135712/
+Series		Accession: GSE135712	ID: 200135712
+
+15. RNA sequencing analysis of human omental metastatic ovarian cancer from FFPE samples
+(Submitter supplied) To investigate the differential gene expression pattern across a large panel of omental metastatic ovarian cancers
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL20795 130 Samples
+FTP download: GEO (XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE138nnn/GSE138866/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA577639
+Series		Accession: GSE138866	ID: 200138866
+
+16. SUM159 BrCa Decitabine Gene Expression
+(Submitter supplied) Dysregulation of DNA methylation is an established feature of breast cancers. DNA demethylating therapies like decitabine are proposed for the treatment of triple-negative breast cancers (TNBCs) and indicators of response need to be identified. For this purpose, we characterized the effects of decitabine in a panel of 10 breast cancer cell lines and observed a range of sensitivity to decitabine that was not subtype-specific. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL16686 6 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE133nnn/GSE133987/
+Series		Accession: GSE133987	ID: 200133987
+
+17. single cell RNA-seq analysis of ovarian cancer ascites
+(Submitter supplied) To understand the cellular diversity within malignant ascites, we profiled ~11,000 single cells from 22 samples by Smartseq2 and by 10x.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 10906 Samples
+FTP download: GEO (TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE146nnn/GSE146026/
+Series		Accession: GSE146026	ID: 200146026
+
+18. Clinical characteristics and exploratory genomic analyses of germline BRCA1 or BRCA2 mutations in breast cancer
+(Submitter supplied) gBRCA1/2 mutations increase the incidence of breast cancer (BC) by interrupting the homologous recombination repair (HRR) pathway. Although gBRCA1 and gBRCA2 BC have similar clinical profiles, different molecular characteristics have been observed. In this study, we conducted comprehensive genomic analyses and compared gBRCA1/2 BC. Sanger sequencing to identify gBRCA1/2 mutations was conducted in 2,720 patients, and gBRCA1 (n=128) and gBRCA2 (n=126) mutations were analyzed. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL16791 34 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE149nnn/GSE149276/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA627876
+Series		Accession: GSE149276	ID: 200149276
+
+19. RNAseq analysis of BRCA deficient tumors treated with saline, Nano-Talazoparib or Talazoparib
+(Submitter supplied) We report the gene expression profile in BRCA deficient tumors after treatment with saline, nanoparticle-formulated Talazoparib and free Talazoparib
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL13112 9 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE125nnn/GSE125206/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA515518
+Series		Accession: GSE125206	ID: 200125206
+
+20. Gene expression of primary breast cancers from patients before and after neo-adjuvant Tamoxifen treatment
+(Submitter supplied) Tumor gene expression data (microarray from FFPE) was obtained from breast cancer patients enrolled in a pre-operative window trial (ClinicalTrials.gov Identifier: NCT00738777). Patients received an oral loading dose of 40 mg of tamoxifen twice daily for the first seven days, followed by a daily dose of 20 mg until surgery. A core needle biopsy of the tumor was taken prior to treatment (n=62) and post-treatment tumor material (n=40) was obtained during surgery 20.7 (±9.6) days later. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL28292 102 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE147nnn/GSE147271/
+Series		Accession: GSE147271	ID: 200147271
+
+21. Genome-wide analysis of histone 3 lysine K27 acetylation and differential expression analysis in stem-like breast cancer cells in response to HDAC1/3/7 inhibition or knockdown
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL18573 18 Samples
+FTP download: GEO (BIGWIG, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE131nnn/GSE131632/
+Series		Accession: GSE131632	ID: 200131632
+
+22. Next Generation Sequencing and differential expression analysis in stem-like vs. non-stem breast cancer cells in response to HDAC1 and HDAC7 knockdown
+(Submitter supplied) Purpose: We performed RNA-seq differential expression analysis after 72h HDAC1 and HDAC7 knockdown in order to evaluate the transcriptional regulation exerted by HDAC1 and HDAC7 in a stem-like (BPLER) vs. non-stem (HMLER) breast cancer (BrCa) cell model (please search for keywords "BPLER" or "HMLER" in GEO to access over 240 associated data sets). Results: HDAC7 knockdown by a pool of siRNAs resulted in altered expression of nearly three times the genes in BPLER vs. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 14 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE131nnn/GSE131631/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA544243
+Series		Accession: GSE131631	ID: 200131631
+
+23. Genome-wide analysis of histone 3 lysine K27 acetylation in stem-like breast cancer cells in response to HDAC1/3/7 inhibition.
+(Submitter supplied) We sought to investigate the effects of HDAC1 and HDAC7 inhibition on genome-wide histone 3 lysine 27 acetylation (H3K27ac) in BPLER cells, a stem-like breast cancer (BrCa) cell model (please search for keyword "BPLER" in GEO to access over 30 associated datasets). Treatment of BPLER cells with MS-275 (Entinostat), a HDAC1 and HDAC3 specific inhibitor, specifically downregulates HDAC7 mRNA and protein. more...
+Organism:	Homo sapiens
+Type:		Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL18573 4 Samples
+FTP download: GEO (BIGWIG, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE131nnn/GSE131436/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA543537
+Series		Accession: GSE131436	ID: 200131436
+
+24. Specific chromatin landscapes and transcription factors couple breast cancer subtype with metastatic relapse to lung or brain
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Homo sapiens
+Type:		Genome binding/occupancy profiling by high throughput sequencing; Expression profiling by high throughput sequencing
+Platforms: GPL20301 GPL11154 30 Samples
+FTP download: GEO ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE129nnn/GSE129647/
+Series		Accession: GSE129647	ID: 200129647
+
+25. Specific chromatin landscapes and transcription factors couple breast cancer subtype with metastatic relapse to lung or brain [ATACseq]
+(Submitter supplied) Breast cancer metastasis is the leading cause of breast cancer-related mortalities in women. Differential gene expression programs enriched in the primary tumor is able to distinguish patients that experience relapse to different organs. Epigenomic changes often underlie transcriptomic differences and give rise to stable phenotypes. However, the epigenomic differences present in organotropic metastasis remains underexplored. more...
+Organism:	Homo sapiens
+Type:		Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL20301 6 Samples
+FTP download: GEO (BED, BW, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE129nnn/GSE129646/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA532391
+Series		Accession: GSE129646	ID: 200129646
+
+26. Interpheron-γ signaling is associated with BRCA-1 loss-of-function mutations in high grade serous ovarian cancer
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL9052 14 Samples
+FTP download: GEO ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE131nnn/GSE131142/
+Series		Accession: GSE131142	ID: 200131142
+
+27. Interpheron-γ signaling is associated with BRCA-1 loss-of-function mutations in high grade serous ovarian cancer [ChIP-seq]
+(Submitter supplied) Purpose: Loss-of-function mutations of the breast cancer type 1 susceptibility protein (BRCA1) are associated with breast (BC) and ovarian cancer (OC).  We assessed responses to histone deacetylase inhibitors (HDACi) and performed genome-wide RNA and chromatin immunoprecipitation (ChIP)-sequencing in isogenic OC cells UWB1.289 (carrying a BRCA1 mutation) and UWB1.289 transduced with wild type BRCA1. more...
+Organism:	Homo sapiens
+Type:		Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL9052 6 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE131nnn/GSE131140/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA542709
+Series		Accession: GSE131140	ID: 200131140
+
+28. Interpheron-γ signaling is associated with BRCA-1 loss-of-function mutations in high grade serous ovarian cancer [RNA-seq]
+(Submitter supplied) Purpose: Loss-of-function mutations of the breast cancer type 1 susceptibility protein (BRCA1) are associated with breast (BC) and ovarian cancer (OC).  We assessed responses to histone deacetylase inhibitors (HDACi) and performed genome-wide RNA and chromatin immunoprecipitation (ChIP)-sequencing in isogenic OC cells UWB1.289 (carrying a BRCA1 mutation) and UWB1.289 transduced with wild type BRCA1. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL9052 8 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE131nnn/GSE131085/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA542650
+Series		Accession: GSE131085	ID: 200131085
+
+29. BRCA1 mutation influences progesterone response in human  benign mammary organoids.
+(Submitter supplied) Mammary organoids treated with a 28 day menstrual cycle profile of estradiol and progesterone with or without TPA:  Comparison of normal versus BRCA1 mut cells. Purpose: The goals of this study are to determine  1) the effects of a 28 day menstrual cycle profile of estradiol and progesterone, 2) the effects of TPA, and 3) the responses in normal versus BRCA1 carriers, in benign breast organoids using RNA-seq
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 24 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE131nnn/GSE131640/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA544257
+Series		Accession: GSE131640	ID: 200131640
+
+30. An immune-centric exploration of BRCA1 and BRCA2 germline mutation related breast and ovarian cancers
+(Submitter supplied) Background:This study was a hypothesis generating exploration of genomic data collected at diagnosis for 19 patients, who later participated in a clinical trial. BRCA1/2 germline mutation related hereditary cancers are candidates for new immune therapeutic interventions. However, contrary to what is expected of tumors with compromised DNA repair, a prominent tumor mutation burden (TMB) in hereditary breast and ovarian cancers in this cohort, was not correlated with high global immune activity in their microenvironments. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 24 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141142/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA592199
+Series		Accession: GSE141142	ID: 200141142
+
+31. The N6-methylation of adenosine (m6A) in FZD10 mRNA contributes to PARP inhibitor resistance
+(Submitter supplied) Chemical modifications of RNAs have emerged as a new layer of epigenetic gene regulation. N6-methyladenosine (m6A) is the most abundant chemical modification of messenger RNA (mRNA). The m6A modification affects RNA fate and functions such as RNA stability.  Despite the high initial response rates to PARP inhibitors in BRCA1/2-mutated epithelial ovarian cancers (EOC), PARP inhibitor (PARPi) resistance remains a major challenge. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL18573 4 Samples
+FTP download: GEO (BW, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE119nnn/GSE119963/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA490840
+Series		Accession: GSE119963	ID: 200119963
+
+32. Myoepithelial cell perturbations in BRCA mutation carriers and in DCIS (ductal carcinoma in situ)
+(Submitter supplied) We describe the gene expression profiles and enhancer landscape of normal myoepithelial cells and perturbations of these in BRCA1 and BRCA2 mutation carriers and in DCIS. We identified a myoepithelial transcription regulatory network orchestrated by p63 and TCF7 and defined the genomic targets of these transcription factors by ChIP-seq. While the majority of myoepithelial cells co-express p63 and TCF7 in normal breast of healthy women, the frequency of these cells is significantly lower in BRCA1 mutation carriers and in DCIS. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL9052 54 Samples
+FTP download: GEO (BED, NARROWPEAK, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE113nnn/GSE113909/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA454454
+Series		Accession: GSE113909	ID: 200113909
+
+33. The genome-wide enhancer profiling of breast cancer in the MMTV-PyVT mice [ChIP-seq]
+(Submitter supplied) Activation of transcription enhancers, especially super enhancers, is one of the important epigenetic features of tumorigenesis. However, only very few studies reported how the enhancer landscape evolves during tumorigensis. Here we utilized a proteomics approach and found that H3K27ac and H4K8ac are elevated in the mammary tumor of MMTV-PyVT mouse model, which was then confirmed by IHC results in human BRCA chips. more...
+Organism:	Mus musculus
+Type:		Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL21273 46 Samples
+FTP download: GEO (BW) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE118nnn/GSE118810/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA486843
+Series		Accession: GSE118810	ID: 200118810
+
+34. The genome-wide enhancer profiling of breast cancer in the MMTV-PyVT mice [RNA-seq]
+(Submitter supplied) Activation of transcription enhancers, especially super enhancers, is one of the important epigenetic features of tumorigenesis. However, only very few studies reported how the enhancer landscape evolves during tumorigensis. Here we utilized a proteomics approach and found that H3K27ac and H4K8ac are elevated in the mammary tumor of MMTV-PyVT mouse model, which was then confirmed by IHC results in human BRCA chips. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL21273 12 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE118nnn/GSE118802/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA486836
+Series		Accession: GSE118802	ID: 200118802
+
+35. BART-Seq: cost-effective massively parallelized targeted sequencing for genomics, transcriptomics, and single cell analysis [Genotyping]
+(Submitter supplied) We describe a novel workflow named Barcode Assembly foR Targeted Sequencing, which is a highly sensitive, quantitative, and inexpensive technique for targeted sequencing of transcript cohorts (rBART-Seq) or genomic regions (gBART-Seq) from thousands of bulk samples or single cells in parallel. Multiplexing is based on a simple method that produces extensive matrices of diverse DNA barcodes attached to invariant primer sets, for generating amplicons with dual indices. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL15520 3 Samples
+FTP download: GEO (CSV, FA) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE130nnn/GSE130421/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA540229
+Series		Accession: GSE130421	ID: 200130421
+
+36. Gene expression changes induced by LINC00284 (NRAD1) knockdown in MDA-MB-468 cells
+(Submitter supplied) LINC00284 knockdown was achieved by anti-LINC00284 (NRAD1) GapmeR#4 treatment and compared to cells treated with control GapmeR Knockdown of LINC00284 (NRAD1) was verified by QPCR, microarray gene expression changes were also verified by QPCR
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL16686 6 Samples
+FTP download: GEO (CEL, CHP) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE118nnn/GSE118710/
+Series		Accession: GSE118710	ID: 200118710
+
+37. Genome-wide co-localization of RNA-DNA interactions and fusion RNA pairs (RNAseq)
+(Submitter supplied) Despite the ever-increasing speed of detecting fusion transcripts in cancer, it remains formidable to predict what unreported RNA pairs can form new fusion transcripts. By systematic mapping of chromatin-associated RNAs (caRNAs) and their respective genomic interaction loci, we obtained genome-wide RNA-DNA interaction maps from two non-cancerous cell types. The gene pairs involved in RNA-DNA interactions in these normal cells exhibited strong overlap with those with cancer-derived fusion transcripts. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL20301 70 Samples
+FTP download: GEO (FPKM_TRACKING, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE122nnn/GSE122688/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA506022
+Series		Accession: GSE122688	ID: 200122688
+
+38. Genome-wide co-localization of RNA-DNA interactions and fusion RNA pairs
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Other
+Platform: GPL20301 72 Samples
+FTP download: GEO (BEDPE, FPKM_TRACKING, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE122nnn/GSE122690/
+Series		Accession: GSE122690	ID: 200122690
+
+39. Immunotherapy Utilizing NK cells and ADCC Mediating Agents with Poly (ADP-ribose) polymerase (PARP) Inhibition
+(Submitter supplied) Background: Poly (ADP-ribose) polymerase inhibitors (PARPi) prevent single-stranded DNA repair. Olaparib is a PARPi approved for the treatment of BRCA mutant ovarian and breast carcinoma. Emerging clinical data suggest a benefit of combining olaparib with immunotherapy in prostate cancer patients both with and without somatic BRCA mutations.   Methods: We examined if olaparib, when combined with IgG1 antibody-dependent cellular cytotoxicity (ADCC)-mediating monoclonal antibodies (mAbs) cetuximab (anti-EGFR), or avelumab (anti-PD-L1), would increase tumor cell sensitivity to killing by natural killer (NK) cells independently of BRCA status or mAb target upregulation. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL25714 12 Samples
+FTP download: GEO (CSV, RCC) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE121nnn/GSE121682/
+Series		Accession: GSE121682	ID: 200121682
+
+40. small RNA profiling of breast cancer cell lines
+(Submitter supplied) We performed small RNA sequencing in breast cancer cells as well as human mammary epithelial cells (HUMEC) in biological replicates.
+Organism:	Homo sapiens
+Type:		Non-coding RNA profiling by high throughput sequencing
+Platform: GPL20301 23 Samples
+FTP download: GEO (CNT, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE114nnn/GSE114330/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA471117
+Series		Accession: GSE114330	ID: 200114330
+
+41. small RNA profiling of extracellular RNA from breast cancer cell lines [EV]
+(Submitter supplied) We performed small RNA sequencing of exosomes and extracellular vesicles collected from breast cancer cells as well as human mammary epithelial cells (HUMEC) in biological replicates (using Norgen's cell culture media exosme purification and RNA isoaltion kits).
+Organism:	Homo sapiens
+Type:		Non-coding RNA profiling by high throughput sequencing
+Platform: GPL20301 18 Samples
+FTP download: GEO (BED, CNT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE114nnn/GSE114329/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA471078
+Series		Accession: GSE114329	ID: 200114329
+
+42. small RNA profiling of extracellular RNA from breast cancer cell lines
+(Submitter supplied) We performed small RNA sequencing of conditioned media collected from breast cancer cells as well as human mammary epithelial cells (HUMEC) in biological replicates.
+Organism:	Homo sapiens
+Type:		Non-coding RNA profiling by high throughput sequencing
+Platform: GPL20301 18 Samples
+FTP download: GEO (BED, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE114nnn/GSE114327/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA471073
+Series		Accession: GSE114327	ID: 200114327
+
+43. NFkB signaling and ISGylation associated with BRCA1-mutated fallopian tube epithelium
+(Submitter supplied) Germline BRCA1 or BRCA2 mutations (mtBRCA1 and mtBRCA2) dramatically increase risk for high-grade serous ovarian cancer (HGSOC), the most commonly diagnosed histotype.  Other risk factors for this cancer, which originates primarily in the distal fallopian tube epithelium (FTE), implicate ovulation.  To test whether mtBRCA1 or mtBRCA2 FTE cells respond differently to peri-ovulatory follicular fluid (FF) exposure than control patient FTE, gene expression profiles from primary FTE cultures were compared at baseline, 24h after FF exposure, and 24h after FF replacement with culture medium. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL10558 72 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE98nnn/GSE98699/
+Series		Accession: GSE98699	ID: 200098699
+
+44. Recurrent aneuploidy patterns enable fitness gains in tumor metabolism
+(Submitter supplied) Copy number alteration (CNA) profiling of human tumors has revealed recurrent patterns of DNA amplifications and deletions. These patterns are indicative of conserved selection pressures, but cannot be fully explained by known oncogenes and tumor suppressor genes. Using integrative analysis of CNA data from patient tumors and experimental systems, we report that principal component analysis-defined CNA signatures are predictive of glycolytic phenotypes, including FDG-avidity of patient tumors, and increased proliferation. more...
+Organism:	Mus musculus; Homo sapiens
+Type:		Genome variation profiling by genome tiling array
+Platforms: GPL4091 GPL10449 121 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE63nnn/GSE63306/
+Series		Accession: GSE63306	ID: 200063306
+
+45. Whole-genome landscape PARP1 in HEK293T cells
+(Submitter supplied) Poly [ADP-ribose] polymerase 1 (PARP1) is involved in differentiation, proliferation, tumor transformation, in repair of single-stranded DNA and double-stranded DNA breaks (DSBs) in conjunction with BRCA. PARP1 enzyme works modifying nuclear proteins by poly ADP-ribosylation. It was found that PARP1 and HNRNPA2B1 bind at termini of forum domains and may play a role in coordinated regulation of genes in forum domains (Tchurikov et al., 2013). more...
+Organism:	Homo sapiens
+Type:		Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL10999 2 Samples
+FTP download: GEO (BED, NARROWPEAK, SGR, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE74nnn/GSE74954/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA301999
+Series		Accession: GSE74954	ID: 200074954
+
+46. Germline BRCA2 mutations drive prostate cancers with distinct evolutionary trajectories
+(Submitter supplied) Germline mutations in the BRCA2 tumour suppressor are associated with both an increased lifetime risk of developing prostate cancer (PCa) and increased risk of aggressive disease. To understand this aggression, here we profile the genomes and methylomes of localized PCa from 14 carriers of deleterious germline BRCA2 mutations (BRCA2-mutant PCa). We show that BRCA2-mutant PCa harbour increased genomic instability and a mutational profile that more closely resembles metastastic than localized disease. more...
+Organism:	Homo sapiens
+Type:		Methylation profiling by genome tiling array
+Platform: GPL13534 172 Samples
+FTP download: GEO (IDAT, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE80nnn/GSE80685/
+Series		Accession: GSE80685	ID: 200080685
+
+47. Expression data from orthotopic tumors and the MCF7 and HCC1937 breast cancer cell lines
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platforms: GPL15207 GPL13667 8 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE39nnn/GSE39694/
+Series		Accession: GSE39694	ID: 200039694
+
+48. Expression data from a triple-negative BRCA1-mutated ortho-xenograft treated with sirolimus
+(Submitter supplied) Inhibitors of the mechanistic target of rapamycin (mTOR) are currently used to treat advanced metastatic breast cancer. However, whether an aggressive phenotype is sustained through adaptation or resistance to mTOR inhibition remains unknown. Here, complementary studies in human tumors, cancer models and cell lines reveal transcriptional reprogramming that supports metastasis in response to mTOR inhibition. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL13667 4 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE39nnn/GSE39691/
+Series		Accession: GSE39691	ID: 200039691
+
+49. Level of FACT defines the transcriptional landscape and aggressive phenotype of breast cancer cells
+(Submitter supplied) FACT inhibition, via small molecule or shRNA, lead to reduced growth and viability of all BrCa cells tested. Phenotypic changes were more severe in high FACT cells (death or growth arrest) than in low FACT cells (decreased proliferation). Though inhibition had no effect on the rate of general transcription, expression of individual genes was changed in a cell-specific manner. Initially distinct transcriptional profiles of BrCa cells became almost identical via equalizing FACT expression. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL10558 12 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE92nnn/GSE92281/
+Series		Accession: GSE92281	ID: 200092281
+
+50. RAD51 ChIP-seq post treatment with CX-5461
+(Submitter supplied) We discovered two small molecule drugs - CX-5461 and CX-3543 - with specific toxicity against BRCA deficiencies in cancer cells and xenograft models. Both CX-5461 and CX-3543 have been previously recognized as RNA pol I inhibitors. CX-5461 is in advanced phase 1 trials for treatment of lymphoma and leukemia through rDNA transcription inhibition in a p53-dependent mechanism. We have discovered a novel activity of CX-5461, as a stabilizer of G-quadruplex DNA sequences inside cells the same as CX-3543. more...
+Organism:	Homo sapiens
+Type:		Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL15520 10 Samples
+FTP download: GEO (NARROWPEAK) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE90nnn/GSE90967/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA356460
+Series		Accession: GSE90967	ID: 200090967
+
+51. CGH analysis of mouse mammary gland tumors from eight genetically-engineered mouse models
+(Submitter supplied) Background. Oncogene overexpression in primary cells often triggers the induction of a cellular safeguard response promoting senescence or apoptosis. Secondary cooperating genetic events are generally required for oncogene induced tumorigenesis to overcome these biologic obstacles.  We employed array CGH for 8 genetically-engineered mouse models of mammary cancer to identify loci that might harbor genes that enhance oncogene-induced tumorigenesis. more...
+Organism:	Mus musculus
+Type:		Genome variation profiling by array
+Platform: GPL11288 45 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75331/
+Series		Accession: GSE75331	ID: 200075331
+
+52. Genomic profiling of Estrogen receptor positive BRCA1-mutated breast cancer [human 3.5k BAC array]
+(Submitter supplied) Purpose: As estrogen receptor (ER)-positive breast cancer in BRCA1 mutation carriers arises at an older age with less aggressive tumor characteristics than ER negative BRCA1 mutated breast cancer, it has been suggested that these tumors are ?sporadic? and not BRCA1-driven. With the introduction of targeted treatments specific for tumors with a non-functioning BRCA1 or BRCA2 gene, the question whether the BRCA genes are impaired in the tumor, is highly relevant. more...
+Organism:	Homo sapiens
+Type:		Genome variation profiling by genome tiling array
+Platform: GPL4560 3 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE77nnn/GSE77604/
+Series		Accession: GSE77604	ID: 200077604
+
+53. Genomic profiling of Estrogen receptor positive BRCA1-mutated breast cancer [Nimblegen human 135K]
+(Submitter supplied) Purpose: As estrogen receptor (ER)-positive breast cancer in BRCA1 mutation carriers arises at an older age with less aggressive tumor characteristics than ER negative BRCA1 mutated breast cancer, it has been suggested that these tumors are ?sporadic? and not BRCA1-driven. With the introduction of targeted treatments specific for tumors with a non-functioning BRCA1 or BRCA2 gene, the question whether the BRCA genes are impaired in the tumor, is highly relevant. more...
+Organism:	Homo sapiens
+Type:		Genome variation profiling by genome tiling array
+Platform: GPL17641 13 Samples
+FTP download: GEO (PAIR) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE77nnn/GSE77603/
+Series		Accession: GSE77603	ID: 200077603
+
+54. Primary cancer cell culture: mammary-optimized versus conditional-reprogramming [RNA-seq]
+(Submitter supplied) Experiments used RNAseq data to compare transcriptomes of primary cells from different genetic backgrounds cultured under EpiCult and CRC conditions to each other and to allografts grown from these primary cells in nude mice
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL13112 22 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE81nnn/GSE81212/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA320893
+Series		Accession: GSE81212	ID: 200081212
+
+55. Mouse mammary tumor cell line exon arrays
+(Submitter supplied) This study presents exon array expression data for multiple mammary tumor cell lines derived from various genetically-engineered mouse models of mammary cancer as well as from cell lines derived from spontaneously arising mouse mammary tumors.
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL6096 22 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE69nnn/GSE69541/
+Series		Accession: GSE69541	ID: 200069541
+
+56. Epigenetic reprogramming of Fallopian tube fimbriae in BRCA mutation carriers defines early ovarian cancer evolution
+(Submitter supplied) The development of non-invasive primary cancer preventive measures in humans require a thorough understanding of the initial cancer-driving molecular mechanisms. High grade serous extra-uterine M llerian cancers (HGSEMC; formerly classified as ovarian/tubal/peritoneal cancer) present at a very late stage and less than 40% of women survive 5 years. Although the recent TCGA initiatives revealed key molecular changes in established cancers, very little is known about the initial molecular alterations in cancer development. more...
+Organism:	Homo sapiens
+Type:		Methylation profiling by genome tiling array
+Platform: GPL13534 216 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE74nnn/GSE74845/
+Series		Accession: GSE74845	ID: 200074845
+
+57. Fixed tissue ChIP-Seq (FiT-Seq) of archived clinical samples reveals chromatin dynamics and tumor-specific enhancer profiles
+(Submitter supplied) Analysis of cancer epigenomes has revealed important insights into key lineage determinants and oncogenic drivers. Chromatin immune-precipitation followed by next generation sequencing (ChIP-seq) has allowed the comprehensive mapping of transcription factor cistromes and histone modifications in fresh or frozen cells and tissues. It has not been possible, however, to apply ChIP-seq to the vast majority of clinical tissue samples, owing to the very extensive tissue fixation and cross-linking introduced during routine pathological processing. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL18573 109 Samples
+FTP download: GEO (BW, FPKM_TRACKING) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE73nnn/GSE73398/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA296916
+Series		Accession: GSE73398	ID: 200073398
+
+58. RNA Sequencing Facilitates Quantitative Analysis of Transcriptomes in Human Normal and Cancerous Tissues
+(Submitter supplied) Circular RNAs (circRNAs) represent a novel class of widespread and diverse endogenous RNAs that may regulate gene expression in eukaryotes. However, the regulation and function of human circRNAs remain largely unknown. Here we generate ribosomal-depleted RNA sequencing data from six normal tissues and seven cancers, and detect at least 27,000 circRNA candidates.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Other
+Platform: GPL11154 26 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE77nnn/GSE77661/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA311161
+Series		Accession: GSE77661	ID: 200077661
+
+59. 03-311 Trastzumab preoperative Trial of Early Stage HER2+ BRCA
+(Submitter supplied) Tumor core biopsies were obtained at baseline and after brief-exposure to single-agent trastuzumab from patients enrolled on the 03-311 trial.   Gene expression profiling was conducted on these tumor biopsies to identify signatures of response to preoperative therapy. This study was initiated to identify biomarkers of response to preoperative trastuzumab-conotaining therapy. We performed transcriptional profiling of patient tumor biopsies obtained at baseline and post brief-exposure to trastuzumab to test the hypothesis that transcriptional changes upon brief-exposure to therapy can provide an early readout of subsequent response.
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL6947 100 Samples
+FTP download: GEO (IDAT, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE76nnn/GSE76360/
+Series		Accession: GSE76360	ID: 200076360
+
+60. Tailoring heated intra-peritoneal Mitomycin C for peritoneal metastases originating from colorectal carcinoma –  A translational approach to improve survival
+(Submitter supplied) Patients with peritoneal metastases (PM) originating from colorectal carcinoma (CRC) are curatively treated by cytoreductive surgery (CRS) and hyperthermic intra-peritoneal chemotherapy (HIPEC) with Mitomycin C (MMC). We aim to improve patient selection and personalize treatment for patients treated with HIPEC by predicting MMC sensitivity. MMC sensitivity was determined for 12 CRC cell lines using two separate assays. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL4133 12 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE50nnn/GSE50494/
+Series		Accession: GSE50494	ID: 200050494
+
+61. RNA-seq of tumor-educated platelets enables blood-based pan-cancer, multiclass and molecular pathway cancer diagnostics
+(Submitter supplied) We report RNA-sequencing data of 283 blood platelet samples, including 228 tumor-educated platelet (TEP) samples collected from patients with six different malignant tumors (non-small cell lung cancer, colorectal cancer, pancreatic cancer, glioblastoma, breast cancer and hepatobiliary carcinomas). In addition, we report RNA-sequencing data of blood platelets isolated from 55 healthy individuals. This dataset highlights the ability of TEP RNA-based 'liquid biopsies' in patients with several types with cancer, including the ability for pan-cancer, multiclass cancer and companion diagnostics.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL16791 285 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE68nnn/GSE68086/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA281708
+Series		Accession: GSE68086	ID: 200068086
+
+62. Expression profiling of peripheral blood gene expression of women with hereditary breast cancer and controls
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL17279 321 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE47nnn/GSE47862/
+Series		Accession: GSE47862	ID: 200047862
+
+63. Expression profiling of peripheral blood gene expression of women with hereditary breast cancer and controls (set 2)
+(Submitter supplied) We obtained peripheral blood samples for women from Utah (USA) and Ontario (Canada) who had a family history of breast cancer (or did not), who carried a BRCA1/2 mutation (or did not), and who had developed breast cancer (or had not). We classified the women into two groups: [1] those who had a family history of breast cancer (irrespective of BRCA1/2 mutation status) and had developed an early-onset breast tumor and [2] those who had a family history of breast cancer but had not developed a breast tumor or who did not have a family history of breast cancer (some of whom had developed sporadic breast cancer and and others who had not). more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL17279 161 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE47nnn/GSE47861/
+Series		Accession: GSE47861	ID: 200047861
+
+64. Expression profiling of peripheral blood gene expression of women with hereditary breast cancer and controls (set 1)
+(Submitter supplied) We obtained peripheral blood samples for women from Utah (USA) and Ontario (Canada) who had a family history of breast cancer (or did not), who carried a BRCA1/2 mutation (or did not), and who had developed breast cancer (or had not). We classified the women into two groups: [1] those who had a family history of breast cancer (irrespective of BRCA1/2 mutation status) and had developed an early-onset breast tumor and [2] those who had a family history of breast cancer but had not developed a breast tumor or who did not have a family history of breast cancer (some of whom had developed sporadic breast cancer and and others who had not). more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL17279 160 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE47nnn/GSE47860/
+Series		Accession: GSE47860	ID: 200047860
+
+65. mTOR inhibitors suppress homologous recombination repair and synergize with PARP inhibitors via regulating SUV39H1 in BRCA-proficient triple-negative breast cancer
+(Submitter supplied) This analysis was used to search for genes that were differentially expressed between cells treated with DMSO and those treated with the mTOR inhibitor everolimus.
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL10558 12 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE73nnn/GSE73923/
+Series		Accession: GSE73923	ID: 200073923
+
+66. Molecular analysis of normal oviduct, STIC and invasive serous cancer
+(Submitter supplied) High-grade serous cancer (HGSC) progresses to advanced stages without symptoms and the 5-year survival rate is a dismal 30%.   Recent studies of ovaries and fallopian tubes in patients with BRCA mutations revealed that pre-metastatic HGSC is found almost exclusively in the fallopian tube in a lesion termed “serous tubal intraepithelial carcinoma” or STIC.  We have performed laser captured microdissection (LCM) of normal oviduct, STIC and invasive serous cancer from each patient. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL5175 18 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE69nnn/GSE69429/
+Series		Accession: GSE69429	ID: 200069429
+
+67. Transformation of Human Fallopian Tube Stem Cells and high grade serous ovarian cancer
+(Submitter supplied) High-grade serous ovarian cancer (HGSOC) progresses to advanced stages without symptoms and the 5-year survival rate is a dismal 30%.  Recent studies of ovaries and oviducts in patients with BRCA mutations revealed that premalignant HGSC is found almost exclusively in the fallopian tube.  To validate this notion, we cloned and transformed the fallopian tube stem cells (FTSC).  We demonstrated that the tumors derived from the transformed fallopian tube stem cells (FTSCt)  share the similar histological and molecular feature of high-grade serous cancer. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL570 29 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE69nnn/GSE69428/
+Series		Accession: GSE69428	ID: 200069428
+
+68. Phase I study of Veliparib in combination with Cisplatin and Vinorelbine for patients with advanced triple-negative breast cancer (TNBC) and/or BRCA mutation-associated breast cancer
+(Submitter supplied) PURPOSE:  Preclinically, cisplatin is synergistic with vinorelbine and the poly(ADP-ribose) polymerase (PARP) inhibitor veliparib, and has anti-neoplastic activity in TNBC and BRCA mutation-associated breast cancer. This phase I study assessed veliparib with cisplatin and vinorelbine. PATIENTS AND METHODS:  A 3+3 dose escalation design evaluated veliparib administered BID for 14 days with cisplatin (75 mg/m2 day 1) and vinorelbine (25 mg/m2 days 1,8) every 21 days, for six to ten cycles, followed by veliparib monotherapy. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL13938 39 Samples
+FTP download: GEO (IDAT, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE72nnn/GSE72795/
+Series		Accession: GSE72795	ID: 200072795
+
+69. Rare variants affecting the Fanconi Anemia/homologous recombination DNA repair gene network confer increased risk for AML and are associated with abnormal karyotype
+(Submitter supplied) This study was to compare gene expression profiles of human AMLs that either carry or lack potentially deleterious variants in genes of the Fanconi Anemia-Homologous Recombination DNA repair network” . Variants were identified by whole exome sequencing of the relevant genes.
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL10558 168 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE67nnn/GSE67936/
+Series		Accession: GSE67936	ID: 200067936
+
+70. Hereditary Breast Cancer Tumors
+(Submitter supplied) Genomic profile of  47 tumors from hereditary breast cancer cases by Array CGH, 7 of which were BRCA mutation carriers (4 in BRCA2 and 3 in BRCA1), previously analyzed for BRCA1 expression by immunohistochemistry. Our goal was to identify specific alterations for BRCA1 not expressing tumors
+Organism:	Homo sapiens
+Type:		Genome variation profiling by array
+Platforms: GPL11068 GPL8841 47 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE70nnn/GSE70541/
+Series		Accession: GSE70541	ID: 200070541
+
+71. The Landscape of Antisense Gene Expression in Human Cancer
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL11154 376 Samples
+FTP download: GEO (TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE66nnn/GSE66729/
+Series		Accession: GSE66729	ID: 200066729
+
+72. The Landscape of Antisense Gene Expression in Human Cancers [II]
+(Submitter supplied) High throughput RNA sequencing has revealed pervasive transcription of human genome than previously anticipated. However, the extent of natural antisense transcripts (NATs) expression, their regulation of cognate sense genes, and the role of NATs in cancer remain poorly understood. Here, we use strand-specific paired-end RNA sequencing (ssRNASeq) data from 376 cancer patients covering 9 tissue types to comprehensively characterize the landscape of antisense expression. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL11154 353 Samples
+FTP download: GEO ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE66nnn/GSE66728/
+Series		Accession: GSE66728	ID: 200066728
+
+73. Efficacy of carboplatin alone and in combination with ABT888 in intracranial murine models of BRCA-mutated and BRCA-wild-type triple negative breast cancer
+(Submitter supplied) Purpose:Triple negative breast cancer (TNBC) commonly metastasizes to the brain and predicts poor prognosis with limited therapeutic options. TNBC frequently harbors BRCA mutations translating to platinum sensitivity; platinum response may be augmented by additional suppression of DNA repair mechanisms through poly(ADP-ribose)polymerase (PARP) inhibition. We evaluated brain penetrance and efficacy of Carboplatin +/- the PARP inhibitor ABT888, and investigated gene expression changes in murine intracranial (IC) TNBC models stratified by BRCA and molecular subtype status. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platforms: GPL10481 GPL7504 34 Samples
+FTP download: GEO ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE55nnn/GSE55399/
+Series		Accession: GSE55399	ID: 200055399
+
+74. Microarray analysis of differentially expressed genes in ovarian and fallopian tube epithelium from risk-reducing salpingo-oophorectomies
+(Submitter supplied) Mutations in BRCA1 and BRCA2 genes confer an increased lifetime risk for breast and ovarian cancer. Ovarian cancer risk can be decreased by risk-reducing salpingo-oophorectomy (RRSO). Studies on RRSO material have altered the paradigm of serous ovarian cancer pathogenesis. The purpose of this study was to identify candidate genes possibly involved in pathogenesis of serous ovarian cancer by carrying out a microarray analysis of differentially expressed genes in BRCA1/2- mutation positive ovarian and fallopian tube epithelium derived from RRSO surgery. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL19832 22 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE66nnn/GSE66387/
+Series		Accession: GSE66387	ID: 200066387
+
+75. TBCRC 018:  Phase II study of iniparib in combination with irinotecan to treat progressive triple negative breast cancer brain metastases
+(Submitter supplied) Approximately half of women diagnosed with advanced triple negative breast cancer (TNBC) will develop brain metastases, of which the majority will have uncontrolled extracranial disease. While local therapies to treat brain metastases are standardly prescribed, survival remains less than 6 months.  This phase II, multi-center trial evaluated efficacy of irinotecan and iniparib, anti-cancer agents with activity in TNBC and known to cross the blood brain barrier, among 34 patients with new or progressive TNBC brain metastases. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL17590 24 Samples
+FTP download: GEO (XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE51nnn/GSE51280/
+Series		Accession: GSE51280	ID: 200051280
+
+76. Analysis of exosome RNA from co-culture of cancer cell and stroma cell
+(Submitter supplied) How stroma communicates with cancer to influence treatment response is poorly understood. We show that stromal fibroblasts protect breast cancer (BrCa) against radiation and chemotherapy through an exosome-mediated anti-viral pathway and NOTCH3. Stroma increases RAB27B and transfers exosomes to BrCa. RNA within exosomes, comprised largely of non-coding transcripts and transposable elements, stimulates the pattern recognition receptor RIG-I through a 5’-triphosphate motif to activate STAT1. more...
+Organism:	Homo sapiens
+Type:		Other; Expression profiling by high throughput sequencing
+Platform: GPL15520 4 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE60nnn/GSE60997/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA260061
+Series		Accession: GSE60997	ID: 200060997
+
+77. Exosome Transfer from Stromal to Breast Cancer Cells Regulates Therapy Resistance Pathways [set 2]
+(Submitter supplied) Stromal communication with cancer cells can influence treatment response. We show that stromal and breast cancer (BrCa) cells utilize paracrine and juxtacrine signaling to drive chemotherapy and radiation resistance. Upon heterotypic interaction, exosomes are transferred from stromal to BrCa cells. RNA within exosomes, which are largely non-coding transcripts and transposable elements, stimulates the pattern recognition receptor RIG-I to activate STAT1-dependent anti-viral signaling. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL6244 16 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE60nnn/GSE60995/
+Series		Accession: GSE60995	ID: 200060995
+
+78. Exosome Transfer from Stromal to Breast Cancer Cells Regulates Therapy Resistance Pathways [set 1]
+(Submitter supplied) Stromal communication with cancer cells can influence treatment response. We show that stromal and breast cancer (BrCa) cells utilize paracrine and juxtacrine signaling to drive chemotherapy and radiation resistance. Upon heterotypic interaction, exosomes are transferred from stromal to BrCa cells. RNA within exosomes, which are largely non-coding transcripts and transposable elements, stimulates the pattern recognition receptor RIG-I to activate STAT1-dependent anti-viral signaling. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL6244 31 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE60nnn/GSE60994/
+Series		Accession: GSE60994	ID: 200060994
+
+79. Genomic analysis of low-grade serous ovarian carcinomas [IL610Q]
+(Submitter supplied) Low-grade serous ovarian carcinomas are typically Ras-pathway mutated, TP53 wild-type, have limited chromosomal aberration, and are frequently associated with borderline tumors. By contrast, high-grade serous ovarian carcinoma lack Ras-pathway mutations, are invariably TP53 mutated, show widespread genomic change, and are commonly BRCA-pathway disrupted. We sought to identify differences in genomic copy number changes between co-existing borderline and invasive components of serous carcinoma.
+Organism:	Homo sapiens
+Type:		Genome variation profiling by SNP array
+Platform: GPL8887 14 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE57nnn/GSE57279/
+Series		Accession: GSE57279	ID: 200057279
+
+80. Genomic analysis of low-grade serous ovarian carcinomas [ILOEF]
+(Submitter supplied) Low-grade serous ovarian carcinomas are typically Ras-pathway mutated, TP53 wild-type, have limited chromosomal aberration, and are frequently associated with borderline tumors. By contrast, high-grade serous ovarian carcinoma lack Ras-pathway mutations, are invariably TP53 mutated, show widespread genomic change, and are commonly BRCA-pathway disrupted.We sought to identify differences in genomic copy number changes between co-existing borderline and invasive components of serous carcinoma.
+Organism:	Homo sapiens
+Type:		Genome variation profiling by SNP array
+Platform: GPL18643 10 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE57nnn/GSE57276/
+Series		Accession: GSE57276	ID: 200057276
+
+81. Genomic analysis of low-grade serous ovarian carcinomas [ILOE]
+(Submitter supplied) Low-grade serous ovarian carcinomas are typically Ras-pathway mutated, TP53 wild-type, have limited chromosomal aberration, and are frequently associated with borderline tumors. By contrast, high-grade serous ovarian carcinoma lack Ras-pathway mutations, are invariably TP53 mutated, show widespread genomic change, and are commonly BRCA-pathway disrupted. We sought to identify differences in genomic copy number changes in borderline and invasive components of serous carcinoma.
+Organism:	Homo sapiens
+Type:		Genome variation profiling by SNP array
+Platform: GPL13135 30 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE57nnn/GSE57270/
+Series		Accession: GSE57270	ID: 200057270
+
+82. Genomic analysis of low-grade serous ovarian carcinomas [EXP]
+(Submitter supplied) Low-grade serous ovarian carcinomas are typically Ras-pathway mutated, TP53 wild-type, have limited chromosomal aberration, and are frequently associated with borderline tumors. By contrast, high-grade serous ovarian carcinoma lack Ras-pathway mutations, are invariably TP53 mutated, show widespread genomic change, and are commonly BRCA-pathway disrupted. We sought to identify differentially expressed genes between co-existing borderline and invasive components of serous carcinoma.
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL6244 14 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE56nnn/GSE56443/
+Series		Accession: GSE56443	ID: 200056443
+
+83. Expression of miRNAs in breast tumor from very youn women (<36) and women above 65 years old
+(Submitter supplied) miRNA expression from breast tumor tissue obtained from two groups of breast cancer (BC) patients: one group formed by women younger than 36 years and the other group by women older than 65 years.
+Organism:	Homo sapiens; synthetic construct
+Type:		Non-coding RNA profiling by array
+Platform: GPL14613 36 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE48nnn/GSE48088/
+Series		Accession: GSE48088	ID: 200048088
+
+84. Gene expression profiling reveals activation of the FA/BRCA pathway in advanced squamous cervical cancer with intrinsic resistance and therapy failure
+(Submitter supplied) Twenty-one patients with locally advanced squamous cell carcinoma were enrolled in this study. Primary biopsies harvested prior to therapy were divided according to the patient’s 6 months clinical response and analyzed for whole human gene expression (Agilent). A 2859-gene signature was identified to distinguish between responder and non-responder patients. ‘DNA Replication, Recombination and Repair’ represented one of the most important mechanisms activated in non-responsive cervical tumors, and ‘Role of BRCA1 in DNA Damage Response’ was predicted to be the most significantly altered canonical pathway involved in intrinsic resistance. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL4133 21 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE56nnn/GSE56363/
+Series		Accession: GSE56363	ID: 200056363
+
+85. Expression Data from transNOAH breast cancer trial
+(Submitter supplied) These data can be used for evaluation of the clinical utility of the research-based PAM50 subtype predictor in predicting pathological complete response (pCR) and event-free survival (EFS) in women enrolled in the NeOAdjuvant Herceptin (NOAH) trial. The NeOAdjuvant Herceptin [NOAH] trial demonstrated that trastuzumab significantly improves pCR rates and 3-year event-free survival (EFS) in combination with neoadjuvant chemotherapy compared with neoadjuvant chemotherapy alone in patients with HER2+ breast cancer.
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Dataset: GDS5027 Platform: GPL570 156 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE50nnn/GSE50948/
+Series		Accession: GSE50948	ID: 200050948
+
+86. Transformation of the Fallopian Tube Secretory Epithelium Leads to High-grade Serous Ovarian Cancer in BRCA/P53/PTEN Models
+(Submitter supplied) Our study presents the first genetic models of de novo high-grade serous carcinomas (HGSC) that originate in fallopian tube secretory epithelial cells and recapitulate the key genetic alterations and precursor lesions characteristic of human invasive ovarian cancer.  Genomic copy number analysis, using array CGH, was performed on murine tumors in order to compare the overlap of copy number alterations between HGSC models and TCGA data.
+Organism:	Mus musculus
+Type:		Genome variation profiling by genome tiling array
+Platform: GPL10448 3 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE49nnn/GSE49827/
+Series		Accession: GSE49827	ID: 200049827
+
+87. Comparison of aCGH profiles from KB1(185stop)P, KB1(5382stop)P and KB1P mouse mammary tumors
+(Submitter supplied) While BRCA-related cancers respond well to double-strand break (DSB) inducing agents, resistance is a serious clinical problem. One mechanism of resistance is reversion of the BRCA1 mutation, suggesting that BRCA1 function is required for resistance. Here we show that secondary Brca1 mutations are not always necessary, since residual activity of the mutant BRCA1 protein can be sufficient for tumor cells to withstand treatment. more...
+Organism:	Mus musculus
+Type:		Genome variation profiling by genome tiling array
+Platform: GPL13924 62 Samples
+FTP download: GEO (PAIR, PROBE) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE43nnn/GSE43997/
+Series		Accession: GSE43997	ID: 200043997
+
+88. Genome-wide analysis of BRCA1 and PALB2 [ChIP-seq and RNA-seq]
+(Submitter supplied) Breast and ovarian cancer susceptibility genes, BRCA1 and PALB2 have enigmatic roles in cellular growth and mammalian development.  While these genes are essential for growth during early developmental programs, inactivation later in adulthood leads to increased growth and formation of tumors, leading to their designation as tumor suppressors.  We performed genome-wide analysis assessing their chromatin residence and gene expression responsiveness using high throughput sequencing in breast epithelial cells. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL10999 12 Samples
+FTP download: GEO (BEDGRAPH, BW, WIG) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE40nnn/GSE40591/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA174355
+Series		Accession: GSE40591	ID: 200040591
+
+89. Human breast cancer cells: control vs treated with breast cancer patients' sera
+(Submitter supplied) To investigate the significant differently expressed genes upon the stimulation of breast cancer patients' sera.
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL15684 1 Sample
+FTP download: GEO (LSR, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE40nnn/GSE40108/
+Series		Accession: GSE40108	ID: 200040108
+
+90. BRE silencing effect on gene expression profile of human umbilical cord perivascular (HUCPV) progenitor cells
+(Submitter supplied) Analysis of HUCPV progenitor cells following BRE silencing using BRE-siRNA. BRE (Brain and reproductive organ-expressed) protein is also known as TNFRSF1A (tumor necrosis factor receptor superfamily, member 1A) modulator and BRCC45 (BRCA-1 containing complex subunit 45). Results identify gene targets of BRE.
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL15338 6 Samples
+FTP download: GEO (PAIR) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE39nnn/GSE39948/
+Series		Accession: GSE39948	ID: 200039948
+
+91. The retinoblastoma gene is targeted for rearrangements in BRCA1-deficient basal-like breast cancer.
+(Submitter supplied) Breast tumors from BRCA1 germ line mutation carriers typically exhibit features of the basal-like molecular subtype. However, the specific genes recurrently mutated as a consequence of BRCA1 dysfunction have not been fully elucidated. In this study, we utilized gene expression profiling to molecularly subtype 577 breast tumors, including 73 breast tumors from BRCA1/2 mutation carriers. Focusing on the RB1 locus, we analyzed 33 BRCA1-mutated, 36 BRCA2-mutated and 48 non-BRCA1/2-mutated breast tumors using a custom-designed high-density oligomicroarray covering the RB1 gene. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL5345 577 Samples
+FTP download: GEO (GPR, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE25nnn/GSE25307/
+Series		Accession: GSE25307	ID: 200025307
+
+92. Gene Expression in Normal and Tumor Ovarian Epithelial Cells from Non-carriers and Heterozygous Carriers of a BRCA French Canadian Mutation.
+(Submitter supplied) We hypothesized that the transcriptome of primary cultures of morphologically normal ovarian surface epithelial cells could be altered by the presence of a heterozygous BRCA1 or BRCA2 mutation. We aimed to discover early events associated to ovarian carcinogenesis, which could represent putative targets for preventive strategies of this silent killer tumor. We identified the first molecular signature associated with French Canadian BRCA1 or BRCA2  founder mutations in morphologically normal ovarian epithelial cells. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL80 13 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE34nnn/GSE34928/
+Series		Accession: GSE34928	ID: 200034928
+
+93. Neighboring genomic regions influence differential methylation patterns of CpG islands in endometrial and breast cancers
+(Submitter supplied) We report the global methylation patterns by MBDCap-seq for total 232 primary samples in endometrial cohorts, breast cancer cohorts and breast cancer cell lines. We found total 1,007 differentially methylated regions (DMRs) include CpG islands and shores in endometrial cohorts, and 2529 for Breast Cancer cohorts. We also identified 153 regions that are distinctly different from regular CpG islands at the 5'-ends of genes. more...
+Organism:	Homo sapiens
+Type:		Methylation profiling by high throughput sequencing
+Platform: GPL9052 243 Samples
+FTP download: GEO (BED, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE26nnn/GSE26592/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA136187
+Series		Accession: GSE26592	ID: 200026592
+
+94. Comparison of aCGH profiles from KB1C61GP, KB1P and KP mouse mammary tumors
+(Submitter supplied) While BRCA-related cancers respond well to double-strand break (DSB) inducing agents, resistance is a serious clinical problem. One mechanism of resistance is reversion of the BRCA1 mutation, suggesting that BRCA1 function is required for resistance. Here we show that secondary Brca1 mutations are not always necessary, since residual activity of the mutant BRCA1 protein can be sufficient for tumor cells to withstand treatment. more...
+Organism:	Mus musculus
+Type:		Genome variation profiling by genome tiling array
+Platform: GPL13924 57 Samples
+FTP download: GEO (PROBE, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE30nnn/GSE30710/
+Series		Accession: GSE30710	ID: 200030710
+
+95. Formalin Fixation at Low Temperature Better Preserves Nucleic Acid Integrity
+(Submitter supplied) INTRODUCTION. Fixation with formalin, a widely adopted procedure to preserve tissue samples, leads to extensive degradation of nucleic acids and thereby compromises procedures like microarray-based gene expression profiling. We hypothesized that RNA fragmentation is caused by activation of RNAses during the interval between formalin penetration and tissue fixation. To prevent RNAse activation, a series of tissue samples were kept under-vacuum at 4°C until fixation and then fixed at 4°C, for 24 hours, in formalin followed by 4 hours in ethanol 95%. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL6947 30 Samples
+FTP download: GEO ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE27nnn/GSE27175/
+Series		Accession: GSE27175	ID: 200027175
+
+96. Gene expression profiling in primary breast cancer distinguishes patients developing local recurrence after breast-conservation surgery, with or without postoperative radiotherapy.
+(Submitter supplied) Gene expression profiling of breast tumors for prognosis of local reccurence.
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL14374 143 Samples
+FTP download: GEO (TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE31nnn/GSE31863/
+Series		Accession: GSE31863	ID: 200031863
+
+97. Expression data from C3(1)Tag mammary tumors, tumor derived cell line (M6) and normal mammary tissue (FVB)
+(Submitter supplied) M6 cells expression a similar genetic signature as the parent tumor, C3(1)Tag tumor. The mammary tumors, and tumor cell line, are distinct from normal mammary epithelial tissue (FVB) BRCA/p53, cmyc, h2n, p53ERneg, p53ERpos, pymt and ras samples were not reported in this paper.
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL8321 47 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE25nnn/GSE25488/
+Series		Accession: GSE25488	ID: 200025488
+
+98. A gene expression profile of BRCAness that is associated with outcome in ovarian cancer
+(Submitter supplied) A gene expression profile of BRCAness was defined in publicly available expression data of 61 patients with epithelial ovarian cancer (34 patients with BRCA-1 or BRCA-2 mutations and 27 patients with sporadic disease). This dataset is publicly available at http://jnci.oxfordjournals.org/cgi/content/full/94/13/990/DC1 The BRCAness profile was correlated with outcome in 70 patients with epithelial ovarian cancer and known outcome data.
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platforms: GPL570 GPL8300 70 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE19nnn/GSE19829/
+Series		Accession: GSE19829	ID: 200019829
+
+99. Rb deletion in mammary stem/progenitor epithelium induces tumors with features of luminal-B or basal-like breast cancer
+(Submitter supplied) The retinoblastoma tumor suppressor, Rb, is implicated in luminal-B and basal-like breast carcinomas, yet its effect on mammary gland development and causal role in breast cancer subtypes remain undefined. Here we show that conditional deletion of Rb in mouse mammary epithelium led to expansion of the stem/progenitor cells and to focal acinar hyperplasia with squamous metaplasia. These uniform lesions progressed into histologically diverse, transplantable mammary adenocarcinomas and adenosquamous carcinomas with features of luminal-B or basal-like carcinomas. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platforms: GPL891 GPL4092 GPL2881 144 Samples
+FTP download: GEO ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE14nnn/GSE14457/
+Series		Accession: GSE14457	ID: 200014457
+
+100. Genomic Subtypes of Breast Cancer Identified by Array Comparative Genomic Hybridization
+(Submitter supplied) Breast cancer is a profoundly heterogeneous disease with respect to biological and clinical behavior. Gene expression profiling has been used to dissect this complexity and stratify tumors into intrinsic gene expression subtypes associated with distinct biology, patient outcome and different genomic alterations. Additionally, breast tumors occurring in individuals with germline BRCA1 or BRCA2 mutations typically fall into distinct subtypes. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array; Genome variation profiling by array
+Platforms: GPL5345 GPL7247 GPL4723 718 Samples
+FTP download: GEO (GPR, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE22nnn/GSE22133/
+Series		Accession: GSE22133	ID: 200022133
+
+101. Tumor expression data from neoadjuvant trial of cisplatin monotherapy in triple negative breast cancer patients
+(Submitter supplied) Evidence suggests that BRCA1 mutation associated tumors have increased sensitivity to DNA damaging agents like cisplatin.  Sporadic triple negative breast cancers (TNBC) have many phenotypic similarities to BRCA1 tumors and may have a similar sensitivity to cisplatin.  We tested the efficacy of cisplatin monotherapy in 28 TNBC patients in a single arm neoadjuvant trial with outcome measured by pathologic treatment response quantified using the Miller-Payne scale. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL570 84 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE18nnn/GSE18864/
+Series		Accession: GSE18864	ID: 200018864
+
+102. Identification of novel Epstein-Barr Virus miRNA genes from Nasopharyngeal Carcinomas
+(Submitter supplied) MicroRNAs (miRNAs) represent a conserved class of small non-coding RNAs that are found in all higher eukaryotes as well as some DNA viruses. MiRNAs are 20-25 nucleotides (nt) in length and have important regulatory functions in biological processes such as embryonic development, cell differentiation, hormone secretion or metabolism. Furthermore, miRNAs have been implicated in the pathology of various diseases including cancer. more...
+Organism:	Homo sapiens
+Type:		Non-coding RNA profiling by high throughput sequencing
+Platform: GPL9178 4 Samples
+FTP download: GEO ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE14nnn/GSE14738/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA112199
+Series		Accession: GSE14738	ID: 200014738
+
+103. DNA profiling of serous ovarian and Fallopian tube carcinomas with array CGH and MLPA
+(Submitter supplied) Primary serous ovarian carcinoma (OVCA) and serous Fallopian tube carcinoma (FTC), both belonging to the BRCA-linked tumour spectrum, share many properties and are treated similarly. However, a detailed molecular comparison has been lacking. We hypothesized that comparative genomic studies of serous OVCAs and FTCs should point to gene regions critically involved in their tumorigenesis. Array comparative genomic hybridization (array CGH) analysis indicated that serous OVCAs and serous FTCs displayed common but also more distinctive patterns of recurrent changes. more...
+Organism:	Homo sapiens
+Type:		Genome variation profiling by genome tiling array
+Platform: GPL4896 28 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE12nnn/GSE12040/
+Series		Accession: GSE12040	ID: 200012040
+
+104. Integrated SV40 T/t-antigen Cancer Signature in Aggressive Breast, Prostate and Lung Carcinomas with Poor Prognosis
+(Submitter supplied) Understanding the genetic architecture of cancer pathways that distinguishes subsets of human cancer is critical to developing new therapies that better target tumors based upon their molecular expression profiles.   In this study, we identify an integrated gene signature from multiple transgenic models of epithelial cancers intrinsic to the functions of the Simean virus 40 T/t-antigens that is associated with the biologic behavior and prognosis for several human epithelial tumors. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL5339 73 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE8nnn/GSE8666/
+Series		Accession: GSE8666	ID: 200008666
+
+105. Integrated SV40 T/t-antigen Cancer Signature in Aggressive Breast, Prostate and Lung Carcinomas with Poor Prognosis 2
+(Submitter supplied) Understanding the genetic architecture of cancer pathways that distinguishes subsets of human cancer is critical to developing new therapies that better target tumors based upon their molecular expression profiles.   In this study, we identify an integrated gene signature from multiple transgenic models of epithelial cancers intrinsic to the functions of the Simean virus 40 T/t-antigens that is associated with the biologic behavior and prognosis for several human epithelial tumors. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL5339 38 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE8nnn/GSE8663/
+Series		Accession: GSE8663	ID: 200008663
+
+106. Human breast tumor expression
+(Submitter supplied) Gene expression for 47 human breast tumor cases; (* normalized by GCRMA for global expression analysis) Keywords: Type
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Dataset: GDS2250 Platform: GPL570 47 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE3nnn/GSE3744/
+Series		Accession: GSE3744	ID: 200003744

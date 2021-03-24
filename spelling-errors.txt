@@ -12,7 +12,7 @@ desined
 embeddings
 FastText
 FastTextCBOW
-FastTextSkipGram
+FastTextSKIPGRAM
 FastTextWiki
 findSimilarity
 FIXME
@@ -40,10 +40,10 @@ PrepareQueryData
 preprocessed
 py
 Relevent
-SciSpaCy
+SciSpacy
 SingleRank
 SKIPGRAM
-SpaCy
+Spacy
 SpacyWebLG
 srp
 StarGEO

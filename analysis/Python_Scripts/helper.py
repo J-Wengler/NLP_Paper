@@ -285,7 +285,7 @@ def evaluateGEO():
                     if series in query_results:
                         num_relevant = num_relevant + 1
 
-                out_file.write(f"q{path[1]} returned {num_relevant} ({round((num_relevant/len(query_results)) * 100)}%) in {top_n}\n")
+                out_file.write(f"GEO\tq{path[1]}\t{top_n}\t {round(((num_relevant/len(query_results)) * 100),1)}\n")
     print("Finished GEO evaluation")
 
 # We could do this dynamically, but this is okay.

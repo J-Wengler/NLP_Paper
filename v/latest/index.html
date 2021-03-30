@@ -47,9 +47,9 @@
   <meta name="citation_fulltext_html_url" content="https://J-Wengler.github.io/NLP_Paper/" />
   <meta name="citation_pdf_url" content="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/4c1275ffd4361d9828388d3471d169b394409d21/" />
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/4c1275ffd4361d9828388d3471d169b394409d21/" />
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/4c1275ffd4361d9828388d3471d169b394409d21/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/a2ba2351f2af223252df06aa95d639751e19964a/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/a2ba2351f2af223252df06aa95d639751e19964a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/a2ba2351f2af223252df06aa95d639751e19964a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,9 +63,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://J-Wengler.github.io/NLP_Paper/v/4c1275ffd4361d9828388d3471d169b394409d21/">permalink</a>)
+(<a href="https://J-Wengler.github.io/NLP_Paper/v/a2ba2351f2af223252df06aa95d639751e19964a/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/J-Wengler/NLP_Paper/tree/4c1275ffd4361d9828388d3471d169b394409d21">J-Wengler/NLP_Paper@4c1275f</a>
+from <a href="https://github.com/J-Wengler/NLP_Paper/tree/a2ba2351f2af223252df06aa95d639751e19964a">J-Wengler/NLP_Paper@a2ba235</a>
 on March 30, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -164,14 +164,14 @@ ongoing project, it is likely that these queries currently have more articles th
 <p>The purpose of widely varying the amount of articles returned is to ensure that our method works for narrowly defined topics as well as broad topics as well as to test the difference. All data
 accession was performed using the StarGEO API <span class="citation" data-cites="JJvRe4Xx">[<a href="#ref-JJvRe4Xx" role="doc-biblioref">9</a>]</span>. The API was accessed and stored in a dictionary keyed by accession number to combined abstract and title.</p>
 <h3 id="model-collection">Model Collection</h3>
-<p>Once the data was collected the next step was identifying the techniquesResearch has already shown that a variety of natural language processing models are effective on biomedical literature <span class="citation" data-cites="2W804yHJ 8NKQyXww">[<a href="#ref-2W804yHJ" role="doc-biblioref">10</a>,<a href="#ref-8NKQyXww" role="doc-biblioref">11</a>]</span>.
+<p>Once the data was collected the next step was identifying the techniques to be tested. Research has already shown that a variety of natural language processing models are effective on biomedical literature <span class="citation" data-cites="2W804yHJ 8NKQyXww">[<a href="#ref-2W804yHJ" role="doc-biblioref">10</a>,<a href="#ref-8NKQyXww" role="doc-biblioref">11</a>]</span>.
 However we felt it was necessary to test a variety of techniques for both keyword extraction and word vector generation to identify the combination most
-suited to our unique task.</p>
-<p>Keyword Identification is the first step that our data in the dictionary goes through. To accomplish quick querying in a standardized framework we sued the PKE package available
+suited to the task of collecting related genomic data.</p>
+<p>Keyword Identification is the first step that our data in the dictionary goes through. To accomplish consistent querying in a standardized framework we used the PKE package available
 in Python. All documentation is available on GitHub <span class="citation" data-cites="kzLP6OpW">[<a href="#ref-kzLP6OpW" role="doc-biblioref">12</a>]</span>. The PKE packages allowed us to use one single package to access all the keyword embedding
-techniques, instead of individually querying each technique. The keyword extraction techniques that were tested are the following: TFIDF, KPMiner, YAKE, TextRank, SingleRank,
-TopicRank, TopicalPageRank, PositionRank and MultipartiteRank <span class="citation" data-cites="kzLP6OpW">[<a href="#ref-kzLP6OpW" role="doc-biblioref">12</a>]</span>. Using each of these techniques keywords were identified from the target text.
-Each of these techniques is technologically diverse and we chose them due to the expectation that the techniques would yield different keywords.</p>
+techniques, instead of individually querying each technique. The keyword extraction techniques that were tested are the following: TFIDF, KP-Miner, YAKE, TextRank, SingleRank,
+TopicRank, TopicalPageRank, PositionRank and MultipartiteRank <span class="citation" data-cites="kzLP6OpW">[<a href="#ref-kzLP6OpW" role="doc-biblioref">12</a>]</span>. Each of these techniques uses a different algorithm to identify keywords,
+an example of the diversity of returned keywords is available in the appendix.</p>
 <p>After the keywords have been identified from the target text, word vectors are generated from each keyword using a word vector model. These models use large amounts
 of unlabeled text to identify the meanings of words and express those as a numeric vector. For our project we selected 6 different models that encompass a variety of techniques
 and training data. The two major frameworks used in this project were Spacy and FastText. These models are the two most widely used frameworks in natural language processing
@@ -227,14 +227,9 @@ and Spacy are compared head to head, as well as different algorithms and trainin
 stored as a list of numeric values. The models vary in the length of this numeric vectors from 100 - 300. Once each vector has been generated from each keyword these vectors are added
 element-wise and then divided by the number of keywords. This technique has been shown to be the simplest and most accurate way to generate a singular word vector from various word
 embeddings and is usually used to generate document-wide word embeddings <span class="citation" data-cites="YTvwxF00">[<a href="#ref-YTvwxF00" role="doc-biblioref">17</a>]</span>.</p>
-<h3 id="manual-gene-expression-omnibus-evaluation">Manual Gene Expression Omnibus Evaluation</h3>
-<p>Gene Expression Omnibus (GEO) is the parent corpus from which StarGEO is derived <span class="citation" data-cites="14VfbatMA">[<a href="#ref-14VfbatMA" role="doc-biblioref">18</a>]</span>. To compare our technique directly to GEO we use a manual technique. We first use the advanced search option on
-GEO to input the exact queries we used from StarGEO. To maintain consistency with StarGEO, the results are limited to series and human genomic data. A summary file of all the results is downloaded and analyzed. To ensure equal comparision
-the results are filtered to only include those datasets that exist in StarGEO’s corpus. Using the same technique for the StarGEO evaluation the top 1,10,100,500 articles are identified and compared against the relevant articles
-to identify the number relevant.</p>
 <h3 id="model-evaluation">Model Evaluation</h3>
-<p>All model evaluation is performed in a Docker container to allow other researchers to perform the same analysis described in this section <span class="citation" data-cites="heYSKCTA">[<a href="#ref-heYSKCTA" role="doc-biblioref">19</a>]</span>.The Docker image
-used to build the container is the python:3.8.5 image available on the Docker website <span class="citation" data-cites="TJY8XInf">[<a href="#ref-TJY8XInf" role="doc-biblioref">20</a>]</span>. Running the docker container as pulled from github will run a bash script that performs the following
+<p>All model evaluation is performed in a Docker container to allow other researchers to perform the same analysis described in this section <span class="citation" data-cites="heYSKCTA">[<a href="#ref-heYSKCTA" role="doc-biblioref">18</a>]</span>.The Docker image
+used to build the container is the python:3.8.5 image available on the Docker website <span class="citation" data-cites="TJY8XInf">[<a href="#ref-TJY8XInf" role="doc-biblioref">19</a>]</span>. Running the docker container as pulled from github will run a bash script that performs the following
 steps.
 1. StarGEO is queried to prepare the six queries. The prepareQueryData.py script takes two arguments. The first is a list of GEO identifiers and the second is the query number that these identifiers
 should belong to. PrepareQueryData.py creates a file system that contains all the abstract and titles of the series that correspond to each identifier. The file system will put each text file into the directory for the corresponding
@@ -246,6 +241,11 @@ a. All candidate articles from StarGEO are queried
 b. The specific word vector model is loaded (SciSpaCy, BioWordVec, …)
 c. For each query and keyword combination findSimilarity() is run in Helper.py and added to a multiprocessing thread. This script prints to an output file the calculated similarity of each article using each combination
 #FIXME -&gt; Should we go into detail here?</p>
+<h3 id="manual-gene-expression-omnibus-evaluation">Manual Gene Expression Omnibus Evaluation</h3>
+<p>Gene Expression Omnibus (GEO) is the parent corpus from which StarGEO is derived <span class="citation" data-cites="14VfbatMA">[<a href="#ref-14VfbatMA" role="doc-biblioref">20</a>]</span>. To compare our technique directly to GEO we use a manual evaluation. We first use the advanced search option on
+GEO to input the exact queries we used from StarGEO. To maintain consistency with StarGEO, the results are limited to series and human genomic data. A summary file of all the results is downloaded and analyzed. To ensure equal comparision
+the results are filtered to only include those datasets that exist in StarGEO’s corpus and excluding SuperSeries. Using the same technique for the StarGEO evaluation the top 1,10,100,500 articles are identified and compared against the relevant articles
+from StarGEO.</p>
 <h2 class="page_break_before" id="results">Results</h2>
 <p>The two main techniques in this paper are keyword identification and word vector generation. Both of these methods are described below.</p>
 <h3 id="keyword-identification">Keyword Identification</h3>
@@ -416,6 +416,8 @@ but also an increase in time taken for the analysis to be performed. 10 keywords
 on a Dell PowerEdge R730xd server with two Intel Xeon E5-2640 v4 2.4GHz CPUs that each support 10 cores with two threads apiece with a total of 256gb of RAM. All analyses were performed using the
 Multiprocesing Python package to take advantage of all cores available.</p>
 <h2 class="page_break_before" id="appendix">Appendix</h2>
+<h3 id="comparison-of-keywords-techniques">Comparison of Keywords Techniques</h3>
+<p>Text = “OBJECTIVE: Novel biomarkers of disease progression after type 1 diabetes onset are needed. RESEARCH DESIGN AND METHODS: We profiled peripheral blood (PB) monocyte gene expression in 6 healthy subjects and 16 children with type 1 diabetes diagnosed ~3 months previously, and analyzed clinical features from diagnosis to 1 year. RESULTS: Monocyte expression profiles clustered into two distinct subgroups, representing mild and severe deviation from healthy controls, along the same continuum. Patients with strongly divergent monocyte gene expression had significantly higher insulin dose-adjusted HbA1c levels during the first year, compared to patients with mild deviation. The diabetes-associated expression signature identified multiple perturbations in pathways controlling cellular metabolism and survival, including endoplasmic reticulum and oxidative stress (e.g. induction of HIF1A, DDIT3, DDIT4 and GRP78). qPCR quantitation of a 9-gene panel correlated with glycaemic control in 12 additional recent-onset patients. The qPCR signature was also detected in PB from healthy first-degree relatives. CONCLUSIONS: A PB gene expression signature correlates with glycaemic control in the first year after diabetes diagnosis, and is present in at-risk subjects. These findings implicate monocyte phenotype as a candidate biomarker for disease progression pre- and post-onset, and systemic stresses as contributors to innate immune function in type 1 diabetes.”</p>
 <h5 id="keywords-1">30 Keywords</h5>
 <p><img src="images/30_keyword_output/BioWordVec.png" style="width:7in" alt="BioWordVec_30." />
 <img src="images/30_keyword_output/FastText%20(CBOW).png" style="width:7in" alt="FastText CBOW_30." />
@@ -532,20 +534,20 @@ DOI: <a href="https://doi.org/10.1371/journal.pone.0220976">10.1371/journal.pone
 Jey Han Lau, Timothy Baldwin<br />
 <em>arXiv:1607.05368 [cs]</em> (2016-07-18) <a href="http://arxiv.org/abs/1607.05368">http://arxiv.org/abs/1607.05368</a></p>
 </div>
-<div id="ref-14VfbatMA">
-<p>18. <strong>Gene Expression Omnibus: NCBI gene expression and hybridization array data repository</strong> <br />
-R. Edgar<br />
-<em>Nucleic Acids Research</em> (2002-01-01) <a href="https://doi.org/fttpkn">https://doi.org/fttpkn</a> <br />
-DOI: <a href="https://doi.org/10.1093/nar/30.1.207">10.1093/nar/30.1.207</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/11752295">11752295</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC99122">PMC99122</a></p>
-</div>
 <div id="ref-heYSKCTA">
-<p>19. <strong>An introduction to Docker for reproducible research</strong> <br />
+<p>18. <strong>An introduction to Docker for reproducible research</strong> <br />
 Carl Boettiger<br />
 <em>ACM SIGOPS Operating Systems Review</em> (2015-01-20) <a href="https://doi.org/gdz6f9">https://doi.org/gdz6f9</a> <br />
 DOI: <a href="https://doi.org/10.1145/2723872.2723882">10.1145/2723872.2723882</a></p>
 </div>
 <div id="ref-TJY8XInf">
-<p>20. <strong>Docker Hub</strong> <a href="https://hub.docker.com/_/python">https://hub.docker.com/_/python</a></p>
+<p>19. <strong>Docker Hub</strong> <a href="https://hub.docker.com/_/python">https://hub.docker.com/_/python</a></p>
+</div>
+<div id="ref-14VfbatMA">
+<p>20. <strong>Gene Expression Omnibus: NCBI gene expression and hybridization array data repository</strong> <br />
+R. Edgar<br />
+<em>Nucleic Acids Research</em> (2002-01-01) <a href="https://doi.org/fttpkn">https://doi.org/fttpkn</a> <br />
+DOI: <a href="https://doi.org/10.1093/nar/30.1.207">10.1093/nar/30.1.207</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/11752295">11752295</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC99122">PMC99122</a></p>
 </div>
 <div id="ref-x30kePas">
 <p>21. <strong>Editorial: Mining Scientific Papers: NLP-enhanced Bibliometrics</strong> <br />

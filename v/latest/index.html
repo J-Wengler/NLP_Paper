@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="James Wengler" />
   <meta name="author" content="Stephen Picco" />
-  <meta name="dcterms.date" content="2021-03-24" />
+  <meta name="dcterms.date" content="2021-03-30" />
   <meta name="keywords" content="NLP, Biomedical, Keyword Extraction, Word Vectors" />
   <title>Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets</title>
   <style>
@@ -29,8 +29,8 @@
   <meta name="citation_title" content="Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets" />
   <meta property="og:title" content="Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets" />
   <meta property="twitter:title" content="Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets" />
-  <meta name="dc.date" content="2021-03-24" />
-  <meta name="citation_publication_date" content="2021-03-24" />
+  <meta name="dc.date" content="2021-03-30" />
+  <meta name="citation_publication_date" content="2021-03-30" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@
   <meta name="citation_fulltext_html_url" content="https://J-Wengler.github.io/NLP_Paper/" />
   <meta name="citation_pdf_url" content="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/fdefe7a1d83b1470f874b834f4cb149de5eb6704/" />
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/fdefe7a1d83b1470f874b834f4cb149de5eb6704/" />
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/fdefe7a1d83b1470f874b834f4cb149de5eb6704/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/4c1275ffd4361d9828388d3471d169b394409d21/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/4c1275ffd4361d9828388d3471d169b394409d21/" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/4c1275ffd4361d9828388d3471d169b394409d21/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,10 +63,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://J-Wengler.github.io/NLP_Paper/v/fdefe7a1d83b1470f874b834f4cb149de5eb6704/">permalink</a>)
+(<a href="https://J-Wengler.github.io/NLP_Paper/v/4c1275ffd4361d9828388d3471d169b394409d21/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/J-Wengler/NLP_Paper/tree/fdefe7a1d83b1470f874b834f4cb149de5eb6704">J-Wengler/NLP_Paper@fdefe7a</a>
-on March 24, 2021.
+from <a href="https://github.com/J-Wengler/NLP_Paper/tree/4c1275ffd4361d9828388d3471d169b394409d21">J-Wengler/NLP_Paper@4c1275f</a>
+on March 30, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -124,8 +124,8 @@ we used the Search Tag Analyze Resource for GEO application (StarGEO). StarGEO i
 by biomedical graduate students to facilitate the task of collecting related datasets <span class="citation" data-cites="rc4BI37X">[<a href="#ref-rc4BI37X" role="doc-biblioref">8</a>]</span>. For each entry in StarGEO the dataset has an abstract,
 title, and Gene Expression Omnibus accession number.
 Each dataset in StarGEO has been hand curated and attached to several tags that seek to categorize on a broad level the type of data encapsulated <span class="citation" data-cites="rc4BI37X">[<a href="#ref-rc4BI37X" role="doc-biblioref">8</a>]</span>.
-To ensure a mixture of broad and narrow queries, as well as different domains, we selected six queries to test. Two of which are broad with 50+ articles returned, two are medium with 20-50 articles returned and two are small with
-less than 10 articles returned. These queries cover a wide range of domains. It is important to to note that since StarGEO is an
+To ensure a mixture of broad and narrow queries, as well as different domains, we selected six queries to test. While StarGEO has a variety of species to choose from, all queries were filtered to only return human genomic data. Two of which are broad with ~100 articles returned, two are medium with ~20 articles returned and two are small with
+~10 articles returned. These queries cover a wide range of domains. It is important to to note that since StarGEO is an
 ongoing project, it is likely that these queries currently have more articles than at the time of writing.</p>
 <table>
 <thead>
@@ -136,28 +136,28 @@ ongoing project, it is likely that these queries currently have more articles th
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Cancer + Brain</td>
-<td style="text-align: center;">53</td>
+<td style="text-align: left;">Family History + Breast Cancer</td>
+<td style="text-align: center;">6</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">SARS</td>
-<td style="text-align: center;">52</td>
+<td style="text-align: left;">Liver Damage + Hepatitis</td>
+<td style="text-align: center;">9</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">H1n1 + Infection + Mouse + Lethal</td>
-<td style="text-align: center;">8</td>
+<td style="text-align: left;">Monozygotic Twins</td>
+<td style="text-align: center;">25</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Acute_Leukemia + MLL + Progression</td>
-<td style="text-align: center;">10</td>
+<td style="text-align: left;">Kidney + Tumor + Cell Line</td>
+<td style="text-align: center;">16</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">BRCA + Cancer</td>
-<td style="text-align: center;">20</td>
+<td style="text-align: left;">Diabetes + Type 1</td>
+<td style="text-align: center;">97</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Heart Development + Age + Failure</td>
-<td style="text-align: center;">28</td>
+<td style="text-align: left;">Osteosarcoma</td>
+<td style="text-align: center;">112</td>
 </tr>
 </tbody>
 </table>
@@ -229,7 +229,7 @@ element-wise and then divided by the number of keywords. This technique has been
 embeddings and is usually used to generate document-wide word embeddings <span class="citation" data-cites="YTvwxF00">[<a href="#ref-YTvwxF00" role="doc-biblioref">17</a>]</span>.</p>
 <h3 id="manual-gene-expression-omnibus-evaluation">Manual Gene Expression Omnibus Evaluation</h3>
 <p>Gene Expression Omnibus (GEO) is the parent corpus from which StarGEO is derived <span class="citation" data-cites="14VfbatMA">[<a href="#ref-14VfbatMA" role="doc-biblioref">18</a>]</span>. To compare our technique directly to GEO we use a manual technique. We first use the advanced search option on
-GEO to input the exact queries we used from StarGEO. To maintain consistency with StarGEO, the results are limited to series and human data. A summary file of all the results is downloaded and analyzed. To ensure equal comparision
+GEO to input the exact queries we used from StarGEO. To maintain consistency with StarGEO, the results are limited to series and human genomic data. A summary file of all the results is downloaded and analyzed. To ensure equal comparision
 the results are filtered to only include those datasets that exist in StarGEO’s corpus. Using the same technique for the StarGEO evaluation the top 1,10,100,500 articles are identified and compared against the relevant articles
 to identify the number relevant.</p>
 <h3 id="model-evaluation">Model Evaluation</h3>
@@ -502,7 +502,7 @@ DOI: <a href="https://doi.org/10.1016/j.jbi.2018.09.008">10.1016/j.jbi.2018.09.0
 <div id="ref-kzLP6OpW">
 <p>12. <strong>boudinfl/pke</strong> <br />
 Florian Boudin<br />
-(2021-03-24) <a href="https://github.com/boudinfl/pke">https://github.com/boudinfl/pke</a></p>
+(2021-03-30) <a href="https://github.com/boudinfl/pke">https://github.com/boudinfl/pke</a></p>
 </div>
 <div id="ref-1EJaRkbTp">
 <p>13. <strong>SMAC, a computational system to link literature, biomedical and expression data</strong> <br />

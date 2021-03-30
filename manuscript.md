@@ -59,11 +59,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/4c1275ffd4361d9828388d3471d169b394409d21/" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/a2ba2351f2af223252df06aa95d639751e19964a/" />
 
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/4c1275ffd4361d9828388d3471d169b394409d21/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/a2ba2351f2af223252df06aa95d639751e19964a/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/4c1275ffd4361d9828388d3471d169b394409d21/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/a2ba2351f2af223252df06aa95d639751e19964a/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -96,9 +96,9 @@ title: Comparison of Keyword Extraction and Word Vector Generation Methods for U
 
 <small><em>
 This manuscript
-([permalink](https://J-Wengler.github.io/NLP_Paper/v/4c1275ffd4361d9828388d3471d169b394409d21/))
+([permalink](https://J-Wengler.github.io/NLP_Paper/v/a2ba2351f2af223252df06aa95d639751e19964a/))
 was automatically generated
-from [J-Wengler/NLP_Paper@4c1275f](https://github.com/J-Wengler/NLP_Paper/tree/4c1275ffd4361d9828388d3471d169b394409d21)
+from [J-Wengler/NLP_Paper@a2ba235](https://github.com/J-Wengler/NLP_Paper/tree/a2ba2351f2af223252df06aa95d639751e19964a)
 on March 30, 2021.
 </em></small>
 
@@ -192,15 +192,15 @@ The purpose of widely varying the amount of articles returned is to ensure that 
 accession was performed using the StarGEO API [@url:http://stargeo.org/api_docs/]. The API was accessed and stored in a dictionary keyed by accession number to combined abstract and title.
 
 ### Model Collection
-Once the data was collected the next step was identifying the techniquesResearch has already shown that a variety of natural language processing models are effective on biomedical literature [@doi:10.18653/v1/W16-2922; @doi:10.1016/j.jbi.2018.09.008].
+Once the data was collected the next step was identifying the techniques to be tested. Research has already shown that a variety of natural language processing models are effective on biomedical literature [@doi:10.18653/v1/W16-2922; @doi:10.1016/j.jbi.2018.09.008].
 However we felt it was necessary to test a variety of techniques for both keyword extraction and word vector generation to identify the combination most
-suited to our unique task.
+suited to the task of collecting related genomic data.
 
-Keyword Identification is the first step that our data in the dictionary goes through. To accomplish quick querying in a standardized framework we sued the PKE package available
+Keyword Identification is the first step that our data in the dictionary goes through. To accomplish consistent querying in a standardized framework we used the PKE package available
 in Python. All documentation is available on GitHub [@url:https://github.com/boudinfl/pke]. The PKE packages allowed us to use one single package to access all the keyword embedding 
-techniques, instead of individually querying each technique. The keyword extraction techniques that were tested are the following: TFIDF, KPMiner, YAKE, TextRank, SingleRank, 
-TopicRank, TopicalPageRank, PositionRank and MultipartiteRank [@url:https://github.com/boudinfl/pke]. Using each of these techniques keywords were identified from the target text. 
-Each of these techniques is technologically diverse and we chose them due to the expectation that the techniques would yield different keywords. 
+techniques, instead of individually querying each technique. The keyword extraction techniques that were tested are the following: TFIDF, KP-Miner, YAKE, TextRank, SingleRank, 
+TopicRank, TopicalPageRank, PositionRank and MultipartiteRank [@url:https://github.com/boudinfl/pke]. Each of these techniques uses a different algorithm to identify keywords, 
+an example of the diversity of returned keywords is available in the appendix. 
 
 After the keywords have been identified from the target text, word vectors are generated from each keyword using a word vector model. These models use large amounts
 of unlabeled text to identify the meanings of words and express those as a numeric vector. For our project we selected 6 different models that encompass a variety of techniques 
@@ -231,12 +231,6 @@ stored as a list of numeric values. The models vary in the length of this numeri
 element-wise and then divided by the number of keywords. This technique has been shown to be the simplest and most accurate way to generate a singular word vector from various word 
 embeddings and is usually used to generate document-wide word embeddings [@url:http://arxiv.org/abs/1607.05368].
 
-### Manual Gene Expression Omnibus Evaluation
-Gene Expression Omnibus (GEO) is the parent corpus from which StarGEO is derived [@doi:10.1093/nar/30.1.207]. To compare our technique directly to GEO we use a manual technique. We first use the advanced search option on 
-GEO to input the exact queries we used from StarGEO. To maintain consistency with StarGEO, the results are limited to series and human genomic data. A summary file of all the results is downloaded and analyzed. To ensure equal comparision
-the results are filtered to only include those datasets that exist in StarGEO's corpus. Using the same technique for the StarGEO evaluation the top 1,10,100,500 articles are identified and compared against the relevant articles 
-to identify the number relevant.  
-
 ### Model Evaluation 
 All model evaluation is performed in a Docker container to allow other researchers to perform the same analysis described in this section [@doi:10.1145/2723872.2723882].The Docker image 
 used to build the container is the python:3.8.5 image available on the Docker website [@url:https://hub.docker.com/_/python]. Running the docker container as pulled from github will run a bash script that performs the following
@@ -252,6 +246,11 @@ steps.
             c. For each query and keyword combination findSimilarity() is run in Helper.py and added to a multiprocessing thread. This script prints to an output file the calculated similarity of each article using each combination
             #FIXME -> Should we go into detail here?
 
+### Manual Gene Expression Omnibus Evaluation
+Gene Expression Omnibus (GEO) is the parent corpus from which StarGEO is derived [@doi:10.1093/nar/30.1.207]. To compare our technique directly to GEO we use a manual evaluation. We first use the advanced search option on 
+GEO to input the exact queries we used from StarGEO. To maintain consistency with StarGEO, the results are limited to series and human genomic data. A summary file of all the results is downloaded and analyzed. To ensure equal comparision
+the results are filtered to only include those datasets that exist in StarGEO's corpus and excluding SuperSeries. Using the same technique for the StarGEO evaluation the top 1,10,100,500 articles are identified and compared against the relevant articles 
+from StarGEO.  
 
 
 
@@ -365,6 +364,11 @@ Multiprocesing Python package to take advantage of all cores available.
 
 
 ## Appendix {.page_break_before}
+
+### Comparison of Keywords Techniques
+Text = "OBJECTIVE: Novel biomarkers of disease progression after type 1 diabetes onset are needed. RESEARCH DESIGN AND METHODS: We profiled peripheral blood (PB) monocyte gene expression in 6 healthy subjects and 16 children with type 1 diabetes diagnosed ~3 months previously, and analyzed clinical features from diagnosis to 1 year. RESULTS: Monocyte expression profiles clustered into two distinct subgroups, representing mild and severe deviation from healthy controls, along the same continuum. Patients with strongly divergent monocyte gene expression had significantly higher insulin dose-adjusted HbA1c levels during the first year, compared to patients with mild deviation. The diabetes-associated expression signature identified multiple perturbations in pathways controlling cellular metabolism and survival, including endoplasmic reticulum and oxidative stress (e.g. induction of HIF1A, DDIT3, DDIT4 and GRP78). qPCR quantitation of a 9-gene panel correlated with glycaemic control in 12 additional recent-onset patients. The qPCR signature was also detected in PB from healthy first-degree relatives. CONCLUSIONS: A PB gene expression signature correlates with glycaemic control in the first year after diabetes diagnosis, and is present in at-risk subjects. These findings implicate monocyte phenotype as a candidate biomarker for disease progression pre- and post-onset, and systemic stresses as contributors to innate immune function in type 1 diabetes."
+
+
 
 ##### 30 Keywords
 ![BioWordVec_30.](images/30_keyword_output/BioWordVec.png){width="7in" height = "7in"} 

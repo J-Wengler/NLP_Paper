@@ -58,10 +58,12 @@ content/03.methods.md:5:datasets
 content/03.methods.md:5:StarGEO
 content/03.methods.md:7:dataset
 content/03.methods.md:7:StarGEO
+content/03.methods.md:8:genomic
+content/03.methods.md:8:StarGEO
 content/03.methods.md:9:StarGEO
 content/03.methods.md:12:StarGeo
-content/03.methods.md:17:MLL
-content/03.methods.md:18:BRCA
+content/03.methods.md:16:Monozygotic
+content/03.methods.md:19:Osteosarcoma
 content/03.methods.md:21:stargeo
 content/03.methods.md:21:StarGEO
 content/03.methods.md:24:techniquesResearch
@@ -105,6 +107,7 @@ content/03.methods.md:61:embeddings
 content/03.methods.md:61:embeddings
 content/03.methods.md:64:StarGEO
 content/03.methods.md:65:comparision
+content/03.methods.md:65:genomic
 content/03.methods.md:65:StarGEO
 content/03.methods.md:65:StarGEO
 content/03.methods.md:66:datasets

@@ -12,7 +12,7 @@ desined
 embeddings
 FastText
 FastTextCBOW
-FastTextSKIPGRAM
+FastTextSkipGram
 FastTextWiki
 findSimilarity
 FIXME
@@ -22,13 +22,15 @@ Helicase
 IDF
 intial
 keyphrase
-KPMiner
+KPMINER
 Metastatsis
 MLL
+Monozygotic
 multipartite
 MultipartiteRank
 Multiprocesing
 NLP
+Osteosarcoma
 PageRank
 Picco
 PKE
@@ -40,7 +42,7 @@ PrepareQueryData
 preprocessed
 py
 Relevent
-SciSpaCy
+SciSpacy
 SingleRank
 Skipgram
 Spacy

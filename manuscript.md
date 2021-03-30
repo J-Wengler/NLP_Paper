@@ -4,7 +4,7 @@ author-meta:
 - Stephen Picco
 bibliography:
 - content/manual-references.json
-date-meta: '2021-03-24'
+date-meta: '2021-03-30'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +23,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets" />
 
-  <meta name="dc.date" content="2021-03-24" />
+  <meta name="dc.date" content="2021-03-30" />
 
-  <meta name="citation_publication_date" content="2021-03-24" />
+  <meta name="citation_publication_date" content="2021-03-30" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -59,11 +59,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/fdefe7a1d83b1470f874b834f4cb149de5eb6704/" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/4c1275ffd4361d9828388d3471d169b394409d21/" />
 
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/fdefe7a1d83b1470f874b834f4cb149de5eb6704/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/4c1275ffd4361d9828388d3471d169b394409d21/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/fdefe7a1d83b1470f874b834f4cb149de5eb6704/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/4c1275ffd4361d9828388d3471d169b394409d21/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -96,10 +96,10 @@ title: Comparison of Keyword Extraction and Word Vector Generation Methods for U
 
 <small><em>
 This manuscript
-([permalink](https://J-Wengler.github.io/NLP_Paper/v/fdefe7a1d83b1470f874b834f4cb149de5eb6704/))
+([permalink](https://J-Wengler.github.io/NLP_Paper/v/4c1275ffd4361d9828388d3471d169b394409d21/))
 was automatically generated
-from [J-Wengler/NLP_Paper@fdefe7a](https://github.com/J-Wengler/NLP_Paper/tree/fdefe7a1d83b1470f874b834f4cb149de5eb6704)
-on March 24, 2021.
+from [J-Wengler/NLP_Paper@4c1275f](https://github.com/J-Wengler/NLP_Paper/tree/4c1275ffd4361d9828388d3471d169b394409d21)
+on March 30, 2021.
 </em></small>
 
 ## Authors
@@ -176,18 +176,18 @@ we used the Search Tag Analyze Resource for GEO application (StarGEO). StarGEO i
 by biomedical graduate students to facilitate the task of collecting related datasets [@doi:10.1038/sdata.2017.125]. For each entry in StarGEO the dataset has an abstract, 
 title, and Gene Expression Omnibus accession number.
 Each dataset in StarGEO has been hand curated and attached to several tags that seek to categorize on a broad level the type of data encapsulated [@doi:10.1038/sdata.2017.125].
-To ensure a mixture of broad and narrow queries, as well as different domains, we selected six queries to test. Two of which are broad with 50+ articles returned, two are medium with 20-50 articles returned and two are small with
- less than 10 articles returned. These queries cover a wide range of domains. It is important to to note that since StarGEO is an
-ongoing project, it is likely that these queries currently have more articles than at the time of writing.
+To ensure a mixture of broad and narrow queries, as well as different domains, we selected six queries to test. While StarGEO has a variety of species to choose from, all queries were filtered to only return human genomic data. Two of which are broad with ~100 articles returned, two are medium with ~20 articles returned and two are small with
+ ~10 articles returned. These queries cover a wide range of domains. It is important to to note that since StarGEO is an
+ongoing project, it is likely that these queries currently have more articles than at the time of writing. 
 
 | *Keywords* | *Number of Articles Returned by StarGeo* |
 |:-----------|:----------------------------------------:|
-| Cancer + Brain                       | 53|
-| SARS                                 | 52|
-| H1n1 + Infection + Mouse + Lethal    | 8 |
-| Acute_Leukemia + MLL + Progression   | 10|
-| BRCA + Cancer                        | 20|
-| Heart Development + Age + Failure    | 28|
+| Family History + Breast Cancer | 6  |
+| Liver Damage + Hepatitis       | 9  |
+| Monozygotic Twins              | 25 |
+| Kidney + Tumor + Cell Line     | 16 |
+| Diabetes + Type 1              | 97 |
+| Osteosarcoma                   | 112|
 The purpose of widely varying the amount of articles returned is to ensure that our method works for narrowly defined topics as well as broad topics as well as to test the difference. All data
 accession was performed using the StarGEO API [@url:http://stargeo.org/api_docs/]. The API was accessed and stored in a dictionary keyed by accession number to combined abstract and title.
 
@@ -233,7 +233,7 @@ embeddings and is usually used to generate document-wide word embeddings [@url:h
 
 ### Manual Gene Expression Omnibus Evaluation
 Gene Expression Omnibus (GEO) is the parent corpus from which StarGEO is derived [@doi:10.1093/nar/30.1.207]. To compare our technique directly to GEO we use a manual technique. We first use the advanced search option on 
-GEO to input the exact queries we used from StarGEO. To maintain consistency with StarGEO, the results are limited to series and human data. A summary file of all the results is downloaded and analyzed. To ensure equal comparision
+GEO to input the exact queries we used from StarGEO. To maintain consistency with StarGEO, the results are limited to series and human genomic data. A summary file of all the results is downloaded and analyzed. To ensure equal comparision
 the results are filtered to only include those datasets that exist in StarGEO's corpus. Using the same technique for the StarGEO evaluation the top 1,10,100,500 articles are identified and compared against the relevant articles 
 to identify the number relevant.  
 

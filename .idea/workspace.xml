@@ -4,6 +4,7 @@
     <list default="true" id="2c439ced-904a-4442-9ec8-d2155cd23b99" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/03.methods.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/03.methods.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/06.appendix.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/06.appendix.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +120,7 @@
       <workItem from="1616605744191" duration="409000" />
       <workItem from="1616763505331" duration="332000" />
       <workItem from="1617020848275" duration="2651000" />
+      <workItem from="1617107567582" duration="1756000" />
     </task>
     <servers />
   </component>

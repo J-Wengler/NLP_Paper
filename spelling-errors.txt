@@ -30,7 +30,7 @@ HIF
 IDF
 intial
 keyphrase
-KPMiner
+KPMINER
 Metastatsis
 MLL
 Monocyte
@@ -56,7 +56,7 @@ reticulum
 SciSpaCy
 SingleRank
 SKIPGRAM
-Spacy
+SpaCy
 SpacyWebLG
 srp
 StarGEO

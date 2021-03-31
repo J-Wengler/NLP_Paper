@@ -2,7 +2,7 @@ AllGraphs
 biomarker
 biomarkers
 BioWordVec
-brca
+BRCA
 CBOW
 comparision
 continous
@@ -30,10 +30,10 @@ HIF
 IDF
 intial
 keyphrase
-KPMiner
+KPMINER
 Metastatsis
 MLL
-Monocyte
+monocyte
 Monozygotic
 multipartite
 MultipartiteRank
@@ -47,7 +47,7 @@ PKR
 PositionRank
 PowerEdge
 pre
-prepareQueryData
+PrepareQueryData
 preprocessed
 py
 qPCR
@@ -55,8 +55,8 @@ Relevent
 reticulum
 SciSpaCy
 SingleRank
-SKIPGRAM
-Spacy
+Skipgram
+SpaCy
 SpacyWebLG
 srp
 StarGEO

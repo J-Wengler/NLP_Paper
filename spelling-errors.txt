@@ -33,7 +33,7 @@ keyphrase
 KPMINER
 Metastatsis
 MLL
-monocyte
+Monocyte
 Monozygotic
 multipartite
 MultipartiteRank
@@ -55,7 +55,7 @@ Relevent
 reticulum
 SciSpaCy
 SingleRank
-Skipgram
+SKIPGRAM
 SpaCy
 SpacyWebLG
 srp

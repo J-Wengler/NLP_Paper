@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2c439ced-904a-4442-9ec8-d2155cd23b99" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/Bash_Scripts/runMe.sh" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/Bash_Scripts/runMe.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/runBioWordVec.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/Python_Scripts/runBioWordVec.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/runFastTextCBOW.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/Python_Scripts/runFastTextCBOW.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/runSciSpacy.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/Python_Scripts/runSciSpacy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/runSpacy.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/Python_Scripts/runSpacy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/05.discussion.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/05.discussion.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/06.appendix.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/06.appendix.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +124,8 @@
       <workItem from="1617134722939" duration="252000" />
       <workItem from="1617202186425" duration="148000" />
       <workItem from="1617210721991" duration="2090000" />
-      <workItem from="1617305912047" duration="568000" />
+      <workItem from="1617305912047" duration="1533000" />
+      <workItem from="1617625751255" duration="3181000" />
     </task>
     <servers />
   </component>

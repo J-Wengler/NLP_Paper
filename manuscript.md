@@ -59,11 +59,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/5383f1b1eb947faae47c97466ca728783e627459/" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/6b37eca87af14b259846ccbc5fdfaf6765442336/" />
 
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/5383f1b1eb947faae47c97466ca728783e627459/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/6b37eca87af14b259846ccbc5fdfaf6765442336/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/5383f1b1eb947faae47c97466ca728783e627459/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/6b37eca87af14b259846ccbc5fdfaf6765442336/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -96,9 +96,9 @@ title: Comparison of Keyword Extraction and Word Vector Generation Methods for U
 
 <small><em>
 This manuscript
-([permalink](https://J-Wengler.github.io/NLP_Paper/v/5383f1b1eb947faae47c97466ca728783e627459/))
+([permalink](https://J-Wengler.github.io/NLP_Paper/v/6b37eca87af14b259846ccbc5fdfaf6765442336/))
 was automatically generated
-from [J-Wengler/NLP_Paper@5383f1b](https://github.com/J-Wengler/NLP_Paper/tree/5383f1b1eb947faae47c97466ca728783e627459)
+from [J-Wengler/NLP_Paper@6b37eca](https://github.com/J-Wengler/NLP_Paper/tree/6b37eca87af14b259846ccbc5fdfaf6765442336)
 on April 5, 2021.
 </em></small>
 
@@ -322,16 +322,13 @@ in future projects. NLP has already been shown to be useful to find related arti
 word vector generation and keyword extraction techniques for usage in data collection. This is addressed in our paper in the head to head comparision of these techniques. 
 We hope this will further our knowledge as to how natural language processing might help researchers in future studies. 
 
+#### Motivation
+This project was motivated through our personal experiences attempting to find datasets 
+
 #### Observations
 The results show a wide variety of accuracy across the queries. This pattern of the same natural language processing technique 
 giving very disparate results on intrinsic evaluations is one commonly seen in natural language processing papers 
-[@doi:10.1371/journal.pone.0220976; @doi:10.1038/s41597-019-0055-0; @url:https://arxiv.org/abs/1607.05368]. Of note is the fact 
-that the two queries that heavily under-perform ate the most broad queries ("BRCA + Cancer" and "Brain and Metastatsis"). These
-queries were added to test the efficacy of this method with ill-defined queries. Both of these queries also return the highest 
-number of articles (19 and 52). Part of the issue with these articles is choosing three random articles may choose three niche 
-articles that do not represent the wider query. The best performing query is "H1N1 + Infection + Mouse + Lethal" which is arguably
-the most specific query because it represents a disease, model, and outcome. With the Spacy model and KPMINER keyword extraction 
-method, 100% of the relevant articles are found in the top 100 articles returned. 
+[@doi:10.1371/journal.pone.0220976; @doi:10.1038/s41597-019-0055-0; @url:https://arxiv.org/abs/1607.05368]. 
 
 #### Practical Utility
 Our results show a practical utility for this technique to a researcher who is interested in a very specific knowledge base. If a researcher
@@ -368,6 +365,13 @@ Multiprocesing Python package to take advantage of all cores available.
 ### Comparison of Keywords Techniques
 Text = "OBJECTIVE: Novel biomarkers of disease progression after type 1 diabetes onset are needed. RESEARCH DESIGN AND METHODS: We profiled peripheral blood (PB) monocyte gene expression in 6 healthy subjects and 16 children with type 1 diabetes diagnosed ~3 months previously, and analyzed clinical features from diagnosis to 1 year. RESULTS: Monocyte expression profiles clustered into two distinct subgroups, representing mild and severe deviation from healthy controls, along the same continuum. Patients with strongly divergent monocyte gene expression had significantly higher insulin dose-adjusted HbA1c levels during the first year, compared to patients with mild deviation. The diabetes-associated expression signature identified multiple perturbations in pathways controlling cellular metabolism and survival, including endoplasmic reticulum and oxidative stress (e.g. induction of HIF1A, DDIT3, DDIT4 and GRP78). qPCR quantitation of a 9-gene panel correlated with glycaemic control in 12 additional recent-onset patients. The qPCR signature was also detected in PB from healthy first-degree relatives. CONCLUSIONS: A PB gene expression signature correlates with glycaemic control in the first year after diabetes diagnosis, and is present in at-risk subjects. These findings implicate monocyte phenotype as a candidate biomarker for disease progression pre- and post-onset, and systemic stresses as contributors to innate immune function in type 1 diabetes."
 
+| *Keyword Extraction Technique* | *Keywords Returned* |
+|:-------------------------------|:-------------------:|
+| TopicRank        | "monocyte gene expression", "diabetes onset", "year"                                             |
+| TextRank         | "divergent monocyte gene expression", "monocyte gene expression", "pb gene expression signature" |
+| SingleRank       | "pb gene expression signature", "divergent monocyte gene expression", "monocyte gene expression" |
+| TopicalPageRank  | "pb gene expression signature", "divergent monocyte gene expression", "monocyte gene expression" |
+| MultipartiteRank | "monocyte gene expression", "diabetes onset", "type"                                             |
 
 
 ##### 30 Keywords

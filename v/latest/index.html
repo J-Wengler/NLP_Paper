@@ -47,9 +47,9 @@
   <meta name="citation_fulltext_html_url" content="https://J-Wengler.github.io/NLP_Paper/" />
   <meta name="citation_pdf_url" content="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/5383f1b1eb947faae47c97466ca728783e627459/" />
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/5383f1b1eb947faae47c97466ca728783e627459/" />
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/5383f1b1eb947faae47c97466ca728783e627459/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/6b37eca87af14b259846ccbc5fdfaf6765442336/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/6b37eca87af14b259846ccbc5fdfaf6765442336/" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/6b37eca87af14b259846ccbc5fdfaf6765442336/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,9 +63,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://J-Wengler.github.io/NLP_Paper/v/5383f1b1eb947faae47c97466ca728783e627459/">permalink</a>)
+(<a href="https://J-Wengler.github.io/NLP_Paper/v/6b37eca87af14b259846ccbc5fdfaf6765442336/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/J-Wengler/NLP_Paper/tree/5383f1b1eb947faae47c97466ca728783e627459">J-Wengler/NLP_Paper@5383f1b</a>
+from <a href="https://github.com/J-Wengler/NLP_Paper/tree/6b37eca87af14b259846ccbc5fdfaf6765442336">J-Wengler/NLP_Paper@6b37eca</a>
 on April 5, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -386,16 +386,12 @@ in future projects. NLP has already been shown to be useful to find related arti
 <span class="citation" data-cites="x30kePas ieR5dnsn 44ZXsjwa">[<a href="#ref-x30kePas" role="doc-biblioref">21</a>,<a href="#ref-ieR5dnsn" role="doc-biblioref">22</a>,<a href="#ref-44ZXsjwa" role="doc-biblioref">23</a>]</span>. However to our knowledge no project has been done comparing
 word vector generation and keyword extraction techniques for usage in data collection. This is addressed in our paper in the head to head comparision of these techniques.
 We hope this will further our knowledge as to how natural language processing might help researchers in future studies.</p>
+<h4 id="motivation">Motivation</h4>
+<p>This project was motivated through our personal experiences attempting to find datasets</p>
 <h4 id="observations">Observations</h4>
 <p>The results show a wide variety of accuracy across the queries. This pattern of the same natural language processing technique
 giving very disparate results on intrinsic evaluations is one commonly seen in natural language processing papers
-<span class="citation" data-cites="6WZB9lTq rGefJsoC 15nnJZdR0">[<a href="#ref-rGefJsoC" role="doc-biblioref">7</a>,<a href="#ref-6WZB9lTq" role="doc-biblioref">16</a>,<a href="#ref-15nnJZdR0" role="doc-biblioref">24</a>]</span>. Of note is the fact
-that the two queries that heavily under-perform ate the most broad queries (“BRCA + Cancer” and “Brain and Metastatsis”). These
-queries were added to test the efficacy of this method with ill-defined queries. Both of these queries also return the highest
-number of articles (19 and 52). Part of the issue with these articles is choosing three random articles may choose three niche
-articles that do not represent the wider query. The best performing query is “H1N1 + Infection + Mouse + Lethal” which is arguably
-the most specific query because it represents a disease, model, and outcome. With the Spacy model and KPMINER keyword extraction
-method, 100% of the relevant articles are found in the top 100 articles returned.</p>
+<span class="citation" data-cites="6WZB9lTq rGefJsoC 15nnJZdR0">[<a href="#ref-rGefJsoC" role="doc-biblioref">7</a>,<a href="#ref-6WZB9lTq" role="doc-biblioref">16</a>,<a href="#ref-15nnJZdR0" role="doc-biblioref">24</a>]</span>.</p>
 <h4 id="practical-utility">Practical Utility</h4>
 <p>Our results show a practical utility for this technique to a researcher who is interested in a very specific knowledge base. If a researcher
 has previously identified several articles that deal with a narrowly defined subject area, using this technique to query a larger database (not StarGEO) would result in the
@@ -418,6 +414,40 @@ Multiprocesing Python package to take advantage of all cores available.</p>
 <h2 class="page_break_before" id="appendix">Appendix</h2>
 <h3 id="comparison-of-keywords-techniques">Comparison of Keywords Techniques</h3>
 <p>Text = “OBJECTIVE: Novel biomarkers of disease progression after type 1 diabetes onset are needed. RESEARCH DESIGN AND METHODS: We profiled peripheral blood (PB) monocyte gene expression in 6 healthy subjects and 16 children with type 1 diabetes diagnosed ~3 months previously, and analyzed clinical features from diagnosis to 1 year. RESULTS: Monocyte expression profiles clustered into two distinct subgroups, representing mild and severe deviation from healthy controls, along the same continuum. Patients with strongly divergent monocyte gene expression had significantly higher insulin dose-adjusted HbA1c levels during the first year, compared to patients with mild deviation. The diabetes-associated expression signature identified multiple perturbations in pathways controlling cellular metabolism and survival, including endoplasmic reticulum and oxidative stress (e.g. induction of HIF1A, DDIT3, DDIT4 and GRP78). qPCR quantitation of a 9-gene panel correlated with glycaemic control in 12 additional recent-onset patients. The qPCR signature was also detected in PB from healthy first-degree relatives. CONCLUSIONS: A PB gene expression signature correlates with glycaemic control in the first year after diabetes diagnosis, and is present in at-risk subjects. These findings implicate monocyte phenotype as a candidate biomarker for disease progression pre- and post-onset, and systemic stresses as contributors to innate immune function in type 1 diabetes.”</p>
+<table>
+<colgroup>
+<col style="width: 60%" />
+<col style="width: 39%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><em>Keyword Extraction Technique</em></th>
+<th style="text-align: center;"><em>Keywords Returned</em></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">TopicRank</td>
+<td style="text-align: center;">“monocyte gene expression”, “diabetes onset”, “year”</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">TextRank</td>
+<td style="text-align: center;">“divergent monocyte gene expression”, “monocyte gene expression”, “pb gene expression signature”</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SingleRank</td>
+<td style="text-align: center;">“pb gene expression signature”, “divergent monocyte gene expression”, “monocyte gene expression”</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">TopicalPageRank</td>
+<td style="text-align: center;">“pb gene expression signature”, “divergent monocyte gene expression”, “monocyte gene expression”</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">MultipartiteRank</td>
+<td style="text-align: center;">“monocyte gene expression”, “diabetes onset”, “type”</td>
+</tr>
+</tbody>
+</table>
 <h5 id="keywords-1">30 Keywords</h5>
 <p><img src="images/30_keyword_output/BioWordVec.png" style="width:7in" alt="BioWordVec_30." />
 <img src="images/30_keyword_output/FastText%20(CBOW).png" style="width:7in" alt="FastText CBOW_30." />

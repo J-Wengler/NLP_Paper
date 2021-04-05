@@ -2,7 +2,7 @@ AllGraphs
 biomarker
 biomarkers
 BioWordVec
-BRCA
+brca
 CBOW
 comparision
 continous
@@ -16,7 +16,7 @@ embeddings
 endoplasmic
 FastText
 FastTextCBOW
-FastTextSkipGram
+FastTextSKIPGRAM
 FastTextWiki
 findSimilarity
 FIXME
@@ -33,7 +33,7 @@ keyphrase
 KPMINER
 Metastatsis
 MLL
-Monocyte
+monocyte
 Monozygotic
 multipartite
 MultipartiteRank
@@ -53,10 +53,10 @@ py
 qPCR
 Relevent
 reticulum
-SciSpaCy
+SciSpacy
 SingleRank
-SKIPGRAM
-SpaCy
+Skipgram
+Spacy
 SpacyWebLG
 srp
 StarGEO

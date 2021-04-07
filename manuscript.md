@@ -4,7 +4,7 @@ author-meta:
 - Stephen Picco
 bibliography:
 - content/manual-references.json
-date-meta: '2021-04-05'
+date-meta: '2021-04-07'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +23,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets" />
 
-  <meta name="dc.date" content="2021-04-05" />
+  <meta name="dc.date" content="2021-04-07" />
 
-  <meta name="citation_publication_date" content="2021-04-05" />
+  <meta name="citation_publication_date" content="2021-04-07" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -59,11 +59,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/6b37eca87af14b259846ccbc5fdfaf6765442336/" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/025e8c69cd3b863ecb3f853800b9a908785647e5/" />
 
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/6b37eca87af14b259846ccbc5fdfaf6765442336/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/025e8c69cd3b863ecb3f853800b9a908785647e5/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/6b37eca87af14b259846ccbc5fdfaf6765442336/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/025e8c69cd3b863ecb3f853800b9a908785647e5/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -96,10 +96,10 @@ title: Comparison of Keyword Extraction and Word Vector Generation Methods for U
 
 <small><em>
 This manuscript
-([permalink](https://J-Wengler.github.io/NLP_Paper/v/6b37eca87af14b259846ccbc5fdfaf6765442336/))
+([permalink](https://J-Wengler.github.io/NLP_Paper/v/025e8c69cd3b863ecb3f853800b9a908785647e5/))
 was automatically generated
-from [J-Wengler/NLP_Paper@6b37eca](https://github.com/J-Wengler/NLP_Paper/tree/6b37eca87af14b259846ccbc5fdfaf6765442336)
-on April 5, 2021.
+from [J-Wengler/NLP_Paper@025e8c6](https://github.com/J-Wengler/NLP_Paper/tree/025e8c69cd3b863ecb3f853800b9a908785647e5)
+on April 7, 2021.
 </em></small>
 
 ## Authors
@@ -124,14 +124,21 @@ on April 5, 2021.
 
 ## Abstract {.page_break_before}
 
-Data-sharing requirements have led to wide availability of genomic datasets in public repositories. Researchers can reuse and combine these datasets to address novel hypotheses. However, after identifying one or more datasets that are relevant to a particular research question, a researcher may have difficult identifying other datasets that are also relevant, due to the quantity of available datasets and lack of structure with which they are described. In this study, we focus specifically on Gene Expression Omnibus, a repository that contains genomic data from hundreds of thousands of experiments. Notable efforts have been made to manually annotate these data but not been able to keep pace as new datasets are submitted. To address this problem, we use natural language processing (NLP). Under the assumption that a researcher has manually identified a subset of available datasets related to a particular research topic, we use NLP algorithms to extract keywords from the abstract associated with each dataset. Next we summarize the keywords using diverse embedding algorithms. (TODO: I'm sure there's a better way to say this.) 
+Data-sharing requirements have led to wide availability of genomic datasets in public repositories. Researchers can reuse and combine these datasets to address novel hypotheses. However, after identifying one or more datasets 
+that are relevant to a particular research question, a researcher may have difficult identifying other datasets that are also relevant, due to the large quantity of available datasets and lack of structure with which they are described. 
+In this study, we focus specifically on Gene Expression Omnibus, a repository that contains genomic data from hundreds of thousands of experiments that is commonly used in biomedical analyses. Notable efforts have been made to manually annotate these data but not been able 
+to keep pace as new datasets are submitted. To address this problem, we use natural language processing (NLP). Under the assumption that a researcher has manually identified a subset of available datasets related to a particular 
+research topic, we use NLP algorithms to extract keywords from the abstract associated with each dataset. Next we summarize the keywords using diverse embedding algorithms and compare the vectors generated to available datasets to 
+identify potential related datasets. 
 
-TODO: Describe briefly here about the theoretical approaches that we compared more so than the specific software packages. Without making it too long, make sure to cover all of the approaches. 
-Concerning word vector generation we test two primary factors, domain and training algorithm. Domain refers to the type of text that each model is trainined on. 
+In terms of word vector generation we test six different models. These models vary in training method, domain, and architecture. the six models are the following: BioWordVec - a FastText model trained on biomedical text, 
+FastTextWiki - A FastText model trained on Wikipedia data, FastTextCBOW - a custom FastText model trained on only StarGEO data using the CBOW (continous-bag-of-words) method, FastTextSkipGram - A custom FastText model trained on only
+StarGEO data using the SKIPGRAM technique, SciSpaCy - A SpaCy model trained on scientific literature, and SpaCy - A SpaCy model trained with the readily available large web corpus. 
 
-We compare biomedical specific text (StarGEO abstracts) with readily available models trained on wikipedia data. Once a domain has been identified there are two options for training algorithms. The first is continous-bag-of-words (CBOW). CBOW trains by predicting the target word from the context words that surround it. The second option is skip-gram. Skip-gram trains by predicting the context words from the target word essentially the reverse of CBOW.
-
-We test nine keyword extraction methods. Three of the methods are statistical models while the other six are graphical methods. The statistical methods are TF-IDF, KP-Miner, and YAKE. TF-IDF works by comparing the frequency of each word found in the passage to its frequency in other passages that exist in the corpus. KP-Miner evaluates each word 
+#NOTE - Not sure if I need to go into such detail for each of the keyword methods
+We also test nine keyword extraction methods. Three of the methods are statistical models while the other six are graphical methods. 
+The statistical methods are TF-IDF, KP-Miner, and YAKE. TF-IDF works by comparing the frequency of each word found in the passage 
+to its frequency in other passages that exist in the corpus. KP-Miner evaluates each word 
 based on the context surrounding the words to identify keywords. YAKE combines elements of both TF-IDF and KP-Miner by
 using the context while also taking into account the frequency at which the word appears in the document. The first
 graphical approach we test is TextRank which is based off of a web technique called PageRank which is used for
@@ -153,19 +160,20 @@ the initial graph and calculate weights between nodes.
 
 ## Introduction {.page_break_before}
 
+#I'm not sure the best way to bring up that other paper
 Natural Language Processing is computational technique that allows computers to process human language [@doi:10.1136/amiajnl-2011-000464].
 In the past, Natural Language Processing has been used in several biomedical applications such as concept extraction, electronic health record
 analysis, and text mining. [@doi:10.1093/bioinformatics/btz682; @doi:10.1186/s12911-020-01352-2; @doi:10.1007/s40264-018-0762-z]. However there 
- is a lack of papers detailing natural language approaches to data collection, specifically the collection of relevant datasets for analysis.
- Recently an article was published that details the difficulty in applying natural language processing techniques to datasets [@doi:10.1093/database/baaa064].
-Some of these challenges are a lack of widely-accepted metadata format, lack of available tools, and an exponential rise in available datasets [@doi:10.1093/database/baaa064]. 
-In this paper we detail an alternative approach to address this problem.
+ is a lack of research detailing natural language approaches to data collection, specifically the collection of relevant datasets for analysis.
+ Recently an article was published that details an approach to dataset recommendation using a researchers interests and CV to identify datasets [@doi:10.1093/database/baaa064].
+This paper also detailed some difficulties in dataset recommendation. Some of these challenges are a lack of widely-accepted metadata format, lack of available tools, and an exponential rise in available datasets [@doi:10.1093/database/baaa064]. 
+In this paper we detail an alternative approach to address this problem using readily available natural language processing tools to identify related datasets from an initial set of related articles. 
 
 The major obstacle to data collection for a researcher is a lack of available tools. The aforementioned paper details an approach to help address
 this issue, but to our knowledge no other approaches exist and no approach is designed for a researcher who has already identified a niche area
 of research they wish to pursue. Our methodology utilises two techniques widely used in natural language processing, namely keyword extraction and word vector generation [@url:https://www.aclweb.org/anthology/C16-2015; @doi:10.1038/s41597-019-0055-0].
 Using these two tools, our approach can take several pre-identified datasets and identify other related datasets, no matter how niche the subject area. We test
-a variety of these different techniques to identify those that are most promising. 
+a variety of these different techniques to identify those that are most promising for future use. 
 
 
 
@@ -244,7 +252,6 @@ steps.
             a. All candidate articles from StarGEO are queried
             b. The specific word vector model is loaded (SciSpaCy, BioWordVec, ...)
             c. For each query and keyword combination findSimilarity() is run in Helper.py and added to a multiprocessing thread. This script prints to an output file the calculated similarity of each article using each combination
-            #FIXME -> Should we go into detail here?
 
 ### Manual Gene Expression Omnibus Evaluation
 Gene Expression Omnibus (GEO) is the parent corpus from which StarGEO is derived [@doi:10.1093/nar/30.1.207]. To compare our technique directly to GEO we use a manual evaluation. We first use the advanced search option on 
@@ -323,7 +330,11 @@ word vector generation and keyword extraction techniques for usage in data colle
 We hope this will further our knowledge as to how natural language processing might help researchers in future studies. 
 
 #### Motivation
-This project was motivated through our personal experiences attempting to find datasets 
+This project was motivated through our personal experiences attempting to find datasets. Often as researchers a project will began as a big picture idea and the first step 
+is the collection of related datasets to further narrow the project idea. This step can be time-consuming and frustrating due to the lack of tools available and the massive
+amount of data that exists. Existing tools are limited by user-provided queries that may not be precise. Existing tools such as the search function of Gene Expression Omnibus
+that take user generated queries are often limited by the exact phrasing of the query. For example the query "mohs" returns 100 results but "moh's" returns 33 different results.
+Experiences like this motivated us to look for a technique that could use a dataset to identify related datasets free of human-generated queries. 
 
 #### Observations
 The results show a wide variety of accuracy across the queries. This pattern of the same natural language processing technique 
@@ -363,6 +374,7 @@ Multiprocesing Python package to take advantage of all cores available.
 ## Appendix {.page_break_before}
 
 ### Comparison of Keywords Techniques
+Test Abstract from PubMed. [@doi:10.2337/db11-1549]
 Text = "OBJECTIVE: Novel biomarkers of disease progression after type 1 diabetes onset are needed. RESEARCH DESIGN AND METHODS: We profiled peripheral blood (PB) monocyte gene expression in 6 healthy subjects and 16 children with type 1 diabetes diagnosed ~3 months previously, and analyzed clinical features from diagnosis to 1 year. RESULTS: Monocyte expression profiles clustered into two distinct subgroups, representing mild and severe deviation from healthy controls, along the same continuum. Patients with strongly divergent monocyte gene expression had significantly higher insulin dose-adjusted HbA1c levels during the first year, compared to patients with mild deviation. The diabetes-associated expression signature identified multiple perturbations in pathways controlling cellular metabolism and survival, including endoplasmic reticulum and oxidative stress (e.g. induction of HIF1A, DDIT3, DDIT4 and GRP78). qPCR quantitation of a 9-gene panel correlated with glycaemic control in 12 additional recent-onset patients. The qPCR signature was also detected in PB from healthy first-degree relatives. CONCLUSIONS: A PB gene expression signature correlates with glycaemic control in the first year after diabetes diagnosis, and is present in at-risk subjects. These findings implicate monocyte phenotype as a candidate biomarker for disease progression pre- and post-onset, and systemic stresses as contributors to innate immune function in type 1 diabetes."
 
 | *Keyword Extraction Technique* | *Keywords Returned* |

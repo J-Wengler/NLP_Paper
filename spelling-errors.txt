@@ -19,7 +19,6 @@ FastTextCBOW
 FastTextSKIPGRAM
 FastTextWiki
 findSimilarity
-FIXME
 genomic
 GetGeoQueries
 glycaemic
@@ -32,7 +31,9 @@ intial
 keyphrase
 KPMiner
 MLL
-Monocyte
+moh’s
+mohs
+monocyte
 Monozygotic
 multipartite
 MultipartiteRank
@@ -46,13 +47,13 @@ PKR
 PositionRank
 PowerEdge
 pre
-prepareQueryData
+PrepareQueryData
 preprocessed
 py
 qPCR
 Relevent
 reticulum
-SciSpaCy
+SciSpacy
 SingleRank
 Skipgram
 Spacy
@@ -64,10 +65,8 @@ SuperSeries
 TextRank
 TF
 TFIDF
-TODO
 TopicalPageRank
 TopicRank
-trainined
 utilises
 webpages
 Wengler

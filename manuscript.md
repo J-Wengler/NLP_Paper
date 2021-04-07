@@ -59,11 +59,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/025e8c69cd3b863ecb3f853800b9a908785647e5/" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/8bc8b2a782a59cc446903ef8be912b704cdaf2d6/" />
 
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/025e8c69cd3b863ecb3f853800b9a908785647e5/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/8bc8b2a782a59cc446903ef8be912b704cdaf2d6/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/025e8c69cd3b863ecb3f853800b9a908785647e5/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/8bc8b2a782a59cc446903ef8be912b704cdaf2d6/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -96,9 +96,9 @@ title: Comparison of Keyword Extraction and Word Vector Generation Methods for U
 
 <small><em>
 This manuscript
-([permalink](https://J-Wengler.github.io/NLP_Paper/v/025e8c69cd3b863ecb3f853800b9a908785647e5/))
+([permalink](https://J-Wengler.github.io/NLP_Paper/v/8bc8b2a782a59cc446903ef8be912b704cdaf2d6/))
 was automatically generated
-from [J-Wengler/NLP_Paper@025e8c6](https://github.com/J-Wengler/NLP_Paper/tree/025e8c69cd3b863ecb3f853800b9a908785647e5)
+from [J-Wengler/NLP_Paper@8bc8b2a](https://github.com/J-Wengler/NLP_Paper/tree/8bc8b2a782a59cc446903ef8be912b704cdaf2d6)
 on April 7, 2021.
 </em></small>
 
@@ -183,7 +183,7 @@ To measure the accuracy of our method, we only used data that had already been m
 we used the Search Tag Analyze Resource for GEO application (StarGEO). StarGEO is a collection of datasets from the Gene Expression Omnibus that have manually annotated 
 by biomedical graduate students to facilitate the task of collecting related datasets [@doi:10.1038/sdata.2017.125]. For each entry in StarGEO the dataset has an abstract, 
 title, and Gene Expression Omnibus accession number.
-Each dataset in StarGEO has been hand curated and attached to several tags that seek to categorize on a broad level the type of data encapsulated [@doi:10.1038/sdata.2017.125].
+Each dataset in StarGEO has been hand curated and attached to several tags that seek to categorize on a broad level the type of data available [@doi:10.1038/sdata.2017.125].
 To ensure a mixture of broad and narrow queries, as well as different domains, we selected six queries to test. While StarGEO has a variety of species to choose from, all queries were filtered to only return human genomic data. Two of which are broad with ~100 articles returned, two are medium with ~20 articles returned and two are small with
  ~10 articles returned. These queries cover a wide range of domains. It is important to to note that since StarGEO is an
 ongoing project, it is likely that these queries currently have more articles than at the time of writing. 
@@ -196,7 +196,7 @@ ongoing project, it is likely that these queries currently have more articles th
 | Kidney + Tumor + Cell Line     | 16 |
 | Diabetes + Type 1              | 97 |
 | Osteosarcoma                   | 112|
-The purpose of widely varying the amount of articles returned is to ensure that our method works for narrowly defined topics as well as broad topics as well as to test the difference. All data
+The purpose of widely varying the amount of articles returned is to ensure that our method works for narrowly defined topics as well as broad topics. All data
 accession was performed using the StarGEO API [@url:http://stargeo.org/api_docs/]. The API was accessed and stored in a dictionary keyed by accession number to combined abstract and title.
 
 ### Model Collection
@@ -212,7 +212,7 @@ an example of the diversity of returned keywords is available in the appendix.
 
 After the keywords have been identified from the target text, word vectors are generated from each keyword using a word vector model. These models use large amounts
 of unlabeled text to identify the meanings of words and express those as a numeric vector. For our project we selected 6 different models that encompass a variety of techniques 
-and training data. The two major frameworks used in this project were Spacy and FastText. These models are the two most widely used frameworks in natural language processing
+and training data. The two major frameworks used in this project were SpaCy and FastText. These models are the two most widely used frameworks in natural language processing
 and both have been used in biomedical applications [@doi:10.1038/s41598-019-47046-2; @doi:10.1186/s12859-018-2496-4; @doi:10.18653/v1/W16-2922]. However there are differences 
 in how these models train on sample text and generate word vectors. For these reason we chose to test both platforms. 
 
@@ -245,18 +245,19 @@ used to build the container is the python:3.8.5 image available on the Docker we
 steps. 
     1. StarGEO is queried to prepare the six queries. The prepareQueryData.py script takes two arguments. The first is a list of GEO identifiers and the second is the query number that these identifiers
     should belong to. PrepareQueryData.py creates a file system that contains all the abstract and titles of the series that correspond to each identifier. The file system will put each text file into the directory for the corresponding
-    query. 
+    query. This script also randomly selects half of the data to be used as the training data. 
     2. GetGeoQueries.py is run. This script uses text files generated by GEO to evaluate the performance of GEO. A detailed explanation of this is found below in the manual comparision section.
     3. A do loop iterates over the numbers 10,20, and 30. This numbers are the number of keywords that each model should try to identify from the text. Each iteration performs the following analysis.
         i. Six scripts that correspond to SciSpaCy, BioWordVec, FastTextWiki, SpaCy, FastTextSkipGram, and FastTextCBOW are run. Each of these scripts takes the following three arguments : number of keywords, vector size, and number of StarGEO articles. Each script performs the following steps:
             a. All candidate articles from StarGEO are queried
             b. The specific word vector model is loaded (SciSpaCy, BioWordVec, ...)
             c. For each query and keyword combination findSimilarity() is run in Helper.py and added to a multiprocessing thread. This script prints to an output file the calculated similarity of each article using each combination
+            d. The top 1,10,100, and 500 articles are returned to compare against the articles that StarGEO previously identified as related. 
 
 ### Manual Gene Expression Omnibus Evaluation
 Gene Expression Omnibus (GEO) is the parent corpus from which StarGEO is derived [@doi:10.1093/nar/30.1.207]. To compare our technique directly to GEO we use a manual evaluation. We first use the advanced search option on 
 GEO to input the exact queries we used from StarGEO. To maintain consistency with StarGEO, the results are limited to series and human genomic data. A summary file of all the results is downloaded and analyzed. To ensure equal comparision
-the results are filtered to only include those datasets that exist in StarGEO's corpus and excluding SuperSeries. Using the same technique for the StarGEO evaluation the top 1,10,100,500 articles are identified and compared against the relevant articles 
+the results are filtered to only include those datasets that exist in StarGEO's corpus while excluding SuperSeries. Using the same technique for the StarGEO evaluation the top 1,10,100,500 articles are identified and compared against the relevant articles 
 from StarGEO.  
 
 
@@ -340,8 +341,10 @@ Experiences like this motivated us to look for a technique that could use a data
 The results show a wide variety of accuracy across the queries. This pattern of the same natural language processing technique 
 giving very disparate results on intrinsic evaluations is one commonly seen in natural language processing papers 
 [@doi:10.1371/journal.pone.0220976; @doi:10.1038/s41597-019-0055-0; @url:https://arxiv.org/abs/1607.05368]. 
+#FIXME - Add observations from new results
 
 #### Practical Utility
+#FIXME - Discuss new results
 Our results show a practical utility for this technique to a researcher who is interested in a very specific knowledge base. If a researcher
 has previously identified several articles that deal with a narrowly defined subject area, using this technique to query a larger database (not StarGEO) would result in the 
 discovery of potentially all the related datasets that exist in that database. Using this technique, the researcher can bypass the arduous process of collecting datasets and 

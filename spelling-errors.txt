@@ -19,6 +19,7 @@ FastTextCBOW
 FastTextSKIPGRAM
 FastTextWiki
 findSimilarity
+FIXME
 genomic
 GetGeoQueries
 glycaemic
@@ -33,7 +34,7 @@ KPMiner
 MLL
 moh’s
 mohs
-monocyte
+Monocyte
 Monozygotic
 multipartite
 MultipartiteRank
@@ -55,11 +56,11 @@ Relevent
 reticulum
 SciSpacy
 SingleRank
-Skipgram
-Spacy
+SKIPGRAM
+SpaCy
 SpacyWebLG
 srp
-StarGEO
+StarGeo
 StarGEO’s
 SuperSeries
 TextRank

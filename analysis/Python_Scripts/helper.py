@@ -33,7 +33,7 @@ def cleanText(text):
 
     return text
 
-def getCandidateArticles(limit):
+def getCandidateArticles(limit, reduced):
     cacheFilePath = f"/Data/CandidateArticles_{limit}.json"
     series_to_summary = {}
 
@@ -52,7 +52,8 @@ def getCandidateArticles(limit):
             full_text = summary + title
             full_text = cleanText(full_text)
             series_to_summary[name] = full_text
-
+        if reduced:
+            
         with open(cacheFilePath, 'w') as cacheFile:
             cacheFile.write(json.dumps(series_to_summary))
 

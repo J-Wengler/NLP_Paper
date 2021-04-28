@@ -16,7 +16,7 @@ embeddings
 endoplasmic
 FastText
 FastTextCBOW
-FastTextSKIPGRAM
+FastTextSkipGram
 FastTextWiki
 findSimilarity
 FIXME
@@ -60,7 +60,7 @@ Skipgram
 Spacy
 SpacyWebLG
 srp
-StarGEO
+StarGeo
 StarGEO’s
 SuperSeries
 TextRank

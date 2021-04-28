@@ -33,12 +33,12 @@ python3 prepareData.py $corpusMaxSize $reducedTest
 
 #for numKeywords in 10 20 30
 #do
-python3 runSciSpacy.py 10 200 $corpusMaxSize
-python3 runBioWordVec.py 10 200 $corpusMaxSize
-python3 runFastTextWiki.py 10 300 $corpusMaxSize
-python3 runSpacy.py 10 300 $corpusMaxSize
-python3 runFastTextSKIPGRAM.py 10 300 $corpusMaxSize
-python3 runFastTextCBOW.py 10 300 $corpusMaxSize
+python3 runSciSpacy.py 10 200 $corpusMaxSize $reducedTest
+python3 runBioWordVec.py 10 200 $corpusMaxSize $reducedTest
+python3 runFastTextWiki.py 10 300 $corpusMaxSize $reducedTest
+python3 runSpacy.py 10 300 $corpusMaxSize $reducedTest
+python3 runFastTextSKIPGRAM.py 10 300 $corpusMaxSize $reducedTest
+python3 runFastTextCBOW.py 10 300 $corpusMaxSize $reducedTest
 #done
 
 #python3 getResults.py

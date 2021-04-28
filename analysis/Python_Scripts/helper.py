@@ -11,6 +11,7 @@ from scipy.spatial.distance import cosine
 from gensim.models.fasttext import FastText as FT_gensim
 from tester import tester
 import math
+import random
 
 def printTimestamp(message):
     print(f"{message} - {datetime.datetime.now()}")
@@ -53,7 +54,9 @@ def getCandidateArticles(limit, reduced):
             full_text = cleanText(full_text)
             series_to_summary[name] = full_text
         if reduced:
-            
+            random_keys = random.sample(series_to_summary.items(), reduced)
+            print(random_keys)
+
         with open(cacheFilePath, 'w') as cacheFile:
             cacheFile.write(json.dumps(series_to_summary))
 

@@ -15,7 +15,7 @@
 #EDIT BELOW
 ######################
 reducedTest=true		
-reducedCorpus=1000
+reducedCorpus=10
 ######################
 #EDIT ABOVE
 

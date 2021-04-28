@@ -4,7 +4,7 @@ author-meta:
 - Stephen Picco
 bibliography:
 - content/manual-references.json
-date-meta: '2021-04-20'
+date-meta: '2021-04-28'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +23,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets" />
 
-  <meta name="dc.date" content="2021-04-20" />
+  <meta name="dc.date" content="2021-04-28" />
 
-  <meta name="citation_publication_date" content="2021-04-20" />
+  <meta name="citation_publication_date" content="2021-04-28" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -59,11 +59,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/996d82adb198304cbda0a3dd82c5cf53b99fe955/" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/f5a00e9ed45e25d4382e87c58d7d1bc12cd6905e/" />
 
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/996d82adb198304cbda0a3dd82c5cf53b99fe955/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/f5a00e9ed45e25d4382e87c58d7d1bc12cd6905e/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/996d82adb198304cbda0a3dd82c5cf53b99fe955/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/f5a00e9ed45e25d4382e87c58d7d1bc12cd6905e/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -96,10 +96,10 @@ title: Comparison of Keyword Extraction and Word Vector Generation Methods for U
 
 <small><em>
 This manuscript
-([permalink](https://J-Wengler.github.io/NLP_Paper/v/996d82adb198304cbda0a3dd82c5cf53b99fe955/))
+([permalink](https://J-Wengler.github.io/NLP_Paper/v/f5a00e9ed45e25d4382e87c58d7d1bc12cd6905e/))
 was automatically generated
-from [J-Wengler/NLP_Paper@996d82a](https://github.com/J-Wengler/NLP_Paper/tree/996d82adb198304cbda0a3dd82c5cf53b99fe955)
-on April 20, 2021.
+from [J-Wengler/NLP_Paper@f5a00e9](https://github.com/J-Wengler/NLP_Paper/tree/f5a00e9ed45e25d4382e87c58d7d1bc12cd6905e)
+on April 28, 2021.
 </em></small>
 
 ## Authors
@@ -364,8 +364,8 @@ in other NLP related papers [@doi:10.1016/j.jbi.2018.09.008; @url:http://arxiv.o
 
 This technique also ran into computational limitations. We initially started with 10 keywords, then increased to 20 and eventually 30. We saw an increase in percentage of related articles 
 but also an increase in time taken for the analysis to be performed. 10 keywords took approximately a week, with an increase to approximately 3 weeks for 30 keywords. All analysis were performed 
-on a Dell PowerEdge R730xd server with two Intel Xeon E5-2640 v4 2.4GHz CPUs that each support 10 cores with two threads apiece with a total of 256gb of RAM. All analyses were performed using the 
-Multiprocesing Python package to take advantage of all cores available. 
+on a Dell PowerEdge R730xd server with two Intel Xeon E5-2640 v4 2.4GHz CPUs that each support 10 cores with two threads apiece with a total of 256gb of RAM. All analyses were run using the Multiprocessing
+package that allowed each combination of keyword extraction and word vector to each be run as a seperate task. The 10 keyword analysis took approximately {n} hours.
 
 
 

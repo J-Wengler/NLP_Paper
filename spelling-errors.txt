@@ -2,7 +2,7 @@ AllGraphs
 biomarker
 biomarkers
 BioWordVec
-brca
+BRCA
 CBOW
 comparision
 continous
@@ -34,11 +34,10 @@ KPMiner
 MLL
 moh’s
 mohs
-monocyte
+Monocyte
 Monozygotic
 multipartite
 MultipartiteRank
-Multiprocesing
 NLP
 Osteosarcoma
 PageRank
@@ -48,13 +47,14 @@ PKR
 PositionRank
 PowerEdge
 pre
-PrepareQueryData
+prepareQueryData
 preprocessed
 py
 qPCR
 Relevent
 reticulum
 SciSpaCy
+seperate
 SingleRank
 Skipgram
 Spacy

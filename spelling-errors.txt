@@ -60,7 +60,7 @@ Skipgram
 Spacy
 SpacyWebLG
 srp
-StarGeo
+StarGEO
 StarGEO’s
 SuperSeries
 TextRank

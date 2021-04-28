@@ -17,6 +17,7 @@
 reducedTest=true		
 reducedCorpus=1000
 ######################
+#EDIT ABOVE
 
 #python3 getGeoQueries.py
 corpusMaxSize=0

@@ -42,24 +42,27 @@ def getCandidateArticles(limit, reduced):
         with open(cacheFilePath) as cacheFile:
             series_to_summary = json.loads(cacheFile.read())
     else:
-        rq = requests.get(f'http://stargeo.org/api/v2/series/?limit={limit}').json()
+        if not reduced:
+            rq = requests.get(f'http://stargeo.org/api/v2/series/?limit={limit}').json()
+        else:
+            rq = requests.get('http://stargeo.org/api/v2/series/?limit=100000').json()
+            for row in rq['results']:
+                temp_dict = row['attrs']
+                name = row['gse_name']
+                summary = temp_dict['summary']
+                title = temp_dict['title']
 
-        for row in rq['results']:
-            temp_dict = row['attrs']
-            name = row['gse_name']
-            summary = temp_dict['summary']
-            title = temp_dict['title']
+                full_text = summary + title
+                full_text = cleanText(full_text)
+                series_to_summary[name] = full_text
+            if reduced:
+                my_dict_keys = list(series_to_summary.keys())
+                random.seed(0)
+                random.shuffle(my_dict_keys)
 
-            full_text = summary + title
-            full_text = cleanText(full_text)
-            series_to_summary[name] = full_text
-        if reduced:
-            my_dict_keys = list(series_to_summary.keys())
-            random.seed(0)
-            random.shuffle(my_dict_keys)
-
-            num_to_sample = 
-            sampled_dict = {key: my_dict[key] for key in my_dict_keys[:num_to_sample]}
+                num_to_sample = limit
+                sampled_dict = {key: series_to_summary[key] for key in my_dict_keys[:num_to_sample]}
+                print(sampled_dict)
 
         with open(cacheFilePath, 'w') as cacheFile:
             cacheFile.write(json.dumps(series_to_summary))

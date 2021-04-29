@@ -2,7 +2,7 @@ AllGraphs
 biomarker
 biomarkers
 BioWordVec
-BRCA
+brca
 CBOW
 comparision
 continous
@@ -34,7 +34,7 @@ KPMiner
 MLL
 moh’s
 mohs
-monocyte
+Monocyte
 Monozygotic
 multipartite
 MultipartiteRank
@@ -57,7 +57,7 @@ SciSpacy
 seperate
 SingleRank
 SKIPGRAM
-SpaCy
+Spacy
 SpacyWebLG
 srp
 StarGEO

@@ -8,6 +8,7 @@ vectorSize = int(sys.argv[2])
 maxCandidateArticles = int(sys.argv[3])
 
 reducedSet = str(sys.argv[4])
+print(f"REDUCE SET VALUE == {reducedSet}")
 printTimestamp("Getting candidate articles")
 if reducedSet=='true':
     candidate_articles = getCandidateArticles(maxCandidateArticles, True)

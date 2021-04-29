@@ -54,8 +54,12 @@ def getCandidateArticles(limit, reduced):
             full_text = cleanText(full_text)
             series_to_summary[name] = full_text
         if reduced:
-            random_keys = random.sample(series_to_summary.items(), reduced)
-            print(random_keys)
+            my_dict_keys = list(series_to_summary.keys())
+            random.seed(0)
+            random.shuffle(my_dict_keys)
+
+            num_to_sample = 
+            sampled_dict = {key: my_dict[key] for key in my_dict_keys[:num_to_sample]}
 
         with open(cacheFilePath, 'w') as cacheFile:
             cacheFile.write(json.dumps(series_to_summary))

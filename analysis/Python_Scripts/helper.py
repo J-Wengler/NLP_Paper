@@ -44,6 +44,15 @@ def getCandidateArticles(limit, reduced):
     else:
         if not reduced:
             rq = requests.get(f'http://stargeo.org/api/v2/series/?limit={limit}').json()
+            for row in rq['results']:
+                temp_dict = row['attrs']
+                name = row['gse_name']
+                summary = temp_dict['summary']
+                title = temp_dict['title']
+
+                full_text = summary + title
+                full_text = cleanText(full_text)
+                series_to_summary[name] = full_text
         else:
             rq = requests.get('http://stargeo.org/api/v2/series/?limit=100000').json()
             for row in rq['results']:
@@ -258,7 +267,6 @@ def generateResults (resultPath, modelName, bestCombo):
                 outputFile.write(strForFile)
 
 def evaluateGEO():
-    #FIXME
     path_to_GEO_queries = "/Data/GEO_Queries/"
     path_to_queries = "/Data/Queries/"
 

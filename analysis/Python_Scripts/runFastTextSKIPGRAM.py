@@ -11,7 +11,7 @@ printTimestamp("Getting candidate articles")
 if reducedSet=='true':
     candidate_articles = getCandidateArticles(maxCandidateArticles, True)
 else:
-    candidate_articles = getCandidateArticles(maxCandidateArticles, False)rticles)
+    candidate_articles = getCandidateArticles(maxCandidateArticles, False)
 
 printTimestamp("Training FastText SkipGram model")
 model = trainFastTextModel(vectorSize, 'skipgram')

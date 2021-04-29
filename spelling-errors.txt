@@ -2,7 +2,7 @@ AllGraphs
 biomarker
 biomarkers
 BioWordVec
-brca
+BRCA
 CBOW
 comparision
 continous
@@ -16,7 +16,7 @@ embeddings
 endoplasmic
 FastText
 FastTextCBOW
-FastTextSkipGram
+FastTextSKIPGRAM
 FastTextWiki
 findSimilarity
 FIXME
@@ -47,7 +47,7 @@ PKR
 PositionRank
 PowerEdge
 pre
-PrepareQueryData
+prepareQueryData
 preprocessed
 py
 qPCR
@@ -56,7 +56,7 @@ reticulum
 SciSpacy
 seperate
 SingleRank
-SKIPGRAM
+Skipgram
 Spacy
 SpacyWebLG
 srp

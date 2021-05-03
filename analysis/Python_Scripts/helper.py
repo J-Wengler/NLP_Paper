@@ -71,11 +71,10 @@ def getCandidateArticles(limit, reduced):
 
                 num_to_sample = limit
                 sampled_dict = {key: series_to_summary[key] for key in my_dict_keys[:num_to_sample]}
-                print(sampled_dict)
+                series_to_summary = sampled_dict
 
         with open(cacheFilePath, 'w') as cacheFile:
             cacheFile.write(json.dumps(series_to_summary))
-
     return series_to_summary
 
 def getNamesToQuery(queryNumber):
@@ -160,7 +159,7 @@ def findSimilarity(keyphraseExtractor, modelName, model, candidateArticles, quer
             embeddings.append(getKeywordEmbedding(keyphrases, model, 0, vectorSize, failedFilePath, modelName))
 
         for i, article in enumerate(candidateArticles):
-            if i % 1000 == 0:
+            if i % 2 == 0:
             #if i % 2 == 0:
                 printTimestamp(f"Processed {i} candidate articles for q{query}, {keyphraseExtractor}, {numKeywords} keywords")
                 # if i > 0:

@@ -16,7 +16,7 @@ embeddings
 endoplasmic
 FastText
 FastTextCBOW
-FastTextSKIPGRAM
+FastTextSkipGram
 FastTextWiki
 findSimilarity
 FIXME
@@ -54,9 +54,8 @@ qPCR
 Relevent
 reticulum
 SciSpaCy
-seperate
 SingleRank
-Skipgram
+SKIPGRAM
 SpaCy
 SpacyWebLG
 srp

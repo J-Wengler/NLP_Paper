@@ -4,7 +4,7 @@ author-meta:
 - Stephen Picco
 bibliography:
 - content/manual-references.json
-date-meta: '2021-05-03'
+date-meta: '2021-05-18'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +23,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets" />
 
-  <meta name="dc.date" content="2021-05-03" />
+  <meta name="dc.date" content="2021-05-18" />
 
-  <meta name="citation_publication_date" content="2021-05-03" />
+  <meta name="citation_publication_date" content="2021-05-18" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -59,11 +59,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/01a0f547dd5016e821d7ae02ce921757108cceb6/" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/1a21e1b10ae394e92c01f4d2c98b5ec9140a64e9/" />
 
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/01a0f547dd5016e821d7ae02ce921757108cceb6/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/1a21e1b10ae394e92c01f4d2c98b5ec9140a64e9/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/01a0f547dd5016e821d7ae02ce921757108cceb6/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/1a21e1b10ae394e92c01f4d2c98b5ec9140a64e9/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -96,10 +96,10 @@ title: Comparison of Keyword Extraction and Word Vector Generation Methods for U
 
 <small><em>
 This manuscript
-([permalink](https://J-Wengler.github.io/NLP_Paper/v/01a0f547dd5016e821d7ae02ce921757108cceb6/))
+([permalink](https://J-Wengler.github.io/NLP_Paper/v/1a21e1b10ae394e92c01f4d2c98b5ec9140a64e9/))
 was automatically generated
-from [J-Wengler/NLP_Paper@01a0f54](https://github.com/J-Wengler/NLP_Paper/tree/01a0f547dd5016e821d7ae02ce921757108cceb6)
-on May 3, 2021.
+from [J-Wengler/NLP_Paper@1a21e1b](https://github.com/J-Wengler/NLP_Paper/tree/1a21e1b10ae394e92c01f4d2c98b5ec9140a64e9)
+on May 18, 2021.
 </em></small>
 
 ## Authors
@@ -237,7 +237,7 @@ and Spacy are compared head to head, as well as different algorithms and trainin
 The initial step of vector generation is the identification of the top ten keywords from the text source. Each one of these keywords is turned into a word vector. This word vector is
 stored as a list of numeric values. The models vary in the length of this numeric vectors from 100 - 300. Once each vector has been generated from each keyword these vectors are added 
 element-wise and then divided by the number of keywords. This technique has been shown to be the simplest and most accurate way to generate a singular word vector from various word 
-embeddings and is usually used to generate document-wide word embeddings [@url:http://arxiv.org/abs/1607.05368].
+embeddings and is usually used to generate document-wide word embeddings [@url:http://arxiv.org/abs/1607.05368]. 
 
 ### Model Evaluation 
 All model evaluation is performed in a Docker container to allow other researchers to perform the same analysis described in this section [@doi:10.1145/2723872.2723882].The Docker image 
@@ -253,6 +253,12 @@ steps.
             b. The specific word vector model is loaded (SciSpaCy, BioWordVec, ...)
             c. For each query and keyword combination findSimilarity() is run in Helper.py and added to a multiprocessing thread. This script prints to an output file the calculated similarity of each article using each combination
             d. The top 1,10,100, and 500 articles are returned to compare against the articles that StarGEO previously identified as related. 
+
+### Reduced Set Testing
+The results contained within this paper are from a reduced set of all StarGEO articles (266) plus an additional 1000 randomly queried articles from GEO. The purpose for performing the reduced set was the full 46 article corpus from StarGEO
+ran for over one month and was not able to complete the full testing. A reduced corpus of 1000 articles allowed us to compare the various methods head to head without the need for extensively long wait times. However the analysis is set up 
+in such a way as to allow the researcher to easily change the amount of articles used in the analysis. 
+#FIXME -> I don't know if I like how I wrote this bit. Does this belong in the discussion?
 
 ### Manual Gene Expression Omnibus Evaluation
 Gene Expression Omnibus (GEO) is the parent corpus from which StarGEO is derived [@doi:10.1093/nar/30.1.207]. To compare our technique directly to GEO we use a manual evaluation. We first use the advanced search option on 
@@ -360,12 +366,11 @@ There are several limitations to our approach. Most obvious is a lack of methods
 of datasets. This means that the only external evaluation possible is to compare it to hand curation of datasets by other researchers. We did consider this option but rejected it due 
 to the subjective nature of human curation and the time it would require of the participants. There are also other keyword extraction and word vector generation techniques. Our keyword 
 extraction techniques were limited to those available in the PKR Python package to ensure consistency. Word vectors were limited to the those that were most commonly tested and available
-in other NLP related papers [@doi:10.1016/j.jbi.2018.09.008; @url:http://arxiv.org/abs/1806.02901]. We considered testing a wide variety of techniques across all 
-
-This technique also ran into computational limitations. We initially started with 10 keywords, then increased to 20 and eventually 30. We saw an increase in percentage of related articles 
-but also an increase in time taken for the analysis to be performed. 10 keywords took approximately a week, with an increase to approximately 3 weeks for 30 keywords. All analysis were performed 
-on a Dell PowerEdge R730xd server with two Intel Xeon E5-2640 v4 2.4GHz CPUs that each support 10 cores with two threads apiece with a total of 256gb of RAM. All analyses were run using the Multiprocessing
-package that allowed each combination of keyword extraction and word vector to each be run as a seperate task. The 10 keyword analysis took approximately {n} hours.
+in other NLP related papers [@doi:10.1016/j.jbi.2018.09.008; @url:http://arxiv.org/abs/1806.02901]. Further testing is warranted on less known models and techniques.
+ 
+All analysis were performed on a Dell PowerEdge R730xd server with two Intel Xeon E5-2640 v4 2.4GHz CPUs that each support 10 cores with two threads apiece with a total of 256gb of RAM. All analyses were run using the Multiprocessing
+package that allowed each combination of keyword extraction and word vector to each be run as a separate task. This hardware was not capable of running the full analysis even using the multiprocessing package. We hypothesis this is due
+to the relatively long time it takes to generate a word vector. 
 
 
 

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="James Wengler" />
   <meta name="author" content="Stephen Picco" />
-  <meta name="dcterms.date" content="2021-05-03" />
+  <meta name="dcterms.date" content="2021-05-18" />
   <meta name="keywords" content="NLP, Biomedical, Keyword Extraction, Word Vectors" />
   <title>Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets</title>
   <style>
@@ -29,8 +29,8 @@
   <meta name="citation_title" content="Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets" />
   <meta property="og:title" content="Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets" />
   <meta property="twitter:title" content="Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets" />
-  <meta name="dc.date" content="2021-05-03" />
-  <meta name="citation_publication_date" content="2021-05-03" />
+  <meta name="dc.date" content="2021-05-18" />
+  <meta name="citation_publication_date" content="2021-05-18" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@
   <meta name="citation_fulltext_html_url" content="https://J-Wengler.github.io/NLP_Paper/" />
   <meta name="citation_pdf_url" content="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/01a0f547dd5016e821d7ae02ce921757108cceb6/" />
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/01a0f547dd5016e821d7ae02ce921757108cceb6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/01a0f547dd5016e821d7ae02ce921757108cceb6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/1a21e1b10ae394e92c01f4d2c98b5ec9140a64e9/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/1a21e1b10ae394e92c01f4d2c98b5ec9140a64e9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/1a21e1b10ae394e92c01f4d2c98b5ec9140a64e9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,10 +63,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://J-Wengler.github.io/NLP_Paper/v/01a0f547dd5016e821d7ae02ce921757108cceb6/">permalink</a>)
+(<a href="https://J-Wengler.github.io/NLP_Paper/v/1a21e1b10ae394e92c01f4d2c98b5ec9140a64e9/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/J-Wengler/NLP_Paper/tree/01a0f547dd5016e821d7ae02ce921757108cceb6">J-Wengler/NLP_Paper@01a0f54</a>
-on May 3, 2021.
+from <a href="https://github.com/J-Wengler/NLP_Paper/tree/1a21e1b10ae394e92c01f4d2c98b5ec9140a64e9">J-Wengler/NLP_Paper@1a21e1b</a>
+on May 18, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -250,6 +250,11 @@ a. All candidate articles from StarGEO are queried
 b. The specific word vector model is loaded (SciSpaCy, BioWordVec, …)
 c. For each query and keyword combination findSimilarity() is run in Helper.py and added to a multiprocessing thread. This script prints to an output file the calculated similarity of each article using each combination
 d. The top 1,10,100, and 500 articles are returned to compare against the articles that StarGEO previously identified as related.</p>
+<h3 id="reduced-set-testing">Reduced Set Testing</h3>
+<p>The results contained within this paper are from a reduced set of all StarGEO articles (266) plus an additional 1000 randomly queried articles from GEO. The purpose for performing the reduced set was the full 46 article corpus from StarGEO
+ran for over one month and was not able to complete the full testing. A reduced corpus of 1000 articles allowed us to compare the various methods head to head without the need for extensively long wait times. However the analysis is set up
+in such a way as to allow the researcher to easily change the amount of articles used in the analysis.
+#FIXME -&gt; I don’t know if I like how I wrote this bit. Does this belong in the discussion?</p>
 <h3 id="manual-gene-expression-omnibus-evaluation">Manual Gene Expression Omnibus Evaluation</h3>
 <p>Gene Expression Omnibus (GEO) is the parent corpus from which StarGEO is derived <span class="citation" data-cites="14VfbatMA">[<a href="#ref-14VfbatMA" role="doc-biblioref">20</a>]</span>. To compare our technique directly to GEO we use a manual evaluation. We first use the advanced search option on
 GEO to input the exact queries we used from StarGEO. To maintain consistency with StarGEO, the results are limited to series and human genomic data. A summary file of all the results is downloaded and analyzed. To ensure equal comparision
@@ -421,11 +426,10 @@ customization would require the manual editing of the code to fit the use cause.
 of datasets. This means that the only external evaluation possible is to compare it to hand curation of datasets by other researchers. We did consider this option but rejected it due
 to the subjective nature of human curation and the time it would require of the participants. There are also other keyword extraction and word vector generation techniques. Our keyword
 extraction techniques were limited to those available in the PKR Python package to ensure consistency. Word vectors were limited to the those that were most commonly tested and available
-in other NLP related papers <span class="citation" data-cites="8NKQyXww 5CpWCZGC">[<a href="#ref-8NKQyXww" role="doc-biblioref">11</a>,<a href="#ref-5CpWCZGC" role="doc-biblioref">25</a>]</span>. We considered testing a wide variety of techniques across all</p>
-<p>This technique also ran into computational limitations. We initially started with 10 keywords, then increased to 20 and eventually 30. We saw an increase in percentage of related articles
-but also an increase in time taken for the analysis to be performed. 10 keywords took approximately a week, with an increase to approximately 3 weeks for 30 keywords. All analysis were performed
-on a Dell PowerEdge R730xd server with two Intel Xeon E5-2640 v4 2.4GHz CPUs that each support 10 cores with two threads apiece with a total of 256gb of RAM. All analyses were run using the Multiprocessing
-package that allowed each combination of keyword extraction and word vector to each be run as a seperate task. The 10 keyword analysis took approximately {n} hours.</p>
+in other NLP related papers <span class="citation" data-cites="8NKQyXww 5CpWCZGC">[<a href="#ref-8NKQyXww" role="doc-biblioref">11</a>,<a href="#ref-5CpWCZGC" role="doc-biblioref">25</a>]</span>. Further testing is warranted on less known models and techniques.</p>
+<p>All analysis were performed on a Dell PowerEdge R730xd server with two Intel Xeon E5-2640 v4 2.4GHz CPUs that each support 10 cores with two threads apiece with a total of 256gb of RAM. All analyses were run using the Multiprocessing
+package that allowed each combination of keyword extraction and word vector to each be run as a separate task. This hardware was not capable of running the full analysis even using the multiprocessing package. We hypothesis this is due
+to the relatively long time it takes to generate a word vector.</p>
 <h2 class="page_break_before" id="appendix">Appendix</h2>
 <h3 id="comparison-of-keywords-techniques">Comparison of Keywords Techniques</h3>
 <p>Test Abstract from PubMed. <span class="citation" data-cites="KBhULZJE">[<a href="#ref-KBhULZJE" role="doc-biblioref">26</a>]</span>
@@ -550,7 +554,7 @@ DOI: <a href="https://doi.org/10.1016/j.jbi.2018.09.008">10.1016/j.jbi.2018.09.0
 <div id="ref-kzLP6OpW">
 <p>12. <strong>boudinfl/pke</strong> <br />
 Florian Boudin<br />
-(2021-05-01) <a href="https://github.com/boudinfl/pke">https://github.com/boudinfl/pke</a></p>
+(2021-05-17) <a href="https://github.com/boudinfl/pke">https://github.com/boudinfl/pke</a></p>
 </div>
 <div id="ref-1EJaRkbTp">
 <p>13. <strong>SMAC, a computational system to link literature, biomedical and expression data</strong> <br />

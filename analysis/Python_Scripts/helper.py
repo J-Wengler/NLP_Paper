@@ -278,8 +278,8 @@ def generateResults (resultPath, modelName, bestCombo, numKeyword):
             top_nums = [1, 10, 100, 1000]
             scores = getScore(path + "/similarity.txt", query)
             for i, score in enumerate(scores):
-                if (top_nums[i] == 100):
-                    bestCombo.write("{}}\t{}\t{}\t{}\t{}\n".format(modelName, str(name).strip(), str(query).strip(), str(top_nums[i]).strip(), str(score).strip()))
+                #if (top_nums[i] == 100):
+                    #bestCombo.write("{}}\t{}\t{}\t{}\t{}\n".format(modelName, str(name).strip(), str(query).strip(), str(top_nums[i]).strip(), str(score).strip()))
                 strForFile = "{}\t{}\t{}\t{}\n".format(str(name).strip(), str(query).strip(), str(top_nums[i]).strip(), str(score).strip())
                 outputFile.write(strForFile)
 

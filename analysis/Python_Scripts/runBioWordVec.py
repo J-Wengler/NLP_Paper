@@ -2,6 +2,7 @@ from helper import *
 import multiprocessing
 import sys
 import time
+from gensim.models.wrappers import FastText
 
 numKeywords = int(sys.argv[1])
 vectorSize = int(sys.argv[2])
@@ -16,7 +17,7 @@ else:
     candidate_articles = getCandidateArticles(maxCandidateArticles, False)
 
 printTimestamp("Loading BioWordVec")
-model = load_embedding("/Models/concept_model.bin")
+model = load_embedding("/Data/concept_model.bin")
 
 start = time.time()
 

@@ -12,6 +12,12 @@ from gensim.models.fasttext import FastText as FT_gensim
 from tester import tester
 import math
 import random
+from gensim.models import KeyedVectors
+
+def load_embedding(path):
+    embedding = KeyedVectors.load_word2vec_format(path, binary = True)
+    print('embedding loaded from', path)
+    return embedding
 
 def printTimestamp(message):
     print(f"{message} - {datetime.datetime.now()}")
@@ -72,7 +78,21 @@ def getCandidateArticles(limit, reduced):
                 num_to_sample = limit
                 sampled_dict = {key: series_to_summary[key] for key in my_dict_keys[:num_to_sample]}
                 series_to_summary = sampled_dict
-
+        
+        with open("/Data/allSeriesFromQueries.txt", 'r') as in_file:
+            query_series = in_file.read().splitlines()
+            for ser in query_series:
+                ser = ser.strip()
+                api_text = (f"http://stargeo.org/api/v2/series/{ser}/")
+                rq = requests.get(api_text).text
+                data = json.loads(rq)
+                temp_dict = data['attrs']
+                name = data['gse_name']
+                summary = temp_dict['summary']
+                title = temp_dict['title']
+                full_text = title + summary
+                series_to_summary[name] = full_text
+                
         with open(cacheFilePath, 'w') as cacheFile:
             cacheFile.write(json.dumps(series_to_summary))
     return series_to_summary

@@ -16,7 +16,7 @@ embeddings
 endoplasmic
 FastText
 FastTextCBOW
-FastTextSKIPGRAM
+FastTextSkipGram
 FastTextWiki
 findSimilarity
 FIXME
@@ -34,7 +34,7 @@ KPMiner
 MLL
 moh’s
 mohs
-monocyte
+Monocyte
 Monozygotic
 multipartite
 MultipartiteRank
@@ -55,11 +55,11 @@ Relevent
 reticulum
 SciSpaCy
 SingleRank
-Skipgram
-SpaCy
+SKIPGRAM
+Spacy
 SpacyWebLG
 srp
-StarGEO
+StarGeo
 StarGEO’s
 SuperSeries
 TextRank

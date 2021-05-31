@@ -34,7 +34,7 @@ KPMiner
 MLL
 moh’s
 mohs
-monocyte
+Monocyte
 Monozygotic
 multipartite
 MultipartiteRank
@@ -53,10 +53,10 @@ py
 qPCR
 Relevent
 reticulum
-SciSpacy
+SciSpaCy
 SingleRank
-SKIPGRAM
-Spacy
+Skipgram
+SpaCy
 SpacyWebLG
 srp
 StarGEO

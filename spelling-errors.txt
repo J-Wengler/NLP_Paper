@@ -2,7 +2,7 @@ AllGraphs
 biomarker
 biomarkers
 BioWordVec
-brca
+BRCA
 CBOW
 comparision
 continous
@@ -16,7 +16,7 @@ embeddings
 endoplasmic
 FastText
 FastTextCBOW
-FastTextSkipGram
+FastTextSKIPGRAM
 FastTextWiki
 findSimilarity
 FIXME
@@ -34,7 +34,7 @@ KPMiner
 MLL
 moh’s
 mohs
-Monocyte
+monocyte
 Monozygotic
 multipartite
 MultipartiteRank
@@ -47,7 +47,7 @@ PKR
 PositionRank
 PowerEdge
 pre
-PrepareQueryData
+prepareQueryData
 preprocessed
 py
 qPCR
@@ -56,10 +56,10 @@ reticulum
 SciSpaCy
 SingleRank
 SKIPGRAM
-SpaCy
+Spacy
 SpacyWebLG
 srp
-StarGEO
+StarGeo
 StarGEO’s
 SuperSeries
 TextRank

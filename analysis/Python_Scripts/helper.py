@@ -268,7 +268,7 @@ def getScore(filePath, query):
     return scores
 
 def generateResults (resultPath, modelName, bestCombo, numKeyword):
-    outputFile = open(f"/home/jwengler/NLP_Paper/analysis/Data/Results/{numKeyword}_{modelName}Output.txt", 'w+')
+    outputFile = open(f"/home/jwengler/NLP_Paper/analysis/Data/Results/{numKeyword}_{modelName}Output.txt", 'w')
     outputFile.write(f"{modelName} Results for {numKeyword} keywords\n")
     outputFile.write("MODEL\tQUERY\t#\tSCORE\n")
     for name in resultPath:

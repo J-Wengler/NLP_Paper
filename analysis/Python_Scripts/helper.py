@@ -247,7 +247,7 @@ def getXTopResults(x, series_to_score):
 
         return to_return
 
-def getScore(filePath):
+def getScore(filePath, query):
     score_to_series = {}
     with open(filePath, "r+") as in_file:
         for line in in_file:
@@ -258,28 +258,26 @@ def getScore(filePath):
                 print("Line List : {}".format(line_list))
                 print("Error was found in {}".format(filePath))
     scores = []
-    toTest = [1,10,100,1000,10000]
+    toTest = [1,10,100,1000]
     for topNum in toTest:
         topResults = getXTopResults(topNum, score_to_series)
         myTester = tester()
-        filePathList = filePath.split('/')
-        queryNum = int(filePathList[4][0])
-        myTester.whichQuery(queryNum)
+        myTester.whichQuery(query)
         score = myTester.returnPercent(topResults)
         scores.append(score)
     return scores
 
-def generateResults (resultPath, modelName, bestCombo):
-    outputFile = open('/Results/{}}Output.txt'.format(modelName), 'w+')
-    outputFile.write("{} Results\n".format(modelName))
+def generateResults (resultPath, modelName, bestCombo, numKeyword):
+    outputFile = open(f"/Results/{numKeyword}_{modelName}Output.txt", 'w+')
+    outputFile.write(f"{modelName} Results for {numKeyword} keywords\n")
     outputFile.write("MODEL\tQUERY\t#\tSCORE\n")
     for name in resultPath:
-        path = "/Results/{}}/{}".format( modelName,name)
-        top_nums = [1, 10, 100, 1000, 10000]
-        for fileName in os.listdir(path):
-            scores = getScore(path + "/" + fileName)
+        for query in [1,2,3,4,5]:
+            path = f"/home/jwengler/NLP_Paper/analysis/Data/Results/{modelName}/q{query}/{name}/{numKeyword}"
+            #path = "/Results/{}}/{}".format(modelName,name)
+            top_nums = [1, 10, 100, 1000]
+            scores = getScore(path + "/similarity.txt", query)
             for i, score in enumerate(scores):
-                query = fileName[0]
                 if (top_nums[i] == 100):
                     bestCombo.write("{}}\t{}\t{}\t{}\t{}\n".format(modelName, str(name).strip(), str(query).strip(), str(top_nums[i]).strip(), str(score).strip()))
                 strForFile = "{}\t{}\t{}\t{}\n".format(str(name).strip(), str(query).strip(), str(top_nums[i]).strip(), str(score).strip())

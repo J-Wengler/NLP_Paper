@@ -47,7 +47,7 @@ PKR
 PositionRank
 PowerEdge
 pre
-prepareQueryData
+PrepareQueryData
 preprocessed
 py
 qPCR
@@ -55,11 +55,11 @@ Relevent
 reticulum
 SciSpaCy
 SingleRank
-SKIPGRAM
-Spacy
+Skipgram
+SpaCy
 SpacyWebLG
 srp
-StarGeo
+StarGEO
 StarGEO’s
 SuperSeries
 TextRank

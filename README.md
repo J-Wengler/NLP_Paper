@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/J-Wengler/NLP_Paper/tree/gh-pages) branch hosts the contents of this directory at <https://J-Wengler.github.io/NLP_Paper/>.
-The permalink for this webpage version is <https://J-Wengler.github.io/NLP_Paper/v/f300700add275435cb6e83832276f2737d53067c/>.
+The permalink for this webpage version is <https://J-Wengler.github.io/NLP_Paper/v/e11a3ded43828f4e08cf69159df5f578e7a7d954/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://J-Wengler.github.io/NLP_Paper/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`f300700add275435cb6e83832276f2737d53067c`](https://github.com/J-Wengler/NLP_Paper/commit/f300700add275435cb6e83832276f2737d53067c).
+[`e11a3ded43828f4e08cf69159df5f578e7a7d954`](https://github.com/J-Wengler/NLP_Paper/commit/e11a3ded43828f4e08cf69159df5f578e7a7d954).

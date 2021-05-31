@@ -34,7 +34,7 @@ KPMiner
 MLL
 moh’s
 mohs
-Monocyte
+monocyte
 Monozygotic
 multipartite
 MultipartiteRank
@@ -47,13 +47,13 @@ PKR
 PositionRank
 PowerEdge
 pre
-prepareQueryData
+PrepareQueryData
 preprocessed
 py
 qPCR
 Relevent
 reticulum
-SciSpaCy
+SciSpacy
 SingleRank
 SKIPGRAM
 Spacy

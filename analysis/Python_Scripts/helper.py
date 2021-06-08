@@ -251,16 +251,23 @@ def getScore(filePath, query):
     score_to_series = {}
     with open(filePath, "r+") as in_file:
         for line in in_file:
-            line_list = line.split('-')
+            line_list = line.split('\t')
             try:
                 score_to_series[line_list[1].strip()] = line_list[0].strip()
             except:
                 print("Line List : {}".format(line_list))
                 print("Error was found in {}".format(filePath))
     scores = []
-    toTest = [1,10,100,1000]
+    toTest = [1,10,100]
     for topNum in toTest:
-        topResults = getXTopResults(topNum, score_to_series)
+        try:
+            topResults = getXTopResults(topNum, score_to_series)
+        except:
+            print("\n")
+            print(f"FILEPATH : {filePath}")
+            print(f"QUERY : {query}")
+            print(f"Length of score_to_series : {len(score_to_series)}")
+            print(f"top num : {topNum}")
         myTester = tester()
         myTester.whichQuery(query)
         score = myTester.returnPercent(topResults)
@@ -268,14 +275,14 @@ def getScore(filePath, query):
     return scores
 
 def generateResults (resultPath, modelName, bestCombo, numKeyword):
-    outputFile = open(f"/home/jwengler/NLP_Paper/analysis/Data/Results/{numKeyword}_{modelName}Output.txt", 'w')
+    outputFile = open(f"/Data/Results/{numKeyword}_{modelName}Output.txt", 'w+')
     outputFile.write(f"{modelName} Results for {numKeyword} keywords\n")
     outputFile.write("MODEL\tQUERY\t#\tSCORE\n")
     for name in resultPath:
         for query in [1,2,3,4,5]:
-            path = f"/home/jwengler/NLP_Paper/analysis/Data/Results/{modelName}/q{query}/{name}/{numKeyword}"
+            path = f"/Data/Results/{modelName}/q{query}/{name}/{numKeyword}"
             #path = "/Results/{}}/{}".format(modelName,name)
-            top_nums = [1, 10, 100, 1000]
+            top_nums = [1, 10, 100]
             scores = getScore(path + "/similarity.txt", query)
             for i, score in enumerate(scores):
                 #if (top_nums[i] == 100):
@@ -295,7 +302,7 @@ def evaluateGEO():
 
     resultsDirPath = f"/Data/GEO_Queries/geo_results.txt"
     with open(resultsDirPath, 'w+') as out_file:
-        for top_n in [1,10,100,500]:
+        for top_n in [1,10,100]:
             for path in query_list:
                 num_og = 0
                 geo_results = []

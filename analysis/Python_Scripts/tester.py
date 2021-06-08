@@ -7,7 +7,7 @@ class tester:
 
     def whichQuery(self, query_num):
         self.query_number = query_num
-        self.in_file = "/Models/Queries/q{}/names.txt".format(query_num)
+        self.in_file = "/Data/Queries/q{}/names.txt".format(query_num)
         with open(self.in_file, "r") as names:
             names_list = names.read()
             names = names_list.split(' ')

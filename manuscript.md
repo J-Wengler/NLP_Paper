@@ -4,7 +4,7 @@ author-meta:
 - Stephen Picco
 bibliography:
 - content/manual-references.json
-date-meta: '2021-06-08'
+date-meta: '2021-06-27'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +23,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets" />
 
-  <meta name="dc.date" content="2021-06-08" />
+  <meta name="dc.date" content="2021-06-27" />
 
-  <meta name="citation_publication_date" content="2021-06-08" />
+  <meta name="citation_publication_date" content="2021-06-27" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -59,11 +59,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/7c405b9839ee53a48f16ce73ca8cc33421d1f57c/" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/334db49e4a265b3280fa624410bcacef06d56554/" />
 
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/7c405b9839ee53a48f16ce73ca8cc33421d1f57c/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/334db49e4a265b3280fa624410bcacef06d56554/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/7c405b9839ee53a48f16ce73ca8cc33421d1f57c/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/334db49e4a265b3280fa624410bcacef06d56554/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -96,10 +96,10 @@ title: Comparison of Keyword Extraction and Word Vector Generation Methods for U
 
 <small><em>
 This manuscript
-([permalink](https://J-Wengler.github.io/NLP_Paper/v/7c405b9839ee53a48f16ce73ca8cc33421d1f57c/))
+([permalink](https://J-Wengler.github.io/NLP_Paper/v/334db49e4a265b3280fa624410bcacef06d56554/))
 was automatically generated
-from [J-Wengler/NLP_Paper@7c405b9](https://github.com/J-Wengler/NLP_Paper/tree/7c405b9839ee53a48f16ce73ca8cc33421d1f57c)
-on June 8, 2021.
+from [J-Wengler/NLP_Paper@334db49](https://github.com/J-Wengler/NLP_Paper/tree/334db49e4a265b3280fa624410bcacef06d56554)
+on June 27, 2021.
 </em></small>
 
 ## Authors
@@ -135,7 +135,6 @@ In terms of word vector generation we test six different models. These models va
 FastTextWiki - A FastText model trained on Wikipedia data, FastTextCBOW - a custom FastText model trained on only StarGEO data using the CBOW (continous-bag-of-words) method, FastTextSkipGram - A custom FastText model trained on only
 StarGEO data using the SKIPGRAM technique, SciSpaCy - A SpaCy model trained on scientific literature, and SpaCy - A SpaCy model trained with the readily available large web corpus. 
 
-#NOTE - Not sure if I need to go into such detail for each of the keyword methods
 We also test nine keyword extraction methods. Three of the methods are statistical models while the other six are graphical methods. 
 The statistical methods are TF-IDF, KP-Miner, and YAKE. TF-IDF works by comparing the frequency of each word found in the passage 
 to its frequency in other passages that exist in the corpus. KP-Miner evaluates each word 
@@ -170,8 +169,9 @@ This paper also detailed some difficulties in dataset recommendation. Some of th
 In this paper we detail an alternative approach to address this problem using readily available natural language processing tools to identify related datasets from an initial set of related articles. 
 
 The major obstacle to data collection for a researcher is a lack of available tools. The aforementioned paper details an approach to help address
-this issue, but to our knowledge no other approaches exist and no approach is designed for a researcher who has already identified a niche area
-of research they wish to pursue. Our methodology utilises two techniques widely used in natural language processing, namely keyword extraction and word vector generation [@url:https://www.aclweb.org/anthology/C16-2015; @doi:10.1038/s41597-019-0055-0].
+this issue, but is not capable of using a user-generated query to identify related datasets. Another related tool is BioCaddie [@doi:10.1038/ng.3864] which is an ongoing tool to index current datasets to
+make them easily searchable. However the advantage to our approach is that it requires no indexing and can be applied to any text-based data.
+Our methodology utilises two techniques widely used in natural language processing, namely keyword extraction and word vector generation [@url:https://www.aclweb.org/anthology/C16-2015; @doi:10.1038/s41597-019-0055-0].
 Using these two tools, our approach can take several pre-identified datasets and identify other related datasets, no matter how niche the subject area. We test
 a variety of these different techniques to identify those that are most promising for future use. 
 
@@ -255,10 +255,10 @@ steps.
             d. The top 1,10,100, and 500 articles are returned to compare against the articles that StarGEO previously identified as related. 
 
 ### Reduced Set Testing
-The results contained within this paper are from a reduced set of all StarGEO articles (266) plus an additional 1000 randomly queried articles from GEO. The purpose for performing the reduced set was the full 46 article corpus from StarGEO
+The results contained within this paper are from a reduced set of all StarGEO articles (266) plus an additional 1000 randomly queried articles from GEO. The purpose for performing the reduced set was the full 41,823 article corpus from StarGEO
 ran for over one month and was not able to complete the full testing. A reduced corpus of 1000 articles allowed us to compare the various methods head to head without the need for extensively long wait times. However the analysis is set up 
 in such a way as to allow the researcher to easily change the amount of articles used in the analysis. 
-#FIXME -> I don't know if I like how I wrote this bit. Does this belong in the discussion?
+
 
 ### Manual Gene Expression Omnibus Evaluation
 Gene Expression Omnibus (GEO) is the parent corpus from which StarGEO is derived [@doi:10.1093/nar/30.1.207]. To compare our technique directly to GEO we use a manual evaluation. We first use the advanced search option on 
@@ -311,19 +311,8 @@ word vectors. This in turn will generate slightly different cosine similarities.
 ##### 30 keywords
 This graph is an example of a graph generated by the AllGraphs script in /images/. All other keywords and models
 are contained in the appendix. This graph is 30 keywords using the SciSpacy model. 
-![SciSpacy.](images/30_keyword_output/Spacy.png){width="7in" height = "7in"} 
+![SciSpacy.](images/30_keyword_output/30_SciSpaCy.txt_graph.png){width="7in" height = "7in"} 
 
-##### Query Specific Results
-This table shows the best performance for each query evaluated by the percentage of relevant article returned in the top 100 returned by the model + keyword
-extraction technique. 
- 
-| *Query* | *Model* | *Keyword Method* | *Percentage* |
-|:--------|:-------:|:----------------:|:------------:|
-| BRCA + Cancer                         | FastTextWiki | TFIDF       | 21.1%  |
-| Acute_Leukemia + MLL + Progression    | Spacy        | TopicRank   | 70.0%  |
-| Helicase + Replication + Deletion     | FastTextWiki | TFIDF       | 87.5%  |
-| H1N1 + Infection + Mouse + Lethal     | Spacy        | KPMiner     | 100.0% |
-| Metastasis + Brain                    | FastTextWiki | TextRank    | 25.0%  |
 
 
 
@@ -345,12 +334,13 @@ Experiences like this motivated us to look for a technique that could use a data
 
 #### Observations
 The results show a wide variety of accuracy across the queries. This pattern of the same natural language processing technique 
-giving very disparate results on intrinsic evaluations is one commonly seen in natural language processing papers 
-[@doi:10.1371/journal.pone.0220976; @doi:10.1038/s41597-019-0055-0; @url:https://arxiv.org/abs/1607.05368]. 
-#FIXME - Add observations from new results
+giving disparate results on intrinsic evaluations is one commonly seen in natural language processing evaluations 
+[@doi:10.1371/journal.pone.0220976; @doi:10.1038/s41597-019-0055-0; @url:https://arxiv.org/abs/1607.05368]. However the results do show a pattern
+that the best performing results are when the model and data are similar. Another interesting observation is the varying results between queries. 
+The best performing queries are consistently queries one and two which are the smalled queries with six and nine results respectively. This would imply
+that the more narrowly defined a query, the better this technique can perform. 
 
 #### Practical Utility
-#FIXME - Discuss new results
 Our results show a practical utility for this technique to a researcher who is interested in a very specific knowledge base. If a researcher
 has previously identified several articles that deal with a narrowly defined subject area, using this technique to query a larger database (not StarGEO) would result in the 
 discovery of potentially all the related datasets that exist in that database. Using this technique, the researcher can bypass the arduous process of collecting datasets and 

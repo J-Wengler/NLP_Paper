@@ -279,7 +279,7 @@ def generateResults (resultPath, modelName, bestCombo, numKeyword):
     outputFile.write(f"{modelName} Results for {numKeyword} keywords\n")
     outputFile.write("MODEL\tQUERY\t#\tSCORE\n")
     for name in resultPath:
-        for query in [1,2,3,4,5]:
+        for query in [1,2,3,4,5,6]:
             path = f"/Data/Results/{modelName}/q{query}/{name}/{numKeyword}"
             #path = "/Results/{}}/{}".format(modelName,name)
             top_nums = [1, 10, 100]

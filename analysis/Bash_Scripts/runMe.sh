@@ -19,8 +19,8 @@ reducedCorpus=1000
 ######################
 #EDIT ABOVE
 
-python3 getResults.py
-exit 1
+#python3 getResults.py
+#exit 1
 
 #python3 getGeoQueries.py
 corpusMaxSize=0

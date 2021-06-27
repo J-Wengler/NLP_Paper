@@ -19,7 +19,7 @@ model = fasttext.load_model('cc.en.300.bin')
 
 start = time.time()
 
-for query in range(1,6):
+for query in range(6,7):
     for keywordExtractor in ["TopicRank", "TfIdf", "KPMiner", "YAKE", "TextRank", "SingleRank", "TopicalPageRank", "PositionRank", "MultipartiteRank"]:
         mp = multiprocessing.Process(target=findSimilarity, args=(keywordExtractor, "FTWiki", model, candidate_articles, query, numKeywords, vectorSize))
         mp.start()

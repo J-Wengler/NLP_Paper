@@ -1,42 +1,42 @@
 library(tidyverse)
 library(ggplot2)
 
-base_path_30 = "/Users/jameswengler/NLP_Paper/code_output/output/text_output/30_keyword_output/"
-base_path_20 = "/Users/jameswengler/NLP_Paper/code_output/output/text_output/20_keyword_output/"
-base_path_10 = "/Users/jameswengler/NLP_Paper/code_output/output/text_output/10_keyword_output/"
-names = c("FastTextCBOWOutput.txt","FastTextSKIPGRAMOutput.txt","FastTextWikiOutput.txt", "SciSpacyOutput.txt", "SpacyOutput.txt")
+base_path_30 = "/Users/jameswengler/NLP_Paper/content/images/30_keyword_output/Text_Output/"
+base_path_20 = "/Users/jameswengler/NLP_Paper/content/images/20_keyword_output/Text_Output/"
+base_path_10 = "/Users/jameswengler/NLP_Paper/content/images/10_keyword_output/Text_Output/"
+names = c("BioWordVec.txt","FTCBOW.txt","FTSkipGram.txt", "FTWiki.txt", "SciSpaCy.txt", "SpaCy.txt")
 
-first_tibble = read_tsv("/Users/jameswengler/NLP_Paper/code_output/output/text_output/30_keyword_output/BioWordVecOutput.txt")
-at_100 = filter(first_tibble, N == 100)
-all_nums_30 = pull(at_100, SCORE)
+first_tibble = read_delim("/Users/jameswengler/NLP_Paper/content/images/30_keyword_output/Text_Output/30_BioWordVec.txt", delim = "\t", skip = 2, col_names = c('Model', 'Query', 'Number', 'Score' ))
+at_100 = filter(first_tibble, Number == 100)
+all_nums_30 = pull(at_100, Score)
 
 for (name in names){
-  cur_path = paste0(base_path_30,name)
-  temp_tibble = read_tsv(cur_path)
-  at_100 = filter(temp_tibble, N == 100)
-  all_nums_30 = c(all_nums_30, pull(at_100, SCORE))
+  cur_path = paste0(base_path_30,"30_",name)
+  temp_tibble = read_delim(cur_path, delim = "\t", skip = 2, col_names = c('Model', 'Query', 'Number', 'Score' ))
+  at_100 = filter(temp_tibble, Number == 100)
+  all_nums_30 = c(all_nums_30, pull(at_100, Score))
 }
 
-first_tibble = read_tsv("/Users/jameswengler/NLP_Paper/code_output/output/text_output/30_keyword_output/BioWordVecOutput.txt")
-at_100 = filter(first_tibble, N == 100)
-all_nums_20 = pull(at_100, SCORE)
+first_tibble = read_delim("/Users/jameswengler/NLP_Paper/content/images/20_keyword_output/Text_Output/20_BioWordVec.txt", delim = "\t", skip = 2, col_names = c('Model', 'Query', 'Number', 'Score' ))
+at_100 = filter(first_tibble, Number == 100)
+all_nums_20 = pull(at_100, Score)
 
 for (name in names){
-  cur_path = paste0(base_path_20,name)
-  temp_tibble = read_tsv(cur_path)
-  at_100 = filter(temp_tibble, N == 100)
-  all_nums_20 = c(all_nums_20, pull(at_100, SCORE))
+  cur_path = paste0(base_path_20,"20_",name)
+  temp_tibble = read_delim(cur_path, delim = "\t", skip = 2, col_names = c('Model', 'Query', 'Number', 'Score' ))
+  at_100 = filter(temp_tibble, Number == 100)
+  all_nums_20 = c(all_nums_20, pull(at_100, Score))
 }
 
-first_tibble = read_tsv("/Users/jameswengler/NLP_Paper/code_output/output/text_output/30_keyword_output/BioWordVecOutput.txt")
-at_100 = filter(first_tibble, N == 100)
-all_nums_10 = pull(at_100, SCORE)
+first_tibble = read_delim("/Users/jameswengler/NLP_Paper/content/images/10_keyword_output/Text_Output/10_BioWordVec.txt", delim = "\t", skip = 2, col_names = c('Model', 'Query', 'Number', 'Score' ))
+at_100 = filter(first_tibble, Number == 100)
+all_nums_10 = pull(at_100, Score)
 
 for (name in names){
-  cur_path = paste0(base_path_10,name)
-  temp_tibble = read_tsv(cur_path)
-  at_100 = filter(temp_tibble, N == 100)
-  all_nums_10 = c(all_nums_10, pull(at_100, SCORE))
+  cur_path = paste0(base_path_10,"10_",name)
+  temp_tibble = read_delim(cur_path, delim = "\t", skip = 2, col_names = c('Model', 'Query', 'Number', 'Score' ))
+  at_100 = filter(temp_tibble, Number == 100)
+  all_nums_10 = c(all_nums_10, pull(at_100, Score))
   
 }
 final_tibble = tibble(values = c(all_nums_10, all_nums_20, all_nums_30), labels = c(rep("10 Keywords", length(all_nums_10)), rep("20 Keywords", length(all_nums_20)), rep("30 Keywords", length(all_nums_30))))
@@ -46,7 +46,7 @@ sum_plot = ggplot(data = final_tibble, aes(x = values, y = labels)) +
   theme_bw(base_size = 18) +
   theme(plot.title = element_text(hjust = 0.5)) +
   geom_jitter() + 
-  labs( y = "Number of keywords", x ="Percentage of relevant articles returned", title = "Number of Keywords Extracted vs \nPercentage of Relevant Articles Returned")
+  labs( y = "Number of keywords", x ="Percentage of relevant articles returned", title = "Number of Keywords Extracted vs \nPercentage of Relevant \nArticles Returned")
   
 ggsave(filename="/Users/jameswengler/NLP_Paper/content/images/summaryGraph.png"
        , plot = sum_plot, height = 6.5, width = 6.5)

@@ -3,7 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="2c439ced-904a-4442-9ec8-d2155cd23b99" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/Python_Scripts/helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/Python_Scripts/helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/01.abstract.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/01.abstract.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/02.introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/02.introduction.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/03.methods.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/03.methods.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/04.results.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/04.results.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/05.discussion.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/05.discussion.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/AllGraphs.R" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/AllGraphs.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/SummaryGraph.R" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/SummaryGraph.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/summaryGraph.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/summaryGraph.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/summaryGraph.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/summaryGraph.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,6 +150,9 @@
       <workItem from="1621306688064" duration="938000" />
       <workItem from="1621624477952" duration="827000" />
       <workItem from="1622476187895" duration="4317000" />
+      <workItem from="1624215376930" duration="9000" />
+      <workItem from="1624407687115" duration="2024000" />
+      <workItem from="1624713751157" duration="3896000" />
     </task>
     <servers />
   </component>

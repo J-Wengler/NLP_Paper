@@ -31,7 +31,7 @@ intial
 keyphrase
 moh’s
 mohs
-Monocyte
+monocyte
 Monozygotic
 multipartite
 MultipartiteRank
@@ -50,11 +50,12 @@ py
 qPCR
 Relevent
 reticulum
-SciSpacy
+SciSpaCy
+signficant
 SingleRank
 Skipgram
 smalled
-SpaCy
+Spacy
 SpacyWebLG
 srp
 StarGEO
@@ -68,6 +69,7 @@ TopicRank
 utilises
 webpages
 Wengler
+wilcoxon
 xd
 Xeon
 YAKE

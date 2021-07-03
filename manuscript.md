@@ -4,7 +4,7 @@ author-meta:
 - Stephen Picco
 bibliography:
 - content/manual-references.json
-date-meta: '2021-06-27'
+date-meta: '2021-07-03'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +23,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets" />
 
-  <meta name="dc.date" content="2021-06-27" />
+  <meta name="dc.date" content="2021-07-03" />
 
-  <meta name="citation_publication_date" content="2021-06-27" />
+  <meta name="citation_publication_date" content="2021-07-03" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -59,11 +59,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/0b15541815b55e04dd422482a61a7f44b3318276/" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/00e0bea7a85593056b4314e0761c8421630c0074/" />
 
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/0b15541815b55e04dd422482a61a7f44b3318276/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/00e0bea7a85593056b4314e0761c8421630c0074/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/0b15541815b55e04dd422482a61a7f44b3318276/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/00e0bea7a85593056b4314e0761c8421630c0074/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -96,10 +96,10 @@ title: Comparison of Keyword Extraction and Word Vector Generation Methods for U
 
 <small><em>
 This manuscript
-([permalink](https://J-Wengler.github.io/NLP_Paper/v/0b15541815b55e04dd422482a61a7f44b3318276/))
+([permalink](https://J-Wengler.github.io/NLP_Paper/v/00e0bea7a85593056b4314e0761c8421630c0074/))
 was automatically generated
-from [J-Wengler/NLP_Paper@0b15541](https://github.com/J-Wengler/NLP_Paper/tree/0b15541815b55e04dd422482a61a7f44b3318276)
-on June 27, 2021.
+from [J-Wengler/NLP_Paper@00e0bea](https://github.com/J-Wengler/NLP_Paper/tree/00e0bea7a85593056b4314e0761c8421630c0074)
+on July 3, 2021.
 </em></small>
 
 ## Authors
@@ -131,7 +131,7 @@ to keep pace as new datasets are submitted. To address this problem, we use natu
 research topic, we use NLP algorithms to extract keywords from the abstract associated with each dataset. Next we summarize the keywords using diverse embedding algorithms and compare the vectors generated to available datasets to 
 identify potential related datasets. 
 
-In terms of word vector generation we test six different models. These models vary in training method, domain, and architecture. the six models are the following: BioWordVec - a FastText model trained on biomedical text, 
+In terms of word vector generation we test six different models. These models vary in training method, domain, and architecture. The six models are the following: BioWordVec - a FastText model trained on biomedical text, 
 FastTextWiki - A FastText model trained on Wikipedia data, FastTextCBOW - a custom FastText model trained on only StarGEO data using the CBOW (continous-bag-of-words) method, FastTextSkipGram - A custom FastText model trained on only
 StarGEO data using the SKIPGRAM technique, SciSpaCy - A SpaCy model trained on scientific literature, and SpaCy - A SpaCy model trained with the readily available large web corpus. 
 
@@ -159,7 +159,6 @@ the initial graph and calculate weights between nodes.
 
 ## Introduction {.page_break_before}
 
-#I'm not sure the best way to bring up that other paper
 Natural Language Processing is computational technique that allows computers to process human language [@doi:10.1136/amiajnl-2011-000464].
 In the past, Natural Language Processing has been used in several biomedical applications such as concept extraction, electronic health record
 analysis, and text mining. [@doi:10.1093/bioinformatics/btz682; @doi:10.1186/s12911-020-01352-2; @doi:10.1007/s40264-018-0762-z]. However there 
@@ -197,7 +196,7 @@ ongoing project, it is likely that these queries currently have more articles th
 | Diabetes + Type 1              | 97 |
 | Osteosarcoma                   | 112|
 The purpose of widely varying the amount of articles returned is to ensure that our method works for narrowly defined topics as well as broad topics. All data
-accession was performed using the StarGEO API [@url:http://stargeo.org/api_docs/]. The API was accessed and stored in a dictionary keyed by accession number to combined abstract and title.
+accession was performed using the StarGEO API [@url:http://stargeo.org/api_docs/]. The API was accessed and results were stored in a dictionary keyed by accession number to combined abstract and title.
 
 ### Model Collection
 Once the data was collected the next step was identifying the techniques to be tested. Research has already shown that a variety of natural language processing models are effective on biomedical literature [@doi:10.18653/v1/W16-2922; @doi:10.1016/j.jbi.2018.09.008].
@@ -252,18 +251,18 @@ steps.
             a. All candidate articles from StarGEO are queried
             b. The specific word vector model is loaded (SciSpaCy, BioWordVec, ...)
             c. For each query and keyword combination findSimilarity() is run in Helper.py and added to a multiprocessing thread. This script prints to an output file the calculated similarity of each article using each combination
-            d. The top 1,10,100, and 500 articles are returned to compare against the articles that StarGEO previously identified as related. 
+            d. The top 1,10 and 100 articles are returned to compare against the articles that StarGEO previously identified as related. 
 
 ### Reduced Set Testing
 The results contained within this paper are from a reduced set of all StarGEO articles (266) plus an additional 1000 randomly queried articles from GEO. The purpose for performing the reduced set was the full 41,823 article corpus from StarGEO
-ran for over one month and was not able to complete the full testing. A reduced corpus of 1000 articles allowed us to compare the various methods head to head without the need for extensively long wait times. However the analysis is set up 
+ran for over one month and we were not able to complete the full testing. A reduced corpus of 1000 articles allowed us to compare the various methods head to head without the need for extensively long wait times. However the analysis is set up 
 in such a way as to allow the researcher to easily change the amount of articles used in the analysis. 
 
 
 ### Manual Gene Expression Omnibus Evaluation
 Gene Expression Omnibus (GEO) is the parent corpus from which StarGEO is derived [@doi:10.1093/nar/30.1.207]. To compare our technique directly to GEO we use a manual evaluation. We first use the advanced search option on 
 GEO to input the exact queries we used from StarGEO. To maintain consistency with StarGEO, the results are limited to series and human genomic data. A summary file of all the results is downloaded and analyzed. To ensure equal comparision
-the results are filtered to only include those datasets that exist in StarGEO's corpus while excluding SuperSeries. Using the same technique for the StarGEO evaluation the top 1,10,100,500 articles are identified and compared against the relevant articles 
+the results are filtered to only include those datasets that exist in StarGEO's corpus while excluding SuperSeries. Using the same technique for the StarGEO evaluation the top 1,10, and 100 articles are identified and compared against the relevant articles 
 from StarGEO.  
 
 
@@ -307,11 +306,17 @@ word vectors. This in turn will generate slightly different cosine similarities.
 
 ##### Effect of Number of Keywords Returned on the Percentage of Relevent Articles Returned at 100 Articles
 ![Summary_Graph_Keywords.](images/summaryGraph.png){width="7in" height = "7in"}
+This summary graph shows the relationship between the number of keywords queried and percentage of relevant articles
+returned at 100 articles. Between the three groups a wilcoxon test found no signficant difference.
 
 ##### 30 keywords
-This graph is an example of a graph generated by the AllGraphs script in /images/. All other keywords and models
-are contained in the appendix. This graph is 30 keywords using the SciSpacy model. 
-![SciSpacy.](images/30_keyword_output/30_SciSpaCy.txt_graph.png){width="7in" height = "7in"} 
+This graph is an example of a graph generated by the AllGraphs script in /images/. All other models
+are contained in the appendix. This graph is 30 keywords using the SciSpaCy model. 
+![SciSpacy.](images/30_keyword_output/30_SciSpaCyOutput.txt_graph.png){width="7in" height = "7in"} 
+
+##### GEO Results
+This graph contains the manual Gene Expression Omnibus results.
+![GEO_Results](images/GeoGraph.R){width="7in" height = "7in"}
 
 
 
@@ -339,6 +344,9 @@ giving disparate results on intrinsic evaluations is one commonly seen in natura
 that the best performing results are when the model and data are similar. Another interesting observation is the varying results between queries. 
 The best performing queries are consistently queries one and two which are the smalled queries with six and nine results respectively. This would imply
 that the more narrowly defined a query, the better this technique can perform. 
+
+The amount of keywords does not impact the percentage of relevant articles returned. This is likely due to the fact that 10 keywords is sufficient to capture
+the meaning of the query. Adding more keywords only adds irrelevant noise to the model. 
 
 #### Practical Utility
 Our results show a practical utility for this technique to a researcher who is interested in a very specific knowledge base. If a researcher
@@ -385,25 +393,12 @@ Text = "OBJECTIVE: Novel biomarkers of disease progression after type 1 diabetes
 
 
 ##### 30 Keywords
-![BioWordVec_30.](images/30_keyword_output/BioWordVec.png){width="7in" height = "7in"} 
-![FastText CBOW_30.](images/30_keyword_output/FastText (CBOW).png){width="7in" height = "7in"} 
-![FastText Skipgram_30.](images/30_keyword_output/FastText (SKIPGRAM).png){width="7in" height = "7in"} 
-![FastText Wiki_30.](images/30_keyword_output/FastText (WIKI).png){width="7in" height = "7in"} 
-![Spacy_30.](images/30_keyword_output/SciSpacy.png){width="7in" height = "7in"} 
+![SpaCy_30.](content/images/30_keyword_output/30_SpaCyOutput.txt_graph.png){width="7in" height = "7in"} 
+![FastText CBOW_30.](content/images/30_keyword_output/30_BioWordVecOutput.txt_graph.png){width="7in" height = "7in"} 
+![FastText Skipgram_30.](content/images/30_keyword_output/30_FTCBOWOutput.txt_graph.png){width="7in" height = "7in"} 
+![FastText Wiki_30.](content/images/30_keyword_output/30_FTSkipGramOutput.txt_graph.png){width="7in" height = "7in"} 
+![Spacy_30.](content/images/30_keyword_output/30_FTWikiOutput.txt_graph.png){width="7in" height = "7in"} 
 
-##### 20 Keywords
-![BioWordVec._20](images/20_keyword_output/BioWordVec.png){width="7in" height = "7in"} 
-![FastText CBOW_20.](images/20_keyword_output/FastText (CBOW).png){width="7in" height = "7in"} 
-![FastText Skipgram_20.](images/20_keyword_output/FastText (SKIPGRAM).png){width="7in" height = "7in"} 
-![FastText Wiki_20.](images/20_keyword_output/FastText (WIKI).png){width="7in" height = "7in"} 
-![Spacy_20.](images/20_keyword_output/SciSpacy.png){width="7in" height = "7in"} 
-
-##### 10 Keywords
-![BioWordVec_10.](images/10_keyword_output/BioWordVec.png){width="7in" height = "7in"} 
-![FastText CBOW_10.](images/10_keyword_output/FastText (CBOW).png){width="7in" height = "7in"} 
-![FastText Skipgram_10.](images/10_keyword_output/FastText (SKIPGRAM).png){width="7in" height = "7in"} 
-![FastText Wiki_10.](images/10_keyword_output/FastText (WIKI).png){width="7in" height = "7in"} 
-![Spacy_10.](images/10_keyword_output/SciSpacy.png){width="7in" height = "7in"} 
 
 ## References {.page_break_before}
 

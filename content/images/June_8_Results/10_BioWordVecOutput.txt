@@ -15,6 +15,9 @@ MultipartiteRank	4	100	0.25
 MultipartiteRank	5	1	0.0
 MultipartiteRank	5	10	0.041666666666666664
 MultipartiteRank	5	100	0.19791666666666666
+MultipartiteRank	6	1	0.0
+MultipartiteRank	6	10	0.0
+MultipartiteRank	6	100	0.0
 PositionRank	1	1	0.0
 PositionRank	1	10	0.5
 PositionRank	1	100	0.5
@@ -30,6 +33,9 @@ PositionRank	4	100	0.4375
 PositionRank	5	1	0.0
 PositionRank	5	10	0.041666666666666664
 PositionRank	5	100	0.21875
+PositionRank	6	1	0.0
+PositionRank	6	10	0.017857142857142856
+PositionRank	6	100	0.07142857142857142
 SingleRank	1	1	0.0
 SingleRank	1	10	0.6666666666666666
 SingleRank	1	100	0.6666666666666666
@@ -45,6 +51,9 @@ SingleRank	4	100	0.4375
 SingleRank	5	1	0.0
 SingleRank	5	10	0.0
 SingleRank	5	100	0.08333333333333333
+SingleRank	6	1	0.0
+SingleRank	6	10	0.017857142857142856
+SingleRank	6	100	0.09821428571428571
 TfIdf	1	1	0.0
 TfIdf	1	10	0.3333333333333333
 TfIdf	1	100	0.5
@@ -60,6 +69,9 @@ TfIdf	4	100	0.375
 TfIdf	5	1	0.0
 TfIdf	5	10	0.010416666666666666
 TfIdf	5	100	0.125
+TfIdf	6	1	0.0
+TfIdf	6	10	0.0
+TfIdf	6	100	0.0
 TextRank	1	1	0.0
 TextRank	1	10	0.16666666666666666
 TextRank	1	100	0.3333333333333333
@@ -75,6 +87,9 @@ TextRank	4	100	0.4375
 TextRank	5	1	0.0
 TextRank	5	10	0.020833333333333332
 TextRank	5	100	0.14583333333333334
+TextRank	6	1	0.0
+TextRank	6	10	0.03571428571428571
+TextRank	6	100	0.08928571428571429
 TopicalPageRank	1	1	0.0
 TopicalPageRank	1	10	0.5
 TopicalPageRank	1	100	0.5
@@ -90,6 +105,9 @@ TopicalPageRank	4	100	0.5
 TopicalPageRank	5	1	0.0
 TopicalPageRank	5	10	0.010416666666666666
 TopicalPageRank	5	100	0.07291666666666667
+TopicalPageRank	6	1	0.0
+TopicalPageRank	6	10	0.017857142857142856
+TopicalPageRank	6	100	0.09821428571428571
 YAKE	1	1	0.0
 YAKE	1	10	0.0
 YAKE	1	100	0.5
@@ -105,6 +123,9 @@ YAKE	4	100	0.0625
 YAKE	5	1	0.0
 YAKE	5	10	0.010416666666666666
 YAKE	5	100	0.07291666666666667
+YAKE	6	1	0.0
+YAKE	6	10	0.026785714285714284
+YAKE	6	100	0.11607142857142858
 KPMiner	1	1	0.0
 KPMiner	1	10	0.5
 KPMiner	1	100	0.5
@@ -120,6 +141,9 @@ KPMiner	4	100	0.375
 KPMiner	5	1	0.0
 KPMiner	5	10	0.0
 KPMiner	5	100	0.0
+KPMiner	6	1	0.0
+KPMiner	6	10	0.0
+KPMiner	6	100	0.0
 TopicRank	1	1	0.0
 TopicRank	1	10	0.3333333333333333
 TopicRank	1	100	0.3333333333333333
@@ -135,3 +159,6 @@ TopicRank	4	100	0.125
 TopicRank	5	1	0.0
 TopicRank	5	10	0.0
 TopicRank	5	100	0.0
+TopicRank	6	1	0.0
+TopicRank	6	10	0.0
+TopicRank	6	100	0.0

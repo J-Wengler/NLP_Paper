@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="James Wengler" />
   <meta name="author" content="Stephen Picco" />
-  <meta name="dcterms.date" content="2021-06-27" />
+  <meta name="dcterms.date" content="2021-07-03" />
   <meta name="keywords" content="NLP, Biomedical, Keyword Extraction, Word Vectors" />
   <title>Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets</title>
   <style>
@@ -29,8 +29,8 @@
   <meta name="citation_title" content="Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets" />
   <meta property="og:title" content="Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets" />
   <meta property="twitter:title" content="Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets" />
-  <meta name="dc.date" content="2021-06-27" />
-  <meta name="citation_publication_date" content="2021-06-27" />
+  <meta name="dc.date" content="2021-07-03" />
+  <meta name="citation_publication_date" content="2021-07-03" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@
   <meta name="citation_fulltext_html_url" content="https://J-Wengler.github.io/NLP_Paper/" />
   <meta name="citation_pdf_url" content="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/0b15541815b55e04dd422482a61a7f44b3318276/" />
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/0b15541815b55e04dd422482a61a7f44b3318276/" />
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/0b15541815b55e04dd422482a61a7f44b3318276/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/00e0bea7a85593056b4314e0761c8421630c0074/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/00e0bea7a85593056b4314e0761c8421630c0074/" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/00e0bea7a85593056b4314e0761c8421630c0074/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,10 +63,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://J-Wengler.github.io/NLP_Paper/v/0b15541815b55e04dd422482a61a7f44b3318276/">permalink</a>)
+(<a href="https://J-Wengler.github.io/NLP_Paper/v/00e0bea7a85593056b4314e0761c8421630c0074/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/J-Wengler/NLP_Paper/tree/0b15541815b55e04dd422482a61a7f44b3318276">J-Wengler/NLP_Paper@0b15541</a>
-on June 27, 2021.
+from <a href="https://github.com/J-Wengler/NLP_Paper/tree/00e0bea7a85593056b4314e0761c8421630c0074">J-Wengler/NLP_Paper@00e0bea</a>
+on July 3, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -90,7 +90,7 @@ In this study, we focus specifically on Gene Expression Omnibus, a repository th
 to keep pace as new datasets are submitted. To address this problem, we use natural language processing (NLP). Under the assumption that a researcher has manually identified a subset of available datasets related to a particular
 research topic, we use NLP algorithms to extract keywords from the abstract associated with each dataset. Next we summarize the keywords using diverse embedding algorithms and compare the vectors generated to available datasets to
 identify potential related datasets.</p>
-<p>In terms of word vector generation we test six different models. These models vary in training method, domain, and architecture. the six models are the following: BioWordVec - a FastText model trained on biomedical text,
+<p>In terms of word vector generation we test six different models. These models vary in training method, domain, and architecture. The six models are the following: BioWordVec - a FastText model trained on biomedical text,
 FastTextWiki - A FastText model trained on Wikipedia data, FastTextCBOW - a custom FastText model trained on only StarGEO data using the CBOW (continous-bag-of-words) method, FastTextSkipGram - A custom FastText model trained on only
 StarGEO data using the SKIPGRAM technique, SciSpaCy - A SpaCy model trained on scientific literature, and SpaCy - A SpaCy model trained with the readily available large web corpus.</p>
 <p>We also test nine keyword extraction methods. Three of the methods are statistical models while the other six are graphical methods.
@@ -112,8 +112,7 @@ the initial graph and calculate weights between nodes.</p>
 was also reflected across the query domains. These results show that natural language processing is a powerful tool that can be harnessed
 for data collection and more research needs to be done in this area.</p>
 <h2 class="page_break_before" id="introduction">Introduction</h2>
-<p>#I’m not sure the best way to bring up that other paper
-Natural Language Processing is computational technique that allows computers to process human language <span class="citation" data-cites="LSIHEGBh">[<a href="#ref-LSIHEGBh" role="doc-biblioref">1</a>]</span>.
+<p>Natural Language Processing is computational technique that allows computers to process human language <span class="citation" data-cites="LSIHEGBh">[<a href="#ref-LSIHEGBh" role="doc-biblioref">1</a>]</span>.
 In the past, Natural Language Processing has been used in several biomedical applications such as concept extraction, electronic health record
 analysis, and text mining. <span class="citation" data-cites="SkPpj3hW oLW8vNId wxrAcy8u">[<a href="#ref-SkPpj3hW" role="doc-biblioref">2</a>,<a href="#ref-oLW8vNId" role="doc-biblioref">3</a>,<a href="#ref-wxrAcy8u" role="doc-biblioref">4</a>]</span>. However there
 is a lack of research detailing natural language approaches to data collection, specifically the collection of relevant datasets for analysis.
@@ -171,7 +170,7 @@ ongoing project, it is likely that these queries currently have more articles th
 </tbody>
 </table>
 <p>The purpose of widely varying the amount of articles returned is to ensure that our method works for narrowly defined topics as well as broad topics. All data
-accession was performed using the StarGEO API <span class="citation" data-cites="JJvRe4Xx">[<a href="#ref-JJvRe4Xx" role="doc-biblioref">10</a>]</span>. The API was accessed and stored in a dictionary keyed by accession number to combined abstract and title.</p>
+accession was performed using the StarGEO API <span class="citation" data-cites="JJvRe4Xx">[<a href="#ref-JJvRe4Xx" role="doc-biblioref">10</a>]</span>. The API was accessed and results were stored in a dictionary keyed by accession number to combined abstract and title.</p>
 <h3 id="model-collection">Model Collection</h3>
 <p>Once the data was collected the next step was identifying the techniques to be tested. Research has already shown that a variety of natural language processing models are effective on biomedical literature <span class="citation" data-cites="2W804yHJ 8NKQyXww">[<a href="#ref-2W804yHJ" role="doc-biblioref">11</a>,<a href="#ref-8NKQyXww" role="doc-biblioref">12</a>]</span>.
 However we felt it was necessary to test a variety of techniques for both keyword extraction and word vector generation to identify the combination most
@@ -249,15 +248,15 @@ i. Six scripts that correspond to SciSpaCy, BioWordVec, FastTextWiki, SpaCy, Fas
 a. All candidate articles from StarGEO are queried
 b. The specific word vector model is loaded (SciSpaCy, BioWordVec, …)
 c. For each query and keyword combination findSimilarity() is run in Helper.py and added to a multiprocessing thread. This script prints to an output file the calculated similarity of each article using each combination
-d. The top 1,10,100, and 500 articles are returned to compare against the articles that StarGEO previously identified as related.</p>
+d. The top 1,10 and 100 articles are returned to compare against the articles that StarGEO previously identified as related.</p>
 <h3 id="reduced-set-testing">Reduced Set Testing</h3>
 <p>The results contained within this paper are from a reduced set of all StarGEO articles (266) plus an additional 1000 randomly queried articles from GEO. The purpose for performing the reduced set was the full 41,823 article corpus from StarGEO
-ran for over one month and was not able to complete the full testing. A reduced corpus of 1000 articles allowed us to compare the various methods head to head without the need for extensively long wait times. However the analysis is set up
+ran for over one month and we were not able to complete the full testing. A reduced corpus of 1000 articles allowed us to compare the various methods head to head without the need for extensively long wait times. However the analysis is set up
 in such a way as to allow the researcher to easily change the amount of articles used in the analysis.</p>
 <h3 id="manual-gene-expression-omnibus-evaluation">Manual Gene Expression Omnibus Evaluation</h3>
 <p>Gene Expression Omnibus (GEO) is the parent corpus from which StarGEO is derived <span class="citation" data-cites="14VfbatMA">[<a href="#ref-14VfbatMA" role="doc-biblioref">21</a>]</span>. To compare our technique directly to GEO we use a manual evaluation. We first use the advanced search option on
 GEO to input the exact queries we used from StarGEO. To maintain consistency with StarGEO, the results are limited to series and human genomic data. A summary file of all the results is downloaded and analyzed. To ensure equal comparision
-the results are filtered to only include those datasets that exist in StarGEO’s corpus while excluding SuperSeries. Using the same technique for the StarGEO evaluation the top 1,10,100,500 articles are identified and compared against the relevant articles
+the results are filtered to only include those datasets that exist in StarGEO’s corpus while excluding SuperSeries. Using the same technique for the StarGEO evaluation the top 1,10, and 100 articles are identified and compared against the relevant articles
 from StarGEO.</p>
 <h2 class="page_break_before" id="results">Results</h2>
 <p>The two main techniques in this paper are keyword identification and word vector generation. Both of these methods are described below.</p>
@@ -340,13 +339,16 @@ word vectors. This in turn will generate slightly different cosine similarities.
 </table>
 <h3 id="evaluation-results">Evaluation Results</h3>
 <h5 id="effect-of-number-of-keywords-returned-on-the-percentage-of-relevent-articles-returned-at-100-articles">Effect of Number of Keywords Returned on the Percentage of Relevent Articles Returned at 100 Articles</h5>
-<figure>
-<img src="images/summaryGraph.png" style="width:7in" alt="" /><figcaption>Summary_Graph_Keywords.</figcaption>
-</figure>
+<p><img src="images/summaryGraph.png" style="width:7in" alt="Summary_Graph_Keywords." />
+This summary graph shows the relationship between the number of keywords queried and percentage of relevant articles
+returned at 100 articles. Between the three groups a wilcoxon test found no signficant difference.</p>
 <h5 id="keywords">30 keywords</h5>
-<p>This graph is an example of a graph generated by the AllGraphs script in /images/. All other keywords and models
-are contained in the appendix. This graph is 30 keywords using the SciSpacy model.
-<img src="images/30_keyword_output/30_SciSpaCy.txt_graph.png" style="width:7in" alt="SciSpacy." /></p>
+<p>This graph is an example of a graph generated by the AllGraphs script in /images/. All other models
+are contained in the appendix. This graph is 30 keywords using the SciSpaCy model.
+<img src="images/30_keyword_output/30_SciSpaCyOutput.txt_graph.png" style="width:7in" alt="SciSpacy." /></p>
+<h5 id="geo-results">GEO Results</h5>
+<p>This graph contains the manual Gene Expression Omnibus results.
+<img src="images/GeoGraph.R" style="width:7in" alt="GEO_Results" /></p>
 <h2 class="page_break_before" id="discussion">Discussion</h2>
 <h4 id="overview">Overview</h4>
 <p>The purpose of this project was to illustrate the usage of Natural Language Processing in the data collection phase of any project and to identify techniques to use
@@ -367,6 +369,8 @@ giving disparate results on intrinsic evaluations is one commonly seen in natura
 that the best performing results are when the model and data are similar. Another interesting observation is the varying results between queries.
 The best performing queries are consistently queries one and two which are the smalled queries with six and nine results respectively. This would imply
 that the more narrowly defined a query, the better this technique can perform.</p>
+<p>The amount of keywords does not impact the percentage of relevant articles returned. This is likely due to the fact that 10 keywords is sufficient to capture
+the meaning of the query. Adding more keywords only adds irrelevant noise to the model.</p>
 <h4 id="practical-utility">Practical Utility</h4>
 <p>Our results show a practical utility for this technique to a researcher who is interested in a very specific knowledge base. If a researcher
 has previously identified several articles that deal with a narrowly defined subject area, using this technique to query a larger database (not StarGEO) would result in the
@@ -424,23 +428,11 @@ Text = “OBJECTIVE: Novel biomarkers of disease progression after type 1 diabet
 </tbody>
 </table>
 <h5 id="keywords-1">30 Keywords</h5>
-<p><img src="images/30_keyword_output/BioWordVec.png" style="width:7in" alt="BioWordVec_30." />
-<img src="images/30_keyword_output/FastText%20(CBOW).png" style="width:7in" alt="FastText CBOW_30." />
-<img src="images/30_keyword_output/FastText%20(SKIPGRAM).png" style="width:7in" alt="FastText Skipgram_30." />
-<img src="images/30_keyword_output/FastText%20(WIKI).png" style="width:7in" alt="FastText Wiki_30." />
-<img src="images/30_keyword_output/SciSpacy.png" style="width:7in" alt="Spacy_30." /></p>
-<h5 id="keywords-2">20 Keywords</h5>
-<p><img src="images/20_keyword_output/BioWordVec.png" style="width:7in" alt="BioWordVec._20" />
-<img src="images/20_keyword_output/FastText%20(CBOW).png" style="width:7in" alt="FastText CBOW_20." />
-<img src="images/20_keyword_output/FastText%20(SKIPGRAM).png" style="width:7in" alt="FastText Skipgram_20." />
-<img src="images/20_keyword_output/FastText%20(WIKI).png" style="width:7in" alt="FastText Wiki_20." />
-<img src="images/20_keyword_output/SciSpacy.png" style="width:7in" alt="Spacy_20." /></p>
-<h5 id="keywords-3">10 Keywords</h5>
-<p><img src="images/10_keyword_output/BioWordVec.png" style="width:7in" alt="BioWordVec_10." />
-<img src="images/10_keyword_output/FastText%20(CBOW).png" style="width:7in" alt="FastText CBOW_10." />
-<img src="images/10_keyword_output/FastText%20(SKIPGRAM).png" style="width:7in" alt="FastText Skipgram_10." />
-<img src="images/10_keyword_output/FastText%20(WIKI).png" style="width:7in" alt="FastText Wiki_10." />
-<img src="images/10_keyword_output/SciSpacy.png" style="width:7in" alt="Spacy_10." /></p>
+<p><img src="content/images/30_keyword_output/30_SpaCyOutput.txt_graph.png" style="width:7in" alt="SpaCy_30." />
+<img src="content/images/30_keyword_output/30_BioWordVecOutput.txt_graph.png" style="width:7in" alt="FastText CBOW_30." />
+<img src="content/images/30_keyword_output/30_FTCBOWOutput.txt_graph.png" style="width:7in" alt="FastText Skipgram_30." />
+<img src="content/images/30_keyword_output/30_FTSkipGramOutput.txt_graph.png" style="width:7in" alt="FastText Wiki_30." />
+<img src="content/images/30_keyword_output/30_FTWikiOutput.txt_graph.png" style="width:7in" alt="Spacy_30." /></p>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references hanging-indent" role="doc-bibliography">
@@ -483,7 +475,7 @@ DOI: <a href="https://doi.org/10.1038/ng.3864">10.1038/ng.3864</a> · PMID: <a h
 <div id="ref-dckqjBqg">
 <p>7. <strong>pke: an open source python-based keyphrase extraction toolkit</strong> <br />
 Florian Boudin<br />
-(2016-12) <a href="https://www.aclweb.org/anthology/C16-2015">https://www.aclweb.org/anthology/C16-2015</a></p>
+(2016-12) <a href="https://aclanthology.org/C16-2015">https://aclanthology.org/C16-2015</a></p>
 </div>
 <div id="ref-rGefJsoC">
 <p>8. <strong>BioWordVec, improving biomedical word embeddings with subword information and MeSH</strong> <br />
@@ -515,7 +507,7 @@ DOI: <a href="https://doi.org/10.1016/j.jbi.2018.09.008">10.1016/j.jbi.2018.09.0
 <div id="ref-kzLP6OpW">
 <p>13. <strong>boudinfl/pke</strong> <br />
 Florian Boudin<br />
-(2021-06-26) <a href="https://github.com/boudinfl/pke">https://github.com/boudinfl/pke</a></p>
+(2021-06-30) <a href="https://github.com/boudinfl/pke">https://github.com/boudinfl/pke</a></p>
 </div>
 <div id="ref-1EJaRkbTp">
 <p>14. <strong>SMAC, a computational system to link literature, biomedical and expression data</strong> <br />
@@ -532,7 +524,7 @@ DOI: <a href="https://doi.org/10.1186/s12859-018-2496-4">10.1186/s12859-018-2496
 <div id="ref-17Bh2zE6s">
 <p>16. <strong>Enriching Word Vectors with Subword Information</strong> <br />
 Piotr Bojanowski, Edouard Grave, Armand Joulin, Tomas Mikolov<br />
-(2016-07-15) <a href="https://arxiv.org/abs/1607.04606v2">https://arxiv.org/abs/1607.04606v2</a></p>
+<em>arXiv:1607.04606 [cs]</em> (2017-06-19) <a href="http://arxiv.org/abs/1607.04606">http://arxiv.org/abs/1607.04606</a></p>
 </div>
 <div id="ref-6WZB9lTq">
 <p>17. <strong>Word2vec convolutional neural networks for classification of news articles and tweets</strong> <br />
@@ -543,7 +535,7 @@ DOI: <a href="https://doi.org/10.1371/journal.pone.0220976">10.1371/journal.pone
 <div id="ref-YTvwxF00">
 <p>18. <strong>An Empirical Evaluation of doc2vec with Practical Insights into Document Embedding Generation</strong> <br />
 Jey Han Lau, Timothy Baldwin<br />
-(2016-07-19) <a href="https://arxiv.org/abs/1607.05368v1">https://arxiv.org/abs/1607.05368v1</a></p>
+<em>arXiv:1607.05368 [cs]</em> (2016-07-18) <a href="http://arxiv.org/abs/1607.05368">http://arxiv.org/abs/1607.05368</a></p>
 </div>
 <div id="ref-heYSKCTA">
 <p>19. <strong>An introduction to Docker for reproducible research</strong> <br />
@@ -569,7 +561,7 @@ DOI: <a href="https://doi.org/10.3389/frma.2019.00002">10.3389/frma.2019.00002</
 <div id="ref-ieR5dnsn">
 <p>23. <strong>NLP Scholar: An Interactive Visual Explorer for Natural Language Processing Literature</strong> <br />
 Saif M. Mohammad<br />
-(2020-05-31) <a href="https://arxiv.org/abs/2006.01131v1">https://arxiv.org/abs/2006.01131v1</a></p>
+<em>arXiv:2006.01131 [cs]</em> (2020-05-31) <a href="http://arxiv.org/abs/2006.01131">http://arxiv.org/abs/2006.01131</a></p>
 </div>
 <div id="ref-44ZXsjwa">
 <p>24. <strong>tl;dr: this AI sums up research papers in a sentence</strong> <br />
@@ -580,12 +572,12 @@ DOI: <a href="https://doi.org/10.1038/d41586-020-03277-2">10.1038/d41586-020-032
 <div id="ref-15nnJZdR0">
 <p>25. <strong>An Empirical Evaluation of doc2vec with Practical Insights into Document Embedding Generation</strong> <br />
 Jey Han Lau, Timothy Baldwin<br />
-(2016-07-19) <a href="https://arxiv.org/abs/1607.05368v1">https://arxiv.org/abs/1607.05368v1</a></p>
+<em>arXiv:1607.05368 [cs]</em> (2016-07-18) <a href="http://arxiv.org/abs/1607.05368">http://arxiv.org/abs/1607.05368</a></p>
 </div>
 <div id="ref-5CpWCZGC">
 <p>26. <strong>Probabilistic FastText for Multi-Sense Word Embeddings</strong> <br />
 Ben Athiwaratkun, Andrew Gordon Wilson, Anima Anandkumar<br />
-(2018-06-07) <a href="https://arxiv.org/abs/1806.02901v1">https://arxiv.org/abs/1806.02901v1</a></p>
+<em>arXiv:1806.02901 [cs, stat]</em> (2018-06-07) <a href="http://arxiv.org/abs/1806.02901">http://arxiv.org/abs/1806.02901</a></p>
 </div>
 <div id="ref-KBhULZJE">
 <p>27. <strong>Peripheral Blood Monocyte Gene Expression Profile Clinically Stratifies Patients With Recent-Onset Type 1 Diabetes</strong> <br />

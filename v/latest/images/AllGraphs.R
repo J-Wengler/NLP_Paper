@@ -33,8 +33,6 @@ makePlot = function(query){
    
 }
 
-#Change me to the appropriate keyword output
-
 generateGraph = function (fileName){
    #Change to the title on the graph
    title_list = str_split(fileName, pattern = "_")
@@ -85,13 +83,13 @@ generateGraph = function (fileName){
 
 setwd("/Users/jameswengler/NLP_Paper/content/images/June_8_Results/")
 
-file_list = c("10_BioWordVec.txt", "20_FTWiki.txt", "10_FTCBOW.txt",
-              "20_SciSpaCy.txt", "10_FTSkipGram.txt", "20_SpaCy.txt",
-              "10_FTWiki.txt", "30_BioWordVec.txt", "10_FTSkipGram.txt",  
-              "30_FTCBOW.txt", "10_SciSpaCy.txt", "30_FTSkipGram.txt",
-              "10_SpaCy.txt", "30_FTWiki.txt", "20_BioWordVec.txt", 
-              "30_SciSpaCy.txt", "20_FTCBOW.txt", "30_SpaCy.txt",
-              "20_FTSkipGram.txt")
+file_list = c("10_BioWordVecOutput.txt", "20_FTWikiOutput.txt", "10_FTCBOWOutput.txt",
+              "20_SciSpaCyOutput.txt", "10_FTSkipGramOutput.txt", "20_SpaCyOutput.txt",
+              "10_FTWikiOutput.txt", "30_BioWordVecOutput.txt", "10_FTSkipGramOutput.txt",  
+              "30_FTCBOWOutput.txt", "10_SciSpaCyOutput.txt", "30_FTSkipGramOutput.txt",
+              "10_SpaCyOutput.txt", "30_FTWikiOutput.txt", "20_BioWordVecOutput.txt", 
+              "30_SciSpaCyOutput.txt", "20_FTCBOWOutput.txt", "30_SpaCyOutput.txt",
+              "20_FTSkipGramOutput.txt")
 for (file in file_list){
    generateGraph(file)
 }

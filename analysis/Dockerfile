@@ -11,8 +11,7 @@ RUN pip install -r requirements.txt
 RUN pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.2.5/en_ner_bc5cdr_md-0.2.5.tar.gz
 RUN python -m spacy download en_core_web_lg
 
-COPY Python_Import/* /
-RUN python3 /NLTKImport.py
-
 COPY Python_Scripts/* /
 COPY Bash_Scripts/* /
+
+RUN python3 /NLTKImport.py

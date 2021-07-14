@@ -17,7 +17,7 @@ embeddings
 endoplasmic
 FastText
 FastTextCBOW
-FastTextSkipGram
+FastTextSKIPGRAM
 FastTextWiki
 findSimilarity
 genomic

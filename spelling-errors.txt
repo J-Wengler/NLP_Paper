@@ -3,7 +3,7 @@ BioCaddie
 biomarker
 biomarkers
 BioWordVec
-BRCA
+brca
 CBOW
 comparision
 continous
@@ -31,7 +31,7 @@ intial
 keyphrase
 moh’s
 mohs
-monocyte
+Monocyte
 Monozygotic
 multipartite
 MultipartiteRank
@@ -44,7 +44,7 @@ PKR
 PositionRank
 PowerEdge
 pre
-PrepareQueryData
+prepareQueryData
 preprocessed
 py
 qPCR
@@ -53,7 +53,7 @@ reticulum
 SciSpaCy
 signficant
 SingleRank
-Skipgram
+SKIPGRAM
 smalled
 Spacy
 SpacyWebLG

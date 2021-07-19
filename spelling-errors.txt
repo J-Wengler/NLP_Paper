@@ -3,7 +3,7 @@ BioCaddie
 biomarker
 biomarkers
 BioWordVec
-BRCA
+brca
 CBOW
 comparision
 continous
@@ -50,10 +50,10 @@ py
 qPCR
 Relevent
 reticulum
-SciSpacy
+SciSpaCy
 signficant
 SingleRank
-SKIPGRAM
+Skipgram
 smalled
 Spacy
 SpacyWebLG

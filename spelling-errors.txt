@@ -3,7 +3,7 @@ BioCaddie
 biomarker
 biomarkers
 BioWordVec
-brca
+BRCA
 CBOW
 comparision
 continous
@@ -17,7 +17,7 @@ embeddings
 endoplasmic
 FastText
 FastTextCBOW
-FastTextSKIPGRAM
+FastTextSkipGram
 FastTextWiki
 findSimilarity
 genomic
@@ -50,7 +50,7 @@ py
 qPCR
 Relevent
 reticulum
-SciSpaCy
+SciSpacy
 signficant
 SingleRank
 SKIPGRAM

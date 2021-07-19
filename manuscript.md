@@ -4,7 +4,7 @@ author-meta:
 - Stephen Picco
 bibliography:
 - content/manual-references.json
-date-meta: '2021-07-14'
+date-meta: '2021-07-19'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +23,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets" />
 
-  <meta name="dc.date" content="2021-07-14" />
+  <meta name="dc.date" content="2021-07-19" />
 
-  <meta name="citation_publication_date" content="2021-07-14" />
+  <meta name="citation_publication_date" content="2021-07-19" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -59,11 +59,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/f978804ba863cea5fb0282be3d649f21dd3b3845/" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/e1e1e5338e08573a6b0e349c2b6ec8fafc6b9293/" />
 
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/f978804ba863cea5fb0282be3d649f21dd3b3845/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/e1e1e5338e08573a6b0e349c2b6ec8fafc6b9293/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/f978804ba863cea5fb0282be3d649f21dd3b3845/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/e1e1e5338e08573a6b0e349c2b6ec8fafc6b9293/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -96,10 +96,10 @@ title: Comparison of Keyword Extraction and Word Vector Generation Methods for U
 
 <small><em>
 This manuscript
-([permalink](https://J-Wengler.github.io/NLP_Paper/v/f978804ba863cea5fb0282be3d649f21dd3b3845/))
+([permalink](https://J-Wengler.github.io/NLP_Paper/v/e1e1e5338e08573a6b0e349c2b6ec8fafc6b9293/))
 was automatically generated
-from [J-Wengler/NLP_Paper@f978804](https://github.com/J-Wengler/NLP_Paper/tree/f978804ba863cea5fb0282be3d649f21dd3b3845)
-on July 14, 2021.
+from [J-Wengler/NLP_Paper@e1e1e53](https://github.com/J-Wengler/NLP_Paper/tree/e1e1e5338e08573a6b0e349c2b6ec8fafc6b9293)
+on July 19, 2021.
 </em></small>
 
 ## Authors

@@ -3,7 +3,7 @@ BioCaddie
 biomarker
 biomarkers
 BioWordVec
-brca
+BRCA
 CBOW
 comparision
 continous
@@ -17,7 +17,7 @@ embeddings
 endoplasmic
 FastText
 FastTextCBOW
-FastTextSkipGram
+FastTextSKIPGRAM
 FastTextWiki
 findSimilarity
 genomic
@@ -38,7 +38,6 @@ MultipartiteRank
 NLP
 Osteosarcoma
 PageRank
-Picco
 PKE
 PKR
 PositionRank
@@ -50,15 +49,15 @@ py
 qPCR
 Relevent
 reticulum
-SciSpaCy
+SciSpacy
 signficant
 SingleRank
-Skipgram
+SKIPGRAM
 smalled
 Spacy
 SpacyWebLG
 srp
-StarGEO
+StarGeo
 StarGEO’s
 SuperSeries
 TextRank

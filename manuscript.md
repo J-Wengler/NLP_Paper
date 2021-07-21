@@ -1,10 +1,10 @@
 ---
 author-meta:
 - James Wengler
-- Stephen Picco
+- Stephen R. Piccolo
 bibliography:
 - content/manual-references.json
-date-meta: '2021-07-19'
+date-meta: '2021-07-21'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -15,17 +15,17 @@ header-includes: '<!--
 
   <meta name="dc.format" content="text/html" />
 
-  <meta name="dc.title" content="Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets" />
+  <meta name="dc.title" content="Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets" />
 
-  <meta name="citation_title" content="Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets" />
+  <meta name="citation_title" content="Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets" />
 
-  <meta property="og:title" content="Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets" />
+  <meta property="og:title" content="Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets" />
 
-  <meta property="twitter:title" content="Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets" />
+  <meta property="twitter:title" content="Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets" />
 
-  <meta name="dc.date" content="2021-07-19" />
+  <meta name="dc.date" content="2021-07-21" />
 
-  <meta name="citation_publication_date" content="2021-07-19" />
+  <meta name="citation_publication_date" content="2021-07-21" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -41,11 +41,13 @@ header-includes: '<!--
 
   <meta name="citation_author" content="James Wengler" />
 
-  <meta name="citation_author_institution" content="College of Life Science, Brigham Young University" />
+  <meta name="citation_author_institution" content="Department of Biology, College of Life Sciences, Brigham Young University, Provo, UT, USA" />
 
-  <meta name="citation_author" content="Stephen Picco" />
+  <meta name="citation_author" content="Stephen R. Piccolo" />
 
-  <meta name="citation_author_institution" content="College of Life Science, Brigham Young University" />
+  <meta name="citation_author_institution" content="Department of Biology, College of Life Sciences, Brigham Young University, Provo, UT, USA" />
+
+  <meta name="citation_author_orcid" content="0000-0003-2001-5640" />
 
   <link rel="canonical" href="https://J-Wengler.github.io/NLP_Paper/" />
 
@@ -59,11 +61,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/1ce7f447ac332d81e9500f1de3344f23e27f5662/" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/c2ae175f3ff4b8142a6426fcf3f3b6b2f755baf7/" />
 
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/1ce7f447ac332d81e9500f1de3344f23e27f5662/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/c2ae175f3ff4b8142a6426fcf3f3b6b2f755baf7/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/1ce7f447ac332d81e9500f1de3344f23e27f5662/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/c2ae175f3ff4b8142a6426fcf3f3b6b2f755baf7/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -77,16 +79,17 @@ header-includes: '<!--
 
   <!-- end Manubot generated metadata -->'
 keywords:
-- NLP
-- Biomedical
-- Keyword Extraction
-- Word Vectors
+- Natural language processing
+- Information retrieval
+- Functional genomics
+- Keyword extraction
+- Machine learning
 lang: en-US
 manubot-clear-requests-cache: false
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
-title: Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets
+title: Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets
 ...
 
 
@@ -96,10 +99,10 @@ title: Comparison of Keyword Extraction and Word Vector Generation Methods for U
 
 <small><em>
 This manuscript
-([permalink](https://J-Wengler.github.io/NLP_Paper/v/1ce7f447ac332d81e9500f1de3344f23e27f5662/))
+([permalink](https://J-Wengler.github.io/NLP_Paper/v/c2ae175f3ff4b8142a6426fcf3f3b6b2f755baf7/))
 was automatically generated
-from [J-Wengler/NLP_Paper@1ce7f44](https://github.com/J-Wengler/NLP_Paper/tree/1ce7f447ac332d81e9500f1de3344f23e27f5662)
-on July 19, 2021.
+from [J-Wengler/NLP_Paper@c2ae175](https://github.com/J-Wengler/NLP_Paper/tree/c2ae175f3ff4b8142a6426fcf3f3b6b2f755baf7)
+on July 21, 2021.
 </em></small>
 
 ## Authors
@@ -110,14 +113,16 @@ on July 19, 2021.
     · ![GitHub icon](images/github.svg){.inline_icon}
     [J-Wengler](https://github.com/J-Wengler)<br>
   <small>
-     College of Life Science, Brigham Young University
+     Department of Biology, College of Life Sciences, Brigham Young University, Provo, UT, USA
   </small>
 
-+ **Stephen Picco**<br>
++ **Stephen R. Piccolo**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-2001-5640](https://orcid.org/0000-0003-2001-5640)
     · ![GitHub icon](images/github.svg){.inline_icon}
     [srp33](https://github.com/srp33)<br>
   <small>
-     College of Life Science, Brigham Young University
+     Department of Biology, College of Life Sciences, Brigham Young University, Provo, UT, USA
   </small>
 
 

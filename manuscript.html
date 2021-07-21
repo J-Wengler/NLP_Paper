@@ -5,10 +5,10 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="James Wengler" />
-  <meta name="author" content="Stephen Picco" />
-  <meta name="dcterms.date" content="2021-07-19" />
-  <meta name="keywords" content="NLP, Biomedical, Keyword Extraction, Word Vectors" />
-  <title>Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets</title>
+  <meta name="author" content="Stephen R. Piccolo" />
+  <meta name="dcterms.date" content="2021-07-21" />
+  <meta name="keywords" content="Natural language processing, Information retrieval, Functional genomics, Keyword extraction, Machine learning" />
+  <title>Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -25,12 +25,12 @@
   Suggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets" />
-  <meta name="citation_title" content="Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets" />
-  <meta property="og:title" content="Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets" />
-  <meta property="twitter:title" content="Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets" />
-  <meta name="dc.date" content="2021-07-19" />
-  <meta name="citation_publication_date" content="2021-07-19" />
+  <meta name="dc.title" content="Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets" />
+  <meta name="citation_title" content="Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets" />
+  <meta property="og:title" content="Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets" />
+  <meta property="twitter:title" content="Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets" />
+  <meta name="dc.date" content="2021-07-21" />
+  <meta name="citation_publication_date" content="2021-07-21" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -38,18 +38,19 @@
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
   <meta name="citation_author" content="James Wengler" />
-  <meta name="citation_author_institution" content="College of Life Science, Brigham Young University" />
-  <meta name="citation_author" content="Stephen Picco" />
-  <meta name="citation_author_institution" content="College of Life Science, Brigham Young University" />
+  <meta name="citation_author_institution" content="Department of Biology, College of Life Sciences, Brigham Young University, Provo, UT, USA" />
+  <meta name="citation_author" content="Stephen R. Piccolo" />
+  <meta name="citation_author_institution" content="Department of Biology, College of Life Sciences, Brigham Young University, Provo, UT, USA" />
+  <meta name="citation_author_orcid" content="0000-0003-2001-5640" />
   <link rel="canonical" href="https://J-Wengler.github.io/NLP_Paper/" />
   <meta property="og:url" content="https://J-Wengler.github.io/NLP_Paper/" />
   <meta property="twitter:url" content="https://J-Wengler.github.io/NLP_Paper/" />
   <meta name="citation_fulltext_html_url" content="https://J-Wengler.github.io/NLP_Paper/" />
   <meta name="citation_pdf_url" content="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/1ce7f447ac332d81e9500f1de3344f23e27f5662/" />
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/1ce7f447ac332d81e9500f1de3344f23e27f5662/" />
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/1ce7f447ac332d81e9500f1de3344f23e27f5662/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/c2ae175f3ff4b8142a6426fcf3f3b6b2f755baf7/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/c2ae175f3ff4b8142a6426fcf3f3b6b2f755baf7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/c2ae175f3ff4b8142a6426fcf3f3b6b2f755baf7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -59,14 +60,14 @@
 </head>
 <body>
 <header id="title-block-header">
-<h1 class="title">Comparison of Keyword Extraction and Word Vector Generation Methods for Use in Identifying Related Genomic Datasets</h1>
+<h1 class="title">Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets</h1>
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://J-Wengler.github.io/NLP_Paper/v/1ce7f447ac332d81e9500f1de3344f23e27f5662/">permalink</a>)
+(<a href="https://J-Wengler.github.io/NLP_Paper/v/c2ae175f3ff4b8142a6426fcf3f3b6b2f755baf7/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/J-Wengler/NLP_Paper/tree/1ce7f447ac332d81e9500f1de3344f23e27f5662">J-Wengler/NLP_Paper@1ce7f44</a>
-on July 19, 2021.
+from <a href="https://github.com/J-Wengler/NLP_Paper/tree/c2ae175f3ff4b8142a6426fcf3f3b6b2f755baf7">J-Wengler/NLP_Paper@c2ae175</a>
+on July 21, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -74,13 +75,15 @@ on July 19, 2021.
 · <img src="images/github.svg" class="inline_icon" alt="GitHub icon" />
 <a href="https://github.com/J-Wengler">J-Wengler</a><br>
 <small>
-College of Life Science, Brigham Young University
+Department of Biology, College of Life Sciences, Brigham Young University, Provo, UT, USA
 </small></p></li>
-<li><p><strong>Stephen Picco</strong><br>
+<li><p><strong>Stephen R. Piccolo</strong><br>
+<img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" />
+<a href="https://orcid.org/0000-0003-2001-5640">0000-0003-2001-5640</a>
 · <img src="images/github.svg" class="inline_icon" alt="GitHub icon" />
 <a href="https://github.com/srp33">srp33</a><br>
 <small>
-College of Life Science, Brigham Young University
+Department of Biology, College of Life Sciences, Brigham Young University, Provo, UT, USA
 </small></p></li>
 </ul>
 <h2 class="page_break_before" id="abstract">Abstract</h2>
@@ -505,9 +508,9 @@ Yanshan Wang, Sijia Liu, Naveed Afzal, Majid Rastegar-Mojarad, Liwei Wang, Feich
 DOI: <a href="https://doi.org/10.1016/j.jbi.2018.09.008">10.1016/j.jbi.2018.09.008</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30217670">30217670</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6585427">PMC6585427</a></p>
 </div>
 <div id="ref-kzLP6OpW">
-<p>13. <strong>boudinfl/pke</strong> <br />
-Florian Boudin<br />
-(2021-07-19) <a href="https://github.com/boudinfl/pke">https://github.com/boudinfl/pke</a></p>
+<p>13. <strong>GitHub - boudinfl/pke: Python Keyphrase Extraction module</strong> <br />
+GitHub<br />
+<a href="https://github.com/boudinfl/pke">https://github.com/boudinfl/pke</a></p>
 </div>
 <div id="ref-1EJaRkbTp">
 <p>14. <strong>SMAC, a computational system to link literature, biomedical and expression data</strong> <br />

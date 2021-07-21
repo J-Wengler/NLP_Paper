@@ -17,7 +17,7 @@ embeddings
 endoplasmic
 FastText
 FastTextCBOW
-FastTextSKIPGRAM
+FastTextSkipGram
 FastTextWiki
 findSimilarity
 genomic
@@ -54,10 +54,10 @@ signficant
 SingleRank
 SKIPGRAM
 smalled
-Spacy
+SpaCy
 SpacyWebLG
 srp
-StarGeo
+StarGEO
 StarGEO’s
 SuperSeries
 TextRank

@@ -61,11 +61,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/c2ae175f3ff4b8142a6426fcf3f3b6b2f755baf7/" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/492f0f11b545a78aee5e69e968a8afbde6b079b1/" />
 
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/c2ae175f3ff4b8142a6426fcf3f3b6b2f755baf7/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/492f0f11b545a78aee5e69e968a8afbde6b079b1/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/c2ae175f3ff4b8142a6426fcf3f3b6b2f755baf7/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/492f0f11b545a78aee5e69e968a8afbde6b079b1/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -99,9 +99,9 @@ title: Comparison of keyword-extraction and word-vector generation methods for i
 
 <small><em>
 This manuscript
-([permalink](https://J-Wengler.github.io/NLP_Paper/v/c2ae175f3ff4b8142a6426fcf3f3b6b2f755baf7/))
+([permalink](https://J-Wengler.github.io/NLP_Paper/v/492f0f11b545a78aee5e69e968a8afbde6b079b1/))
 was automatically generated
-from [J-Wengler/NLP_Paper@c2ae175](https://github.com/J-Wengler/NLP_Paper/tree/c2ae175f3ff4b8142a6426fcf3f3b6b2f755baf7)
+from [J-Wengler/NLP_Paper@492f0f1](https://github.com/J-Wengler/NLP_Paper/tree/492f0f11b545a78aee5e69e968a8afbde6b079b1)
 on July 21, 2021.
 </em></small>
 
@@ -156,9 +156,9 @@ as in TextRank. TopicalPageRank is another extension of TextRank that seeks to i
 that appear more in the document. The last graphical approach is MultipartiteRank which uses a multipartite graph to construct
 the initial graph and calculate weights between nodes. 
 
- We found that different combinations of keyword extraction methods and word vector generation yield very different results. This variety
- was also reflected across the query domains. These results show that natural language processing is a powerful tool that can be harnessed
- for data collection and more research needs to be done in this area.
+We found that different combinations of keyword extraction methods and word vector generation yield very different results. This variety
+was also reflected across the query domains. These results show that natural language processing is a powerful tool that can be harnessed
+for data collection and more research needs to be done in this area.
 
 
 

@@ -12,7 +12,6 @@ all_nums_30 = pull(at_100, Score)
 
 for (name in names){
   cur_path = paste0(base_path_30,"30_",name)
-  print(cur_path)
   temp_tibble = read_delim(cur_path, delim = "\t", skip = 2, col_names = c('Model', 'Query', 'Number', 'Score' ))
   at_100 = filter(temp_tibble, Number == 100)
   all_nums_30 = c(all_nums_30, pull(at_100, Score))
@@ -42,6 +41,10 @@ for (name in names){
 }
 final_tibble = tibble(values = c(all_nums_10, all_nums_20, all_nums_30), labels = c(rep("10 Keywords", length(all_nums_10)), rep("20 Keywords", length(all_nums_20)), rep("30 Keywords", length(all_nums_30))))
 
+
+print(mean(all_nums_10))
+print(mean(all_nums_20))
+print(mean(all_nums_30))
 wilcox.test(all_nums_10, all_nums_20)
 wilcox.test(all_nums_10, all_nums_30)
 wilcox.test(all_nums_20, all_nums_30)

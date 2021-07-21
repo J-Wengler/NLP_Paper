@@ -3,35 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2c439ced-904a-4442-9ec8-d2155cd23b99" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/01.abstract.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/01.abstract.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/02.introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/02.introduction.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/03.methods.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/03.methods.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/04.results.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/04.results.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/05.discussion.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/05.discussion.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/06.appendix.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/06.appendix.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/AllGraphs.R" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/AllGraphs.R" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/June_8_Results/10_BioWordVec.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/June_8_Results/10_FTCBOW.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/June_8_Results/10_FTSkipGram.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/June_8_Results/10_FTWiki.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/June_8_Results/10_FastTextSkipGram.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/June_8_Results/10_SciSpaCy.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/June_8_Results/10_SpaCy.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/June_8_Results/20_BioWordVec.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/June_8_Results/20_FTCBOW.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/June_8_Results/20_FTSkipGram.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/June_8_Results/20_FTWiki.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/June_8_Results/20_SciSpaCy.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/June_8_Results/20_SpaCy.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/June_8_Results/30_BioWordVec.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/June_8_Results/30_FTCBOW.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/June_8_Results/30_FTSkipGram.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/June_8_Results/30_FTWiki.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/June_8_Results/30_SciSpaCy.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/June_8_Results/30_SpaCy.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/SummaryGraph.R" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/SummaryGraph.R" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/summaryGraph.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/summaryGraph.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/images/summaryGraph.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/summaryGraph.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +145,7 @@
       <workItem from="1624407687115" duration="2024000" />
       <workItem from="1624713751157" duration="4689000" />
       <workItem from="1624998152510" duration="88000" />
-      <workItem from="1625336720856" duration="3590000" />
+      <workItem from="1625336720856" duration="3941000" />
     </task>
     <servers />
   </component>

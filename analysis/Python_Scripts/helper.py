@@ -284,6 +284,7 @@ def generateResults (resultPath, modelName, bestCombo, numKeyword):
             #path = "/Results/{}}/{}".format(modelName,name)
             top_nums = [1, 10, 100]
             scores = getScore(path + "/similarity.txt", query)
+            print(f"Got scores for the following path : {path}")
             for i, score in enumerate(scores):
                 #if (top_nums[i] == 100):
                     #bestCombo.write("{}}\t{}\t{}\t{}\t{}\n".format(modelName, str(name).strip(), str(query).strip(), str(top_nums[i]).strip(), str(score).strip()))

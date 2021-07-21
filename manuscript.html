@@ -48,9 +48,9 @@
   <meta name="citation_fulltext_html_url" content="https://J-Wengler.github.io/NLP_Paper/" />
   <meta name="citation_pdf_url" content="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/492f0f11b545a78aee5e69e968a8afbde6b079b1/" />
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/492f0f11b545a78aee5e69e968a8afbde6b079b1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/492f0f11b545a78aee5e69e968a8afbde6b079b1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/ae714a3157d4c846cd7dcc275fa8fc24f8f78412/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/ae714a3157d4c846cd7dcc275fa8fc24f8f78412/" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/ae714a3157d4c846cd7dcc275fa8fc24f8f78412/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -64,9 +64,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://J-Wengler.github.io/NLP_Paper/v/492f0f11b545a78aee5e69e968a8afbde6b079b1/">permalink</a>)
+(<a href="https://J-Wengler.github.io/NLP_Paper/v/ae714a3157d4c846cd7dcc275fa8fc24f8f78412/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/J-Wengler/NLP_Paper/tree/492f0f11b545a78aee5e69e968a8afbde6b079b1">J-Wengler/NLP_Paper@492f0f1</a>
+from <a href="https://github.com/J-Wengler/NLP_Paper/tree/ae714a3157d4c846cd7dcc275fa8fc24f8f78412">J-Wengler/NLP_Paper@ae714a3</a>
 on July 21, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -129,20 +129,15 @@ Our methodology utilises two techniques widely used in natural language processi
 Using these two tools, our approach can take several pre-identified datasets and identify other related datasets, no matter how niche the subject area. We test
 a variety of these different techniques to identify those that are most promising for future use.</p>
 <h2 class="page_break_before" id="methods">Methods</h2>
-<h3 id="data-collection">Data Collection</h3>
-<p>To measure the accuracy of our method, we only used data that had already been manually identified as related. To achieve this
-we used the Search Tag Analyze Resource for GEO application (StarGEO). StarGEO is a collection of datasets from the Gene Expression Omnibus that have manually annotated
-by biomedical graduate students to facilitate the task of collecting related datasets <span class="citation" data-cites="rc4BI37X">[<a href="#ref-rc4BI37X" role="doc-biblioref">9</a>]</span>. For each entry in StarGEO the dataset has an abstract,
-title, and Gene Expression Omnibus accession number.
-Each dataset in StarGEO has been hand curated and attached to several tags that seek to categorize on a broad level the type of data available <span class="citation" data-cites="rc4BI37X">[<a href="#ref-rc4BI37X" role="doc-biblioref">9</a>]</span>.
-To ensure a mixture of broad and narrow queries, as well as different domains, we selected six queries to test. While StarGEO has a variety of species to choose from, all queries were filtered to only return human genomic data. Two of which are broad with ~100 articles returned, two are medium with ~20 articles returned and two are small with
-~10 articles returned. These queries cover a wide range of domains. It is important to to note that since StarGEO is an
+<h3 id="data-collection">Data collection</h3>
+<p>As a reference standard, we used annotations from Search Tag Analyze Resource for GEO (STARGEO)<span class="citation" data-cites="rc4BI37X">[<a href="#ref-rc4BI37X" role="doc-biblioref">9</a>]</span>. In STARGEO, biomedical graduate students manually curate sample metadata from GEO datasets. We used these annotations to identify datasets that had associated with a given phenotype. Each entry in STARGEO the dataset has an abstract, title, and GEO accession number. We sought to identify phenotypes that… To ensure a mixture of broad and narrow queries, as well as different domains, we selected six queries to test. While STARGEO has a variety of species to choose from, all queries were filtered to only return human genomic data. Two of which are broad with ~100 articles returned, two are medium with ~20 articles returned and two are small with
+~10 articles returned. These queries cover a wide range of domains. It is important to to note that since STARGEO is an
 ongoing project, it is likely that these queries currently have more articles than at the time of writing.</p>
 <table>
 <thead>
 <tr class="header">
 <th style="text-align: left;"><em>Keywords</em></th>
-<th style="text-align: center;"><em>Number of Articles Returned by StarGeo</em></th>
+<th style="text-align: center;"><em>Number of Articles Returned by STARGEO</em></th>
 </tr>
 </thead>
 <tbody>
@@ -173,7 +168,7 @@ ongoing project, it is likely that these queries currently have more articles th
 </tbody>
 </table>
 <p>The purpose of widely varying the amount of articles returned is to ensure that our method works for narrowly defined topics as well as broad topics. All data
-accession was performed using the StarGEO API <span class="citation" data-cites="JJvRe4Xx">[<a href="#ref-JJvRe4Xx" role="doc-biblioref">10</a>]</span>. The API was accessed and results were stored in a dictionary keyed by accession number to combined abstract and title.</p>
+accession was performed using the STARGEO API <span class="citation" data-cites="rVIaJIbT">[<a href="#ref-rVIaJIbT" role="doc-biblioref">10</a>]</span>. The API was accessed and results were stored in a dictionary keyed by accession number to combined abstract and title.</p>
 <h3 id="model-collection">Model Collection</h3>
 <p>Once the data was collected the next step was identifying the techniques to be tested. Research has already shown that a variety of natural language processing models are effective on biomedical literature <span class="citation" data-cites="2W804yHJ 8NKQyXww">[<a href="#ref-2W804yHJ" role="doc-biblioref">11</a>,<a href="#ref-8NKQyXww" role="doc-biblioref">12</a>]</span>.
 However we felt it was necessary to test a variety of techniques for both keyword extraction and word vector generation to identify the combination most
@@ -242,25 +237,25 @@ embeddings and is usually used to generate document-wide word embeddings <span c
 <p>All model evaluation is performed in a Docker container to allow other researchers to perform the same analysis described in this section <span class="citation" data-cites="heYSKCTA">[<a href="#ref-heYSKCTA" role="doc-biblioref">19</a>]</span>.The Docker image
 used to build the container is the python:3.8.5 image available on the Docker website <span class="citation" data-cites="TJY8XInf">[<a href="#ref-TJY8XInf" role="doc-biblioref">20</a>]</span>. Running the docker container as pulled from github will run a bash script that performs the following
 steps.
-1. StarGEO is queried to prepare the six queries. The prepareQueryData.py script takes two arguments. The first is a list of GEO identifiers and the second is the query number that these identifiers
+1. STARGEO is queried to prepare the six queries. The prepareQueryData.py script takes two arguments. The first is a list of GEO identifiers and the second is the query number that these identifiers
 should belong to. PrepareQueryData.py creates a file system that contains all the abstract and titles of the series that correspond to each identifier. The file system will put each text file into the directory for the corresponding
 query. This script also randomly selects half of the data to be used as the training data.
 2. GetGeoQueries.py is run. This script uses text files generated by GEO to evaluate the performance of GEO. A detailed explanation of this is found below in the manual comparision section.
 3. A do loop iterates over the numbers 10,20, and 30. This numbers are the number of keywords that each model should try to identify from the text. Each iteration performs the following analysis.
-i. Six scripts that correspond to SciSpaCy, BioWordVec, FastTextWiki, SpaCy, FastTextSkipGram, and FastTextCBOW are run. Each of these scripts takes the following three arguments : number of keywords, vector size, and number of StarGEO articles. Each script performs the following steps:
-a. All candidate articles from StarGEO are queried
+i. Six scripts that correspond to SciSpaCy, BioWordVec, FastTextWiki, SpaCy, FastTextSkipGram, and FastTextCBOW are run. Each of these scripts takes the following three arguments : number of keywords, vector size, and number of STARGEO articles. Each script performs the following steps:
+a. All candidate articles from STARGEO are queried
 b. The specific word vector model is loaded (SciSpaCy, BioWordVec, …)
 c. For each query and keyword combination findSimilarity() is run in Helper.py and added to a multiprocessing thread. This script prints to an output file the calculated similarity of each article using each combination
-d. The top 1,10 and 100 articles are returned to compare against the articles that StarGEO previously identified as related.</p>
+d. The top 1,10 and 100 articles are returned to compare against the articles that STARGEO previously identified as related.</p>
 <h3 id="reduced-set-testing">Reduced Set Testing</h3>
-<p>The results contained within this paper are from a reduced set of all StarGEO articles (266) plus an additional 1000 randomly queried articles from GEO. The purpose for performing the reduced set was the full 41,823 article corpus from StarGEO
+<p>The results contained within this paper are from a reduced set of all STARGEO articles (266) plus an additional 1000 randomly queried articles from GEO. The purpose for performing the reduced set was the full 41,823 article corpus from STARGEO
 ran for over one month and we were not able to complete the full testing. A reduced corpus of 1000 articles allowed us to compare the various methods head to head without the need for extensively long wait times. However the analysis is set up
 in such a way as to allow the researcher to easily change the amount of articles used in the analysis.</p>
 <h3 id="manual-gene-expression-omnibus-evaluation">Manual Gene Expression Omnibus Evaluation</h3>
-<p>Gene Expression Omnibus (GEO) is the parent corpus from which StarGEO is derived <span class="citation" data-cites="14VfbatMA">[<a href="#ref-14VfbatMA" role="doc-biblioref">21</a>]</span>. To compare our technique directly to GEO we use a manual evaluation. We first use the advanced search option on
-GEO to input the exact queries we used from StarGEO. To maintain consistency with StarGEO, the results are limited to series and human genomic data. A summary file of all the results is downloaded and analyzed. To ensure equal comparision
-the results are filtered to only include those datasets that exist in StarGEO’s corpus while excluding SuperSeries. Using the same technique for the StarGEO evaluation the top 1,10, and 100 articles are identified and compared against the relevant articles
-from StarGEO.</p>
+<p>Gene Expression Omnibus (GEO) is the parent corpus from which STARGEO is derived <span class="citation" data-cites="14VfbatMA">[<a href="#ref-14VfbatMA" role="doc-biblioref">21</a>]</span>. To compare our technique directly to GEO we use a manual evaluation. We first use the advanced search option on
+GEO to input the exact queries we used from STARGEO. To maintain consistency with STARGEO, the results are limited to series and human genomic data. A summary file of all the results is downloaded and analyzed. To ensure equal comparision
+the results are filtered to only include those datasets that exist in STARGEO’s corpus while excluding SuperSeries. Using the same technique for the STARGEO evaluation the top 1,10, and 100 articles are identified and compared against the relevant articles
+from STARGEO.</p>
 <h2 class="page_break_before" id="results">Results</h2>
 <p>The two main techniques in this paper are keyword identification and word vector generation. Both of these methods are described below.</p>
 <h3 id="keyword-identification">Keyword Identification</h3>
@@ -492,7 +487,7 @@ Dexter Hadley, James Pan, Osama El-Sayed, Jihad Aljabban, Imad Aljabban, Tej D. 
 <em>Scientific Data</em> (2017-09-19) <a href="https://doi.org/gbv379">https://doi.org/gbv379</a> <br />
 DOI: <a href="https://doi.org/10.1038/sdata.2017.125">10.1038/sdata.2017.125</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28925997">28925997</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5604135">PMC5604135</a></p>
 </div>
-<div id="ref-JJvRe4Xx">
+<div id="ref-rVIaJIbT">
 <p>10. <strong>STAR | Redefining the meaning of disease… Together!</strong> <a href="http://stargeo.org/api_docs/">http://stargeo.org/api_docs/</a></p>
 </div>
 <div id="ref-2W804yHJ">

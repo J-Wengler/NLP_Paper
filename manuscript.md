@@ -4,7 +4,7 @@ author-meta:
 - Stephen R. Piccolo
 bibliography:
 - content/manual-references.json
-date-meta: '2021-07-21'
+date-meta: '2021-07-22'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +23,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets" />
 
-  <meta name="dc.date" content="2021-07-21" />
+  <meta name="dc.date" content="2021-07-22" />
 
-  <meta name="citation_publication_date" content="2021-07-21" />
+  <meta name="citation_publication_date" content="2021-07-22" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -61,11 +61,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/ae714a3157d4c846cd7dcc275fa8fc24f8f78412/" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/2b018062d71d9a319638e90518148f8b770fba97/" />
 
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/ae714a3157d4c846cd7dcc275fa8fc24f8f78412/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/2b018062d71d9a319638e90518148f8b770fba97/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/ae714a3157d4c846cd7dcc275fa8fc24f8f78412/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/2b018062d71d9a319638e90518148f8b770fba97/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -99,10 +99,10 @@ title: Comparison of keyword-extraction and word-vector generation methods for i
 
 <small><em>
 This manuscript
-([permalink](https://J-Wengler.github.io/NLP_Paper/v/ae714a3157d4c846cd7dcc275fa8fc24f8f78412/))
+([permalink](https://J-Wengler.github.io/NLP_Paper/v/2b018062d71d9a319638e90518148f8b770fba97/))
 was automatically generated
-from [J-Wengler/NLP_Paper@ae714a3](https://github.com/J-Wengler/NLP_Paper/tree/ae714a3157d4c846cd7dcc275fa8fc24f8f78412)
-on July 21, 2021.
+from [J-Wengler/NLP_Paper@2b01806](https://github.com/J-Wengler/NLP_Paper/tree/2b018062d71d9a319638e90518148f8b770fba97)
+on July 22, 2021.
 </em></small>
 
 ## Authors
@@ -185,21 +185,18 @@ a variety of these different techniques to identify those that are most promisin
 
 ### Data collection
 
-As a reference standard, we used annotations from Search Tag Analyze Resource for GEO (STARGEO)[@doi:10.1038/sdata.2017.125]. In STARGEO, biomedical graduate students manually curate sample metadata from GEO datasets. We used these annotations to identify datasets that had associated with a given phenotype. Each entry in STARGEO the dataset has an abstract, title, and GEO accession number. We sought to identify phenotypes that... To ensure a mixture of broad and narrow queries, as well as different domains, we selected six queries to test. While STARGEO has a variety of species to choose from, all queries were filtered to only return human genomic data. Two of which are broad with ~100 articles returned, two are medium with ~20 articles returned and two are small with
- ~10 articles returned. These queries cover a wide range of domains. It is important to to note that since STARGEO is an
-ongoing project, it is likely that these queries currently have more articles than at the time of writing. 
+As a reference standard, we used annotations from Search Tag Analyze Resource for GEO (STARGEO)[@doi:10.1038/sdata.2017.125]. In STARGEO, biomedical graduate students manually curate sample metadata from GEO datasets. We used these annotations to identify datasets that had been associated with a given phenotype. To represent different types of queries that researchers might perform in GEO, we identified phenotypes that resulted in a small, medium, or large number of GEO series. We limited queries to human phenotypes. We also sought to represent diverse phenotypic categories. On XX[TODO: Please indicate exact or approximate date], we identified two phenotypes with ~100 series, two with ~20 series, and two with fewer than 10 series[Table @tbl:example-id]. Because STARGEO is an ongoing project, it is likely that additional articles will be associated with these tags over time. For each GEO series, we used the STAR application programming interface[@url:http://STARGEO.org/api_docs/] to download the associated abstract, title, and GEO accession number. 
 
-| *Keywords* | *Number of Articles Returned by STARGEO* |
-|:-----------|:----------------------------------------:|
-| Family History + Breast Cancer | 6  |
-| Liver Damage + Hepatitis       | 9  |
-| Monozygotic Twins              | 25 |
-| Kidney + Tumor + Cell Line     | 16 |
-| Diabetes + Type 1              | 97 |
-| Osteosarcoma                   | 112|
+| *STARGEO tag(s)*               | *Number of GEO series*  |
+|:-------------------------------|------------------------:|
+| Family History + Breast Cancer |                       6 |
+| Liver Damage + Hepatitis       |                       9 |
+| Monozygotic Twins              |                      25 |
+| Kidney + Tumor + Cell Line     |                      16 |
+| Diabetes + Type 1              |                      97 |
+| Osteosarcoma                   |                     112 |
 
-The purpose of widely varying the amount of articles returned is to ensure that our method works for narrowly defined topics as well as broad topics. All data
-accession was performed using the STARGEO API [@url:http://STARGEO.org/api_docs/]. The API was accessed and results were stored in a dictionary keyed by accession number to combined abstract and title.
+Table: Caption for this example table. {#tbl:example-id}
 
 ### Model Collection
 

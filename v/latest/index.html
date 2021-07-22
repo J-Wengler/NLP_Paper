@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="James Wengler" />
   <meta name="author" content="Stephen R. Piccolo" />
-  <meta name="dcterms.date" content="2021-07-21" />
+  <meta name="dcterms.date" content="2021-07-22" />
   <meta name="keywords" content="Natural language processing, Information retrieval, Functional genomics, Keyword extraction, Machine learning" />
   <title>Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets</title>
   <style>
@@ -29,8 +29,8 @@
   <meta name="citation_title" content="Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets" />
   <meta property="og:title" content="Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets" />
   <meta property="twitter:title" content="Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets" />
-  <meta name="dc.date" content="2021-07-21" />
-  <meta name="citation_publication_date" content="2021-07-21" />
+  <meta name="dc.date" content="2021-07-22" />
+  <meta name="citation_publication_date" content="2021-07-22" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -48,9 +48,9 @@
   <meta name="citation_fulltext_html_url" content="https://J-Wengler.github.io/NLP_Paper/" />
   <meta name="citation_pdf_url" content="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/ae714a3157d4c846cd7dcc275fa8fc24f8f78412/" />
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/ae714a3157d4c846cd7dcc275fa8fc24f8f78412/" />
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/ae714a3157d4c846cd7dcc275fa8fc24f8f78412/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/2b018062d71d9a319638e90518148f8b770fba97/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/2b018062d71d9a319638e90518148f8b770fba97/" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/2b018062d71d9a319638e90518148f8b770fba97/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -64,10 +64,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://J-Wengler.github.io/NLP_Paper/v/ae714a3157d4c846cd7dcc275fa8fc24f8f78412/">permalink</a>)
+(<a href="https://J-Wengler.github.io/NLP_Paper/v/2b018062d71d9a319638e90518148f8b770fba97/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/J-Wengler/NLP_Paper/tree/ae714a3157d4c846cd7dcc275fa8fc24f8f78412">J-Wengler/NLP_Paper@ae714a3</a>
-on July 21, 2021.
+from <a href="https://github.com/J-Wengler/NLP_Paper/tree/2b018062d71d9a319638e90518148f8b770fba97">J-Wengler/NLP_Paper@2b01806</a>
+on July 22, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -130,45 +130,44 @@ Using these two tools, our approach can take several pre-identified datasets and
 a variety of these different techniques to identify those that are most promising for future use.</p>
 <h2 class="page_break_before" id="methods">Methods</h2>
 <h3 id="data-collection">Data collection</h3>
-<p>As a reference standard, we used annotations from Search Tag Analyze Resource for GEO (STARGEO)<span class="citation" data-cites="rc4BI37X">[<a href="#ref-rc4BI37X" role="doc-biblioref">9</a>]</span>. In STARGEO, biomedical graduate students manually curate sample metadata from GEO datasets. We used these annotations to identify datasets that had associated with a given phenotype. Each entry in STARGEO the dataset has an abstract, title, and GEO accession number. We sought to identify phenotypes that… To ensure a mixture of broad and narrow queries, as well as different domains, we selected six queries to test. While STARGEO has a variety of species to choose from, all queries were filtered to only return human genomic data. Two of which are broad with ~100 articles returned, two are medium with ~20 articles returned and two are small with
-~10 articles returned. These queries cover a wide range of domains. It is important to to note that since STARGEO is an
-ongoing project, it is likely that these queries currently have more articles than at the time of writing.</p>
+<p>As a reference standard, we used annotations from Search Tag Analyze Resource for GEO (STARGEO)<span class="citation" data-cites="rc4BI37X">[<a href="#ref-rc4BI37X" role="doc-biblioref">9</a>]</span>. In STARGEO, biomedical graduate students manually curate sample metadata from GEO datasets. We used these annotations to identify datasets that had been associated with a given phenotype. To represent different types of queries that researchers might perform in GEO, we identified phenotypes that resulted in a small, medium, or large number of GEO series. We limited queries to human phenotypes. We also sought to represent diverse phenotypic categories. On XX[TODO: Please indicate exact or approximate date], we identified two phenotypes with ~100 series, two with ~20 series, and two with fewer than 10 series[Table <a href="#tbl:example-id">1</a>]. Because STARGEO is an ongoing project, it is likely that additional articles will be associated with these tags over time. For each GEO series, we used the STAR application programming interface<span class="citation" data-cites="rVIaJIbT">[<a href="#ref-rVIaJIbT" role="doc-biblioref">10</a>]</span> to download the associated abstract, title, and GEO accession number.</p>
+<div id="tbl:example-id" class="tablenos">
 <table>
+<caption><span>Table 1:</span> Caption for this example table. </caption>
 <thead>
 <tr class="header">
-<th style="text-align: left;"><em>Keywords</em></th>
-<th style="text-align: center;"><em>Number of Articles Returned by STARGEO</em></th>
+<th style="text-align: left;"><em>STARGEO tag(s)</em></th>
+<th style="text-align: right;"><em>Number of GEO series</em></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">Family History + Breast Cancer</td>
-<td style="text-align: center;">6</td>
+<td style="text-align: right;">6</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Liver Damage + Hepatitis</td>
-<td style="text-align: center;">9</td>
+<td style="text-align: right;">9</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Monozygotic Twins</td>
-<td style="text-align: center;">25</td>
+<td style="text-align: right;">25</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Kidney + Tumor + Cell Line</td>
-<td style="text-align: center;">16</td>
+<td style="text-align: right;">16</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Diabetes + Type 1</td>
-<td style="text-align: center;">97</td>
+<td style="text-align: right;">97</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Osteosarcoma</td>
-<td style="text-align: center;">112</td>
+<td style="text-align: right;">112</td>
 </tr>
 </tbody>
 </table>
-<p>The purpose of widely varying the amount of articles returned is to ensure that our method works for narrowly defined topics as well as broad topics. All data
-accession was performed using the STARGEO API <span class="citation" data-cites="rVIaJIbT">[<a href="#ref-rVIaJIbT" role="doc-biblioref">10</a>]</span>. The API was accessed and results were stored in a dictionary keyed by accession number to combined abstract and title.</p>
+</div>
 <h3 id="model-collection">Model Collection</h3>
 <p>Once the data was collected the next step was identifying the techniques to be tested. Research has already shown that a variety of natural language processing models are effective on biomedical literature <span class="citation" data-cites="2W804yHJ 8NKQyXww">[<a href="#ref-2W804yHJ" role="doc-biblioref">11</a>,<a href="#ref-8NKQyXww" role="doc-biblioref">12</a>]</span>.
 However we felt it was necessary to test a variety of techniques for both keyword extraction and word vector generation to identify the combination most

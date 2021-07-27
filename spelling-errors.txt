@@ -3,7 +3,7 @@ BioCaddie
 biomarker
 biomarkers
 BioWordVec
-brca
+BRCA
 CBOW
 comparision
 continous
@@ -17,7 +17,7 @@ embeddings
 endoplasmic
 FastText
 FastTextCBOW
-FastTextSkipGram
+FastTextSKIPGRAM
 FastTextWiki
 findSimilarity
 genomic
@@ -29,6 +29,7 @@ HIF
 IDF
 intial
 keyphrase
+keyphrases
 moh’s
 mohs
 monocyte
@@ -40,7 +41,7 @@ Osteosarcoma
 PageRank
 phenotypes
 phenotypic
-PKE
+pke
 PKR
 PositionRank
 PowerEdge
@@ -51,10 +52,10 @@ py
 qPCR
 Relevent
 reticulum
-SciSpacy
+SciSpaCy
 signficant
 SingleRank
-Skipgram
+SKIPGRAM
 smalled
 SpaCy
 SpacyWebLG

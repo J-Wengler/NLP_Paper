@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="James Wengler" />
   <meta name="author" content="Stephen R. Piccolo" />
-  <meta name="dcterms.date" content="2021-07-22" />
+  <meta name="dcterms.date" content="2021-07-27" />
   <meta name="keywords" content="Natural language processing, Information retrieval, Functional genomics, Keyword extraction, Machine learning" />
   <title>Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets</title>
   <style>
@@ -29,8 +29,8 @@
   <meta name="citation_title" content="Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets" />
   <meta property="og:title" content="Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets" />
   <meta property="twitter:title" content="Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets" />
-  <meta name="dc.date" content="2021-07-22" />
-  <meta name="citation_publication_date" content="2021-07-22" />
+  <meta name="dc.date" content="2021-07-27" />
+  <meta name="citation_publication_date" content="2021-07-27" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -48,9 +48,9 @@
   <meta name="citation_fulltext_html_url" content="https://J-Wengler.github.io/NLP_Paper/" />
   <meta name="citation_pdf_url" content="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/2b018062d71d9a319638e90518148f8b770fba97/" />
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/2b018062d71d9a319638e90518148f8b770fba97/" />
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/2b018062d71d9a319638e90518148f8b770fba97/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/9771bfc5e8f6829c5dacd207a93374a55ec594c1/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/9771bfc5e8f6829c5dacd207a93374a55ec594c1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/9771bfc5e8f6829c5dacd207a93374a55ec594c1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -64,10 +64,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://J-Wengler.github.io/NLP_Paper/v/2b018062d71d9a319638e90518148f8b770fba97/">permalink</a>)
+(<a href="https://J-Wengler.github.io/NLP_Paper/v/9771bfc5e8f6829c5dacd207a93374a55ec594c1/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/J-Wengler/NLP_Paper/tree/2b018062d71d9a319638e90518148f8b770fba97">J-Wengler/NLP_Paper@2b01806</a>
-on July 22, 2021.
+from <a href="https://github.com/J-Wengler/NLP_Paper/tree/9771bfc5e8f6829c5dacd207a93374a55ec594c1">J-Wengler/NLP_Paper@9771bfc</a>
+on July 27, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -130,8 +130,8 @@ Using these two tools, our approach can take several pre-identified datasets and
 a variety of these different techniques to identify those that are most promising for future use.</p>
 <h2 class="page_break_before" id="methods">Methods</h2>
 <h3 id="data-collection">Data collection</h3>
-<p>As a reference standard, we used annotations from Search Tag Analyze Resource for GEO (STARGEO)<span class="citation" data-cites="rc4BI37X">[<a href="#ref-rc4BI37X" role="doc-biblioref">9</a>]</span>. In STARGEO, biomedical graduate students manually curate sample metadata from GEO datasets. We used these annotations to identify datasets that had been associated with a given phenotype. To represent different types of queries that researchers might perform in GEO, we identified phenotypes that resulted in a small, medium, or large number of GEO series. We limited queries to human phenotypes. We also sought to represent diverse phenotypic categories. On XX[TODO: Please indicate exact or approximate date], we identified two phenotypes with ~100 series, two with ~20 series, and two with fewer than 10 series[Table <a href="#tbl:example-id">1</a>]. Because STARGEO is an ongoing project, it is likely that additional articles will be associated with these tags over time. For each GEO series, we used the STAR application programming interface<span class="citation" data-cites="rVIaJIbT">[<a href="#ref-rVIaJIbT" role="doc-biblioref">10</a>]</span> to download the associated abstract, title, and GEO accession number.</p>
-<div id="tbl:example-id" class="tablenos">
+<p>As a reference standard, we used annotations from Search Tag Analyze Resource for GEO (STARGEO)<span class="citation" data-cites="rc4BI37X">[<a href="#ref-rc4BI37X" role="doc-biblioref">9</a>]</span>. In STARGEO, biomedical graduate students manually curate sample metadata and assign tags to GEO series. We used these annotations to identify series that had been associated with a given phenotype. To represent different types of queries that researchers might perform in GEO, we searched for human phenotypes that would result in a small, medium, or large number of GEO series. We also sought to represent diverse phenotypic categories. On XX[TODO: Please indicate exact or approximate date], we identified two phenotypes with ~100 series, two with ~20 series, and two with fewer than 10 series[Table <a href="#tbl:query-summary">1</a>]. (Because STARGEO is an ongoing project, it is likely that additional articles will be associated with these tags over time.) For each GEO series, we used the STAR application programming interface<span class="citation" data-cites="rVIaJIbT">[<a href="#ref-rVIaJIbT" role="doc-biblioref">10</a>]</span> to download the associated abstract, title, and accession number.</p>
+<div id="tbl:query-summary" class="tablenos">
 <table>
 <caption><span>Table 1:</span> Caption for this example table. </caption>
 <thead>
@@ -168,62 +168,53 @@ a variety of these different techniques to identify those that are most promisin
 </tbody>
 </table>
 </div>
-<h3 id="model-collection">Model Collection</h3>
-<p>Once the data was collected the next step was identifying the techniques to be tested. Research has already shown that a variety of natural language processing models are effective on biomedical literature <span class="citation" data-cites="2W804yHJ 8NKQyXww">[<a href="#ref-2W804yHJ" role="doc-biblioref">11</a>,<a href="#ref-8NKQyXww" role="doc-biblioref">12</a>]</span>.
-However we felt it was necessary to test a variety of techniques for both keyword extraction and word vector generation to identify the combination most
-suited to the task of collecting related genomic data.</p>
-<p>Keyword Identification is the first step that our data in the dictionary goes through. To accomplish consistent querying in a standardized framework we used the PKE package available
-in Python. All documentation is available on GitHub <span class="citation" data-cites="kzLP6OpW">[<a href="#ref-kzLP6OpW" role="doc-biblioref">13</a>]</span>. The PKE packages allowed us to use one single package to access all the keyword embedding
-techniques, instead of individually querying each technique. The keyword extraction techniques that were tested are the following: TFIDF, KP-Miner, YAKE, TextRank, SingleRank,
-TopicRank, TopicalPageRank, PositionRank and MultipartiteRank <span class="citation" data-cites="kzLP6OpW">[<a href="#ref-kzLP6OpW" role="doc-biblioref">13</a>]</span>. Each of these techniques uses a different algorithm to identify keywords,
-an example of the diversity of returned keywords is available in the appendix.</p>
-<p>After the keywords have been identified from the target text, word vectors are generated from each keyword using a word vector model. These models use large amounts
-of unlabeled text to identify the meanings of words and express those as a numeric vector. For our project we selected 6 different models that encompass a variety of techniques
-and training data. The two major frameworks used in this project were SpaCy and FastText. These models are the two most widely used frameworks in natural language processing
-and both have been used in biomedical applications <span class="citation" data-cites="1EJaRkbTp G52ssUB4 2W804yHJ">[<a href="#ref-2W804yHJ" role="doc-biblioref">11</a>,<a href="#ref-1EJaRkbTp" role="doc-biblioref">14</a>,<a href="#ref-G52ssUB4" role="doc-biblioref">15</a>]</span>. However there are differences
-in how these models train on sample text and generate word vectors. For these reason we chose to test both platforms.</p>
+<h3 id="keyphrase-extraction">Keyphrase extraction</h3>
+<p>[TODO: Please move this first sentence to the Introduction if these papers are not already mentioned there. Also, make sure we are describing how these models were used and briefly what the authors found.] A variety of natural language processing models are effective on biomedical literature <span class="citation" data-cites="2W804yHJ 8NKQyXww">[<a href="#ref-2W804yHJ" role="doc-biblioref">11</a>,<a href="#ref-8NKQyXww" role="doc-biblioref">12</a>]</span>.</p>
+<p>For each abstract, we sought to identify <em>n</em> keyphrases that would most effectively characterize the semantic meaning of the abstract. We used <em>n</em> values of 10, 20, and 30. In our benchmark comparisons, we applied nine keyphrase-extraction techniques to each abstract. To ensure consistency across the techniques, we used the pke Python module[https://aclanthology.org/C16-2015/]. We evaluated the following unsupervised, keyphrase-extraction techniques: TFIDF<span class="citation" data-cites="Aq8HGXXi 1EMQ0QaxW">[<a href="#ref-Aq8HGXXi" role="doc-biblioref">13</a>,<a href="#ref-1EMQ0QaxW" role="doc-biblioref">14</a>]</span>, KP-Miner<span class="citation" data-cites="aB5yMEKA">[<a href="#ref-aB5yMEKA" role="doc-biblioref">15</a>]</span>, YAKE<span class="citation" data-cites="ZJGMG25n">[<a href="#ref-ZJGMG25n" role="doc-biblioref">16</a>]</span>, TextRank<span class="citation" data-cites="r7jy09FD">[<a href="#ref-r7jy09FD" role="doc-biblioref">17</a>]</span>, SingleRank<span class="citation" data-cites="NSG4QvH3">[<a href="#ref-NSG4QvH3" role="doc-biblioref">18</a>]</span>, TopicRank<span class="citation" data-cites="leYubUHn">[<a href="#ref-leYubUHn" role="doc-biblioref">19</a>]</span>, TopicalPageRank<span class="citation" data-cites="19Fk6uGLc">[<a href="#ref-19Fk6uGLc" role="doc-biblioref">20</a>]</span>, PositionRank<span class="citation" data-cites="IGrL2O5t">[<a href="#ref-IGrL2O5t" role="doc-biblioref">21</a>]</span> and MultipartiteRank[https://arxiv.org/abs/1803.08721]. Each of these techniques uses a different algorithmic approach. [TODO: Will you please clarify what this is referring to. Is there a specific data file?]An example of the diversity of returned keywords is available in the appendix.</p>
+<h3 id="model-collection">Model collection</h3>
+<p>After identifying keyphrases in each abstract, we generated word vectors—numeric representations of the text—based on models that had previously been derived from large amounts of unlabeled text. We selected 6 different models that encompass a variety of techniques and training data. The two major frameworks used in this project were SpaCy and FastText. These models are the two most widely used frameworks in natural language processing and both have been used in biomedical applications <span class="citation" data-cites="1EJaRkbTp G52ssUB4 2W804yHJ">[<a href="#ref-2W804yHJ" role="doc-biblioref">11</a>,<a href="#ref-1EJaRkbTp" role="doc-biblioref">22</a>,<a href="#ref-G52ssUB4" role="doc-biblioref">23</a>]</span>. However there are differences in how these models train on sample text and generate word vectors. For these reason we chose to test both platforms.</p>
 <p>The source of training data is an important aspect of generating word vectors. Recent literature supports matching the training data to the testing data <span class="citation" data-cites="2W804yHJ">[<a href="#ref-2W804yHJ" role="doc-biblioref">11</a>]</span>.
 However the benefit of keeping the training and testing data in the same domain is not supported in all the literature <span class="citation" data-cites="8NKQyXww">[<a href="#ref-8NKQyXww" role="doc-biblioref">12</a>]</span>. To test this effect we have
-models trained on both biomedical literature and other sources such as web blogs, news, and Wikipedia <span class="citation" data-cites="17Bh2zE6s">[<a href="#ref-17Bh2zE6s" role="doc-biblioref">16</a>]</span>. This training data has several
+models trained on both biomedical literature and other sources such as web blogs, news, and Wikipedia <span class="citation" data-cites="17Bh2zE6s">[<a href="#ref-17Bh2zE6s" role="doc-biblioref">24</a>]</span>. This training data has several
 possible algorithms for processing and generating word vectors. The two majors options are Continuous-Bag-Of-Words (CBOW) and SKIPGRAM, a complete explanation of these algorithms
 is outside the scope of this paper. Both of these algorithms have been shown effective on biomedical natural language processing, but small differences have been shown between the
-word vectors generated from either algorithm <span class="citation" data-cites="6WZB9lTq">[<a href="#ref-6WZB9lTq" role="doc-biblioref">17</a>]</span>. Due to this, both algorithms are tested. There are a total of 6 models tested in this paper. FastText
+word vectors generated from either algorithm <span class="citation" data-cites="6WZB9lTq">[<a href="#ref-6WZB9lTq" role="doc-biblioref">25</a>]</span>. Due to this, both algorithms are tested. There are a total of 6 models tested in this paper. FastText
 and Spacy are compared head to head, as well as different algorithms and training data. A summary of each model and brief details are shown below.</p>
 <table>
 <colgroup>
-<col style="width: 45%" />
-<col style="width: 55%" />
+<col style="width: 47%" />
+<col style="width: 52%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;"><em>Model</em></th>
-<th style="text-align: center;"><em>Summary</em></th>
+<th style="text-align: left;"><em>Summary</em></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">BioWordVec</td>
-<td style="text-align: center;">FastText Model trained on generic biomedical data with SKIPGRAM</td>
+<td style="text-align: left;">FastText Model trained on generic biomedical data with SKIPGRAM</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">FastTextWiki</td>
-<td style="text-align: center;">FastText model trained on Wikipedia data with CBOW</td>
+<td style="text-align: left;">FastText model trained on Wikipedia data with CBOW</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">FastTextCBOW</td>
-<td style="text-align: center;">FastText model trained on GEO data using CBOW</td>
+<td style="text-align: left;">FastText model trained on GEO data using CBOW</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">FastTextSKIPGRAM</td>
-<td style="text-align: center;">FastText model trained on GEO data using SKIPGRAM</td>
+<td style="text-align: left;">FastText model trained on GEO data using SKIPGRAM</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">SciSpacy</td>
-<td style="text-align: center;">A Spacy model designed for usage in biomedical applications</td>
+<td style="text-align: left;">A Spacy model designed for usage in biomedical applications</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">SpacyWebLG</td>
-<td style="text-align: center;">A Spacy model desined for generic usage</td>
+<td style="text-align: left;">A Spacy model desined for generic usage</td>
 </tr>
 </tbody>
 </table>
@@ -231,10 +222,11 @@ and Spacy are compared head to head, as well as different algorithms and trainin
 <p>The initial step of vector generation is the identification of the top ten keywords from the text source. Each one of these keywords is turned into a word vector. This word vector is
 stored as a list of numeric values. The models vary in the length of this numeric vectors from 100 - 300. Once each vector has been generated from each keyword these vectors are added
 element-wise and then divided by the number of keywords. This technique has been shown to be the simplest and most accurate way to generate a singular word vector from various word
-embeddings and is usually used to generate document-wide word embeddings <span class="citation" data-cites="YTvwxF00">[<a href="#ref-YTvwxF00" role="doc-biblioref">18</a>]</span>.</p>
+embeddings and is usually used to generate document-wide word embeddings <span class="citation" data-cites="YTvwxF00">[<a href="#ref-YTvwxF00" role="doc-biblioref">26</a>]</span>.</p>
 <h3 id="model-evaluation">Model Evaluation</h3>
-<p>All model evaluation is performed in a Docker container to allow other researchers to perform the same analysis described in this section <span class="citation" data-cites="heYSKCTA">[<a href="#ref-heYSKCTA" role="doc-biblioref">19</a>]</span>.The Docker image
-used to build the container is the python:3.8.5 image available on the Docker website <span class="citation" data-cites="TJY8XInf">[<a href="#ref-TJY8XInf" role="doc-biblioref">20</a>]</span>. Running the docker container as pulled from github will run a bash script that performs the following
+<p>We tested each combination of keyword extraction and word-vector generation method…</p>
+<p>All model evaluation is performed in a Docker container to allow other researchers to perform the same analysis described in this section <span class="citation" data-cites="heYSKCTA">[<a href="#ref-heYSKCTA" role="doc-biblioref">27</a>]</span>.The Docker image
+used to build the container is the python:3.8.5 image available on the Docker website <span class="citation" data-cites="TJY8XInf">[<a href="#ref-TJY8XInf" role="doc-biblioref">28</a>]</span>. Running the docker container as pulled from github will run a bash script that performs the following
 steps.
 1. STARGEO is queried to prepare the six queries. The prepareQueryData.py script takes two arguments. The first is a list of GEO identifiers and the second is the query number that these identifiers
 should belong to. PrepareQueryData.py creates a file system that contains all the abstract and titles of the series that correspond to each identifier. The file system will put each text file into the directory for the corresponding
@@ -251,7 +243,7 @@ d. The top 1,10 and 100 articles are returned to compare against the articles t
 ran for over one month and we were not able to complete the full testing. A reduced corpus of 1000 articles allowed us to compare the various methods head to head without the need for extensively long wait times. However the analysis is set up
 in such a way as to allow the researcher to easily change the amount of articles used in the analysis.</p>
 <h3 id="manual-gene-expression-omnibus-evaluation">Manual Gene Expression Omnibus Evaluation</h3>
-<p>Gene Expression Omnibus (GEO) is the parent corpus from which STARGEO is derived <span class="citation" data-cites="14VfbatMA">[<a href="#ref-14VfbatMA" role="doc-biblioref">21</a>]</span>. To compare our technique directly to GEO we use a manual evaluation. We first use the advanced search option on
+<p>Gene Expression Omnibus (GEO) is the parent corpus from which STARGEO is derived <span class="citation" data-cites="14VfbatMA">[<a href="#ref-14VfbatMA" role="doc-biblioref">29</a>]</span>. To compare our technique directly to GEO we use a manual evaluation. We first use the advanced search option on
 GEO to input the exact queries we used from STARGEO. To maintain consistency with STARGEO, the results are limited to series and human genomic data. A summary file of all the results is downloaded and analyzed. To ensure equal comparision
 the results are filtered to only include those datasets that exist in STARGEO’s corpus while excluding SuperSeries. Using the same technique for the STARGEO evaluation the top 1,10, and 100 articles are identified and compared against the relevant articles
 from STARGEO.</p>
@@ -350,7 +342,7 @@ are contained in the appendix. This graph is 30 keywords using the SciSpaCy mode
 <h4 id="overview">Overview</h4>
 <p>The purpose of this project was to illustrate the usage of Natural Language Processing in the data collection phase of any project and to identify techniques to use
 in future projects. NLP has already been shown to be useful to find related articles of scientific nature
-<span class="citation" data-cites="x30kePas ieR5dnsn 44ZXsjwa">[<a href="#ref-x30kePas" role="doc-biblioref">22</a>,<a href="#ref-ieR5dnsn" role="doc-biblioref">23</a>,<a href="#ref-44ZXsjwa" role="doc-biblioref">24</a>]</span>. However to our knowledge no project has been done comparing
+<span class="citation" data-cites="x30kePas ieR5dnsn 44ZXsjwa">[<a href="#ref-x30kePas" role="doc-biblioref">30</a>,<a href="#ref-ieR5dnsn" role="doc-biblioref">31</a>,<a href="#ref-44ZXsjwa" role="doc-biblioref">32</a>]</span>. However to our knowledge no project has been done comparing
 word vector generation and keyword extraction techniques for usage in data collection. This is addressed in our paper in the head to head comparision of these techniques.
 We hope this will further our knowledge as to how natural language processing might help researchers in future studies.</p>
 <h4 id="motivation">Motivation</h4>
@@ -362,7 +354,7 @@ Experiences like this motivated us to look for a technique that could use a data
 <h4 id="observations">Observations</h4>
 <p>The results show a wide variety of accuracy across the queries. This pattern of the same natural language processing technique
 giving disparate results on intrinsic evaluations is one commonly seen in natural language processing evaluations
-<span class="citation" data-cites="6WZB9lTq rGefJsoC 15nnJZdR0">[<a href="#ref-rGefJsoC" role="doc-biblioref">8</a>,<a href="#ref-6WZB9lTq" role="doc-biblioref">17</a>,<a href="#ref-15nnJZdR0" role="doc-biblioref">25</a>]</span>. However the results do show a pattern
+<span class="citation" data-cites="6WZB9lTq rGefJsoC 15nnJZdR0">[<a href="#ref-rGefJsoC" role="doc-biblioref">8</a>,<a href="#ref-6WZB9lTq" role="doc-biblioref">25</a>,<a href="#ref-15nnJZdR0" role="doc-biblioref">33</a>]</span>. However the results do show a pattern
 that the best performing results are when the model and data are similar. Another interesting observation is the varying results between queries.
 The best performing queries are consistently queries one and two which are the smalled queries with six and nine results respectively. This would imply
 that the more narrowly defined a query, the better this technique can perform.</p>
@@ -382,13 +374,13 @@ customization would require the manual editing of the code to fit the use cause.
 of datasets. This means that the only external evaluation possible is to compare it to hand curation of datasets by other researchers. We did consider this option but rejected it due
 to the subjective nature of human curation and the time it would require of the participants. There are also other keyword extraction and word vector generation techniques. Our keyword
 extraction techniques were limited to those available in the PKR Python package to ensure consistency. Word vectors were limited to the those that were most commonly tested and available
-in other NLP related papers <span class="citation" data-cites="8NKQyXww 5CpWCZGC">[<a href="#ref-8NKQyXww" role="doc-biblioref">12</a>,<a href="#ref-5CpWCZGC" role="doc-biblioref">26</a>]</span>. Further testing is warranted on less known models and techniques.</p>
+in other NLP related papers <span class="citation" data-cites="8NKQyXww 5CpWCZGC">[<a href="#ref-8NKQyXww" role="doc-biblioref">12</a>,<a href="#ref-5CpWCZGC" role="doc-biblioref">34</a>]</span>. Further testing is warranted on less known models and techniques.</p>
 <p>All analysis were performed on a Dell PowerEdge R730xd server with two Intel Xeon E5-2640 v4 2.4GHz CPUs that each support 10 cores with two threads apiece with a total of 256gb of RAM. All analyses were run using the Multiprocessing
 package that allowed each combination of keyword extraction and word vector to each be run as a separate task. This hardware was not capable of running the full analysis even using the multiprocessing package. We hypothesis this is due
 to the relatively long time it takes to generate a word vector.</p>
 <h2 class="page_break_before" id="appendix">Appendix</h2>
 <h3 id="comparison-of-keywords-techniques">Comparison of Keywords Techniques</h3>
-<p>Test Abstract from PubMed. <span class="citation" data-cites="KBhULZJE">[<a href="#ref-KBhULZJE" role="doc-biblioref">27</a>]</span>
+<p>Test Abstract from PubMed. <span class="citation" data-cites="KBhULZJE">[<a href="#ref-KBhULZJE" role="doc-biblioref">35</a>]</span>
 Text = “OBJECTIVE: Novel biomarkers of disease progression after type 1 diabetes onset are needed. RESEARCH DESIGN AND METHODS: We profiled peripheral blood (PB) monocyte gene expression in 6 healthy subjects and 16 children with type 1 diabetes diagnosed ~3 months previously, and analyzed clinical features from diagnosis to 1 year. RESULTS: Monocyte expression profiles clustered into two distinct subgroups, representing mild and severe deviation from healthy controls, along the same continuum. Patients with strongly divergent monocyte gene expression had significantly higher insulin dose-adjusted HbA1c levels during the first year, compared to patients with mild deviation. The diabetes-associated expression signature identified multiple perturbations in pathways controlling cellular metabolism and survival, including endoplasmic reticulum and oxidative stress (e.g. induction of HIF1A, DDIT3, DDIT4 and GRP78). qPCR quantitation of a 9-gene panel correlated with glycaemic control in 12 additional recent-onset patients. The qPCR signature was also detected in PB from healthy first-degree relatives. CONCLUSIONS: A PB gene expression signature correlates with glycaemic control in the first year after diabetes diagnosis, and is present in at-risk subjects. These findings implicate monocyte phenotype as a candidate biomarker for disease progression pre- and post-onset, and systemic stresses as contributors to innate immune function in type 1 diabetes.”</p>
 <table>
 <colgroup>
@@ -501,83 +493,111 @@ Yanshan Wang, Sijia Liu, Naveed Afzal, Majid Rastegar-Mojarad, Liwei Wang, Feich
 <em>Journal of Biomedical Informatics</em> (2018-11) <a href="https://doi.org/ggbx8b">https://doi.org/ggbx8b</a> <br />
 DOI: <a href="https://doi.org/10.1016/j.jbi.2018.09.008">10.1016/j.jbi.2018.09.008</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30217670">30217670</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6585427">PMC6585427</a></p>
 </div>
-<div id="ref-kzLP6OpW">
-<p>13. <strong>GitHub - boudinfl/pke: Python Keyphrase Extraction module</strong> <br />
-GitHub<br />
-<a href="https://github.com/boudinfl/pke">https://github.com/boudinfl/pke</a></p>
+<div id="ref-Aq8HGXXi">
+<p>13. <strong>A Statistical Approach to Mechanized Encoding and Searching of Literary Information</strong> <br />
+H. P. Luhn<br />
+<em>IBM Journal of Research and Development</em> (1957-10) <a href="https://ieeexplore.ieee.org/abstract/document/5392697">https://ieeexplore.ieee.org/abstract/document/5392697</a> <br />
+DOI: <a href="https://doi.org/10.1147/rd.14.0309">10.1147/rd.14.0309</a></p>
+</div>
+<div id="ref-1EMQ0QaxW">
+<p>14. <strong>A STATISTICAL INTERPRETATION OF TERM SPECIFICITY AND ITS APPLICATION IN RETRIEVAL</strong> <br />
+KAREN SPARCK JONES<br />
+<em>Journal of Documentation</em> (1972-01-01) <a href="https://doi.org/10.1108/eb026526">https://doi.org/10.1108/eb026526</a> <br />
+DOI: <a href="https://doi.org/10.1108/eb026526">10.1108/eb026526</a></p>
+</div>
+<div id="ref-aB5yMEKA">
+<p>15. <a href="http://www.aclweb.org/anthology/S10-1041.pdf">http://www.aclweb.org/anthology/S10-1041.pdf</a></p>
+</div>
+<div id="ref-ZJGMG25n">
+<p>16. <a href="https://doi.org/10.1016/j.ins.2019.09.013">https://doi.org/10.1016/j.ins.2019.09.013</a></p>
+</div>
+<div id="ref-r7jy09FD">
+<p>17. <a href="http://www.aclweb.org/anthology/W04-3252.pdf">http://www.aclweb.org/anthology/W04-3252.pdf</a></p>
+</div>
+<div id="ref-NSG4QvH3">
+<p>18. <a href="http://www.aclweb.org/anthology/C08-1122.pdf">http://www.aclweb.org/anthology/C08-1122.pdf</a></p>
+</div>
+<div id="ref-leYubUHn">
+<p>19. <a href="http://aclweb.org/anthology/I13-1062.pdf">http://aclweb.org/anthology/I13-1062.pdf</a></p>
+</div>
+<div id="ref-19Fk6uGLc">
+<p>20. <a href="http://users.intec.ugent.be/cdvelder/papers/2015/sterckx2015wwwb.pdf">http://users.intec.ugent.be/cdvelder/papers/2015/sterckx2015wwwb.pdf</a></p>
+</div>
+<div id="ref-IGrL2O5t">
+<p>21. <a href="http://www.aclweb.org/anthology/P17-1102.pdf">http://www.aclweb.org/anthology/P17-1102.pdf</a></p>
 </div>
 <div id="ref-1EJaRkbTp">
-<p>14. <strong>SMAC, a computational system to link literature, biomedical and expression data</strong> <br />
+<p>22. <strong>SMAC, a computational system to link literature, biomedical and expression data</strong> <br />
 Stefano Pirrò, Emanuela Gadaleta, Andrea Galgani, Vittorio Colizzi, Claude Chelala<br />
 <em>Scientific Reports</em> (2019-07-19) <a href="https://doi.org/ghm6ct">https://doi.org/ghm6ct</a> <br />
 DOI: <a href="https://doi.org/10.1038/s41598-019-47046-2">10.1038/s41598-019-47046-2</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31324861">31324861</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6642118">PMC6642118</a></p>
 </div>
 <div id="ref-G52ssUB4">
-<p>15. <strong>Fast and scalable neural embedding models for biomedical sentence classification</strong> <br />
+<p>23. <strong>Fast and scalable neural embedding models for biomedical sentence classification</strong> <br />
 Asan Agibetov, Kathrin Blagec, Hong Xu, Matthias Samwald<br />
 <em>BMC Bioinformatics</em> (2018-12-22) <a href="https://doi.org/ghm6cv">https://doi.org/ghm6cv</a> <br />
 DOI: <a href="https://doi.org/10.1186/s12859-018-2496-4">10.1186/s12859-018-2496-4</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30577747">30577747</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6303852">PMC6303852</a></p>
 </div>
 <div id="ref-17Bh2zE6s">
-<p>16. <strong>Enriching Word Vectors with Subword Information</strong> <br />
+<p>24. <strong>Enriching Word Vectors with Subword Information</strong> <br />
 Piotr Bojanowski, Edouard Grave, Armand Joulin, Tomas Mikolov<br />
 <em>arXiv:1607.04606 [cs]</em> (2017-06-19) <a href="http://arxiv.org/abs/1607.04606">http://arxiv.org/abs/1607.04606</a></p>
 </div>
 <div id="ref-6WZB9lTq">
-<p>17. <strong>Word2vec convolutional neural networks for classification of news articles and tweets</strong> <br />
+<p>25. <strong>Word2vec convolutional neural networks for classification of news articles and tweets</strong> <br />
 Beakcheol Jang, Inhwan Kim, Jong Wook Kim<br />
 <em>PLOS ONE</em> (2019-08-22) <a href="https://doi.org/ghg3sp">https://doi.org/ghg3sp</a> <br />
 DOI: <a href="https://doi.org/10.1371/journal.pone.0220976">10.1371/journal.pone.0220976</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31437181">31437181</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6705863">PMC6705863</a></p>
 </div>
 <div id="ref-YTvwxF00">
-<p>18. <strong>An Empirical Evaluation of doc2vec with Practical Insights into Document Embedding Generation</strong> <br />
+<p>26. <strong>An Empirical Evaluation of doc2vec with Practical Insights into Document Embedding Generation</strong> <br />
 Jey Han Lau, Timothy Baldwin<br />
 <em>arXiv:1607.05368 [cs]</em> (2016-07-18) <a href="http://arxiv.org/abs/1607.05368">http://arxiv.org/abs/1607.05368</a></p>
 </div>
 <div id="ref-heYSKCTA">
-<p>19. <strong>An introduction to Docker for reproducible research</strong> <br />
+<p>27. <strong>An introduction to Docker for reproducible research</strong> <br />
 Carl Boettiger<br />
 <em>ACM SIGOPS Operating Systems Review</em> (2015-01-20) <a href="https://doi.org/gdz6f9">https://doi.org/gdz6f9</a> <br />
 DOI: <a href="https://doi.org/10.1145/2723872.2723882">10.1145/2723872.2723882</a></p>
 </div>
 <div id="ref-TJY8XInf">
-<p>20. <strong>Docker Hub</strong> <a href="https://hub.docker.com/_/python">https://hub.docker.com/_/python</a></p>
+<p>28. <strong>Docker Hub</strong> <a href="https://hub.docker.com/_/python">https://hub.docker.com/_/python</a></p>
 </div>
 <div id="ref-14VfbatMA">
-<p>21. <strong>Gene Expression Omnibus: NCBI gene expression and hybridization array data repository</strong> <br />
+<p>29. <strong>Gene Expression Omnibus: NCBI gene expression and hybridization array data repository</strong> <br />
 R. Edgar<br />
 <em>Nucleic Acids Research</em> (2002-01-01) <a href="https://doi.org/fttpkn">https://doi.org/fttpkn</a> <br />
 DOI: <a href="https://doi.org/10.1093/nar/30.1.207">10.1093/nar/30.1.207</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/11752295">11752295</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC99122">PMC99122</a></p>
 </div>
 <div id="ref-x30kePas">
-<p>22. <strong>Editorial: Mining Scientific Papers: NLP-enhanced Bibliometrics</strong> <br />
+<p>30. <strong>Editorial: Mining Scientific Papers: NLP-enhanced Bibliometrics</strong> <br />
 Iana Atanassova, Marc Bertin, Philipp Mayr<br />
 <em>Frontiers in Research Metrics and Analytics</em> (2019-04-30) <a href="https://doi.org/ghcpfz">https://doi.org/ghcpfz</a> <br />
 DOI: <a href="https://doi.org/10.3389/frma.2019.00002">10.3389/frma.2019.00002</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33870034">33870034</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8028414">PMC8028414</a></p>
 </div>
 <div id="ref-ieR5dnsn">
-<p>23. <strong>NLP Scholar: An Interactive Visual Explorer for Natural Language Processing Literature</strong> <br />
+<p>31. <strong>NLP Scholar: An Interactive Visual Explorer for Natural Language Processing Literature</strong> <br />
 Saif M. Mohammad<br />
 <em>arXiv:2006.01131 [cs]</em> (2020-05-31) <a href="http://arxiv.org/abs/2006.01131">http://arxiv.org/abs/2006.01131</a></p>
 </div>
 <div id="ref-44ZXsjwa">
-<p>24. <strong>tl;dr: this AI sums up research papers in a sentence</strong> <br />
+<p>32. <strong>tl;dr: this AI sums up research papers in a sentence</strong> <br />
 Jeffrey M. Perkel, Richard Van Noorden<br />
 <em>Nature</em> (2020-11-23) <a href="https://doi.org/ghmnjj">https://doi.org/ghmnjj</a> <br />
 DOI: <a href="https://doi.org/10.1038/d41586-020-03277-2">10.1038/d41586-020-03277-2</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33230274">33230274</a></p>
 </div>
 <div id="ref-15nnJZdR0">
-<p>25. <strong>An Empirical Evaluation of doc2vec with Practical Insights into Document Embedding Generation</strong> <br />
+<p>33. <strong>An Empirical Evaluation of doc2vec with Practical Insights into Document Embedding Generation</strong> <br />
 Jey Han Lau, Timothy Baldwin<br />
 <em>arXiv:1607.05368 [cs]</em> (2016-07-18) <a href="http://arxiv.org/abs/1607.05368">http://arxiv.org/abs/1607.05368</a></p>
 </div>
 <div id="ref-5CpWCZGC">
-<p>26. <strong>Probabilistic FastText for Multi-Sense Word Embeddings</strong> <br />
+<p>34. <strong>Probabilistic FastText for Multi-Sense Word Embeddings</strong> <br />
 Ben Athiwaratkun, Andrew Gordon Wilson, Anima Anandkumar<br />
 <em>arXiv:1806.02901 [cs, stat]</em> (2018-06-07) <a href="http://arxiv.org/abs/1806.02901">http://arxiv.org/abs/1806.02901</a></p>
 </div>
 <div id="ref-KBhULZJE">
-<p>27. <strong>Peripheral Blood Monocyte Gene Expression Profile Clinically Stratifies Patients With Recent-Onset Type 1 Diabetes</strong> <br />
+<p>35. <strong>Peripheral Blood Monocyte Gene Expression Profile Clinically Stratifies Patients With Recent-Onset Type 1 Diabetes</strong> <br />
 Katharine M. Irvine, Patricia Gallego, Xiaoyu An, Shannon E. Best, Gethin Thomas, Christine Wells, Mark Harris, Andrew Cotterill, Ranjeny Thomas<br />
 <em>Diabetes</em> (2012-05) <a href="https://doi.org/f3xdx3">https://doi.org/f3xdx3</a> <br />
 DOI: <a href="https://doi.org/10.2337/db11-1549">10.2337/db11-1549</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22403299">22403299</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3331753">PMC3331753</a></p>

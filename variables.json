@@ -9,12 +9,12 @@
       "Machine learning"
     ],
     "lang": "en-US",
-    "date-meta": "2021-07-27",
+    "date-meta": "2021-07-30",
     "author-meta": [
       "James Wengler",
       "Stephen R. Piccolo"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets\" />\n<meta name=\"citation_title\" content=\"Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets\" />\n<meta property=\"og:title\" content=\"Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets\" />\n<meta property=\"twitter:title\" content=\"Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets\" />\n<meta name=\"dc.date\" content=\"2021-07-27\" />\n<meta name=\"citation_publication_date\" content=\"2021-07-27\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"James Wengler\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biology, College of Life Sciences, Brigham Young University, Provo, UT, USA\" />\n<meta name=\"citation_author\" content=\"Stephen R. Piccolo\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biology, College of Life Sciences, Brigham Young University, Provo, UT, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2001-5640\" />\n<link rel=\"canonical\" href=\"https://J-Wengler.github.io/NLP_Paper/\" />\n<meta property=\"og:url\" content=\"https://J-Wengler.github.io/NLP_Paper/\" />\n<meta property=\"twitter:url\" content=\"https://J-Wengler.github.io/NLP_Paper/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://J-Wengler.github.io/NLP_Paper/\" />\n<meta name=\"citation_pdf_url\" content=\"https://J-Wengler.github.io/NLP_Paper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://J-Wengler.github.io/NLP_Paper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://J-Wengler.github.io/NLP_Paper/v/9771bfc5e8f6829c5dacd207a93374a55ec594c1/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://J-Wengler.github.io/NLP_Paper/v/9771bfc5e8f6829c5dacd207a93374a55ec594c1/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://J-Wengler.github.io/NLP_Paper/v/9771bfc5e8f6829c5dacd207a93374a55ec594c1/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets\" />\n<meta name=\"citation_title\" content=\"Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets\" />\n<meta property=\"og:title\" content=\"Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets\" />\n<meta property=\"twitter:title\" content=\"Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets\" />\n<meta name=\"dc.date\" content=\"2021-07-30\" />\n<meta name=\"citation_publication_date\" content=\"2021-07-30\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"James Wengler\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biology, College of Life Sciences, Brigham Young University, Provo, UT, USA\" />\n<meta name=\"citation_author\" content=\"Stephen R. Piccolo\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biology, College of Life Sciences, Brigham Young University, Provo, UT, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2001-5640\" />\n<link rel=\"canonical\" href=\"https://J-Wengler.github.io/NLP_Paper/\" />\n<meta property=\"og:url\" content=\"https://J-Wengler.github.io/NLP_Paper/\" />\n<meta property=\"twitter:url\" content=\"https://J-Wengler.github.io/NLP_Paper/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://J-Wengler.github.io/NLP_Paper/\" />\n<meta name=\"citation_pdf_url\" content=\"https://J-Wengler.github.io/NLP_Paper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://J-Wengler.github.io/NLP_Paper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://J-Wengler.github.io/NLP_Paper/v/497a4df348bd83d0f0253fc7e424a74ea4283ada/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://J-Wengler.github.io/NLP_Paper/v/497a4df348bd83d0f0253fc7e424a74ea4283ada/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://J-Wengler.github.io/NLP_Paper/v/497a4df348bd83d0f0253fc7e424a74ea4283ada/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -24,7 +24,7 @@
     "manubot-clear-requests-cache": false
   },
   "manubot": {
-    "date": "July 27, 2021",
+    "date": "July 30, 2021",
     "authors": [
       {
         "github": "J-Wengler",
@@ -61,15 +61,15 @@
       "repo_slug": "J-Wengler/NLP_Paper",
       "repo_owner": "J-Wengler",
       "repo_name": "NLP_Paper",
-      "commit": "9771bfc5e8f6829c5dacd207a93374a55ec594c1",
-      "triggering_commit": "9771bfc5e8f6829c5dacd207a93374a55ec594c1",
-      "build_url": "https://github.com/J-Wengler/NLP_Paper/commit/9771bfc5e8f6829c5dacd207a93374a55ec594c1/checks",
+      "commit": "497a4df348bd83d0f0253fc7e424a74ea4283ada",
+      "triggering_commit": "497a4df348bd83d0f0253fc7e424a74ea4283ada",
+      "build_url": "https://github.com/J-Wengler/NLP_Paper/commit/497a4df348bd83d0f0253fc7e424a74ea4283ada/checks",
       "job_url": "https://github.com/J-Wengler/NLP_Paper/runs/__run_3"
     },
     "html_url": "https://J-Wengler.github.io/NLP_Paper/",
     "pdf_url": "https://J-Wengler.github.io/NLP_Paper/manuscript.pdf",
-    "html_url_versioned": "https://J-Wengler.github.io/NLP_Paper/v/9771bfc5e8f6829c5dacd207a93374a55ec594c1/",
-    "pdf_url_versioned": "https://J-Wengler.github.io/NLP_Paper/v/9771bfc5e8f6829c5dacd207a93374a55ec594c1/manuscript.pdf",
+    "html_url_versioned": "https://J-Wengler.github.io/NLP_Paper/v/497a4df348bd83d0f0253fc7e424a74ea4283ada/",
+    "pdf_url_versioned": "https://J-Wengler.github.io/NLP_Paper/v/497a4df348bd83d0f0253fc7e424a74ea4283ada/manuscript.pdf",
     "manubot_version": "0.4.1",
     "rootstock_commit": "97b294802ffcd39071b6e5b8ab59f60faf4be118",
     "manuscript_stats": {

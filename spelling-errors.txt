@@ -17,7 +17,7 @@ embeddings
 endoplasmic
 FastText
 FastTextCBOW
-FastTextSKIPGRAM
+FastTextSkipGram
 FastTextWiki
 findSimilarity
 genomic
@@ -46,7 +46,7 @@ PKR
 PositionRank
 PowerEdge
 pre
-PrepareQueryData
+prepareQueryData
 preprocessed
 py
 qPCR
@@ -57,7 +57,7 @@ signficant
 SingleRank
 SKIPGRAM
 smalled
-SpaCy
+Spacy
 SpacyWebLG
 srp
 STARGEO

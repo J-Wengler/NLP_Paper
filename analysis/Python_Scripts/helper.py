@@ -78,7 +78,7 @@ def getCandidateArticles(limit, reduced):
                 num_to_sample = limit
                 sampled_dict = {key: series_to_summary[key] for key in my_dict_keys[:num_to_sample]}
                 series_to_summary = sampled_dict
-        
+
         with open("/Data/allSeriesFromQueries.txt", 'r') as in_file:
             query_series = in_file.read().splitlines()
             for ser in query_series:
@@ -92,7 +92,7 @@ def getCandidateArticles(limit, reduced):
                 title = temp_dict['title']
                 full_text = title + summary
                 series_to_summary[name] = full_text
-                
+
         with open(cacheFilePath, 'w') as cacheFile:
             cacheFile.write(json.dumps(series_to_summary))
     return series_to_summary
@@ -274,7 +274,7 @@ def getScore(filePath, query):
         scores.append(score)
     return scores
 
-def generateResults (resultPath, modelName, bestCombo, numKeyword):
+def generateResults(resultPath, modelName, bestCombo, numKeyword):
     outputFile = open(f"/Data/Results/{numKeyword}_{modelName}Output.txt", 'w+')
     outputFile.write(f"{modelName} Results for {numKeyword} keywords\n")
     outputFile.write("MODEL\tQUERY\t#\tSCORE\n")

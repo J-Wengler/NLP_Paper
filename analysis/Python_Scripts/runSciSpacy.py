@@ -8,11 +8,13 @@ numKeywords = int(sys.argv[1])
 vectorSize = int(sys.argv[2])
 maxCandidateArticles = int(sys.argv[3])
 reducedSet = str(sys.argv[4])
+
 printTimestamp("Getting candidate articles")
 if reducedSet=='true':
     candidate_articles = getCandidateArticles(maxCandidateArticles, True)
 else:
     candidate_articles = getCandidateArticles(maxCandidateArticles, False)
+
 printTimestamp("Loading SciSpacy")
 model = spacy.load("en_ner_bc5cdr_md")
 

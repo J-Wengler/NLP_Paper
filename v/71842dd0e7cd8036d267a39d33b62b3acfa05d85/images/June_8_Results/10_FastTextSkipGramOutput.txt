@@ -1,0 +1,2 @@
+FastTextSkipGram Results for 10 keywords
+MODEL	QUERY	#	SCORE

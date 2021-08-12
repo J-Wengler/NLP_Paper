@@ -4,7 +4,7 @@ BioCreative
 biomarker
 biomarkers
 BioWordVec
-BRCA
+brca
 CBOW
 CDR
 comparision
@@ -12,14 +12,14 @@ continous
 CPUs
 curation
 dataset
-datasets
+DataSets
 DDIT
 embeddings
 endoplasmic
 fastText
-fastTextCBOW
+FastTextCBOW
 FastTextSkipGram
-FastTextWiki
+fastTextWiki
 findSimilarity
 genomic
 GetGeoQueries
@@ -29,7 +29,7 @@ HbA
 HIF
 IDF
 intial
-Keyphrase
+keyphrase
 keyphrases
 moh’s
 mohs
@@ -37,7 +37,6 @@ monocyte
 Monozygotic
 multipartite
 MultipartiteRank
-NER
 NLP
 OOV
 Osteosarcoma
@@ -61,7 +60,7 @@ signficant
 SingleRank
 SKIPGRAM
 smalled
-SpaCy
+spaCY
 SpacyWebLG
 srp
 STARGEO

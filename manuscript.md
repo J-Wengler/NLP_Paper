@@ -4,7 +4,7 @@ author-meta:
 - Stephen R. Piccolo
 bibliography:
 - content/manual-references.json
-date-meta: '2021-08-11'
+date-meta: '2021-08-12'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +23,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets" />
 
-  <meta name="dc.date" content="2021-08-11" />
+  <meta name="dc.date" content="2021-08-12" />
 
-  <meta name="citation_publication_date" content="2021-08-11" />
+  <meta name="citation_publication_date" content="2021-08-12" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -61,11 +61,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/f41b808db8d9e57a2c7703d816ad7bad345efb35/" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/7b305b2c89b6e118b2c243d8b7d3d66df6b9603d/" />
 
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/f41b808db8d9e57a2c7703d816ad7bad345efb35/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/7b305b2c89b6e118b2c243d8b7d3d66df6b9603d/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/f41b808db8d9e57a2c7703d816ad7bad345efb35/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/7b305b2c89b6e118b2c243d8b7d3d66df6b9603d/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -99,10 +99,10 @@ title: Comparison of keyword-extraction and word-vector generation methods for i
 
 <small><em>
 This manuscript
-([permalink](https://J-Wengler.github.io/NLP_Paper/v/f41b808db8d9e57a2c7703d816ad7bad345efb35/))
+([permalink](https://J-Wengler.github.io/NLP_Paper/v/7b305b2c89b6e118b2c243d8b7d3d66df6b9603d/))
 was automatically generated
-from [J-Wengler/NLP_Paper@f41b808](https://github.com/J-Wengler/NLP_Paper/tree/f41b808db8d9e57a2c7703d816ad7bad345efb35)
-on August 11, 2021.
+from [J-Wengler/NLP_Paper@7b305b2](https://github.com/J-Wengler/NLP_Paper/tree/7b305b2c89b6e118b2c243d8b7d3d66df6b9603d)
+on August 12, 2021.
 </em></small>
 
 ## Authors
@@ -179,11 +179,12 @@ Our methodology utilises two techniques widely used in natural language processi
 Using these two tools, our approach can take several pre-identified datasets and identify other related datasets, no matter how niche the subject area. We test
 a variety of these different techniques to identify those that are most promising for future use. 
 
+GEO citation: pubmed:27008011
 
 
 ## Methods {.page_break_before}
 
-### Data collection
+### Annotated data collection
 
 As a reference standard, we used annotations from Search Tag Analyze Resource for GEO (STARGEO)[@doi:10.1038/sdata.2017.125]. In STARGEO, biomedical graduate students manually curate sample metadata and assign tags to GEO series. We used these annotations to identify series that had been associated with a given phenotype. To represent different types of queries that researchers might perform in GEO, we searched for human phenotypes that would result in a small, medium, or large number of GEO series. We also sought to represent diverse phenotypic categories. On XX[TODO: Please indicate exact or approximate date], we identified two phenotypes with ~100 series, two with ~20 series, and two with fewer than 10 series[Table @tbl:query-summary]. (Because STARGEO is an ongoing project, it is likely that additional articles will be associated with these tags over time.) For each GEO series, we used the STAR application programming interface[@url:http://STARGEO.org/api_docs/] to download the associated abstract, title, and accession number. 
 
@@ -196,7 +197,11 @@ As a reference standard, we used annotations from Search Tag Analyze Resource fo
 | Diabetes + Type 1              |                      97 |
 | Osteosarcoma                   |                     112 |
 
-Table: Caption for this example table. {#tbl:query-summary}
+Table: [TODO]Caption for this example table. {#tbl:query-summary}
+
+### Manual queries
+
+As a baseline, we evaluated our ability to identify GEO series relevant to a particular human-disease research topic using the GEO DataSets Advanced Search Builder "Advanced search" engine. We first use the advanced search option on GEO to input the exact queries we used from STARGEO. To maintain consistency with STARGEO, the results are limited to series and human genomic data. A summary file of all the results is downloaded and analyzed. To ensure equal comparision the results are filtered to only include those datasets that exist in STARGEO's corpus while excluding SuperSeries. Using the same technique for the STARGEO evaluation the top 1,10, and 100 articles are identified and compared against the relevant articles from STARGEO.  
 
 ### Keyphrase extraction
 
@@ -217,61 +222,42 @@ Using keyphrases from each abstract, we generated word vectors---numeric represe
 
 [TODO: Please move these ideas to the Introduction or Discussion.] The source of the training data is an important aspect of generating word vectors. Recent literature supports using training data from a research domain that matches the domain of the testing data [@doi:10.18653/v1/W16-2922]. However, the benefits of using domain-specific training data remain under question [@doi:10.1016/j.jbi.2018.09.008].
 
-We used models that were trained on English-language text from diverse sources. We used a *BioWordVec* model[@pubmed:31076572] that had been trained on PubMed abstracts and clinical notes from the MIMIC-III database[@https://www.nature.com/articles/sdata201635] (downloaded from https://ftp.ncbi.nlm.nih.gov/pub/lu/Suppl/BioSentVec/). We used a *fastTextWiki* model that had been trained on n-gram representations of words from Wikipedia and news articles representing diverse topics as of 2017[TODO: please verify and add more relevant detail, if need); this model used 200-dimensional[TODO: or was it 300?] vectors and the CBOW method. We trained a *fastTextSkipGram* model on XYZ[TODO] abstracts from GEO series representing diverse types of human disease[TODO: Please add any relevant details]; the vectors in this model were XYZ-dimensional[TODO] and were generated using the Skip-gram method. The *fastTextCBOW* model was identical to the *fastTextSkipGram* model except that we used CBOW to generate the vectors. The *SpacyWebLG* model had been trained on written text from blogs, news, and comments from diverse websites. The *SciSpacy* model[https://arxiv.org/abs/1902.07669] had been trained on text from the BioCreative V CDR (BC5CDR) task corpus, comprising chemical, disease, and chemical-disease annotations for 1500 PubMed articles[https://pubmed.ncbi.nlm.nih.gov/27161011/]. The vectors for both of the spaCY models were XYZ-dimensional[TODO].
+We used models that were trained on English-language text from diverse sources. We used a *BioWordVec* model[@pubmed:31076572] that had been trained on PubMed abstracts and clinical notes from the MIMIC-III database[@https://www.nature.com/articles/sdata201635] (downloaded from https://ftp.ncbi.nlm.nih.gov/pub/lu/Suppl/BioSentVec/). This model used 200-dimensional vectors[TODO: please verify]. We used a *fastTextWiki* model that had been trained on n-gram representations of articles from Wikipedia and news sources, representing diverse topics as of 2017[TODO: please verify and add more relevant detail, if need); this model used 300-dimensional[TODO: please verify] vectors and the CBOW method. We trained a *fastTextSkipGram* model on XYZ[TODO] abstracts from GEO series representing diverse types of human disease[TODO: Please add relevant details]; the vectors in this model were XYZ-dimensional[TODO] and were generated using the Skip-gram method. The *fastTextCBOW* model was identical to the *fastTextSkipGram* model except that we used CBOW to generate the vectors. The *SpacyWebLG* model had been trained on written text from blogs, news, and comments from diverse websites. The *SciSpacy* model[https://arxiv.org/abs/1902.07669] had been trained on text from the BioCreative V CDR (BC5CDR) task corpus, comprising chemical, disease, and chemical-disease annotations for 1500 PubMed articles[https://pubmed.ncbi.nlm.nih.gov/27161011/]. The vectors for both of the spaCY models were XYZ-dimensional[TODO].
 
-Move to Discussion? Or better to preemptively clarify here.
-[TODO: Brief explanation of why we used different lengths.] 
-
-
-
-This training data has several possible algorithms for processing and generating word vectors. There are a total of 6 models tested in this paper. fastText and Spacy are compared head to head, as well as different algorithms and training data. A summary of each model and brief details are shown below. 
-
-A spaCy NER model trained on the BC5CDR corpus.
-
+% I commented this out for now. I thought it was better to explain this in a paragraph.
 %| *Model* | *Summary* |
 %|:--------|:---------|
 %| BioWordVec        | fastText Model trained on generic biomedical data with Skip-gram    |
 %| FastTextWiki      | fastText model trained on Wikipedia data with CBOW                 |
 %| FastTextSKIPGRAM  | fastText model trained on GEO data using Skip-gram                  |
 %| FastTextCBOW      | fastText model trained on GEO data using CBOW                      |
-%| SciSpacy          | A Spacy model trained on biomedical data                           |
 %| SpacyWebLG        | A Spacy model trained on general Web text ((blogs, news, comments) |
+%| SciSpacy          | A Spacy model trained on biomedical data                           |
 
 ### Model Evaluation 
  
-We tested each combination of keyword extraction and word-vector generation method...
+We tested each combination of keyword-extraction technique and word-vector generation method. For each combination, we completed the following steps.
 
-All model evaluation is performed in a Docker container to allow other researchers to perform the same analysis described in this section [@doi:10.1145/2723872.2723882].The Docker image 
-used to build the container is the python:3.8.5 image available on the Docker website [@url:https://hub.docker.com/_/python]. Running the docker container as pulled from github will run a bash script that performs the following
-steps. 
-    1. STARGEO is queried to prepare the six queries. The prepareQueryData.py script takes two arguments. The first is a list of GEO identifiers and the second is the query number that these identifiers
-    should belong to. PrepareQueryData.py creates a file system that contains all the abstract and titles of the series that correspond to each identifier. The file system will put each text file into the directory for the corresponding
-    query. This script also randomly selects half of the data to be used as the training data. 
-    2. GetGeoQueries.py is run. This script uses text files generated by GEO to evaluate the performance of GEO. A detailed explanation of this is found below in the manual comparision section.
-    3. A do loop iterates over the numbers 10,20, and 30. This numbers are the number of keywords that each model should try to identify from the text. Each iteration performs the following analysis.
+1. STARGEO is queried to prepare the six queries. The prepareQueryData.py script takes two arguments. The first is a list of GEO identifiers and the second is the query number that these identifiers should belong to. PrepareQueryData.py creates a directory structure that contains all the abstract and titles of the series that correspond to each identifier. The file system will put each text file into the directory for the corresponding query. This script also randomly selects half of the data to be used as the training data.
+2. GetGeoQueries.py is run. This script uses text files generated by GEO to evaluate the performance of GEO. A detailed explanation of this is found below in the manual comparision section.
+3. A do loop iterates over the numbers 10,20, and 30. This numbers are the number of keywords that each model should try to identify from the text. Each iteration performs the following analysis.
         i. Six scripts that correspond to SciSpaCy, BioWordVec, FastTextWiki, SpaCy, FastTextSkipGram, and FastTextCBOW are run. Each of these scripts takes the following three arguments : number of keywords, vector size, and number of STARGEO articles. Each script performs the following steps:
             a. All candidate articles from STARGEO are queried
             b. The specific word vector model is loaded (SciSpaCy, BioWordVec, ...)
             c. For each query and keyword combination findSimilarity() is run in Helper.py and added to a multiprocessing thread. This script prints to an output file the calculated similarity of each article using each combination
             d. The top 1,10 and 100 articles are returned to compare against the articles that STARGEO previously identified as related. 
 
-### Reduced Set Testing
+The results contained within this paper are from a reduced set of all STARGEO articles (266) plus an additional 1000 randomly queried articles from GEO. The purpose for performing the reduced set was the full 41,823 article corpus from STARGEO ran for over one month and we were not able to complete the full testing. A reduced corpus of 1000 articles allowed us to compare the various methods head to head without the need for extensively long wait times. However the analysis is set up in such a way as to allow the researcher to easily change the amount of articles used in the analysis. 
 
-The results contained within this paper are from a reduced set of all STARGEO articles (266) plus an additional 1000 randomly queried articles from GEO. The purpose for performing the reduced set was the full 41,823 article corpus from STARGEO
-ran for over one month and we were not able to complete the full testing. A reduced corpus of 1000 articles allowed us to compare the various methods head to head without the need for extensively long wait times. However the analysis is set up 
-in such a way as to allow the researcher to easily change the amount of articles used in the analysis. 
+### Code availability
 
-### Manual Gene Expression Omnibus Evaluation
-
-Gene Expression Omnibus (GEO) is the parent corpus from which STARGEO is derived [@doi:10.1093/nar/30.1.207]. To compare our technique directly to GEO we use a manual evaluation. We first use the advanced search option on 
-GEO to input the exact queries we used from STARGEO. To maintain consistency with STARGEO, the results are limited to series and human genomic data. A summary file of all the results is downloaded and analyzed. To ensure equal comparision
-the results are filtered to only include those datasets that exist in STARGEO's corpus while excluding SuperSeries. Using the same technique for the STARGEO evaluation the top 1,10, and 100 articles are identified and compared against the relevant articles 
-from STARGEO.  
-
+All model evaluation is performed in a Docker container to allow other researchers to perform the same analysis described in this section [@doi:10.1145/2723872.2723882]. The Docker image used to build the container is the python:3.8.5 image available on the Docker website [@url:https://hub.docker.com/_/python]. Running the Docker container as pulled from github will run a bash script that performs the following steps. 
 
 
 ## Results {.page_break_before}
 The two main techniques in this paper are keyword identification and word vector generation. Both of these methods are described below.
+
+To test this effect we trained models on biomedical literature as well as general sources such as blogs, news articles, and Wikipedia entries [@url:https://arxiv.org/abs/1607.04606].
 
 ### Keyword Identification
 Keyword extraction is a vital part of the analysis. There are a variety of techniques to achieve this, and we test the most common 9 
@@ -373,6 +359,7 @@ All analysis were performed on a Dell PowerEdge R730xd server with two Intel Xeo
 package that allowed each combination of keyword extraction and word vector to each be run as a separate task. This hardware was not capable of running the full analysis even using the multiprocessing package. We hypothesis this is due
 to the relatively long time it takes to generate a word vector. 
 
+Why we used different word-vector lengths...
 
 
 

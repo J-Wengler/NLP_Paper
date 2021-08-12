@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 ./build/build.sh
 manubot webpage
 cd ./webpage

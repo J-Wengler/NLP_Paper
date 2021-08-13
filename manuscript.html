@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="James Wengler" />
   <meta name="author" content="Stephen R. Piccolo" />
-  <meta name="dcterms.date" content="2021-08-12" />
+  <meta name="dcterms.date" content="2021-08-13" />
   <meta name="keywords" content="Natural language processing, Information retrieval, Functional genomics, Keyword extraction, Machine learning" />
   <title>Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets</title>
   <style>
@@ -29,8 +29,8 @@
   <meta name="citation_title" content="Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets" />
   <meta property="og:title" content="Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets" />
   <meta property="twitter:title" content="Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets" />
-  <meta name="dc.date" content="2021-08-12" />
-  <meta name="citation_publication_date" content="2021-08-12" />
+  <meta name="dc.date" content="2021-08-13" />
+  <meta name="citation_publication_date" content="2021-08-13" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -48,9 +48,9 @@
   <meta name="citation_fulltext_html_url" content="https://J-Wengler.github.io/NLP_Paper/" />
   <meta name="citation_pdf_url" content="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/7b305b2c89b6e118b2c243d8b7d3d66df6b9603d/" />
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/7b305b2c89b6e118b2c243d8b7d3d66df6b9603d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/7b305b2c89b6e118b2c243d8b7d3d66df6b9603d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/1c70822af32e5c175d6bb0b6c145e85c0d15f972/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/1c70822af32e5c175d6bb0b6c145e85c0d15f972/" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/1c70822af32e5c175d6bb0b6c145e85c0d15f972/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -64,10 +64,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://J-Wengler.github.io/NLP_Paper/v/7b305b2c89b6e118b2c243d8b7d3d66df6b9603d/">permalink</a>)
+(<a href="https://J-Wengler.github.io/NLP_Paper/v/1c70822af32e5c175d6bb0b6c145e85c0d15f972/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/J-Wengler/NLP_Paper/tree/7b305b2c89b6e118b2c243d8b7d3d66df6b9603d">J-Wengler/NLP_Paper@7b305b2</a>
-on August 12, 2021.
+from <a href="https://github.com/J-Wengler/NLP_Paper/tree/1c70822af32e5c175d6bb0b6c145e85c0d15f972">J-Wengler/NLP_Paper@1c70822</a>
+on August 13, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -131,14 +131,14 @@ a variety of these different techniques to identify those that are most promisin
 <p>GEO citation: pubmed:27008011</p>
 <h2 class="page_break_before" id="methods">Methods</h2>
 <h3 id="annotated-data-collection">Annotated data collection</h3>
-<p>As a reference standard, we used annotations from Search Tag Analyze Resource for GEO (STARGEO)<span class="citation" data-cites="rc4BI37X">[<a href="#ref-rc4BI37X" role="doc-biblioref">9</a>]</span>. In STARGEO, biomedical graduate students manually curate sample metadata and assign tags to GEO series. We used these annotations to identify series that had been associated with a given phenotype. To represent different types of queries that researchers might perform in GEO, we searched for human phenotypes that would result in a small, medium, or large number of GEO series. We also sought to represent diverse phenotypic categories. On XX[TODO: Please indicate exact or approximate date], we identified two phenotypes with ~100 series, two with ~20 series, and two with fewer than 10 series[Table <a href="#tbl:query-summary">1</a>]. (Because STARGEO is an ongoing project, it is likely that additional articles will be associated with these tags over time.) For each GEO series, we used the STAR application programming interface<span class="citation" data-cites="rVIaJIbT">[<a href="#ref-rVIaJIbT" role="doc-biblioref">10</a>]</span> to download the associated abstract, title, and accession number.</p>
+<p>As a reference standard, we used annotations from Search Tag Analyze Resource for GEO (STARGEO)<span class="citation" data-cites="rc4BI37X">[<a href="#ref-rc4BI37X" role="doc-biblioref">9</a>]</span>. In STARGEO, biomedical graduate students manually curate sample metadata and assign tags to GEO Series. We used these annotations to identify Series that had been associated with a given phenotype. To represent different types of queries that researchers might perform in GEO, we searched for human phenotypes that would result in a small, medium, or large number of GEO Series. We also sought to represent diverse phenotypic categories. On XX[TODO: Please indicate exact or approximate date], we identified two phenotypes with ~100 Series, two with ~20 Series, and two with fewer than 10 Series[Table <a href="#tbl:query-summary">1</a>]. (Because STARGEO is an ongoing project, it is likely that additional articles will be associated with these tags over time.) For each GEO Series, we used the STAR application programming interface<span class="citation" data-cites="rVIaJIbT">[<a href="#ref-rVIaJIbT" role="doc-biblioref">10</a>]</span> to download the associated abstract, title, and accession number.</p>
 <div id="tbl:query-summary" class="tablenos">
 <table>
 <caption><span>Table 1:</span> [TODO]Caption for this example table. </caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;"><em>STARGEO tag(s)</em></th>
-<th style="text-align: right;"><em>Number of GEO series</em></th>
+<th style="text-align: right;"><em>Number of GEO Series</em></th>
 </tr>
 </thead>
 <tbody>
@@ -170,7 +170,7 @@ a variety of these different techniques to identify those that are most promisin
 </table>
 </div>
 <h3 id="manual-queries">Manual queries</h3>
-<p>As a baseline, we evaluated our ability to identify GEO series relevant to a particular human-disease research topic using the GEO DataSets Advanced Search Builder “Advanced search” engine. We first use the advanced search option on GEO to input the exact queries we used from STARGEO. To maintain consistency with STARGEO, the results are limited to series and human genomic data. A summary file of all the results is downloaded and analyzed. To ensure equal comparision the results are filtered to only include those datasets that exist in STARGEO’s corpus while excluding SuperSeries. Using the same technique for the STARGEO evaluation the top 1,10, and 100 articles are identified and compared against the relevant articles from STARGEO.</p>
+<p>[TODO: Please enter the date or an approximate date when you performed this.]As a baseline, we evaluated our ability to identify GEO Series relevant to a particular human-disease research topic using the GEO DataSets Advanced Search Builder. To maintain consistency with STARGEO, we entered the same keywords that we used in STARGEO and limited the results to GEO Series (but not SuperSeries) and human data. We also limited the search results to Series that were available in STARGEO’s corpus at that time. The Advanced Search Builder sometimes expanded our query terms and mapped them to the MeSH terminology. For example, our search that used the terms “Family History” and “Breast Cancer” was expanded to “(”medical history taking“[MeSH Terms] OR Family History[All Fields]) AND (”breast neoplasms“[MeSH Terms] OR Breast cancer[All Fields]).” [TODO: Is this file in GitHub? If so, where? If not, please put it there and indicate the file name here.]XYZ is a summary file indicating where each of the STARGEO results was ranked within the Advanced Search Builder results. [TODO: Move this to Results. Or maybe you don’t need it there if you already have this idea covered.]Using the same technique for the STARGEO evaluation the top 1,10, and 100 articles are identified and compared against the relevant articles from STARGEO.</p>
 <h3 id="keyphrase-extraction">Keyphrase extraction</h3>
 <p>[TODO: Please move the following sentence to the Introduction if these papers are not already mentioned there. Also, make sure we are describing how these models were used and briefly what the authors found.] A variety of natural language processing models are effective on biomedical literature <span class="citation" data-cites="2W804yHJ 8NKQyXww">[<a href="#ref-2W804yHJ" role="doc-biblioref">11</a>,<a href="#ref-8NKQyXww" role="doc-biblioref">12</a>]</span>.</p>
 <p>For each abstract, we sought to identify <em>n</em> keyphrases that would most effectively characterize the semantic meaning of the abstract. In our benchmark comparisons, we used <em>n</em> values of 10, 20, and 30 and applied nine unsupervised, keyphrase-extraction techniques to each abstract. To ensure consistency across the techniques, we used the pke Python module[https://aclanthology.org/C16-2015/] for all nine techniques, which were TFIDF<span class="citation" data-cites="Aq8HGXXi 1EMQ0QaxW">[<a href="#ref-Aq8HGXXi" role="doc-biblioref">13</a>,<a href="#ref-1EMQ0QaxW" role="doc-biblioref">14</a>]</span>, KP-Miner<span class="citation" data-cites="aB5yMEKA">[<a href="#ref-aB5yMEKA" role="doc-biblioref">15</a>]</span>, YAKE<span class="citation" data-cites="ZJGMG25n">[<a href="#ref-ZJGMG25n" role="doc-biblioref">16</a>]</span>, TextRank<span class="citation" data-cites="r7jy09FD">[<a href="#ref-r7jy09FD" role="doc-biblioref">17</a>]</span>, SingleRank<span class="citation" data-cites="NSG4QvH3">[<a href="#ref-NSG4QvH3" role="doc-biblioref">18</a>]</span>, TopicRank<span class="citation" data-cites="leYubUHn">[<a href="#ref-leYubUHn" role="doc-biblioref">19</a>]</span>, TopicalPageRank<span class="citation" data-cites="19Fk6uGLc">[<a href="#ref-19Fk6uGLc" role="doc-biblioref">20</a>]</span>, PositionRank<span class="citation" data-cites="IGrL2O5t">[<a href="#ref-IGrL2O5t" role="doc-biblioref">21</a>]</span> and MultipartiteRank[https://arxiv.org/abs/1803.08721]. These techniques uses different algorithmic approaches. [TODO: Will you please clarify what the following sentence is referring to. Is there a specific data file?]An example of the diversity of returned keywords is available in the appendix.</p>
@@ -181,7 +181,7 @@ a variety of these different techniques to identify those that are most promisin
 <p>[TODO: Please move this to the Introduction.] Both of these algorithms have been shown effective on biomedical natural language processing, but [TODO: this wording is vague. Please add some details to make it concrete.]small differences have been shown between the word vectors generated from either algorithm <span class="citation" data-cites="6WZB9lTq">[<a href="#ref-6WZB9lTq" role="doc-biblioref">29</a>]</span>.</p>
 <h3 id="training-corpora">Training corpora</h3>
 <p>[TODO: Please move these ideas to the Introduction or Discussion.] The source of the training data is an important aspect of generating word vectors. Recent literature supports using training data from a research domain that matches the domain of the testing data <span class="citation" data-cites="2W804yHJ">[<a href="#ref-2W804yHJ" role="doc-biblioref">11</a>]</span>. However, the benefits of using domain-specific training data remain under question <span class="citation" data-cites="8NKQyXww">[<a href="#ref-8NKQyXww" role="doc-biblioref">12</a>]</span>.</p>
-<p>We used models that were trained on English-language text from diverse sources. We used a <em>BioWordVec</em> model<span class="citation" data-cites="PTC5xE9Q">[<a href="#ref-PTC5xE9Q" role="doc-biblioref">30</a>]</span> that had been trained on PubMed abstracts and clinical notes from the MIMIC-III database<span class="citation" data-cites="G88dWuds">[<a href="#ref-G88dWuds" role="doc-biblioref">31</a>]</span> (downloaded from https://ftp.ncbi.nlm.nih.gov/pub/lu/Suppl/BioSentVec/). This model used 200-dimensional vectors[TODO: please verify]. We used a <em>fastTextWiki</em> model that had been trained on n-gram representations of articles from Wikipedia and news sources, representing diverse topics as of 2017[TODO: please verify and add more relevant detail, if need); this model used 300-dimensional[TODO: please verify] vectors and the CBOW method. We trained a <em>fastTextSkipGram</em> model on XYZ[TODO] abstracts from GEO series representing diverse types of human disease[TODO: Please add relevant details]; the vectors in this model were XYZ-dimensional[TODO] and were generated using the Skip-gram method. The <em>fastTextCBOW</em> model was identical to the <em>fastTextSkipGram</em> model except that we used CBOW to generate the vectors. The <em>SpacyWebLG</em> model had been trained on written text from blogs, news, and comments from diverse websites. The <em>SciSpacy</em> model[https://arxiv.org/abs/1902.07669] had been trained on text from the BioCreative V CDR (BC5CDR) task corpus, comprising chemical, disease, and chemical-disease annotations for 1500 PubMed articles[https://pubmed.ncbi.nlm.nih.gov/27161011/]. The vectors for both of the spaCY models were XYZ-dimensional[TODO].</p>
+<p>We used models that were trained on English-language text from diverse sources. We used a <em>BioWordVec</em> model<span class="citation" data-cites="PTC5xE9Q">[<a href="#ref-PTC5xE9Q" role="doc-biblioref">30</a>]</span> that had been trained on PubMed abstracts and clinical notes from the MIMIC-III database<span class="citation" data-cites="G88dWuds">[<a href="#ref-G88dWuds" role="doc-biblioref">31</a>]</span> (downloaded from https://ftp.ncbi.nlm.nih.gov/pub/lu/Suppl/BioSentVec/). This model used 200-dimensional vectors[TODO: please verify]. We used a <em>fastTextWiki</em> model that had been trained on n-gram representations of articles from Wikipedia and news sources, representing diverse topics as of 2017[TODO: please verify and add more relevant detail, if need); this model used 300-dimensional[TODO: please verify] vectors and the CBOW method. We trained a <em>fastTextSkipGram</em> model on XYZ[TODO] abstracts from GEO Series representing diverse types of human disease[TODO: Please add relevant details]; the vectors in this model were XYZ-dimensional[TODO] and were generated using the Skip-gram method. The <em>fastTextCBOW</em> model was identical to the <em>fastTextSkipGram</em> model except that we used CBOW to generate the vectors. The <em>SpacyWebLG</em> model had been trained on written text from blogs, news, and comments from diverse websites. The <em>SciSpacy</em> model[https://arxiv.org/abs/1902.07669] had been trained on text from the BioCreative V CDR (BC5CDR) task corpus, comprising chemical, disease, and chemical-disease annotations for 1500 PubMed articles[https://pubmed.ncbi.nlm.nih.gov/27161011/]. The vectors for both of the spaCY models were XYZ-dimensional[TODO].</p>
 <p>% I commented this out for now. I thought it was better to explain this in a paragraph.
 %| <em>Model</em> | <em>Summary</em> |
 %|:——–|:———|
@@ -192,9 +192,13 @@ a variety of these different techniques to identify those that are most promisin
 %| SpacyWebLG | A Spacy model trained on general Web text ((blogs, news, comments) |
 %| SciSpacy | A Spacy model trained on biomedical data |</p>
 <h3 id="model-evaluation">Model Evaluation</h3>
-<p>We tested each combination of keyword-extraction technique and word-vector generation method. For each combination, we completed the following steps.</p>
+<p>We tested each combination of phenotype, keyword-extraction technique, <em>n</em> number of keywords, and word-vector generation method. For each combination, we completed the following steps.</p>
 <ol type="1">
-<li>STARGEO is queried to prepare the six queries. The prepareQueryData.py script takes two arguments. The first is a list of GEO identifiers and the second is the query number that these identifiers should belong to. PrepareQueryData.py creates a directory structure that contains all the abstract and titles of the series that correspond to each identifier. The file system will put each text file into the directory for the corresponding query. This script also randomly selects half of the data to be used as the training data.</li>
+<li>Randomly select XYZ GEO Series from the full list of Series in STARGEO.</li>
+<li>Randomly assign X and Y disjoint Series as training or test samples.</li>
+</ol>
+<p>STARGEO is queried to prepare the six queries. The first is a list of GEO identifiers and the second is the query number that these identifiers should belong to. This script also randomly selects half of the data to be used as the training data.</p>
+<ol start="2" type="1">
 <li>GetGeoQueries.py is run. This script uses text files generated by GEO to evaluate the performance of GEO. A detailed explanation of this is found below in the manual comparision section.</li>
 <li>A do loop iterates over the numbers 10,20, and 30. This numbers are the number of keywords that each model should try to identify from the text. Each iteration performs the following analysis.
 i. Six scripts that correspond to SciSpaCy, BioWordVec, FastTextWiki, SpaCy, FastTextSkipGram, and FastTextCBOW are run. Each of these scripts takes the following three arguments : number of keywords, vector size, and number of STARGEO articles. Each script performs the following steps:

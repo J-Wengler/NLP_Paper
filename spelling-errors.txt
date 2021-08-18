@@ -17,8 +17,8 @@ DDIT
 embeddings
 endoplasmic
 fastText
-FastTextCBOW
-fastTextSkipGram
+fastTextCBOW
+FastTextSKIPGRAM
 fastTextWiki
 genomic
 glycaemic
@@ -50,8 +50,9 @@ preprocessed
 pretrained
 qPCR
 Relevent
+reproducibility
 reticulum
-SciSpacy
+SciSpaCy
 signficant
 SingleRank
 SKIPGRAM
@@ -59,7 +60,7 @@ smalled
 spaCy
 SpacyWebLG
 srp
-STARGEO
+StarGEO
 STARGEO’s
 subword
 SuperSeries

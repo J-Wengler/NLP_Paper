@@ -4,7 +4,7 @@ author-meta:
 - Stephen R. Piccolo
 bibliography:
 - content/manual-references.json
-date-meta: '2021-08-18'
+date-meta: '2021-08-20'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +23,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets" />
 
-  <meta name="dc.date" content="2021-08-18" />
+  <meta name="dc.date" content="2021-08-20" />
 
-  <meta name="citation_publication_date" content="2021-08-18" />
+  <meta name="citation_publication_date" content="2021-08-20" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -61,11 +61,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/34dd4e43ccc8b1474bfacb312b4c1f9db06b7129/" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/846fd67ee267508dc372ee4ca3497ed69b955176/" />
 
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/34dd4e43ccc8b1474bfacb312b4c1f9db06b7129/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/846fd67ee267508dc372ee4ca3497ed69b955176/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/34dd4e43ccc8b1474bfacb312b4c1f9db06b7129/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/846fd67ee267508dc372ee4ca3497ed69b955176/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -99,10 +99,10 @@ title: Comparison of keyword-extraction and word-vector generation methods for i
 
 <small><em>
 This manuscript
-([permalink](https://J-Wengler.github.io/NLP_Paper/v/34dd4e43ccc8b1474bfacb312b4c1f9db06b7129/))
+([permalink](https://J-Wengler.github.io/NLP_Paper/v/846fd67ee267508dc372ee4ca3497ed69b955176/))
 was automatically generated
-from [J-Wengler/NLP_Paper@34dd4e4](https://github.com/J-Wengler/NLP_Paper/tree/34dd4e43ccc8b1474bfacb312b4c1f9db06b7129)
-on August 18, 2021.
+from [J-Wengler/NLP_Paper@846fd67](https://github.com/J-Wengler/NLP_Paper/tree/846fd67ee267508dc372ee4ca3497ed69b955176)
+on August 20, 2021.
 </em></small>
 
 ## Authors
@@ -211,7 +211,7 @@ For each abstract, we sought to identify *n* keyphrases that would most effectiv
 
 ### Word-vector models
 
-Using keyphrases from each abstract, we generated word vectors---numeric representations of text---based on models that had previously been trained on large amounts of unlabeled text. We generated the word vectors using the *fastText* (version X.XX[TODO: specify version]) and *spaCy* (version Y.Y[TODO: specify version]) open-source libraries [@url:https://spacy.io;@arxiv:1902.07669;@arXiv:1607.04606], which both have been used widely in biomedical applications [@doi:10.1038/s41598-019-47046-2; @doi:10.1186/s12859-018-2496-4; @doi:10.18653/v1/W16-2922]. fastText provides two approaches for generating word vectors: Skip-gram and Continuous-Bag-Of-Words (CBOW). Given a particular word (or subword), the Skip-gram method trains a neural network to predict surrounding (sub)words; the weights of the network's hidden layer are used in the word vector. The CBOW method uses a similar approach but attempts to predict a (sub)word of interest, given a fixed-size window of surrounding (sub)words. For spaCy, we used named-entity recognition models with tokenized, hashed representations constructed from word features[@https://arxiv.org/pdf/1902.07669.pdf].[TODO: Please check this wording against what you understand.] We generated a word vector for each keyphrase, summed the vectors for a given abstract, and then divided by the number of keywords in the abstract (so that results would be comparable when using different numbers of keywords). This technique has been shown to be a simple and accurate way to combine multiple embeddings into a single vector and is often used to generate document-level embeddings [@url:http://arxiv.org/abs/1607.05368].
+Using keyphrases from each abstract, we generated word vectors---numeric representations of text---based on models that had previously been trained on large amounts of unlabeled text. We generated the word vectors using the *fastText* (version X.XX[TODO: specify version]) and *spaCy* (version Y.Y[TODO: specify version]) open-source libraries [@url:https://spacy.io;@arxiv:1902.07669;@arXiv:1607.04606], which both have been used widely in biomedical applications [@doi:10.1038/s41598-019-47046-2; @doi:10.1186/s12859-018-2496-4; @doi:10.18653/v1/W16-2922]. fastText provides two approaches for generating word vectors: Skip-gram and Continuous-Bag-Of-Words (CBOW). Given a particular word (or subword), the Skip-gram method trains a neural network to predict surrounding (sub)words; the weights of the network's hidden layer are used in the word vector. The CBOW method uses a similar approach but attempts to predict a (sub)word of interest, given a fixed-size window of surrounding (sub)words. For spaCy, we used named-entity recognition models with tokenized, hashed representations constructed from word features[@https://arxiv.org/pdf/1902.07669.pdf].[TODO: Please check this wording against what you understand.] We generated a word vector for each keyphrase, summed the vectors for a given abstract, and then divided by the number of keywords in the abstract (so that results would be comparable when using different numbers of keywords). This technique has been shown to be a simple and effective way to combine multiple embeddings into a single vector and is often used to generate document-level embeddings [@url:http://arxiv.org/abs/1607.05368].
 %https://towardsdatascience.com/word2vec-skip-gram-model-part-1-intuition-78614e4d6e0b
 
 %"FastText [8] expresses a word by the sum of the N-gram vector of the character level. The embedding method at the subword level solves the disadvantages that involve difficulty in application to languages with varying morphological changes or low frequency. This method was strong at solving the OOV problem, and accuracy was high for rare words in the word set. BioWordVec [9] learns clinical record data from PubMed and MIMIC-III clinical databases using fastText. Based on 28,714,373 PubMed documents and 2,083,180 MIMIC-III clinical database documents, the entire corpus was built. The Medical Subject Headings (MeSH) term graph was organized to create a heading sequence and to carry out word embedding based on a sequence combining MeSH and PubMed. BioWordVec provided a 200-dimensional pretrained word embedding matrix"
@@ -220,9 +220,9 @@ Using keyphrases from each abstract, we generated word vectors---numeric represe
 
 ### Training corpora
 
-[TODO: Please move these ideas to the Introduction or Discussion.] The source of the training data is an important aspect of generating word vectors. Recent literature supports using training data from a research domain that matches the domain of the testing data [@doi:10.18653/v1/W16-2922]. However, the benefits of using domain-specific training data remain under question [@doi:10.1016/j.jbi.2018.09.008].
+[TODO: Please move these ideas to the Introduction or Discussion.] The source of the training data is an important aspect of generating word vectors. Recent literature supports using training data from a research domain that matches the domain of the testing data [@doi:10.18653/v1/W16-2922]. However, the benefits of using domain-specific training data remain under question [@doi:10.1016/j.jbi.2018.09.008]. [TODO: Please add to or modify this wording based on what the literature says]Training on a larger corpus that is not domain specific might be more effective than training on a smaller corpus that is domain specific. 
 
-We used models that were trained on English-language text from diverse sources. We used a *BioWordVec* model[@pubmed:31076572] that had been trained on PubMed abstracts and clinical notes from the MIMIC-III database[@https://www.nature.com/articles/sdata201635] (downloaded from https://ftp.ncbi.nlm.nih.gov/pub/lu/Suppl/BioSentVec/). This model used 200-dimensional vectors[TODO: please verify]. We used a *fastTextWiki* model that had been trained on n-gram representations of articles from Wikipedia and news sources, representing diverse topics as of 2017[TODO: please verify and add more relevant detail, if need); this model used 300-dimensional[TODO: please verify] vectors and the CBOW method. We trained a *fastTextSkipGram* model on XYZ[TODO] abstracts from GEO Series representing diverse types of human disease[TODO: Please add relevant details]; the vectors in this model were XYZ-dimensional[TODO] and were generated using the Skip-gram method. The *fastTextCBOW* model was identical to the *fastTextSkipGram* model except that we used CBOW to generate the vectors. The *SpacyWebLG* model had been trained on written text from blogs, news, and comments from diverse websites. The *SciSpacy* model[https://arxiv.org/abs/1902.07669] had been trained on text from the BioCreative V CDR (BC5CDR) task corpus, comprising chemical, disease, and chemical-disease annotations for 1500 PubMed articles[https://pubmed.ncbi.nlm.nih.gov/27161011/]. The vectors for both of the spaCY models were XYZ-dimensional[TODO].
+We used models that were trained on English-language text from diverse sources. We used a *BioWordVec* model[@pubmed:31076572] that had been trained on PubMed abstracts and clinical notes from the MIMIC-III database[@https://www.nature.com/articles/sdata201635] (downloaded from https://ftp.ncbi.nlm.nih.gov/pub/lu/Suppl/BioSentVec/). This model used 200-dimensional vectors[TODO: please verify]. We used a *fastTextWiki* model that had been trained on n-gram representations of articles from Wikipedia and news sources, representing diverse topics as of 2017[TODO: please verify and add more relevant detail, if needed); this model used 300-dimensional[TODO: please verify] vectors and the CBOW method. We trained a *fastTextSkipGram* model on XYZ[TODO] abstracts from GEO Series representing diverse types of human disease[TODO: Please add relevant details. How many abstracts? How did we choose the abstracts? Did we train this model ourselves?]; the vectors in this model were XYZ-dimensional[TODO] and were generated using the Skip-gram method. The *fastTextCBOW* model was identical to the *fastTextSkipGram* model except that we used CBOW to generate the vectors. The *SpacyWebLG* model had been trained on written text from blogs, news, and comments from diverse websites. The *SciSpacy* model[https://arxiv.org/abs/1902.07669] had been trained on text from the BioCreative V CDR (BC5CDR) task corpus, comprising chemical, disease, and chemical-disease annotations from 1500 PubMed articles[https://pubmed.ncbi.nlm.nih.gov/27161011/]. The vectors for both of the spaCY models were XYZ-dimensional[TODO].
 
 % I commented this out for now. I thought it was better to explain this in a paragraph.
 %| *Model* | *Summary* |
@@ -236,22 +236,22 @@ We used models that were trained on English-language text from diverse sources. 
 
 ### Model Evaluation 
  
-We tested each combination of phenotype query, keyword-extraction technique, *n* number of keywords, and word-vector generation method. For each combination, we completed the following steps.
+We tested each combination of phenotype query, keyword-extraction technique, number of keywords, and word-vector generation method[TODO: Did I miss anything?]. For each combination, we completed the following steps.
 
-1. Randomly selected 1000[TODO] GEO Series identifiers from all those available in STARGEO.[TODO: Were these 1000 articles different for each combination? Or did we use the same 1000 each time?]
+1. Randomly selected 1000 GEO Series identifiers from all those available in STARGEO.[TODO: Were these 1000 articles different for each combination? Or did we use the same 1000 each time?]
 2. Added the 265 GEO Series identifiers associated with all of the phenotype queries (Table X). [TODO: The previous text said 266, but I'm counting 265 based on the table above. Also, did we include all queries in all of the tests? Or just the one query that we were focused on at a time?]
 3. Randomly assigned approximately half of the Series as training instances and the remaining half as test instances.
 4. Retrieved the abstract associated with each Series.
 5. Extracted *n* keywords from the abstract using a given keyword-extraction technique.
 6. Loaded the word-vector model and extracted a vector for each training and test instance.
-7. Used the XYZ method [TODO: Please describe in conceptual terms] to estimate the similarity between each test instance and the training instances associated with the given phenotypic category.[TODO: What did we do with the training instances that were not associated with the phenotypic category?]
-8. Calculate the proportion of the top 1, 10, and 100 test instances that STARGEO had previously identified as being relevant to the phenotypic category.
+7. Used the XYZ method[TODO: Please describe in conceptual terms] to estimate the similarity between each test instance and the training instances associated with the given phenotypic category.[TODO: What did we do with the training instances that were not associated with the phenotypic category?]
+8. Calculated the proportion of the top 1, 10, and 100 test instances that STARGEO had previously identified as being relevant to the phenotypic category.
 
 [TODO: Please move to the Discussion section.] The results contained within this paper are from a reduced set of all STARGEO articles (266) plus an additional 1000 randomly queried articles from GEO. The purpose for performing the reduced set was the full 41,823 article corpus from STARGEO ran for over one month and we were not able to complete the full testing. A reduced corpus of 1000 articles allowed us to compare the various methods head to head without the need for extensively long wait times. However the analysis is set up in such a way as to allow the researcher to easily change the amount of articles used in the analysis. 
 
 ### Code availability
 
-All code that we used to perform this analysis have been deposited in GitHub (https://github.com/J-Wengler/NLP_Paper). To facilitate reproducibility, the analysis is executed within a Docker container[@doi:10.1145/2723872.2723882]. We used version 3.8.5 of the Python programming language (https://python.org).
+All code that we used to perform this analysis have been deposited on GitHub (https://github.com/J-Wengler/NLP_Paper). To facilitate reproducibility, the analysis is executed within a Docker container[@doi:10.1145/2723872.2723882]. We used version 3.8.5 of the Python programming language (https://python.org).
 
 
 ## Results {.page_break_before}

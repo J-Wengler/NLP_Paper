@@ -131,6 +131,7 @@ content/03.methods.md:33:subword
 content/03.methods.md:35:TODO
 content/03.methods.md:35:TODO
 content/03.methods.md:39:TODO
+content/03.methods.md:39:TODO
 content/03.methods.md:41:BioCreative
 content/03.methods.md:41:BioWordVec
 content/03.methods.md:41:CBOW
@@ -167,8 +168,8 @@ content/03.methods.md:50:Spacy
 content/03.methods.md:50:SpacyWebLG
 content/03.methods.md:51:SciSpacy
 content/03.methods.md:51:Spacy
+content/03.methods.md:55:TODO
 content/03.methods.md:57:STARGEO
-content/03.methods.md:57:TODO
 content/03.methods.md:57:TODO
 content/03.methods.md:58:TODO
 content/03.methods.md:63:phenotypic

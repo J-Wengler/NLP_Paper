@@ -79,9 +79,9 @@ content/03.methods.md:5:TODO
 content/03.methods.md:7:STARGEO
 content/03.methods.md:11:Monozygotic
 content/03.methods.md:14:Osteosarcoma
+content/03.methods.md:16:STARGEO
 content/03.methods.md:16:TODO
 content/03.methods.md:20:DataSets
-content/03.methods.md:20:STARGEO
 content/03.methods.md:20:STARGEO
 content/03.methods.md:20:STARGEO
 content/03.methods.md:20:STARGEO
@@ -89,8 +89,10 @@ content/03.methods.md:20:STARGEO's
 content/03.methods.md:20:SuperSeries
 content/03.methods.md:20:TODO
 content/03.methods.md:20:TODO
-content/03.methods.md:20:XYZ
 content/03.methods.md:22:Keyphrase
+content/03.methods.md:24:CBOW
+content/03.methods.md:24:CBOW
+content/03.methods.md:24:Chiu
 content/03.methods.md:24:TODO
 content/03.methods.md:26:keyphrase
 content/03.methods.md:26:keyphrase

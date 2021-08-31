@@ -4,7 +4,7 @@ author-meta:
 - Stephen R. Piccolo
 bibliography:
 - content/manual-references.json
-date-meta: '2021-08-20'
+date-meta: '2021-08-31'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +23,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets" />
 
-  <meta name="dc.date" content="2021-08-20" />
+  <meta name="dc.date" content="2021-08-31" />
 
-  <meta name="citation_publication_date" content="2021-08-20" />
+  <meta name="citation_publication_date" content="2021-08-31" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -61,11 +61,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/846fd67ee267508dc372ee4ca3497ed69b955176/" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/838ee2566ab94a76a3edfa13b82e8f817b444101/" />
 
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/846fd67ee267508dc372ee4ca3497ed69b955176/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/838ee2566ab94a76a3edfa13b82e8f817b444101/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/846fd67ee267508dc372ee4ca3497ed69b955176/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/838ee2566ab94a76a3edfa13b82e8f817b444101/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -99,10 +99,10 @@ title: Comparison of keyword-extraction and word-vector generation methods for i
 
 <small><em>
 This manuscript
-([permalink](https://J-Wengler.github.io/NLP_Paper/v/846fd67ee267508dc372ee4ca3497ed69b955176/))
+([permalink](https://J-Wengler.github.io/NLP_Paper/v/838ee2566ab94a76a3edfa13b82e8f817b444101/))
 was automatically generated
-from [J-Wengler/NLP_Paper@846fd67](https://github.com/J-Wengler/NLP_Paper/tree/846fd67ee267508dc372ee4ca3497ed69b955176)
-on August 20, 2021.
+from [J-Wengler/NLP_Paper@838ee25](https://github.com/J-Wengler/NLP_Paper/tree/838ee2566ab94a76a3edfa13b82e8f817b444101)
+on August 31, 2021.
 </em></small>
 
 ## Authors
@@ -186,7 +186,7 @@ GEO citation: pubmed:27008011
 
 ### Annotated data collection
 
-As a reference standard, we used annotations from Search Tag Analyze Resource for GEO (STARGEO)[@doi:10.1038/sdata.2017.125]. Using STARGEO, biomedical graduate students manually curate sample metadata and assign tags to GEO Series. We used these annotations to identify Series that had been associated with a given phenotype. To represent different types of queries that researchers might perform in GEO, we searched for human phenotypes that would result in a small, medium, or large number of GEO Series. We also sought to represent diverse phenotypic categories. On XX[TODO: Please indicate exact or approximate date], we identified two phenotypes with ~100 Series, two with ~20 Series, and two with fewer than 10 Series[Table @tbl:query-summary]. (Because STARGEO is an ongoing project, it is likely that additional articles will be associated with these tags over time.) For each GEO Series, we used the STARGEO application programming interface[@url:http://STARGEO.org/api_docs/] to download the associated abstract, title, and accession number.
+As a reference standard, we used annotations from Search Tag Analyze Resource for GEO (STARGEO)[@doi:10.1038/sdata.2017.125]. Using STARGEO, biomedical graduate students manually curate sample metadata and assign tags to GEO Series. We used these annotations to identify Series that had been associated with a given phenotype. To represent different types of queries that researchers might perform in GEO, we searched for human phenotypes that would result in a small, medium, or large number of GEO Series. We also sought to represent diverse phenotypic categories. On March 9, 2021 [TODO: Please indicate exact or approximate date], we identified two phenotypes with ~100 Series, two with ~20 Series, and two with fewer than 10 Series[Table @tbl:query-summary]. (Because STARGEO is an ongoing project, it is likely that additional articles will be associated with these tags over time.) For each GEO Series, we used the STARGEO application programming interface[@url:http://STARGEO.org/api_docs/] to download the associated abstract, title, and accession number.
 
 | *STARGEO tag(s)*               | *Number of GEO Series*  |
 |:-------------------------------|------------------------:|
@@ -197,17 +197,17 @@ As a reference standard, we used annotations from Search Tag Analyze Resource fo
 | Diabetes + Type 1              |                      97 |
 | Osteosarcoma                   |                     112 |
 
-Table: [TODO]Caption for this example table. {#tbl:query-summary}
+Table: Table containing each STARGEO query and number of GEO Queries returned at time of analysis.  [TODO:Caption for this example table.] {#tbl:query-summary}
 
 ### Manual queries
 
-[TODO: Please enter the date or an approximate date when you performed this.]As a baseline, we evaluated our ability to identify GEO Series relevant to a particular phenotype using the GEO DataSets Advanced Search Builder. To maintain consistency with STARGEO, we entered the same keywords that we used in STARGEO and limited the results to GEO Series (no SuperSeries) and human data. We also limited the search results to Series that were available in STARGEO's corpus at that time. The Advanced Search Builder sometimes expanded our query terms and mapped them to the MeSH terminology. For example, our search that used the terms "Family History" and "Breast Cancer" was expanded to "("medical history taking"[MeSH Terms] OR Family History[All Fields]) AND ("breast neoplasms"[MeSH Terms] OR Breast cancer[All Fields])." [TODO: Is this file in GitHub? If so, where? If not, please put it there and indicate the file name here.]XYZ is a summary file indicating where each of the STARGEO results was ranked within the Advanced Search Builder results.
+[TODO: Please enter the date or an approximate date when you performed this.]As a baseline, we evaluated our ability to identify GEO Series relevant to a particular phenotype using the GEO DataSets Advanced Search Builder. This analysis was performed on March 24, 2021. To maintain consistency with STARGEO, we entered the same keywords that we used in STARGEO and limited the results to GEO Series (no SuperSeries) and human data. We also limited the search results to Series that were available in STARGEO's corpus at that time. The Advanced Search Builder sometimes expanded our query terms and mapped them to the MeSH terminology. For example, our search that used the terms "Family History" and "Breast Cancer" was expanded to "("medical history taking"[MeSH Terms] OR Family History[All Fields]) AND ("breast neoplasms"[MeSH Terms] OR Breast cancer[All Fields])." [TODO: Is this file in GitHub? If so, where? If not, please put it there and indicate the file name here.] analysis/Data/GEO_Queries/geo_results is a summary file indicating the accuracy achieved by this manual result. A result graph is also available in the appendix.
 
 ### Keyphrase extraction
 
-[TODO: Please move the following sentence to the Introduction if these papers are not already mentioned there. Also, make sure we are describing how these models were used and briefly what the authors found.] A variety of natural language processing models are effective on biomedical literature [@doi:10.18653/v1/W16-2922; @doi:10.1016/j.jbi.2018.09.008].
+[TODO: Please move the following sentence to the Introduction if these papers are not already mentioned there. Also, make sure we are describing how these models were used and briefly what the authors found.] A variety of natural language processing models are effective on biomedical literature. In Chiu et al. basic principles of using natural language processing models with biomedical literature are investigated [[@https://aclanthology.org/W16-2922/]. The researchers found that a larger corpus is not necessarily a better corpus and that while the CBOW and Skip-Gram models can be accurately used, CBOW tends to perform better   [@doi:10.1016/j.jbi.2018.09.008].
 
-For each abstract, we sought to identify *n* keyphrases that would most effectively characterize the semantic meaning of the abstract. In our benchmark comparisons, we used *n* values of 10, 20, and 30 and applied 9 unsupervised, keyphrase-extraction techniques that had been implemented in the pke Python module[https://aclanthology.org/C16-2015/]. The keyphrase-extraction techniques were TFIDF[@https://ieeexplore.ieee.org/abstract/document/5392697;@https://www.emerald.com/insight/content/doi/10.1108/eb026526/full/html], KP-Miner[@http://www.aclweb.org/anthology/S10-1041.pdf], YAKE[@https://doi.org/10.1016/j.ins.2019.09.013], TextRank[@http://www.aclweb.org/anthology/W04-3252.pdf], SingleRank[@http://www.aclweb.org/anthology/C08-1122.pdf], TopicRank[@http://aclweb.org/anthology/I13-1062.pdf], TopicalPageRank[@http://users.intec.ugent.be/cdvelder/papers/2015/sterckx2015wwwb.pdf], PositionRank[@http://www.aclweb.org/anthology/P17-1102.pdf] and MultipartiteRank[https://arxiv.org/abs/1803.08721]. [TODO: Will you please clarify what the following sentence is referring to. Is there a specific data file?]An example of the diversity of returned keywords is available in the appendix.
+For each abstract, we sought to identify *n* keyphrases that would most effectively characterize the semantic meaning of the abstract. In our benchmark comparisons, we used *n* values of 10, 20, and 30 and applied 9 unsupervised, keyphrase-extraction techniques that had been implemented in the pke Python module[https://aclanthology.org/C16-2015/]. The keyphrase-extraction techniques were TFIDF[@https://ieeexplore.ieee.org/abstract/document/5392697;@https://www.emerald.com/insight/content/doi/10.1108/eb026526/full/html], KP-Miner[@http://www.aclweb.org/anthology/S10-1041.pdf], YAKE[@https://doi.org/10.1016/j.ins.2019.09.013], TextRank[@http://www.aclweb.org/anthology/W04-3252.pdf], SingleRank[@http://www.aclweb.org/anthology/C08-1122.pdf], TopicRank[@https://aclweb.org/anthology/I13-1062.pdf], TopicalPageRank[@http://users.intec.ugent.be/cdvelder/papers/2015/sterckx2015wwwb.pdf], PositionRank[@http://www.aclweb.org/anthology/P17-1102.pdf] and MultipartiteRank[https://arxiv.org/abs/1803.08721]. [TODO: Will you please clarify what the following sentence is referring to. Is there a specific data file?]An example of the diversity of returned keywords is available in the appendix.
 
 ### Word-vector models
 
@@ -388,6 +388,7 @@ Text = "OBJECTIVE: Novel biomarkers of disease progression after type 1 diabetes
 ![FastText Skipgram_30.](content/images/30_keyword_output/30_FTCBOWOutput.txt_graph.png){width="7in" height = "7in"} 
 ![FastText Wiki_30.](content/images/30_keyword_output/30_FTSkipGramOutput.txt_graph.png){width="7in" height = "7in"} 
 ![Spacy_30.](content/images/30_keyword_output/30_FTWikiOutput.txt_graph.png){width="7in" height = "7in"} 
+![GEO_Results.](content/images/GEO_Results.png){width="7in" height = "7in"} 
 
 
 ## References {.page_break_before}

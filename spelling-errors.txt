@@ -9,6 +9,7 @@ CBOW
 CDR
 Chiu
 comparision
+comparisions
 continous
 CPUs
 curation
@@ -18,9 +19,9 @@ DDIT
 embeddings
 endoplasmic
 fastText
-fastTextCBOW
+FastTextCBOW
 fastTextSkipGram
-FastTextWiki
+fastTextWiki
 genomic
 glycaemic
 GRP
@@ -53,12 +54,12 @@ qPCR
 Relevent
 reproducibility
 reticulum
-SciSpaCy
+SciSpacy
 signficant
 SingleRank
-SKIPGRAM
+Skipgram
 smalled
-spaCy
+Spacy
 SpacyWebLG
 srp
 StarGEO

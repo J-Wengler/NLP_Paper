@@ -4,7 +4,7 @@ author-meta:
 - Stephen R. Piccolo
 bibliography:
 - content/manual-references.json
-date-meta: '2021-09-15'
+date-meta: '2021-10-21'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +23,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets" />
 
-  <meta name="dc.date" content="2021-09-15" />
+  <meta name="dc.date" content="2021-10-21" />
 
-  <meta name="citation_publication_date" content="2021-09-15" />
+  <meta name="citation_publication_date" content="2021-10-21" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -61,11 +61,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/11ebc67518fa75e2ba286c115d62d6cd5122ec39/" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/0adeb44e8651762609b2e7af10bcafe7838ce7fa/" />
 
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/11ebc67518fa75e2ba286c115d62d6cd5122ec39/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/0adeb44e8651762609b2e7af10bcafe7838ce7fa/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/11ebc67518fa75e2ba286c115d62d6cd5122ec39/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/0adeb44e8651762609b2e7af10bcafe7838ce7fa/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -99,10 +99,10 @@ title: Comparison of keyword-extraction and word-vector generation methods for i
 
 <small><em>
 This manuscript
-([permalink](https://J-Wengler.github.io/NLP_Paper/v/11ebc67518fa75e2ba286c115d62d6cd5122ec39/))
+([permalink](https://J-Wengler.github.io/NLP_Paper/v/0adeb44e8651762609b2e7af10bcafe7838ce7fa/))
 was automatically generated
-from [J-Wengler/NLP_Paper@11ebc67](https://github.com/J-Wengler/NLP_Paper/tree/11ebc67518fa75e2ba286c115d62d6cd5122ec39)
-on September 15, 2021.
+from [J-Wengler/NLP_Paper@0adeb44](https://github.com/J-Wengler/NLP_Paper/tree/0adeb44e8651762609b2e7af10bcafe7838ce7fa)
+on October 21, 2021.
 </em></small>
 
 ## Authors
@@ -184,7 +184,7 @@ GEO citation: pubmed:27008011
 
 ### Annotated data collection
 
-As a reference standard, we used annotations from Search Tag Analyze Resource for GEO (STARGEO)[@doi:10.1038/sdata.2017.125]. Using STARGEO, biomedical graduate students manually curate sample metadata and assign tags to GEO Series. We used these annotations to identify Series that had been associated with a given phenotype. To represent different types of queries that researchers might perform in GEO, we searched for human phenotypes that would result in a small, medium, or large number of GEO Series. We also sought to represent diverse phenotypic categories. On March 9 2021, we identified two phenotypes with ~100 Series, two with ~20 Series, and two with fewer than 10 Series[Table @tbl:query-summary]. (Because STARGEO is an ongoing project, it is likely that additional articles will be associated with these tags over time.) For each GEO Series, we used the STARGEO application programming interface[@url:http://STARGEO.org/api_docs/] to download the associated abstract, title, and accession number.
+As a reference standard, we used annotations from Search Tag Analyze Resource for GEO (STARGEO)[@doi:10.1038/sdata.2017.125]. For STARGEO, biomedical graduate students manually curate sample metadata and assign tags to GEO Series. We used these annotations to identify Series that had been associated with a given phenotype. To represent different types of queries that researchers might perform in GEO, we searched for human phenotypes that would result in a small, medium, or large number of GEO Series. We also sought to represent diverse phenotypic categories. On March 9 2021, we identified two phenotypes with approximately 100 Series, two with approximately 20 Series, and two with fewer than 10 Series[Table @tbl:query-summary]. (Because STARGEO is an ongoing project, it is likely that additional articles will be associated with these tags over time.) For each GEO Series, we used the STARGEO application programming interface[@url:http://STARGEO.org/api_docs/] to download the associated abstract, title, and accession number.
 
 | *STARGEO tag(s)*               | *Number of GEO Series*  |
 |:-------------------------------|------------------------:|
@@ -195,49 +195,40 @@ As a reference standard, we used annotations from Search Tag Analyze Resource fo
 | Diabetes + Type 1              |                      97 |
 | Osteosarcoma                   |                     112 |
 
-Table: Table containing each STARGEO query and number of GEO Queries returned at time of analysis. {#tbl:query-summary}
+Table: STARGEO tags associated with phenotype searches and the number of GEO Series returned per search. {#tbl:query-summary}
 
 ### Manual queries
 
-As a baseline, we evaluated our ability to identify GEO Series relevant to a particular phenotype using the GEO DataSets Advanced Search Builder. This analysis was performed on March 24, 2021. To maintain consistency with STARGEO, we entered the same keywords that we used in STARGEO and limited the results to GEO Series (no SuperSeries) and human data. We also limited the search results to Series that were available in STARGEO's corpus at that time. The Advanced Search Builder sometimes expanded our query terms and mapped them to the MeSH terminology. For example, our search that used the terms "Family History" and "Breast Cancer" was expanded to "("medical history taking"[MeSH Terms] OR Family History[All Fields]) AND ("breast neoplasms"[MeSH Terms] OR Breast cancer[All Fields])." analysis/Data/GEO_Queries/geo_results is a summary file indicating the accuracy achieved by this manual result. A result graph is also available in the appendix.
+As a baseline, we evaluated our ability to identify GEO Series relevant to a particular phenotype using the GEO DataSets Advanced Search Builder. This analysis was performed on March 24, 2021. To maintain consistency with STARGEO, we entered the same keywords that we used in STARGEO and limited the results to GEO Series (no SuperSeries) and human data. We also limited the search results to Series that were available in STARGEO's corpus at that time. The Advanced Search Builder sometimes expanded our query terms and mapped them to the MeSH terminology. For example, our search that used the terms "Family History" and "Breast Cancer" was expanded to ("medical history taking"[MeSH Terms] OR Family History[All Fields]) AND ("breast neoplasms"[MeSH Terms] OR Breast cancer[All Fields]).
 
 ### Keyphrase extraction
 
-For each abstract, we sought to identify *n* keyphrases that would most effectively characterize the semantic meaning of the abstract. In our benchmark comparisons, we used *n* values of 10, 20, and 30 and applied 9 unsupervised, keyphrase-extraction techniques that had been implemented in the pke Python module[https://aclanthology.org/C16-2015/]. The keyphrase-extraction techniques were TFIDF[@https://ieeexplore.ieee.org/abstract/document/5392697;@https://www.emerald.com/insight/content/doi/10.1108/eb026526/full/html], KP-Miner[@http://www.aclweb.org/anthology/S10-1041.pdf], YAKE[@https://doi.org/10.1016/j.ins.2019.09.013], TextRank[@http://www.aclweb.org/anthology/W04-3252.pdf], SingleRank[@http://www.aclweb.org/anthology/C08-1122.pdf], TopicRank[@https://aclweb.org/anthology/I13-1062.pdf], TopicalPageRank[@http://users.intec.ugent.be/cdvelder/papers/2015/sterckx2015wwwb.pdf], PositionRank[@http://www.aclweb.org/anthology/P17-1102.pdf] and MultipartiteRank[https://arxiv.org/abs/1803.08721]. To demonstrate the variance between keyword extraction techniques, we compared the top three keywords returned from a test abstract by each different keywor extraction method. The test abstract and results are available in the appendix. 
+For each abstract, we sought to identify *n* keyphrases that would most effectively characterize the semantic meaning of the abstract. In our benchmark comparisons, we used *n* values of 10, 20, and 30 and applied 9 unsupervised, keyphrase-extraction techniques that had been implemented in the *pke* Python module[https://aclanthology.org/C16-2015/]. The keyphrase-extraction techniques were TFIDF[@https://ieeexplore.ieee.org/abstract/document/5392697;@https://www.emerald.com/insight/content/doi/10.1108/eb026526/full/html], KP-Miner[@http://www.aclweb.org/anthology/S10-1041.pdf], YAKE[@https://doi.org/10.1016/j.ins.2019.09.013], TextRank[@http://www.aclweb.org/anthology/W04-3252.pdf], SingleRank[@http://www.aclweb.org/anthology/C08-1122.pdf], TopicRank[@https://aclweb.org/anthology/I13-1062.pdf], TopicalPageRank[@http://users.intec.ugent.be/cdvelder/papers/2015/sterckx2015wwwb.pdf], PositionRank[@http://www.aclweb.org/anthology/P17-1102.pdf] and MultipartiteRank[https://arxiv.org/abs/1803.08721]. 
 
 ### Word-vector models
 
-Using keyphrases from each abstract, we generated word vectors---numeric representations of text---based on models that had previously been trained on large amounts of unlabeled text. We generated the word vectors using the *fastText* (version 0.9.2) and *spaCy* (version 2.3.0) open-source libraries [@url:https://spacy.io;@arxiv:1902.07669;@arXiv:1607.04606], which both have been used widely in biomedical applications [@doi:10.1038/s41598-019-47046-2; @doi:10.1186/s12859-018-2496-4; @doi:10.18653/v1/W16-2922]. fastText provides two approaches for generating word vectors: Skip-gram and Continuous-Bag-Of-Words (CBOW). Given a particular word (or subword), the Skip-gram method trains a neural network to predict surrounding (sub)words; the weights of the network's hidden layer are used in the word vector. The CBOW method uses a similar approach but attempts to predict a (sub)word of interest, given a fixed-size window of surrounding (sub)words. For spaCy, we used named-entity recognition models with tokenized, hashed representations constructed from word features[@https://arxiv.org/pdf/1902.07669.pdf]. We generated a word vector for each keyphrase, summed the vectors for a given abstract, and then divided by the number of keywords in the abstract (so that results would be comparable when using different numbers of keywords). This technique has been shown to be a simple and effective way to combine multiple embeddings into a single vector and is often used to generate document-level embeddings [@url:http://arxiv.org/abs/1607.05368].
+Using keyphrases from each abstract, we generated word vectors---numeric representations of text---based on models that had previously been trained on large amounts of unlabeled text. We generated the word vectors using the *fastText* (version 0.9.2) and *spaCy* (version 2.3.0) open-source libraries [@url:https://spacy.io;@arxiv:1902.07669;@arXiv:1607.04606], which both have been used widely in biomedical applications [@doi:10.1038/s41598-019-47046-2; @doi:10.1186/s12859-018-2496-4; @doi:10.18653/v1/W16-2922]. fastText provided two approaches for generating word vectors: Skip-gram and Continuous-Bag-Of-Words (CBOW). Given a particular word (or subword), the Skip-gram method trains a neural network to predict surrounding (sub)words; the weights of the network's hidden layer are used in the word vector. The CBOW method uses a similar approach but attempts to predict a (sub)word of interest, given a fixed-size window of surrounding (sub)words. For spaCy, we used named-entity recognition models with tokenized, hashed representations constructed from word features[@https://arxiv.org/pdf/1902.07669.pdf]. We generated a word vector for each keyphrase, summed the vectors for a given abstract, and then divided by the number of keywords in the abstract (so that results would be comparable when using different numbers of keywords). This technique has been shown to be a simple and effective way to combine multiple embeddings into a single vector and is often used to generate document-level embeddings [@url:http://arxiv.org/abs/1607.05368].
 %https://towardsdatascience.com/word2vec-skip-gram-model-part-1-intuition-78614e4d6e0b
 
 %"FastText [8] expresses a word by the sum of the N-gram vector of the character level. The embedding method at the subword level solves the disadvantages that involve difficulty in application to languages with varying morphological changes or low frequency. This method was strong at solving the OOV problem, and accuracy was high for rare words in the word set. BioWordVec [9] learns clinical record data from PubMed and MIMIC-III clinical databases using fastText. Based on 28,714,373 PubMed documents and 2,083,180 MIMIC-III clinical database documents, the entire corpus was built. The Medical Subject Headings (MeSH) term graph was organized to create a heading sequence and to carry out word embedding based on a sequence combining MeSH and PubMed. BioWordVec provided a 200-dimensional pretrained word embedding matrix"
 
 ### Training corpora
 
-We used models that were trained on English-language text from diverse sources. We used a *BioWordVec* model[@pubmed:31076572] that had been trained on PubMed abstracts and clinical notes from the MIMIC-III database[@https://www.nature.com/articles/sdata201635] (downloaded from https://ftp.ncbi.nlm.nih.gov/pub/lu/Suppl/BioSentVec/). This model used 100-dimensional vectors. We used a *fastTextWiki* model that had been trained on n-gram representations of articles from Wikipedia and news sources, representing diverse topics as of 2017; this model used 300-dimensional vectors and the CBOW (Continous-bag-of-words) method. We trained a *fastTextSkipGram* model on all available abstracts from GEO Series (as of March 2021) representing diverse types of human disease; the vectors in this model were 300-dimensional and were generated using the Skip-gram method. The training of these models was accomplished by using the trainFastTextModel function found in analysis/Python_Scripts/helper.py. The *fastTextCBOW* model was identical to the *fastTextSkipGram* model except that we used CBOW to generate the vectors. The *SpacyWebLG* model had been trained on written text from blogs, news, and comments from diverse websites. The *SciSpacy* model[https://arxiv.org/abs/1902.07669] had been trained on text from the BioCreative V CDR (BC5CDR) task corpus, comprising chemical, disease, and chemical-disease annotations from 1500 PubMed articles[https://pubmed.ncbi.nlm.nih.gov/27161011/]. *SciSpacy* uses a 200-dimensional vector while *SpacyWebLG* utilizes a 300-dimensional vector[TODO].
-
-% I commented this out for now. I thought it was better to explain this in a paragraph.
-%| *Model* | *Summary* |
-%|:--------|:---------|
-%| BioWordVec        | fastText Model trained on generic biomedical data with Skip-gram    |
-%| FastTextWiki      | fastText model trained on Wikipedia data with CBOW                 |
-%| FastTextSKIPGRAM  | fastText model trained on GEO data using Skip-gram                  |
-%| FastTextCBOW      | fastText model trained on GEO data using CBOW                      |
-%| SpacyWebLG        | A Spacy model trained on general Web text ((blogs, news, comments) |
-%| SciSpacy          | A Spacy model trained on biomedical data                           |
+We used models trained on English-language text from diverse sources. We used a *BioWordVec* model[@pubmed:31076572] that had been trained on PubMed abstracts and clinical notes from the MIMIC-III database[@https://www.nature.com/articles/sdata201635] (downloaded from https://ftp.ncbi.nlm.nih.gov/pub/lu/Suppl/BioSentVec/). This model used 100-dimensional vectors. We used a *fastTextWiki* model that had been trained on n-gram representations of articles from Wikipedia and news sources, representing diverse topics as of 2017; this model used 300-dimensional vectors and the CBOW (Continous-bag-of-words) method. We trained a *fastTextSkipGram* model on all available abstracts from GEO Series (as of March 2021) representing diverse types of human disease; the vectors in this model were 300-dimensional and were generated using the Skip-gram method. The *fastTextCBOW* model was identical to the *fastTextSkipGram* model except that we used CBOW to generate the vectors. The *SpacyWebLG* model had been trained on written text from blogs, news, and comments from diverse websites. The *SciSpacy* model[https://arxiv.org/abs/1902.07669] had been trained on text from the BioCreative V CDR (BC5CDR) task corpus, comprising chemical, disease, and chemical-disease annotations from 1500 PubMed articles[https://pubmed.ncbi.nlm.nih.gov/27161011/]. *SciSpacy* uses a 200-dimensional vector while *SpacyWebLG* utilizes a 300-dimensional vector.
+%Training these models was accomplished by using the trainFastTextModel function found in analysis/Python_Scripts/helper.py. 
 
 ### Model Evaluation 
  
-We tested each combination of phenotype query, keyword-extraction technique, number of keywords, and word-vector generation method[TODO: Did I miss anything?]. For each combination, we completed the following steps.
+We tested each combination of phenotype query, keyword-extraction technique, number of keywords, and word-vector generation method. For each combination, we completed the following steps.
 
-1. Randomly selected 1000 GEO Series identifiers from all those available in STARGEO. All combinations use the same random 1000 articles to ensure fair testing. 
-2. Added the 265 GEO Series identifiers associated with all of the phenotype queries (Table X). This brings the total series used in each combination as 1265.
+1. Randomly selected 1000 GEO Series identifiers from those available in STARGEO. (We used the same 1000 Series for all combinations to ensure fair comparisons.)
+2. Added the 265 GEO Series identifiers associated with all of the phenotype queries (Table X). (This raised the total number of Series to 1265.
 3. Randomly assigned approximately half of the Series as training instances and the remaining half as test instances.
 4. Retrieved the abstract associated with each Series.
 5. Extracted *n* keywords from the abstract using a given keyword-extraction technique.
 6. Loaded the word-vector model and extracted a vector for each training instance.
-7. Combined all training vectors mathmatically by adding vector-wise and then dividing the resulting vector by the number of series in the training dataset. This generates one single training vector we can use to compare.
-8. Used the cosine similarity method to estimate the similarity between each test instance and the singular training vector associated with the given phenotypic category. This method calculates the cosine of the angle drawn between the two vectors in a multi-dimensional space. [
+7. Combined all training vectors by adding them in a vector-wise manner and then dividing the resulting vector by the number of Series in the training dataset. This resulted in a single training vector per phenotype.
+8. Used the cosine similarity to estimate the similarity between each test instance and the training vector associated with a given phenotype. This method calculated the cosine of the angle drawn between the two vectors in a multi-dimensional space.
 9. Calculated the proportion of the top 1, 10, and 100 test instances that STARGEO had previously identified as being relevant to the phenotypic category.
 
 ### Code availability
@@ -249,6 +240,9 @@ All code that we used to perform this analysis have been deposited on GitHub (ht
 The two main techniques in this paper are keyword identification and word vector generation. Both of these methods are described below.
 
 To test this effect we trained models on biomedical literature as well as general sources such as blogs, news articles, and Wikipedia entries [@url:https://arxiv.org/abs/1607.04606].
+
+TODO: analysis/Data/GEO_Queries/geo_results is a summary file indicating the accuracy achieved by this manual result. A result graph is also available in the appendix.
+TODO: To demonstrate the variance among keyword extraction techniques, we compared the top three keywords returned from a test abstract by each different keyword extraction method. The test abstract and results are available in the appendix.
 
 ### Keyword Identification
 Keyword extraction is a vital part of the analysis. There are a variety of techniques to achieve this, and we test the most common 9 

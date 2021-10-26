@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="James Wengler" />
   <meta name="author" content="Stephen R. Piccolo" />
-  <meta name="dcterms.date" content="2021-10-21" />
+  <meta name="dcterms.date" content="2021-10-26" />
   <meta name="keywords" content="Natural language processing, Information retrieval, Functional genomics, Keyword extraction, Machine learning" />
   <title>Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets</title>
   <style>
@@ -29,8 +29,8 @@
   <meta name="citation_title" content="Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets" />
   <meta property="og:title" content="Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets" />
   <meta property="twitter:title" content="Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets" />
-  <meta name="dc.date" content="2021-10-21" />
-  <meta name="citation_publication_date" content="2021-10-21" />
+  <meta name="dc.date" content="2021-10-26" />
+  <meta name="citation_publication_date" content="2021-10-26" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -48,9 +48,9 @@
   <meta name="citation_fulltext_html_url" content="https://J-Wengler.github.io/NLP_Paper/" />
   <meta name="citation_pdf_url" content="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/0adeb44e8651762609b2e7af10bcafe7838ce7fa/" />
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/0adeb44e8651762609b2e7af10bcafe7838ce7fa/" />
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/0adeb44e8651762609b2e7af10bcafe7838ce7fa/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/b5f1952e04172289adfe935297a1fcfd42e2bf70/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/b5f1952e04172289adfe935297a1fcfd42e2bf70/" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/b5f1952e04172289adfe935297a1fcfd42e2bf70/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -64,10 +64,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://J-Wengler.github.io/NLP_Paper/v/0adeb44e8651762609b2e7af10bcafe7838ce7fa/">permalink</a>)
+(<a href="https://J-Wengler.github.io/NLP_Paper/v/b5f1952e04172289adfe935297a1fcfd42e2bf70/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/J-Wengler/NLP_Paper/tree/0adeb44e8651762609b2e7af10bcafe7838ce7fa">J-Wengler/NLP_Paper@0adeb44</a>
-on October 21, 2021.
+from <a href="https://github.com/J-Wengler/NLP_Paper/tree/b5f1952e04172289adfe935297a1fcfd42e2bf70">J-Wengler/NLP_Paper@b5f1952</a>
+on October 26, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -127,6 +127,12 @@ Our methodology utilises two techniques widely used in natural language processi
 Using these two tools, our approach can take several pre-identified datasets and identify other related datasets, no matter how niche the subject area. We test
 a variety of these different techniques to identify those that are most promising for future use.</p>
 <p>GEO citation: pubmed:27008011</p>
+<p>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</p>
+<p>Data-sharing requirements have led to wide availability of genomic datasets in public repositories. Researchers can reuse and combine these datasets to address novel hypotheses. However, after identifying one or more datasets that are relevant to a particular research question, a researcher may have difficult identifying other datasets that are also relevant, due to the quantity of available datasets and lack of structure with which they are described. In this study, we focus specifically on Gene Expression Omnibus, a repository that contains genomic data from hundreds of thousands of experiments. Notable efforts have been made to manually annotate these data but not been able to keep pace as new datasets are submitted. To address this problem, we use natural language processing (NLP). Under the assumption that a researcher has manually identified a subset of available datasets related to a particular research topic, we use NLP algorithms to extract keywords from the abstract associated with each dataset. Next we summarize the keywords using diverse embedding algorithms. (TODO: I’m sure there’s a better way to say this.)</p>
+<p>TODO: Describe briefly here about the theoretical approaches that we compared more so than the specific software packages. Without making it too long, make sure to cover all of the approaches.</p>
+<p>Concerning word vector generation we test two primary factors, domain and training algorithm. Domain refers to the type of text that each model is trainined on. We compare biomedical specific text (StarGEO abstracts) with readily available models trained on wikipedia data. Once a domain has been identified there are two options for training algorithms. The first is continous-bag-of-words (CBOW). CBOW trains by predicting the target word from the context words that surround it. The second option is skip-gram. Skip-gram trains by predicting the context words from the target word essentially the reverse of CBOW.</p>
+<p>We test nine keyword extraction methods. Three of the methods are statistical models while the other six are graphical methods. The statistical methods are TF-IDF, KP-Miner, and YAKE. TF-IDF works by comparing the frequency of each word found in the passage to its frequency in other passages that exist in the corpus. KP-Miner evaluates each word based on the context surrounding the words to identify keywords. YAKE combines elements of both TF-IDF and KP-Miner by using the context while also taking into account the frequency at which the word appears in the document. The first graphical approach we test is TextRank which is based off of a web technique called PageRank which is used for identifying related webpages through hyperlinks. TextRank performs a similar analysis with text by creating a graph where each word is represented as a node. Relationships between words are drawn as connected nodes. These relationships are used to identify keywords. TopicRank is a process similar to TextRank but the text is preprocessed to create n-grams of nouns and adjectives as keyphrase candidates before creating a graph with them to identify keywords. SingleRank is another extension of TextRank with each node having a weight value assigned to it. PositionRank is a more complicated extension of TextRank where the position of the word within the sentence is assigned a weight along with actual context as in TextRank. TopicalPageRank is another extension of TextRank that seeks to improve experience by weighting those words that appear more in the document. The last graphical approach is MultipartiteRank which uses a multipartite graph to construct the initial graph and calculate weights between nodes.</p>
+<p>We found that different combinations of keyword extraction methods and word vector generation yield very different results. This variety was also reflected across the query domains. These results show that natural language processing is a powerful tool that can be harnessed for data collection and more research needs to be done in this area.</p>
 <h2 class="page_break_before" id="methods">Methods</h2>
 <h3 id="annotated-data-collection">Annotated data collection</h3>
 <p>As a reference standard, we used annotations from Search Tag Analyze Resource for GEO (STARGEO)<span class="citation" data-cites="rc4BI37X">[<a href="#ref-rc4BI37X" role="doc-biblioref">11</a>]</span>. For STARGEO, biomedical graduate students manually curate sample metadata and assign tags to GEO Series. We used these annotations to identify Series that had been associated with a given phenotype. To represent different types of queries that researchers might perform in GEO, we searched for human phenotypes that would result in a small, medium, or large number of GEO Series. We also sought to represent diverse phenotypic categories. On March 9 2021, we identified two phenotypes with approximately 100 Series, two with approximately 20 Series, and two with fewer than 10 Series[Table <a href="#tbl:query-summary">1</a>]. (Because STARGEO is an ongoing project, it is likely that additional articles will be associated with these tags over time.) For each GEO Series, we used the STARGEO application programming interface<span class="citation" data-cites="rVIaJIbT">[<a href="#ref-rVIaJIbT" role="doc-biblioref">12</a>]</span> to download the associated abstract, title, and accession number.</p>
@@ -194,19 +200,11 @@ a variety of these different techniques to identify those that are most promisin
 <h3 id="code-availability">Code availability</h3>
 <p>All code that we used to perform this analysis have been deposited on GitHub (https://github.com/J-Wengler/NLP_Paper). To facilitate reproducibility, the analysis is executed within a Docker container<span class="citation" data-cites="heYSKCTA">[<a href="#ref-heYSKCTA" role="doc-biblioref">32</a>]</span>. We used version 3.8.5 of the Python programming language (https://python.org).</p>
 <h2 class="page_break_before" id="results">Results</h2>
-<p>The two main techniques in this paper are keyword identification and word vector generation. Both of these methods are described below.</p>
-<p>To test this effect we trained models on biomedical literature as well as general sources such as blogs, news articles, and Wikipedia entries <span class="citation" data-cites="17Bh2zE6s">[<a href="#ref-17Bh2zE6s" role="doc-biblioref">33</a>]</span>.</p>
-<p>TODO: analysis/Data/GEO_Queries/geo_results is a summary file indicating the accuracy achieved by this manual result. A result graph is also available in the appendix.
-TODO: To demonstrate the variance among keyword extraction techniques, we compared the top three keywords returned from a test abstract by each different keyword extraction method. The test abstract and results are available in the appendix.</p>
+<p>TODO: analysis/Data/GEO_Queries/geo_results is a summary file indicating the accuracy achieved by this manual result. A result graph is also available in the appendix.</p>
+<p>TODO: To demonstrate the variance among keyword extraction techniques, we compared the top three keywords returned from a test abstract by each different keyword extraction method. The test abstract and results are available in the appendix.</p>
 <h3 id="keyword-identification">Keyword Identification</h3>
-<p>Keyword extraction is a vital part of the analysis. There are a variety of techniques to achieve this, and we test the most common 9
-techniques in this paper. Each technique performs the analysis slightly differently and this leads to variation in the keywords identified.
-An example of the variation is shown below.</p>
-<p><em>Sample Abstract -&gt; “BRCA1 and BRCA2 are the genes related with breast and ovarian cancer. They have function in DNA repair processes
-and thus they are tumor suppressor genes. There are hundreds of mutations identified in these genes. Functional deficiencies due to
-these mutations impair DNA repair and cause irregularities in the DNA synthesis. The standard method for the laboratory assessment of
-these BRCA genes includes comprehensive sequencing and testing of broad genomic rearrangements. Members of the families with BRCA mutations
-have an increased risk for early onset of breast cancer and ovarian cancer occurring at any age.”</em></p>
+<p>Keyword extraction is a vital part of the analysis. There are a variety of techniques to achieve this, and we test the most common 9 techniques in this paper. Each technique performs the analysis slightly differently and this leads to variation in the keywords identified. An example of the variation is shown below.</p>
+<p><em>Sample Abstract -&gt; “BRCA1 and BRCA2 are the genes related with breast and ovarian cancer. They have function in DNA repair processes and thus they are tumor suppressor genes. There are hundreds of mutations identified in these genes. Functional deficiencies due to these mutations impair DNA repair and cause irregularities in the DNA synthesis. The standard method for the laboratory assessment of these BRCA genes includes comprehensive sequencing and testing of broad genomic rearrangements. Members of the families with BRCA mutations have an increased risk for early onset of breast cancer and ovarian cancer occurring at any age.”</em></p>
 <table>
 <colgroup>
 <col style="width: 54%" />
@@ -241,45 +239,19 @@ have an increased risk for early onset of breast cancer and ovarian cancer occur
 </tr>
 </tbody>
 </table>
-<h3 id="word-vector-generation">Word Vector Generation</h3>
-<p>Vector generation is how similarities between articles are calculated. This allows us to give a numerical percentage to quantify the relationship
-between two datasets. In our analysis we test 6 models that can generate vectors. Each model is trained on unique text and will yield slightly different
-word vectors. This in turn will generate slightly different cosine similarities. An example of vector generation is shown below:</p>
-<table>
-<colgroup>
-<col style="width: 44%" />
-<col style="width: 55%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;"><em>Word</em></th>
-<th style="text-align: center;"><em>Vector</em></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Database</td>
-<td style="text-align: center;">[ 1.3863622 1.0939984 -2.1352 -1.9841313 -0.31141075 1.3959851 … ]</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Gene</td>
-<td style="text-align: center;">[ 1.4969006 2.7855976 -4.313326 -2.5572329 -0.9275282 0.43499815 … ]</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Mutation</td>
-<td style="text-align: center;">[ 2.7130241e+00 2.5561374e-01 -2.1098554e+00 -2.1719341e+00 … ]</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Disease</td>
-<td style="text-align: center;">[ 1.9606729e+00 3.5872436e-01 -2.9315462e+00 -2.3048987e+00 … ]</td>
-</tr>
-</tbody>
-</table>
+<p>%### Word Vector Generation
+%
+%Vector generation is how similarities between articles are calculated. This allows us to give a numerical percentage to quantify the relationship between two datasets. In our analysis we test 6 models that can generate vectors. Each model is trained on unique text and will yield slightly different word vectors. This in turn will generate slightly different cosine similarities. An example of vector generation is shown below:</p>
+<p>%| <em>Word</em> | <em>Vector</em> |
+%|:——-|:——–:|
+%| Database | [ 1.3863622 1.0939984 -2.1352 -1.9841313 -0.31141075 1.3959851 … ] |
+%| Gene | [ 1.4969006 2.7855976 -4.313326 -2.5572329 -0.9275282 0.43499815 … ] |
+%| Mutation | [ 2.7130241e+00 2.5561374e-01 -2.1098554e+00 -2.1719341e+00 … ] |
+%| Disease | [ 1.9606729e+00 3.5872436e-01 -2.9315462e+00 -2.3048987e+00 … ] |</p>
 <h3 id="evaluation-results">Evaluation Results</h3>
 <h5 id="effect-of-number-of-keywords-returned-on-the-percentage-of-relevent-articles-returned-at-100-articles">Effect of Number of Keywords Returned on the Percentage of Relevent Articles Returned at 100 Articles</h5>
 <p><img src="images/summaryGraph.png" style="width:7in" alt="Summary_Graph_Keywords." />
-This summary graph shows the relationship between the number of keywords queried and percentage of relevant articles
-returned at 100 articles. Between the three groups a wilcoxon test found no signficant difference.</p>
+This summary graph shows the relationship between the number of keywords queried and percentage of relevant articles returned at 100 articles. Between the three groups a wilcoxon test found no signficant difference.</p>
 <h5 id="keywords">30 keywords</h5>
 <p>This graph is an example of a graph generated by the AllGraphs script in /images/. All other models
 are contained in the appendix. This graph is 30 keywords using the SciSpaCy model.
@@ -291,7 +263,7 @@ are contained in the appendix. This graph is 30 keywords using the SciSpaCy mode
 <h4 id="overview">Overview</h4>
 <p>The purpose of this project was to illustrate the usage of Natural Language Processing in the data collection phase of any project and to identify techniques to use
 in future projects. NLP has already been shown to be useful to find related articles of scientific nature
-<span class="citation" data-cites="x30kePas ieR5dnsn 44ZXsjwa">[<a href="#ref-x30kePas" role="doc-biblioref">34</a>,<a href="#ref-ieR5dnsn" role="doc-biblioref">35</a>,<a href="#ref-44ZXsjwa" role="doc-biblioref">36</a>]</span>. However to our knowledge no project has been done comparing
+<span class="citation" data-cites="x30kePas ieR5dnsn 44ZXsjwa">[<a href="#ref-x30kePas" role="doc-biblioref">33</a>,<a href="#ref-ieR5dnsn" role="doc-biblioref">34</a>,<a href="#ref-44ZXsjwa" role="doc-biblioref">35</a>]</span>. However to our knowledge no project has been done comparing
 word vector generation and keyword extraction techniques for usage in data collection. This is addressed in our paper in the head to head comparision of these techniques.
 We hope this will further our knowledge as to how natural language processing might help researchers in future studies.</p>
 <h4 id="motivation">Motivation</h4>
@@ -307,7 +279,7 @@ The source of the training data is an important aspect of generating word vector
 <h4 id="observations">Observations</h4>
 <p>The results show a wide variety of accuracy across the queries. This pattern of the same natural language processing technique
 giving disparate results on intrinsic evaluations is one commonly seen in natural language processing evaluations
-<span class="citation" data-cites="6WZB9lTq rGefJsoC 15nnJZdR0">[<a href="#ref-rGefJsoC" role="doc-biblioref">10</a>,<a href="#ref-6WZB9lTq" role="doc-biblioref">37</a>,<a href="#ref-15nnJZdR0" role="doc-biblioref">38</a>]</span>. However the results do show a pattern
+<span class="citation" data-cites="6WZB9lTq rGefJsoC 15nnJZdR0">[<a href="#ref-rGefJsoC" role="doc-biblioref">10</a>,<a href="#ref-6WZB9lTq" role="doc-biblioref">36</a>,<a href="#ref-15nnJZdR0" role="doc-biblioref">37</a>]</span>. However the results do show a pattern
 that the best performing results are when the model and data are similar. Another interesting observation is the varying results between queries.
 The best performing queries are consistently queries one and two which are the smalled queries with six and nine results respectively. This would imply
 that the more narrowly defined a query, the better this technique can perform.</p>
@@ -327,14 +299,14 @@ customization would require the manual editing of the code to fit the use cause.
 of datasets. This means that the only external evaluation possible is to compare it to hand curation of datasets by other researchers. We did consider this option but rejected it due
 to the subjective nature of human curation and the time it would require of the participants. There are also other keyword extraction and word vector generation techniques. Our keyword
 extraction techniques were limited to those available in the PKR Python package to ensure consistency. Word vectors were limited to the those that were most commonly tested and available
-in other NLP related papers <span class="citation" data-cites="8NKQyXww 5CpWCZGC">[<a href="#ref-8NKQyXww" role="doc-biblioref">6</a>,<a href="#ref-5CpWCZGC" role="doc-biblioref">39</a>]</span>. Further testing is warranted on less known models and techniques.</p>
+in other NLP related papers <span class="citation" data-cites="8NKQyXww 5CpWCZGC">[<a href="#ref-8NKQyXww" role="doc-biblioref">6</a>,<a href="#ref-5CpWCZGC" role="doc-biblioref">38</a>]</span>. Further testing is warranted on less known models and techniques.</p>
 <p>All analysis were performed on a Dell PowerEdge R730xd server with two Intel Xeon E5-2640 v4 2.4GHz CPUs that each support 10 cores with two threads apiece with a total of 256gb of RAM. All analyses were run using the Multiprocessing
 package that allowed each combination of keyword extraction and word vector to each be run as a separate task. This hardware was not capable of running the full analysis even using the multiprocessing package. We hypothesis this is due
 to the relatively long time it takes to generate a word vector.</p>
 <p>Why we used different word-vector lengths…</p>
 <h2 class="page_break_before" id="appendix">Appendix</h2>
 <h3 id="comparison-of-keywords-techniques">Comparison of Keywords Techniques</h3>
-<p>Test Abstract from PubMed. <span class="citation" data-cites="KBhULZJE">[<a href="#ref-KBhULZJE" role="doc-biblioref">40</a>]</span>
+<p>Test Abstract from PubMed. <span class="citation" data-cites="KBhULZJE">[<a href="#ref-KBhULZJE" role="doc-biblioref">39</a>]</span>
 Text = “OBJECTIVE: Novel biomarkers of disease progression after type 1 diabetes onset are needed. RESEARCH DESIGN AND METHODS: We profiled peripheral blood (PB) monocyte gene expression in 6 healthy subjects and 16 children with type 1 diabetes diagnosed ~3 months previously, and analyzed clinical features from diagnosis to 1 year. RESULTS: Monocyte expression profiles clustered into two distinct subgroups, representing mild and severe deviation from healthy controls, along the same continuum. Patients with strongly divergent monocyte gene expression had significantly higher insulin dose-adjusted HbA1c levels during the first year, compared to patients with mild deviation. The diabetes-associated expression signature identified multiple perturbations in pathways controlling cellular metabolism and survival, including endoplasmic reticulum and oxidative stress (e.g. induction of HIF1A, DDIT3, DDIT4 and GRP78). qPCR quantitation of a 9-gene panel correlated with glycaemic control in 12 additional recent-onset patients. The qPCR signature was also detected in PB from healthy first-degree relatives. CONCLUSIONS: A PB gene expression signature correlates with glycaemic control in the first year after diabetes diagnosis, and is present in at-risk subjects. These findings implicate monocyte phenotype as a candidate biomarker for disease progression pre- and post-onset, and systemic stresses as contributors to innate immune function in type 1 diabetes.”</p>
 <table>
 <colgroup>
@@ -536,46 +508,41 @@ Carl Boettiger<br />
 <em>ACM SIGOPS Operating Systems Review</em> (2015-01-20) <a href="https://doi.org/gdz6f9">https://doi.org/gdz6f9</a> <br />
 DOI: <a href="https://doi.org/10.1145/2723872.2723882">10.1145/2723872.2723882</a></p>
 </div>
-<div id="ref-17Bh2zE6s">
-<p>33. <strong>Enriching Word Vectors with Subword Information</strong> <br />
-Piotr Bojanowski, Edouard Grave, Armand Joulin, Tomas Mikolov<br />
-<em>arXiv:1607.04606 [cs]</em> (2017-06-19) <a href="http://arxiv.org/abs/1607.04606">http://arxiv.org/abs/1607.04606</a></p>
-</div>
 <div id="ref-x30kePas">
-<p>34. <strong>Editorial: Mining Scientific Papers: NLP-enhanced Bibliometrics</strong> <br />
+<p>33. <strong>Editorial: Mining Scientific Papers: NLP-enhanced Bibliometrics</strong> <br />
 Iana Atanassova, Marc Bertin, Philipp Mayr<br />
 <em>Frontiers in Research Metrics and Analytics</em> (2019-04-30) <a href="https://doi.org/ghcpfz">https://doi.org/ghcpfz</a> <br />
 DOI: <a href="https://doi.org/10.3389/frma.2019.00002">10.3389/frma.2019.00002</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33870034">33870034</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8028414">PMC8028414</a></p>
 </div>
 <div id="ref-ieR5dnsn">
-<p>35. <strong>NLP Scholar: An Interactive Visual Explorer for Natural Language Processing Literature</strong> <br />
+<p>34. <strong>NLP Scholar: An Interactive Visual Explorer for Natural Language Processing Literature</strong> <br />
 Saif M. Mohammad<br />
 <em>arXiv:2006.01131 [cs]</em> (2020-05-31) <a href="http://arxiv.org/abs/2006.01131">http://arxiv.org/abs/2006.01131</a></p>
 </div>
 <div id="ref-44ZXsjwa">
-<p>36. <strong>tl;dr: this AI sums up research papers in a sentence</strong> <br />
+<p>35. <strong>tl;dr: this AI sums up research papers in a sentence</strong> <br />
 Jeffrey M. Perkel, Richard Van Noorden<br />
 <em>Nature</em> (2020-11-23) <a href="https://doi.org/ghmnjj">https://doi.org/ghmnjj</a> <br />
 DOI: <a href="https://doi.org/10.1038/d41586-020-03277-2">10.1038/d41586-020-03277-2</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33230274">33230274</a></p>
 </div>
 <div id="ref-6WZB9lTq">
-<p>37. <strong>Word2vec convolutional neural networks for classification of news articles and tweets</strong> <br />
+<p>36. <strong>Word2vec convolutional neural networks for classification of news articles and tweets</strong> <br />
 Beakcheol Jang, Inhwan Kim, Jong Wook Kim<br />
 <em>PLOS ONE</em> (2019-08-22) <a href="https://doi.org/ghg3sp">https://doi.org/ghg3sp</a> <br />
 DOI: <a href="https://doi.org/10.1371/journal.pone.0220976">10.1371/journal.pone.0220976</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31437181">31437181</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6705863">PMC6705863</a></p>
 </div>
 <div id="ref-15nnJZdR0">
-<p>38. <strong>An Empirical Evaluation of doc2vec with Practical Insights into Document Embedding Generation</strong> <br />
+<p>37. <strong>An Empirical Evaluation of doc2vec with Practical Insights into Document Embedding Generation</strong> <br />
 Jey Han Lau, Timothy Baldwin<br />
 <em>arXiv:1607.05368 [cs]</em> (2016-07-18) <a href="http://arxiv.org/abs/1607.05368">http://arxiv.org/abs/1607.05368</a></p>
 </div>
 <div id="ref-5CpWCZGC">
-<p>39. <strong>Probabilistic FastText for Multi-Sense Word Embeddings</strong> <br />
+<p>38. <strong>Probabilistic FastText for Multi-Sense Word Embeddings</strong> <br />
 Ben Athiwaratkun, Andrew Gordon Wilson, Anima Anandkumar<br />
 <em>arXiv:1806.02901 [cs, stat]</em> (2018-06-07) <a href="http://arxiv.org/abs/1806.02901">http://arxiv.org/abs/1806.02901</a></p>
 </div>
 <div id="ref-KBhULZJE">
-<p>40. <strong>Peripheral Blood Monocyte Gene Expression Profile Clinically Stratifies Patients With Recent-Onset Type 1 Diabetes</strong> <br />
+<p>39. <strong>Peripheral Blood Monocyte Gene Expression Profile Clinically Stratifies Patients With Recent-Onset Type 1 Diabetes</strong> <br />
 Katharine M. Irvine, Patricia Gallego, Xiaoyu An, Shannon E. Best, Gethin Thomas, Christine Wells, Mark Harris, Andrew Cotterill, Ranjeny Thomas<br />
 <em>Diabetes</em> (2012-05) <a href="https://doi.org/f3xdx3">https://doi.org/f3xdx3</a> <br />
 DOI: <a href="https://doi.org/10.2337/db11-1549">10.2337/db11-1549</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22403299">22403299</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3331753">PMC3331753</a></p>

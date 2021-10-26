@@ -4,7 +4,7 @@ author-meta:
 - Stephen R. Piccolo
 bibliography:
 - content/manual-references.json
-date-meta: '2021-10-21'
+date-meta: '2021-10-26'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +23,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets" />
 
-  <meta name="dc.date" content="2021-10-21" />
+  <meta name="dc.date" content="2021-10-26" />
 
-  <meta name="citation_publication_date" content="2021-10-21" />
+  <meta name="citation_publication_date" content="2021-10-26" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -61,11 +61,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/0adeb44e8651762609b2e7af10bcafe7838ce7fa/" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/b5f1952e04172289adfe935297a1fcfd42e2bf70/" />
 
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/0adeb44e8651762609b2e7af10bcafe7838ce7fa/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/b5f1952e04172289adfe935297a1fcfd42e2bf70/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/0adeb44e8651762609b2e7af10bcafe7838ce7fa/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/b5f1952e04172289adfe935297a1fcfd42e2bf70/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -99,10 +99,10 @@ title: Comparison of keyword-extraction and word-vector generation methods for i
 
 <small><em>
 This manuscript
-([permalink](https://J-Wengler.github.io/NLP_Paper/v/0adeb44e8651762609b2e7af10bcafe7838ce7fa/))
+([permalink](https://J-Wengler.github.io/NLP_Paper/v/b5f1952e04172289adfe935297a1fcfd42e2bf70/))
 was automatically generated
-from [J-Wengler/NLP_Paper@0adeb44](https://github.com/J-Wengler/NLP_Paper/tree/0adeb44e8651762609b2e7af10bcafe7838ce7fa)
-on October 21, 2021.
+from [J-Wengler/NLP_Paper@b5f1952](https://github.com/J-Wengler/NLP_Paper/tree/b5f1952e04172289adfe935297a1fcfd42e2bf70)
+on October 26, 2021.
 </em></small>
 
 ## Authors
@@ -179,6 +179,18 @@ a variety of these different techniques to identify those that are most promisin
 
 GEO citation: pubmed:27008011
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Data-sharing requirements have led to wide availability of genomic datasets in public repositories. Researchers can reuse and combine these datasets to address novel hypotheses. However, after identifying one or more datasets that are relevant to a particular research question, a researcher may have difficult identifying other datasets that are also relevant, due to the quantity of available datasets and lack of structure with which they are described. In this study, we focus specifically on Gene Expression Omnibus, a repository that contains genomic data from hundreds of thousands of experiments. Notable efforts have been made to manually annotate these data but not been able to keep pace as new datasets are submitted. To address this problem, we use natural language processing (NLP). Under the assumption that a researcher has manually identified a subset of available datasets related to a particular research topic, we use NLP algorithms to extract keywords from the abstract associated with each dataset. Next we summarize the keywords using diverse embedding algorithms. (TODO: I'm sure there's a better way to say this.)
+
+TODO: Describe briefly here about the theoretical approaches that we compared more so than the specific software packages. Without making it too long, make sure to cover all of the approaches.
+
+Concerning word vector generation we test two primary factors, domain and training algorithm. Domain refers to the type of text that each model is trainined on. We compare biomedical specific text (StarGEO abstracts) with readily available models trained on wikipedia data. Once a domain has been identified there are two options for training algorithms. The first is continous-bag-of-words (CBOW). CBOW trains by predicting the target word from the context words that surround it. The second option is skip-gram. Skip-gram trains by predicting the context words from the target word essentially the reverse of CBOW.
+
+We test nine keyword extraction methods. Three of the methods are statistical models while the other six are graphical methods. The statistical methods are TF-IDF, KP-Miner, and YAKE. TF-IDF works by comparing the frequency of each word found in the passage to its frequency in other passages that exist in the corpus. KP-Miner evaluates each word based on the context surrounding the words to identify keywords. YAKE combines elements of both TF-IDF and KP-Miner by using the context while also taking into account the frequency at which the word appears in the document. The first graphical approach we test is TextRank which is based off of a web technique called PageRank which is used for identifying related webpages through hyperlinks. TextRank performs a similar analysis with text by creating a graph where each word is represented as a node. Relationships between words are drawn as connected nodes. These relationships are used to identify keywords. TopicRank is a process similar to TextRank but the text is preprocessed to create n-grams of nouns and adjectives as keyphrase candidates before creating a graph with them to identify keywords. SingleRank is another extension of TextRank with each node having a weight value assigned to it. PositionRank is a more complicated extension of TextRank where the position of the word within the sentence is assigned a weight along with actual context as in TextRank. TopicalPageRank is another extension of TextRank that seeks to improve experience by weighting those words that appear more in the document. The last graphical approach is MultipartiteRank which uses a multipartite graph to construct the initial graph and calculate weights between nodes.
+
+We found that different combinations of keyword extraction methods and word vector generation yield very different results. This variety was also reflected across the query domains. These results show that natural language processing is a powerful tool that can be harnessed for data collection and more research needs to be done in this area.
+
 
 ## Methods {.page_break_before}
 
@@ -237,23 +249,16 @@ All code that we used to perform this analysis have been deposited on GitHub (ht
 
 
 ## Results {.page_break_before}
-The two main techniques in this paper are keyword identification and word vector generation. Both of these methods are described below.
-
-To test this effect we trained models on biomedical literature as well as general sources such as blogs, news articles, and Wikipedia entries [@url:https://arxiv.org/abs/1607.04606].
 
 TODO: analysis/Data/GEO_Queries/geo_results is a summary file indicating the accuracy achieved by this manual result. A result graph is also available in the appendix.
+
 TODO: To demonstrate the variance among keyword extraction techniques, we compared the top three keywords returned from a test abstract by each different keyword extraction method. The test abstract and results are available in the appendix.
 
 ### Keyword Identification
-Keyword extraction is a vital part of the analysis. There are a variety of techniques to achieve this, and we test the most common 9 
-techniques in this paper. Each technique performs the analysis slightly differently and this leads to variation in the keywords identified. 
-An example of the variation is shown below.
 
-*Sample Abstract -> "BRCA1 and BRCA2 are the genes related with breast and ovarian cancer. They have function in DNA repair processes 
-and thus they are tumor suppressor genes. There are hundreds of mutations identified in these genes. Functional deficiencies due to 
-these mutations impair DNA repair and cause irregularities in the DNA synthesis. The standard method for the laboratory assessment of 
-these BRCA genes includes comprehensive sequencing and testing of broad genomic rearrangements. Members of the families with BRCA mutations 
-have an increased risk for early onset of breast cancer and ovarian cancer occurring at any age."*
+Keyword extraction is a vital part of the analysis. There are a variety of techniques to achieve this, and we test the most common 9 techniques in this paper. Each technique performs the analysis slightly differently and this leads to variation in the keywords identified.  An example of the variation is shown below.
+
+*Sample Abstract -> "BRCA1 and BRCA2 are the genes related with breast and ovarian cancer. They have function in DNA repair processes and thus they are tumor suppressor genes. There are hundreds of mutations identified in these genes. Functional deficiencies due to these mutations impair DNA repair and cause irregularities in the DNA synthesis. The standard method for the laboratory assessment of these BRCA genes includes comprehensive sequencing and testing of broad genomic rearrangements. Members of the families with BRCA mutations have an increased risk for early onset of breast cancer and ovarian cancer occurring at any age."*
 
 | *Keyword Extraction Technique* | *Top 3 Keywords returned* |
 |:-------------------------------|:-------------------------:|
@@ -263,25 +268,23 @@ have an increased risk for early onset of breast cancer and ovarian cancer occur
 | TopicalPageRank                   | 'brca genes', 'brca mutations', 'tumor suppressor genes'                    |
 | MultipartiteRank                  | 'mutations', 'genes', 'dna repair processes'                                |
 
-### Word Vector Generation
-Vector generation is how similarities between articles are calculated. This allows us to give a numerical percentage to quantify the relationship
-between two datasets. In our analysis we test 6 models that can generate vectors. Each model is trained on unique text and will yield slightly different
-word vectors. This in turn will generate slightly different cosine similarities. An example of vector generation is shown below:
+%### Word Vector Generation
+%
+%Vector generation is how similarities between articles are calculated. This allows us to give a numerical percentage to quantify the relationship between two datasets. In our analysis we test 6 models that can generate vectors. Each model is trained on unique text and will yield slightly different word vectors. This in turn will generate slightly different cosine similarities. An example of vector generation is shown below:
 
-| *Word* | *Vector* |
-|:-------|:--------:|
-| Database | [ 1.3863622   1.0939984  -2.1352     -1.9841313  -0.31141075  1.3959851 ... ]  |
-| Gene     | [ 1.4969006   2.7855976  -4.313326   -2.5572329  -0.9275282   0.43499815 ... ] |
-| Mutation | [ 2.7130241e+00  2.5561374e-01 -2.1098554e+00 -2.1719341e+00 ... ]             |
-| Disease  | [ 1.9606729e+00  3.5872436e-01 -2.9315462e+00 -2.3048987e+00 ... ]             |
+%| *Word* | *Vector* |
+%|:-------|:--------:|
+%| Database | [ 1.3863622   1.0939984  -2.1352     -1.9841313  -0.31141075  1.3959851 ... ]  |
+%| Gene     | [ 1.4969006   2.7855976  -4.313326   -2.5572329  -0.9275282   0.43499815 ... ] |
+%| Mutation | [ 2.7130241e+00  2.5561374e-01 -2.1098554e+00 -2.1719341e+00 ... ]             |
+%| Disease  | [ 1.9606729e+00  3.5872436e-01 -2.9315462e+00 -2.3048987e+00 ... ]             |
 
 
 ### Evaluation Results
 
 ##### Effect of Number of Keywords Returned on the Percentage of Relevent Articles Returned at 100 Articles
 ![Summary_Graph_Keywords.](images/summaryGraph.png){width="7in" height = "7in"}
-This summary graph shows the relationship between the number of keywords queried and percentage of relevant articles
-returned at 100 articles. Between the three groups a wilcoxon test found no signficant difference.
+This summary graph shows the relationship between the number of keywords queried and percentage of relevant articles returned at 100 articles. Between the three groups a wilcoxon test found no signficant difference.
 
 ##### 30 keywords
 This graph is an example of a graph generated by the AllGraphs script in /images/. All other models

@@ -4,7 +4,7 @@ author-meta:
 - Stephen R. Piccolo
 bibliography:
 - content/manual-references.json
-date-meta: '2021-10-26'
+date-meta: '2021-11-05'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +23,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Comparison of keyword-extraction and word-vector generation methods for identifying related genomic datasets" />
 
-  <meta name="dc.date" content="2021-10-26" />
+  <meta name="dc.date" content="2021-11-05" />
 
-  <meta name="citation_publication_date" content="2021-10-26" />
+  <meta name="citation_publication_date" content="2021-11-05" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -61,11 +61,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://J-Wengler.github.io/NLP_Paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/b5f1952e04172289adfe935297a1fcfd42e2bf70/" />
+  <link rel="alternate" type="text/html" href="https://J-Wengler.github.io/NLP_Paper/v/2c71486336fe029975047560c400ec3cb04f9183/" />
 
-  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/b5f1952e04172289adfe935297a1fcfd42e2bf70/" />
+  <meta name="manubot_html_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/2c71486336fe029975047560c400ec3cb04f9183/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/b5f1952e04172289adfe935297a1fcfd42e2bf70/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://J-Wengler.github.io/NLP_Paper/v/2c71486336fe029975047560c400ec3cb04f9183/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -99,10 +99,10 @@ title: Comparison of keyword-extraction and word-vector generation methods for i
 
 <small><em>
 This manuscript
-([permalink](https://J-Wengler.github.io/NLP_Paper/v/b5f1952e04172289adfe935297a1fcfd42e2bf70/))
+([permalink](https://J-Wengler.github.io/NLP_Paper/v/2c71486336fe029975047560c400ec3cb04f9183/))
 was automatically generated
-from [J-Wengler/NLP_Paper@b5f1952](https://github.com/J-Wengler/NLP_Paper/tree/b5f1952e04172289adfe935297a1fcfd42e2bf70)
-on October 26, 2021.
+from [J-Wengler/NLP_Paper@2c71486](https://github.com/J-Wengler/NLP_Paper/tree/2c71486336fe029975047560c400ec3cb04f9183)
+on November 5, 2021.
 </em></small>
 
 ## Authors
@@ -234,7 +234,7 @@ We used models trained on English-language text from diverse sources. We used a 
 We tested each combination of phenotype query, keyword-extraction technique, number of keywords, and word-vector generation method. For each combination, we completed the following steps.
 
 1. Randomly selected 1000 GEO Series identifiers from those available in STARGEO. (We used the same 1000 Series for all combinations to ensure fair comparisons.)
-2. Added the 265 GEO Series identifiers associated with all of the phenotype queries (Table X). (This raised the total number of Series to 1265.
+2. Added the 265 GEO Series identifiers associated with all of the phenotype queries (Table X). (This raised the total number of Series to 1265).
 3. Randomly assigned approximately half of the Series as training instances and the remaining half as test instances.
 4. Retrieved the abstract associated with each Series.
 5. Extracted *n* keywords from the abstract using a given keyword-extraction technique.

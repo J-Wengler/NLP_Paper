@@ -14,7 +14,7 @@ Continous
 CPUs
 curation
 dataset
-DataSets
+datasets
 DDIT
 embeddings
 endoplasmic
@@ -55,7 +55,7 @@ qPCR
 Relevent
 reproducibility
 reticulum
-SciSpaCy
+SciSpacy
 signficant
 SingleRank
 Skipgram
